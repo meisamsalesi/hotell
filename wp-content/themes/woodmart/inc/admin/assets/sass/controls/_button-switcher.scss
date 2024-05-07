@@ -1,0 +1,367 @@
+// ------------------------------------------------------------------------------------------------
+// XTS BUTTON SWITHCER
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-button-switcher {
+
+	.xts-switcher-btn {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		box-sizing: border-box; // NOTE FOR POST TYPE TABLE
+		padding-right: 6px;
+		padding-left: 6px;
+		min-width: 64px;
+		height: 32px;
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: 30px;
+		background-color: #FFF;
+		cursor: pointer;
+		transition: all .2s ease;
+		overflow: hidden;
+
+		&.xts-loading {
+			pointer-events: none;
+
+			.xts-switcher-dot {
+				opacity: 0;
+			}
+
+			&:before {
+				position: absolute;
+				top: 5px;
+				inset-inline-start: 6px;
+
+				@include loader(18px,1px,rgba(0,0,0,.15),#000);
+				@include act-loader;
+			}
+		}
+
+		&.xts-active {
+			border-color: var(--xts-btn-secondary-color);
+			background-color: var(--xts-btn-secondary-color);
+			color: #FFF;
+
+			&:before {
+				inset-inline-start: 42px;
+				border-color: rgba(255,255,255,.15);
+
+				border-inline-start-color: #FFF;
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// SWITCHER LABEL
+	// ------------------------------------------
+
+	.xts-switcher-labels {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-right: 5px;
+		padding-left: 5px;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 10px;
+		user-select: none;
+
+		.rtl & {
+			flex-direction: row-reverse;
+		}
+	}
+
+	.xts-switcher-label {
+		overflow: hidden;
+		max-width: 50px;
+		height: 12px;
+		text-overflow: ellipsis;
+		line-height: 1;
+		transition: opacity .2s ease;
+
+		&.xts-on {
+			padding-right: 5px;
+			opacity: 0;
+		}
+
+		&.xts-off {
+			padding-left: 5px;
+			opacity: 1;
+		}
+	}
+
+	.xts-switcher-btn {
+
+		&.xts-active {
+
+			.xts-switcher-label {
+
+				&.xts-on {
+					opacity: 1;
+				}
+
+				&.xts-off {
+					opacity: 0;
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// SWITCHER DOT
+	// ------------------------------------------
+
+	.xts-switcher-dot-wrap {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding-right: 5px;
+		padding-left: 5px;
+		transition: all .2s ease;
+
+		.rtl & {
+			flex-direction: row-reverse;
+		}
+	}
+
+	.xts-switcher-dot {
+		// position: relative;
+		z-index: 1;
+		display: block;
+		width: 22px;
+		height: 22px;
+		border-radius: 50%;
+		background-color: var(--xts-btn-grey-color-hover);
+		transition: inherit;
+	}
+
+	.xts-switcher-btn {
+
+		&.xts-active {
+
+			.xts-switcher-dot-wrap {
+				transform: translateX(calc(100% - 32px));
+			}
+
+			.xts-switcher-dot {
+				background-color: #FFF;
+				// transform: translateX(29px);
+			}
+
+			&:hover {
+
+				.xts-switcher-dot {
+					background-color: rgba(255,255,255,.9);
+				}
+			}
+		}
+
+		&:not(.xts-active) {
+
+			&:hover {
+
+				.xts-switcher-dot {
+					background-color: var(--xts-btn-grey-color);
+				}
+			}
+		}
+
+		.rtl & {
+
+			&.xts-active {
+
+				.xts-switcher-dot {
+					background-color: #FFF;
+					// transform: translateX(-29px);
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// HTML BLOCK SWITCHER
+	// ------------------------------------------
+
+	.xts-field {
+
+		&.xts-html-block-switch {
+			margin-bottom: var(--xts-option-space);
+
+			+ .xts-field,
+			+ .xts-field + .xts-field {
+
+				.xts-option-title {
+					margin-bottom: 0;
+					padding-bottom: 0;
+					border: none;
+					font-size: 0;
+					line-height: 1;
+
+					label {
+
+						span {
+							display: none;
+						}
+					}
+				}
+
+				.xts-inherit-checkbox-wrapper {
+					margin-bottom: var(--xts-option-space);
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// WPB BUTTON SWITHCER
+// ------------------------------------------------------------------------------------------------
+
+// @if $wpb-cont-button-switcher {
+
+	// .switch-field-value {
+
+	// 	&[value="no"] {
+
+	// 		+ .woodmart-vc-switch-inner {
+
+	// 		}
+	// 	}
+
+	// 	&[value="yes"] {
+
+	// 		+ .woodmart-vc-switch-inner {
+
+	// 		}
+	// 	}
+	// }
+
+	// .woodmart-vc-switch {
+	// 	font-size: 0;
+
+	// 	.switch-controls {
+	// 		display: inline-block;
+	// 		min-width: 50px;
+	// 		height: 36px;
+	// 		background-color: #EFEFF0;
+	// 		color: #444;
+	// 		text-align: center;
+	// 		text-transform: uppercase;
+	// 		font-weight: 600;
+	// 		font-size: 12px;
+	// 		cursor: pointer;
+	// 		transition: all .2s ease-in-out;
+
+	// 		span {
+	// 			display: block;
+	// 			line-height: 36px;
+	// 		}
+
+	// 		&:hover {
+	// 			background-color: #DDDDDF;
+	// 		}
+
+	// 		&:first-child {
+	// 			border-top-left-radius: var(--xts-option-border-radius);
+	// 			border-bottom-left-radius: var(--xts-option-border-radius);
+	// 		}
+
+	// 		&:last-child {
+	// 			border-top-right-radius: var(--xts-option-border-radius);
+	// 			border-bottom-right-radius: var(--xts-option-border-radius);
+	// 		}
+	// 	}
+
+	// 	.switch-inactive {
+
+	// 		&.xts-active {
+	// 			background-color: #B1B1B0;
+	// 			color: #FFF;
+	// 			pointer-events: none;
+	// 			user-select: none;
+	// 		}
+	// 	}
+
+	// 	.switch-active {
+
+	// 		&.xts-active {
+	// 			background: $woodmart-button-alt-color;
+	// 			color: #FFF;
+	// 		}
+	// 	}
+	// }
+
+	// ------------------------------------------------------------------------------------------------
+	// WHB BUTTON SWITHCER
+	// ------------------------------------------------------------------------------------------------
+
+	// .whb-switch-field {
+
+	// 	input[type="checkbox"] {
+	// 		width: 55px;
+	// 		height: 30px;
+	// 		border: 1px solid var(--xts-option-border-color);
+	// 		border-radius: 30px;
+	// 		transition: all .2s ease;
+
+	// 		&:hover {
+	// 			border-color: var(--xts-option-border-color-darker-10);
+	// 		}
+
+	// 		&:after {
+	// 			// content: "ON OFF";
+	// 			content: "\e925 \e926";
+	// 			position: absolute;
+	// 			top: 14px;
+	// 			left: 9px;
+	// 			// word-spacing: 4px;
+	// 			letter-spacing: 9px;
+	// 			font-size: 13px;
+
+	// 			@include font-icon-base;
+	// 		}
+
+	// 		&:before {
+	// 			content: "";
+	// 			position: absolute;
+	// 			top: 4px;
+	// 			left: 5px;
+	// 			z-index: 1;
+	// 			display: block;
+	// 			visibility: visible;
+	// 			margin: 0;
+	// 			width: 20px;
+	// 			height: 20px;
+	// 			border-radius: 50%;
+	// 			background-color: var(--xts-btn-grey-color-hover);
+	// 			opacity: 1;
+	// 			transition: all .2s ease;
+	// 			transform: scale(1);
+	// 		}
+
+	// 		&:checked {
+
+	// 			&:after {
+	// 				color: #FFF;
+	// 			}
+
+	// 			&:before {
+	// 				left: 29px;
+	// 				background-color: #FFF;
+	// 			}
+	// 		}
+	// 	}
+
+	// 	// label {
+	// 	// 	display: inline-block;
+	// 	// 	margin: -7px 0 0 3px;
+	// 	// }
+	// }
+// }

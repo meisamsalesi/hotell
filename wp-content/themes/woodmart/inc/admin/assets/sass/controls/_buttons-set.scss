@@ -1,0 +1,254 @@
+// ------------------------------------------------------------------------------------------------
+// XTS BUTTONS SET
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-buttons-set {
+
+	.xts-buttons-control {
+
+		&:not(.xts-images-set):not(.xts-tabs) {
+
+			.xts-btns-set {
+				display: inline-flex;
+				padding: 2px 2px 0 2px;
+				border: 1px solid var(--xts-option-border-color);
+				border-radius: var(--xts-option-border-radius);
+				background-color: #FFF;
+
+				.xts-hint {
+					margin-inline-start: 5px;
+					background-color: transparent;
+				}
+
+				.xts-tooltip {
+					--xts-tooltip-sp: 18px;
+				}
+			}
+		}
+	}
+
+	.xts-set-btn {
+		margin-bottom: 2px;
+		border-radius: var(--xts-option-border-radius);
+
+		@extend %xts-button;
+
+		&:before {
+			margin-inline-end: 6px;
+		}
+
+		&.xts-active {
+			cursor: default;
+			user-select: none;
+
+			@extend %xts-button-alternative;
+
+			.xts-hint {
+				--xts-hint-color: rgba(255, 255, 255, .7);
+
+				&:hover {
+					--xts-hint-color: rgba(255, 255, 255, .4);
+				}
+			}
+		}
+
+		&:not(.xts-active) {
+			background-color: transparent;
+
+			&:hover {
+				background-color: var(--xts-btn-grey-color);
+			}
+		}
+
+		&:not(:last-child) {
+			margin-inline-end: 2px;
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// WPB BUTTONS SET
+	// ------------------------------------------------------------------------------------------------
+
+	// ------------------------------------------
+	// WOODMART BUTTON SELECT
+	// ------------------------------------------
+
+	.wd-select-fields {
+
+		ul {
+			margin-top: 0;
+			margin-bottom: 0;
+
+			li {
+				margin-bottom: 0;
+			}
+		}
+
+		.wd-select-wrapper {
+			display: none;
+			animation: wd-fadeInTooltip .5s ease;
+
+			&.xts-active {
+				display: block;
+			}
+		}
+
+		&.wd-style-buttons {
+
+			ul {
+				display: inline-flex;
+				padding: 2px;
+				border: 1px solid var(--xts-option-border-color);
+				border-radius: var(--xts-brd-radius);
+				background-color: #FFF;
+
+				li {
+					// display: inline-block;
+					// margin-bottom: 0;
+					// padding: 0 10px;
+					// background-color: #EFEFF0;
+					// color: #444;
+					// font-weight: 600;
+					// cursor: pointer;
+					// transition: all .2s ease-in-out;
+					border-radius: var(--xts-option-border-radius);
+
+					@extend %xts-button;
+
+					// span {
+					// 	display: block;
+					// 	line-height: 36px;
+					// }
+
+					&.xts-active {
+						cursor: default;
+						user-select: none;
+
+						@extend %xts-button-alternative;
+					}
+
+					&:not(.xts-active) {
+
+						&:hover {
+							background-color: var(--xts-btn-grey-color);
+						}
+					}
+
+					&:not(:last-child) {
+						margin-inline-end: 2px;
+					}
+				}
+			}
+
+			.wd-select {
+				display: none;
+			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// WHB BUTTONS SET
+	// ------------------------------------------------------------------------------------------------
+
+	.whb-selector-field {
+
+		.whb-selector-options {
+			display: inline-flex;
+		}
+
+		&:not(.whb-image-selector) {
+
+			.whb-selector-options {
+				display: inline-flex;
+				// flex-wrap: nowrap;
+				padding: 2px;
+				// max-width: 100%;
+				// border: 1px solid #EFEFEF;
+				border: 1px solid var(--xts-option-border-color);
+				border-radius: var(--xts-option-border-radius);
+				background-color: #FFF;
+			}
+		}
+
+		.whb-selector-option {
+			// text-transform: uppercase;
+			// font-weight: bold;
+			// font-size: 11px;
+			// transition: all .2s ease-in-out;
+
+			&:not(.whb-image-option) {
+				// padding: 5px 12px;
+				border-radius: var(--xts-option-border-radius);
+				// background: #E3E3E3;
+				@extend %xts-button;
+
+				.xts-hint {
+					margin-inline-start: 5px;
+					background-color: transparent;
+				}
+
+				&:not(.whb-active-option) {
+					// cursor: pointer;
+
+					&:hover {
+						background-color: var(--xts-btn-grey-color);
+					}
+
+					// &:hover {
+					// 	background: #7A7A7A;
+					// 	color: white;
+					// }
+				}
+
+				&.whb-active-option {
+					cursor: default;
+					user-select: none;
+
+					@extend %xts-button-alternative;
+
+					.xts-hint {
+						--xts-hint-color: rgba(255, 255, 255, .7);
+		
+						&:hover {
+							--xts-hint-color: rgba(255, 255, 255, .4);
+						}
+					}
+				}
+
+				// &:first-child {
+				// 	border-top-left-radius: 4px;
+				// 	border-bottom-left-radius: 4px;
+				// }
+
+				// &:last-child {
+				// 	border-top-right-radius: 4px;
+				// 	border-bottom-right-radius: 4px;
+				// }
+			}
+
+			&:not(:last-child) {
+				margin-inline-end: 2px;
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------
+// XTS HTML BLOCK SELECT CONTROL
+// ------------------------------------------
+
+@if $general {
+
+	.xts-block-link-wrap {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.xts-block-link {
+		display: inline-block;
+		text-decoration: none;
+		font-style: normal;
+	}
+
+} // END IF

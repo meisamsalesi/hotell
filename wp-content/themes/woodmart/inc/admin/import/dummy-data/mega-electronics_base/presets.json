@@ -1,0 +1,30 @@
+{
+    "3": {
+        "id": 3,
+        "name": "Mega electronics Cart + Checkout",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "post_id",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "7",
+                    "user_role": "administrator"
+                },
+                {
+                    "type": "post_id",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "8",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    }
+}

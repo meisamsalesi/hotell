@@ -1,0 +1,28 @@
+// ------------------------------------------------------------------------------------------------
+// BACKUP
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-backup-date {
+
+		.xts-table-row & {
+
+			&:before {
+				@include font-icon($xts-icon-clock);
+			}
+		}
+	}
+
+	.xts-backup-action {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		max-width: 250px;
+
+		> a {
+			margin-inline-start: 8px;
+		}
+	}
+
+} // END IF

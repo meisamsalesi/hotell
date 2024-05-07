@@ -1,0 +1,108 @@
+// ------------------------------------------------------------------------------------------------
+// BACKGROUND CONTROL
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-background-control {
+
+	// ------------------------------------------------------------------------------------------------
+	// XTS BACKGROUND CONTROL
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-bg-controls {
+
+		:is(
+		.xts-col-lg-6,
+		.xts-bg-preview) {
+			margin-top: var(--xts-sp);
+			margin-bottom: 0;
+		}
+	}
+
+	// .xts-bg-image-options {
+	// }
+
+	.xts-bg-preview {
+		// display: none;
+		height: 80px !important;
+		// margin-top: var(--xts-option-space);
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-option-border-radius);
+		background-color: #FFF;
+
+		&[style*='url("")'],
+		&[style*='background-color']:not([style*='background-image']),
+		&:not([style*='height']) {
+			display: none !important;
+		}
+
+		// &[style*='url("http'],
+		// &[style*='url(http'] {
+		// 	display: block;
+		// }
+	}
+
+} // END IF
+
+@if $whb-cont-background-control {
+
+	// ------------------------------------------------------------------------------------------------
+	// WHB BACKGROUND CONTROL
+	// ------------------------------------------------------------------------------------------------
+
+	.whb-background-option {
+		margin-bottom: 15px;
+
+		.whb-background-select {
+			flex: 1 1 calc(50% - 15px);
+			// margin-top: 15px;
+			margin-bottom: 15px;
+		}
+	}
+
+	.whb-border-option {
+
+		.whb-option-fields {
+
+			.whb-border-select {
+				flex: 1 1 calc(25% - 15px);
+				margin-bottom: 15px;
+			}
+
+			.whb-field-description {
+				flex: 1 1 100%;
+			}
+
+			+ .whb-field-description {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.whb-background-preview {
+		display: flex;
+		flex: 1 1 100%;
+		align-items: center;
+		justify-content: center;
+		padding: 5px;
+		min-height: 100px;
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-option-border-radius);
+		animation: wd-fadeIn .2s ease-in-out;
+		// margin-top: 20px;
+		margin-bottom: 15px;
+		background-color: #FFF;
+
+		span {
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-size: 36px;
+			opacity: .7;
+			filter: invert(1);
+		}
+
+		// &:not([style*="background-color"]) {
+		// 	display: none;
+		// }
+	}
+
+} // END IF

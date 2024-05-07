@@ -1,0 +1,33 @@
+// ------------------------------------------------------------------------------------------------
+// SIZE GUIDES
+// ------------------------------------------------------------------------------------------------
+
+@if $page-size-guides {
+
+	#woodmart_sguide_metaboxes {
+
+		table {
+			margin-bottom: 0;
+			box-shadow: none;
+		}
+
+		input[type=text] {
+			width: 100% !important;
+			border-radius: 0;
+			box-shadow: none;
+		}
+
+		.xts-bordered-btn {
+			box-sizing: border-box;
+			padding: 0;
+			width: 20px;
+			height: 20px;
+			text-decoration: none;
+
+			&:before {
+				font-size: 12px;
+			}
+		}
+	}
+
+} // END IF

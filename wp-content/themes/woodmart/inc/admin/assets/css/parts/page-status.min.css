@@ -1,0 +1,1 @@
+.xts-status h4{font-size:18px}.xts-status-error{color:var(--xts-warning-color)}.xts-status-error span:first-child{font-weight:600}.xts-status-error:before{content:"\e903";font-weight:400;font-family:"xts-icon-font";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-inline-end:1px}

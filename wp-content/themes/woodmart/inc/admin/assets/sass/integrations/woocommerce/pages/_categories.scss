@@ -1,0 +1,268 @@
+// ------------------------------------------------------------------------------------------------
+// CATEGORIES PAGE
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-categories {
+
+	:is(
+	.taxonomy-product_cat,
+	.taxonomy-cms_block_cat) {
+
+		#col-left {
+			width: 40%;
+		}
+
+		#col-right {
+			width: 60%;
+		}
+
+		:is(
+		#addtag,
+		#edittag) {
+
+			.xts-box {
+				background-color: transparent;
+				box-shadow: none;
+			}
+
+			.xts-box-content {
+				padding: 0;
+			}
+
+			.form-field {
+				margin-top: 0;
+				margin-bottom: 40px;
+
+				label {
+					display: block;
+
+					@extend %option-title;
+					@extend %option-title-label;
+				}
+
+				:is(
+				input[type=text],
+				select,
+				textarea) {
+					@extend %input-style;
+				}
+
+				textarea {
+					@extend %textarea-style;
+				}
+
+				p {
+					max-width: 100%;
+
+					@extend %field-description;
+				}
+
+				#product_cat_thumbnail {
+					display: inline-flex;
+					float: none !important;
+					margin: 0 !important;
+					vertical-align: middle;
+
+					img {
+						box-sizing: border-box;
+						padding: 2px;
+						max-width: 100%;
+						max-height: 35px;
+						width: 100%;
+						border: 1px solid var(--xts-option-border-color);
+						border-radius: var(--xts-option-border-radius);
+						// background-color: #FFF;
+						background-color: #F9F9F9;
+						object-fit: contain;
+						transition: all .2s ease-in-out;
+					}
+
+					+ div {
+						display: inline-flex;
+						vertical-align: middle;
+						line-height: 1 !important;
+					}
+				}
+			}
+
+			.button {
+
+				&:not(.button-small) {
+					@extend %xts-button;
+				}
+
+				&.upload_image_button {
+					margin-inline-end: 4px;
+
+					@extend %xts-button-default;
+					@extend %xts-button-default-hover;
+
+					&:before {
+						@include font-icon-content($xts-icon-import);
+					}
+				}
+
+				&.remove_image_button {
+					@extend %xts-button-warning;
+					@extend %xts-button-warning-hover;
+
+					&:before {
+						@include font-icon-content($xts-icon-delete-bin);
+					}
+				}
+
+				&.button-primary {
+					@extend %xts-button-primary;
+					@extend %xts-button-primary-hover;
+				}
+
+				&:before {
+					margin-inline-end: 4px;
+
+					@include font-icon-base;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// CATEGORIES ADD PAGE
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-categories {
+
+	:is(
+	.taxonomy-product_cat,
+	.taxonomy-cms_block_cat) {
+
+		.form-wrap {
+
+			h2 {
+				margin-bottom: 18px;
+				font-size: 16px;
+			}
+		}
+
+		#addtag {
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			p.submit {
+				@extend %sticky-save-button;
+
+				&:before {
+					@include font-icon($xts-icon-add);
+				}
+			}
+
+			//**** LOADER ****//
+
+			.spinner {
+				margin-top: 0;
+				background-image: none !important;
+
+				@include loader;
+
+				&.is-active {
+					@include act-loader;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// CATEGORIES EDIT PAGE
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-categories {
+
+	:is(
+	.taxonomy-product_cat,
+	.taxonomy-cms_block_cat) {
+
+		#edittag {
+			margin-top: 20px;
+
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			.form-table {
+				margin-top: 0;
+
+				th,
+				td {
+					padding: 0;
+				}
+			}
+
+			.form-field {
+				display: flex;
+				flex-direction: column;
+
+				th {
+					width: 100%;
+				}
+
+				td {
+					margin-bottom: 0;
+				}
+			}
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			.edit-tag-actions {
+				@extend %sticky-save-button;
+
+				&:before {
+					@include font-icon($xts-icon-update);
+				}
+
+				#delete-link a {
+					@extend %sticky-save-button-delete;
+				}
+			}
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-categories {
+
+	@media (max-width: 1200px) {
+
+		// ------------------------------------------
+		// LAYOUT
+		// ------------------------------------------
+
+		:is(
+		.taxonomy-product_cat,
+		.taxonomy-cms_block_cat) {
+
+			:is(
+			#col-left,
+			#col-right) {
+				width: 100%;
+			}
+
+			#col-right {
+
+				.col-wrap {
+					padding: 0;
+				}
+			}
+		}
+	}
+}

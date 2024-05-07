@@ -1,0 +1,1 @@
+!function(e){woodmartThemeModule.checkoutRemove=function(){woodmartThemeModule.$document.on("click",".wd-checkout-remove-btn",function(){e(this).closest(".woocommerce-checkout-review-order-table").append('<div class="wd-loader-overlay wd-fill wd-loading"></div>')})},e(document).ready(function(){woodmartThemeModule.checkoutRemove()})}(jQuery);

@@ -1,0 +1,110 @@
+// ------------------------------------------------------------------------------------------------
+// XTS RESPONSIVE INPUT APPEND
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-input-append {
+
+	.xts-input-append-wrap {
+
+		label {
+			display: flex;
+			align-items: center;
+			margin-bottom: 6px;
+			white-space: nowrap;
+			font-size: 13px;
+			line-height: 1;
+			user-select: none;
+
+			&:before {
+				margin-inline-end: 5px;
+				color: #BFBFBF;
+			}
+		}
+	}
+
+	.xts-input-append {
+		display: flex;
+
+		input[type="number"] {
+			max-width: 58px !important;
+			height: var(--xts-input-height);
+			// border-top-right-radius: 0;
+			// border-bottom-right-radius: 0;
+
+			border-start-end-radius: 0 !important;
+			border-end-end-radius: 0 !important;
+		}
+
+		.add-on {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-right: 2px;
+			padding-left: 2px;
+			width: 30px;
+			height: var(--xts-input-height);
+			border: 1px solid var(--xts-option-border-color);
+			border-inline-start: 0;
+			background-color: var(--xts-grey-color);
+			text-align: center;
+			font-weight: 600;
+			line-height: var(--xts-input-height) - 3px;
+			user-select: none;
+
+			border-start-end-radius: var(--xts-option-border-radius);
+			border-end-end-radius: var(--xts-option-border-radius);
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// WPB RESPONSIVE INPUT APPEND
+// ------------------------------------------------------------------------------------------------
+
+@if $wpb-cont-input-append {
+
+	// ------------------------------------------
+	// RESPONSIVE FONT SIZE CONTROL
+	// ------------------------------------------
+
+	.wpb_el_type_woodmart_responsive_size {
+		flex: 1 1 auto !important;
+		// width: auto !important; // overwright theme styles
+	}
+
+	.woodmart-rs-wrapper {
+
+		> div {
+			display: inline-flex;
+			margin-inline-end: 10px;
+			vertical-align: bottom;
+		}
+
+		.woodmart-rs-item {
+			flex-direction: column;
+
+			&.hide {
+				display: none;
+			}
+		}
+	}
+
+	.woodmart-rs-trigger {
+		height: var(--xts-input-height);
+		line-height: var(--xts-input-height);
+		cursor: pointer;
+
+		.rtl & {
+
+			&:before {
+				@include font-icon-content($xts-icon-button-left);
+			}
+		}
+
+		// &.xts-active {
+		// 	transform: rotate(180deg);
+		// }
+	}
+
+} // END IF

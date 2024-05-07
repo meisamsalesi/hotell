@@ -1,0 +1,68 @@
+// ------------------------------------------------------------------------------------------------
+// DIMENSION
+// ------------------------------------------------------------------------------------------------
+
+@if $wpb-cont-dimension {
+
+	.wd-dimensions-wrapp {
+
+		.wd-dimensions {
+			position: relative;
+			display: none;
+			align-items: center;
+
+			.xts-slider-units {
+				// position: absolute;
+				// top: 12px;
+				// inset-inline-end: 0;
+				animation: wd-fadeInTooltip .5s ease;
+				margin-bottom: 16px;
+			}
+
+			&.xts-active {
+				display: flex;
+			}
+		}
+	}
+
+	.wd-dimension {
+		display: flex;
+		max-width: var(--xts-input-width);
+		animation: wd-fadeInTooltip .5s ease;
+		direction: ltr;
+
+		// margin-inline-end: 20px;
+
+		.wd-dimension-field-value {
+
+			label {
+				font-size: 12px;
+			}
+
+			&:first-child {
+
+				.wd-dimension-field-value-display {
+					border-top-left-radius: var(--xts-option-border-radius);
+					border-bottom-left-radius: var(--xts-option-border-radius);
+				}
+			}
+
+			&:last-child {
+
+				.wd-dimension-field-value-display {
+					border-top-right-radius: var(--xts-option-border-radius);
+					border-bottom-right-radius: var(--xts-option-border-radius);
+				}
+			}
+
+			&:not(:last-child) {
+				margin-right: 2px;
+			}
+
+			.wd-dimension-field-value-display {
+				border-radius: 0;
+				text-align: inherit;
+			}
+		}
+	}
+} // END IF

@@ -1,0 +1,1 @@
+.wd-swatch-divider{display:inline-block;color:var(--color-gray-800);vertical-align:middle;font-weight:600;font-size:calc(var(--wd-swatch-text-size) - 2px);cursor:pointer;line-height:1;transition:opacity .25s ease}.wd-all-shown .wd-swatch-divider{display:none}.wd-swatch-divider:hover{opacity:.7}.wd-swatch.wd-hidden{display:none !important}

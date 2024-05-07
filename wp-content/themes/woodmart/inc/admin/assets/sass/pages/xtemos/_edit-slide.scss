@@ -1,0 +1,131 @@
+// ------------------------------------------------------------------------------------------------
+// EDIT SLIDE
+// ------------------------------------------------------------------------------------------------
+
+@if $page-edit-slide {
+
+	#woodmart_sliderdiv {
+
+		a {
+			box-shadow: none !important;
+		}
+
+		:is(
+		img,
+		.xts-slider-bg-color) {
+			// border-radius: 2px;
+			margin-inline-end: 5px;
+			max-width: 35px;
+			width: 100%;
+			outline: 1px solid rgba(0, 0, 0, .075);
+			outline-offset: -1px;
+		}
+
+		.xts-slider-bg-color {
+			height: 35px;
+		}
+
+		.tabs-panel {
+			padding: 0;
+			max-height: 300px;
+
+			> ul {
+
+				> li {
+					display: flex;
+					align-items: center;
+					flex-wrap: wrap;
+					justify-content: space-between;
+
+					> label {
+						width: calc(100% - 35px);
+					}
+
+					> :is(
+					label,
+					a) {
+						box-sizing: border-box;
+						padding-right: 10px;
+						padding-left: 10px;
+					}
+
+					.xts-inline-btn {
+						position: relative;
+						width: 35px !important;
+						// padding: 0;
+						color: var(--xts-primary-color);
+
+						--xts-tooltip-sp: 0px;
+						--xts-tooltip-width: 90px;
+
+						.xts-tooltip {
+
+							&.xts-left {
+								top: 50%;
+								white-space: nowrap;
+								transform: translateY(-50%);
+
+								&:after {
+									top: 50%;
+								}
+							}
+						}
+
+						&:hover {
+							color: var(--xts-primary-color-darker-10);
+							opacity: 1;
+						}
+					}
+
+					&:not(:last-child) {
+						margin-bottom: 4px;
+					}
+				}
+
+				ul {
+					margin: 0 !important;
+					padding: 4px 0 0 0;
+					width: 100%;
+
+					li {
+
+						a {
+							display: flex;
+							align-items: center;
+							padding-top: 4px;
+							padding-bottom: 4px;
+							padding-inline-start: 18px;
+							text-decoration: none;
+
+						}
+
+						&:hover,
+						&.xts-current {
+
+							a {
+								background-color: #F7F7F7;
+							}
+						}
+
+						&.xts-current {
+							font-weight: 600;
+							pointer-events: none;
+						}
+					}
+				}
+			}
+
+			&:last-child {
+
+				> ul {
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+
+	#newwoodmart_slider_parent {
+		display: none;
+	}
+
+} // END IF

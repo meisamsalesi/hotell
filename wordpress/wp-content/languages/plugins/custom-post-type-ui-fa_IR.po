@@ -1,0 +1,2021 @@
+# Translation of Plugins - Custom Post Type UI - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - Custom Post Type UI - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-27 19:47:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Custom Post Type UI - Stable (latest release)\n"
+
+#: inc/post-types.php:1130 inc/taxonomies.php:1215
+msgid "REST API namespace"
+msgstr "فضای نام REST API"
+
+#: inc/taxonomies.php:1290
+msgid "Sort"
+msgstr "مرتب سازی"
+
+#: inc/post-types.php:330 inc/taxonomies.php:335
+msgid "Clear labels"
+msgstr "پاک کردن برچسب ها"
+
+#: inc/post-types.php:1476
+msgid "Choose dashicon"
+msgstr "انتخاب dashicon"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:238
+msgid "We recommend checking out %s, the latest iteration of \"CMB2\". Both are supported by WebDevStudios."
+msgstr "توصیه می کنیم ، آخرین \"CMB2\" را در %s بررسی کنید. هر دو توسط WebDevStudios پشتیبانی می شوند."
+
+#: inc/taxonomies.php:1240
+msgid "Show in tag cloud."
+msgstr "نشان دادن در ابرتگ (tag cloud)"
+
+#: inc/taxonomies.php:1241
+msgid "(default: inherited from \"show_ui\") Whether to list the taxonomy in the Tag Cloud Widget controls."
+msgstr "(پیشفرض: از \"show_ui\" به ارث رسیده است) لیست کردن طبقه بندی ها را در کنترل های ویجت ابرتگ"
+
+#: inc/taxonomies.php:711
+msgid "Used when indicating that there are no terms in the given taxonomy within the meta box and taxonomy list table."
+msgstr "استفاده می شود هنگامی که نشان می دهد هیچ شرایطی در طبقه بندی داده شده در متاباکس و جدول فهرست طبقه بندی وجود ندارد."
+
+#: inc/post-types.php:1243
+msgid "(default: false) Whether or not the post type can have parent-child relationships. At least one published content item is needed in order to select a parent."
+msgstr "(پیش فرض: false) این که آیا نوع پست می تواند روابط child و parent داشته باشد یا خیر. برای انتخاب parent حداقل به یک محتوای منتشر شده نیاز است."
+
+#: external/wpgraphql.php:340
+msgid "Custom Post Type UI has native support for WPGraphQL. Please <a href=\"%s\">de-active</a> the \"WPGraphQL for Custom Post Type UI\" extension to proceed."
+msgstr "CPT UI از WPGraphQL پشتیبانی  می کند. لطفاً برای ادامه ، افزونه \"WPGraphQL for Custom Post Type UI\" را <a href=\"%s\"> غیرفعال کنید </a>."
+
+#: external/wpgraphql.php:249
+msgid "Plural name for reference in the GraphQL API."
+msgstr "اسم  جمع برای رفرنس در GraphQL API."
+
+#: external/wpgraphql.php:248
+msgid "GraphQL Plural Name"
+msgstr "اسم جمع GraphQL"
+
+#: external/wpgraphql.php:238
+msgid "Singular name for reference in the GraphQL API."
+msgstr "اسم مفرد برای رفرنس در GraphQL API."
+
+#: external/wpgraphql.php:237
+msgid "GraphQL Single Name"
+msgstr "اسم مفرد GraphQL"
+
+#: external/wpgraphql.php:226
+msgid "Whether or not to show data of this type in the WPGraphQL. Default: false"
+msgstr "نمایش یا عدم نمایش داده هایی از این نوع در WPGraphQL. پیش فرض: false"
+
+#: external/wpgraphql.php:225
+msgid "Show in GraphQL"
+msgstr "نمایش در GraphQL"
+
+#: external/wpgraphql.php:195
+msgid "Toggle panel: GraphQL Settings"
+msgstr "پنل تاگل: تنظیمات GraphQL"
+
+#: external/wpgraphql.php:191
+msgid "WPGraphQL"
+msgstr "WPGraphQL"
+
+#: external/wpgraphql.php:83
+msgid "The graphql_single_name is empty for the \"%s\" Post Type or Taxonomy registered by Custom Post Type UI."
+msgstr "graphql_single_name برای  نوع پست یا طبقه بندی \"%s\"  خالی است که  توسط CPT UI  ثبت شده است"
+
+#: external/wpgraphql.php:69
+msgid "The graphql_plural_name is empty for the \"%s\" Post Type or Taxonomy registered by Custom Post Type UI."
+msgstr "graphql_plural_name برای  نوع پست یا طبقه بندی \"%s\"  خالی است که  توسط CPT UI  ثبت شده است"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:778
+msgid "Back to %s"
+msgstr "بازگشت به %s"
+
+#: inc/taxonomies.php:695
+msgid "The text displayed via clicking ‘Choose from the most used items’ in the taxonomy meta box when no items are available."
+msgstr "وقتی هیچ موردی در دسترس نیست ، با کلیک بر روی \"انتخاب از بیشترین موارد مورد استفاده\"  متن در متاباکس طبقه بندی نمایش داده می شود."
+
+#: inc/taxonomies.php:774
+msgid "Back to Items"
+msgstr "بازگشت به آیتم ها"
+
+#: inc/taxonomies.php:773
+msgid "(e.g. &larr; Back to actors"
+msgstr "(به عنوان مثال &larr; بازگشت به بازیگران)"
+
+#: inc/taxonomies.php:775
+msgid "The text displayed after a term has been updated for a link back to main index."
+msgstr "متنی که پس از به روزرسانی یک شرایط برای پیوند نمایش داده می شود به فهرست اصلی باز می گردد."
+
+#: inc/taxonomies.php:1312
+msgid "Set a default term for the taxonomy. Able to set a name, slug, and description. Only a name is required if setting a default, others are optional. Set values in the following order, separated by comma. Example: name, slug, description"
+msgstr "شرایط پیش فرض را برای طبقه بندی تعیین کنید. قابل به تنظیم نام ، نامک و توضیحات است. نام ضروری است و سایر موارد اختیاری است. مقادیر را به ترتیب زیر ، با کاما از هم جدا کنید. مثال: نام ، نامک ، توضیحات"
+
+#: inc/taxonomies.php:1311
+msgid "Default Term"
+msgstr "شرایط پیشفرض"
+
+#: inc/utility.php:735
+msgid "Nonce failed verification"
+msgstr "تأیید انجام نشد"
+
+#: inc/post-types.php:1074
+msgid "Delete with user"
+msgstr "حذف با کاربر"
+
+#: inc/post-types.php:1717
+msgid "Taxonomy options"
+msgstr "گزینه های طبقه بندی"
+
+#: inc/support.php:207
+msgid "How do I add custom post type support for custom templates selection like pages have?"
+msgstr "چگونه می توانم پشتیبانی از انوع پست سفارشی را به قالب های انتخاب شده سفارشی مانند صفحات اضافه کنم؟"
+
+#: inc/post-types.php:1075
+msgid "(CPTUI default: false) Whether to delete posts of this type when deleting a user."
+msgstr "(پیش فرض: false) که آیا هنگام حذف کاربر ، پست های این نوع حذف شود ."
+
+#. translators: Used for autofill
+#: inc/post-types.php:907
+msgid "%s updated."
+msgstr "%s به‌روزرسانی شد."
+
+#: inc/post-types.php:904
+msgid "(e.g. Movie updated)"
+msgstr "(مثال: فیلم به روز رسانی شد)"
+
+#. translators: Used for autofill
+#: inc/post-types.php:891
+msgid "%s scheduled"
+msgstr "%s زمانبندی شد"
+
+#: inc/post-types.php:888
+msgid "(e.g. Movie scheduled)"
+msgstr "(مثال: فیلم زمانبندی شد)"
+
+#: inc/post-types.php:884
+msgid "Used in the editor notice after scheduling a post to be published at a later date. Default \"Post scheduled.\" / \"Page scheduled.\""
+msgstr "پس از زمانبندی پست برای انتشار در تاریخ بعدی، در اطلاعیه ویرایشگر استفاده می شود. پیش فرض \"پست زمانبندی  شده است.\" / \"صفحه زمانبندی شده است.\""
+
+#: inc/post-types.php:883
+msgid "Item Scheduled"
+msgstr "آیتم ها زمانبندی شد"
+
+#. translators: Used for autofill
+#: inc/post-types.php:858
+msgid "%s reverted to draft."
+msgstr "%s به پیش نویس بازگشت."
+
+#: inc/post-types.php:850
+msgid "Item Reverted To Draft"
+msgstr "آیتم به پیش نویس برگردانده شد"
+
+#. translators: Used for autofill
+#: inc/post-types.php:842
+msgid "%s published privately."
+msgstr "%s به صورت خصوصی منتشر شد."
+
+#: inc/post-types.php:835
+msgid "Used in the editor notice after publishing a private post. Default \"Post published privately.\" / \"Page published privately.\""
+msgstr "پس از انتشار یک پست خصوصی ، در اطلاعیه ویرایشگر استفاده می شود. پیش فرض \"پست به صورت خصوصی منتشر شده است.\" / \"صفحه به صورت خصوصی منتشر شده است.\""
+
+#: inc/post-types.php:834
+msgid "Item Published Privately"
+msgstr "آِیتم به صورت خصوصی منتشر شده است"
+
+#. translators: Used for autofill
+#: inc/post-types.php:826
+msgid "%s published"
+msgstr "%s منتشر شد"
+
+#: inc/post-types.php:823
+msgid "(e.g. Movie published)"
+msgstr "(مثال: فیلم منتشر شد)"
+
+#: inc/post-types.php:819
+msgid "Used in the editor notice after publishing a post. Default \"Post published.\" / \"Page published.\""
+msgstr "پس از انتشار یک پست ، در اطلاعیه ویرایشگر استفاده می شود. پیش فرض \"پست منتشر شد.\" / \"صفحه منتشر شد.\""
+
+#: inc/post-types.php:818
+msgid "Item Published"
+msgstr "آیتم منتشر شد"
+
+#. translators: Used for autofill
+#: inc/post-types.php:794
+msgid "%s attributes"
+msgstr "ویژگی های %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:746
+msgid "Filter %s list"
+msgstr "لیست فیلتر %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:730
+msgid "Upload to this %s"
+msgstr "آپلود در %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:714
+msgid "Insert into %s"
+msgstr "درج در %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:698
+msgid "%s archives"
+msgstr "آرشیو %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:682
+msgid "Use as featured image for this %s"
+msgstr "استفاده به عنوان تصویر شاخص برای %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:666
+msgid "Remove featured image for this %s"
+msgstr "حذف تصویر شاخص برای %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:650
+msgid "Set featured image for this %s"
+msgstr "تنظیم تصویر شاخص برای %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:634
+msgid "Featured image for this %s"
+msgstr "تصویر شاخص برای %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:601
+msgid "No %s found in trash"
+msgstr "No %s found in trash."
+
+#. translators: Used for autofill
+#: inc/post-types.php:473
+msgid "Add new"
+msgstr "افزودن"
+
+#. translators: Used for autofill
+#: inc/post-types.php:441
+msgid "My %s"
+msgstr "%s من"
+
+#: inc/post-types.php:900
+msgid "Used in the editor notice after updating a post. Default \"Post updated.\" / \"Page updated.\""
+msgstr "پس از به روزرسانی پست در اطلاعیه ویرایشگر استفاده می شود.پیشفرض \"پست به روزرسانی شد.\"/\"صفحه به روزرسانی شد.\""
+
+#: inc/post-types.php:899
+msgid "Item Updated"
+msgstr "آیتم بروزرسانی شد"
+
+#: inc/post-types.php:855
+msgid "(e.g. Movie reverted to draft)"
+msgstr "(مثال: فیلم به پیش نویس بازگشت)"
+
+#: inc/post-types.php:851
+msgid "Used in the editor notice after reverting a post to draft. Default \"Post reverted to draft.\" / \"Page reverted to draft.\""
+msgstr "پس از بازگشت پست به پیش نویش در اطلاعیه ویرایشگر استفاده می شود.پیشفرض \"پست به پیش نویس بازگشت.\"/\"صفحه به پیش نویس بازگشت..\""
+
+#: inc/post-types.php:839
+msgid "(e.g. Movie published privately.)"
+msgstr "(مثال: فیلم به صورت خصوصی منتشر شد)"
+
+#: inc/listings.php:65
+msgid "Content types registered with Custom Post Type UI."
+msgstr "انواع محتوای ثبت شده با CPT UI"
+
+#. translators: Used for autofill
+#: inc/post-types.php:778 inc/taxonomies.php:762
+msgid "%s list"
+msgstr "لیست %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:762 inc/taxonomies.php:746
+msgid "%s list navigation"
+msgstr "ناوبری لیست %s"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:730
+msgid "No %s"
+msgstr "بدون هیچ %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:585 inc/taxonomies.php:714
+msgid "No %s found"
+msgstr "هیچ %s پیدا نشد"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:554
+msgid "Update %s name"
+msgstr "به‌روزرسانی نام %s "
+
+#: inc/post-types.php:1524 inc/taxonomies.php:344
+msgid "Post type options"
+msgstr "تنظیمات نوع پست ها"
+
+#: inc/post-types.php:326 inc/taxonomies.php:330
+msgid "Auto-populate labels"
+msgstr "پر کردن خودکار برچسب ها"
+
+#: inc/post-types.php:323 inc/taxonomies.php:327
+msgid "Populate additional labels based on chosen labels"
+msgstr "برچسب های اضافی را بر اساس برچسب های انتخاب شده پر کن"
+
+#: inc/taxonomies.php:66
+msgid "Please select a post type to associate with."
+msgstr "لطفاً نوع پست را برای ارتباط انتخاب کنید."
+
+#. translators: %s: Post type slug
+#. translators: %s: Taxonomy slug
+#: inc/listings.php:159 inc/listings.php:373
+msgid "Edit %1$s (%2$s)"
+msgstr "ویرایش %1$s (%2$s)"
+
+#: inc/post-types.php:324 inc/taxonomies.php:328
+msgid "Populate missing labels based on chosen labels"
+msgstr "برچسب های خالی را بر اساس برچسب های انتخاب شده پر کن"
+
+#: inc/taxonomies.php:1186
+msgid "(Custom Post Type UI default: true) Whether to show this taxonomy data in the WP REST API."
+msgstr "(پیشفرض: true) نمایش داده های این طبقه بندی در REST API وردپرس"
+
+#: inc/taxonomies.php:1302
+msgid "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the metabox completely, use \"false\"."
+msgstr "نام تابع فراخوانی را برای نمایش متاباکس  تعیین می کند. پیش فرض سلسله مراتبی: post_categories_meta_box ، پیش فرض غیر سلسله مراتبی: post_tags_meta_box. برای حذف کامل متاباکس  ، از \"false\" استفاده کنید."
+
+#: inc/wp-cli.php:118
+msgid "Error saving data."
+msgstr "خطا در ذخیره‌سازی داده."
+
+#: inc/wp-cli.php:101
+msgid "Please provide a path to export your data to."
+msgstr "لطفاً یک مسیر ارائه دهید تا از داده شما برون‌بری گرفته شود."
+
+#: inc/tools.php:437
+msgid "Export Taxonomies settings"
+msgstr "برون‌بری تنظیمات طبقه‌بندی‌ها"
+
+#: inc/post-types.php:1497 inc/taxonomies.php:1301
+msgid "Metabox callback"
+msgstr "فراخوانی متاباکس"
+
+#: inc/wp-cli.php:121
+msgid "Successfully saved data to file."
+msgstr "داده ها با موفقیت در فایل ذخیره شدند"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/wp-cli.php:74
+msgid "Imported %s successfully"
+msgstr "%s با موفقیت وارد شد"
+
+#: inc/wp-cli.php:69
+msgid "An error on import occurred"
+msgstr "یک مشکل در وارد کردن به وجود آمد"
+
+#: inc/wp-cli.php:55
+msgid "No JSON data found"
+msgstr "هیچ داده JSON یافت نشد"
+
+#: inc/wp-cli.php:43
+msgid "Please provide whether you are importing post types or taxonomies"
+msgstr "تعیین کنید که نوع پست یا طبقه بندی وارد می کنید"
+
+#. translators: Placeholder will hold `<abbr>` tag for CPTUI.
+#: inc/utility.php:127
+msgid "Review %s"
+msgstr "بررسی %s"
+
+#: inc/tools-sections/tools-get-code.php:44
+msgid "All Custom Post Type UI Taxonomies"
+msgstr "تمام طبقه بندی های CPT UI"
+
+#: inc/tools-sections/tools-get-code.php:17
+msgid "All Custom Post Type UI Post Types"
+msgstr "تمام نوع پست های CPT UI"
+
+#: inc/tools.php:395
+msgid "Export Post Types settings"
+msgstr "برون‌بری تنظیمات نوع پست ها"
+
+#: inc/taxonomies.php:913
+msgid "Public Queryable"
+msgstr "کوئری شدن عمومی"
+
+#: inc/post-types.php:1213
+msgid "The post type to use for checking read, edit, and delete capabilities. A comma-separated second value can be used for plural version."
+msgstr "نوع پست برای بررسی قابلیت های read، edit و delete . مقدار دوم جدا شده با کاما می تواند برای حالت جمع اسم استفاده شود."
+
+#: inc/post-types.php:803
+msgid "Used in New in Admin menu bar. Default \"singular name\" label."
+msgstr "در \"جدید\" نوار منوی ادمین استفاده می شود . برچسب \"نام مفرد\" پیش فرض ."
+
+#: inc/post-types.php:802
+msgid "\"New\" menu in admin bar"
+msgstr "منوی جدید در ادمین بار"
+
+#: inc/post-types.php:255 inc/taxonomies.php:259
+msgid "Slug already exists"
+msgstr "نامک از قبل وجود دارد"
+
+#: inc/taxonomies.php:1206
+msgid "(default: WP_REST_Terms_Controller) Custom controller to use instead of WP_REST_Terms_Controller."
+msgstr "(پیشفرض: WP_REST_Terms_Controller) استفاده از کنترلر سفارشی به جای WP_REST_Terms_Controller."
+
+#: inc/taxonomies.php:914
+msgid "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+msgstr "(پیشفرض: مقدار تنظیمات عمومی) طبقه بندی باید به صورت عمومی کوئری شود."
+
+#: inc/taxonomies.php:889
+msgid "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "(پیشفرض: true) طبقه بندی برای استفاده عمومی یا از طریق رابط ادمین یا توسط فرانت اند در نظر گرفته شده است."
+
+#: inc/taxonomies.php:341
+msgid "Add support for available registered post types. At least one is required. Only public post types listed by default."
+msgstr " پشتیبانی از نوع پست های ثبت شده موجود.حداقل یک مورد ضروری است.به صورت پیشفرض تنها نوع پست های عمومی لیست می شوند."
+
+#: inc/support.php:285
+msgid "Any help with customizing capabilities?"
+msgstr "برای سفارشی سازی قابلیت ها راهنمایی می خواهید؟"
+
+#: inc/post-types.php:1334
+msgid "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+msgstr "(پیش فرض: درست) آیا ساختار پیوند ثابت باید با پایه جلو اضافه شود. (به عنوان مثال: اگر ساختار پیوند ثابت شما/blog/است ، پیوندهای شما عبارتند از: false->/news/، true->/blog/news/)."
+
+#: inc/post-types.php:1121
+msgid "(default: WP_REST_Posts_Controller) Custom controller to use instead of WP_REST_Posts_Controller."
+msgstr "(پیشفرض: WP_REST_Posts_Controller) استفاده از کنترلر سفارشی به جای WP_REST_Posts_Controller."
+
+#: inc/post-types.php:1120 inc/taxonomies.php:1205
+msgid "REST API controller class"
+msgstr "کلاس کنترل کننده REST API "
+
+#: inc/post-types.php:1101
+msgid "(Custom Post Type UI default: true) Whether or not to show this post type data in the WP REST API."
+msgstr "(پیشفرض: true) نمایش داده های این نوع پست در REST API وردپرس"
+
+#. translators: %s: Total count of CPTUI registered taxonomies
+#: inc/listings.php:298
+msgid "Custom Post Type UI registered taxonomies count total: %d"
+msgstr "تعداد کل طبقه بندی سفارشی رابط کاربری ثبت شده : %d"
+
+#. translators: %s: Total count of registered CPTUI post types
+#: inc/listings.php:77
+msgid "Custom Post Type UI registered post types count total: %d"
+msgstr "تعداد کل انواع پست سفارشی رابط کاربری ثبت شده : %d"
+
+#: inc/wp-cli.php:97
+msgid "Please provide whether you are exporting your post types or taxonomies"
+msgstr "لطفاً  نوع پست یا طبقه بندی برای برون بری را  ارائه دهید"
+
+#: inc/wp-cli.php:47
+msgid "Please provide a path to the file holding your CPTUI JSON data."
+msgstr "لطفاً مسیری برای فایل حاوی داده های CPTUI JSON خود ارائه دهید."
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:291
+msgid "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
+msgstr "ما  %s را برای سفارشی سازی گسترده و افزودن زمینه های اضافی در مورد نقش ها و قابلیت ها توصیه می کنیم."
+
+#. translators: Placeholder will hold site home_url.
+#: classes/class.cptui_debug_info.php:236
+msgid "Custom Post Type UI debug information for %s"
+msgstr "اطلاعات اشکال زدایی رابط کاربری نوع پست سفارشی برای %s"
+
+#: inc/support.php:76
+msgid "View our Layouts page"
+msgstr "مشاهده صفحه طرح بندی ما"
+
+#: inc/tools-sections/tools-get-code.php:19
+msgid "All of the selectable code snippets below are useful if you wish to migrate away from Custom Post Type UI and retain your existing registered post types or taxonomies."
+msgstr "اگر می خواهید از CPT UI مهاجرت کرده و نوع پست ها یا طبقه بندی های پست قبلی خود را ذخیره کنید ، همه قطعات کد قابل انتخاب زیر مفید هستند."
+
+#: inc/utility.php:723
+msgid "Invalid data provided"
+msgstr "داده های نامعتبر ارائه شده است"
+
+#: inc/utility.php:712
+msgid "Successfully imported data."
+msgstr "داده ها با موفقیت وارد شدند"
+
+#: inc/post-types.php:791
+msgid "(e.g. Movies Attributes)"
+msgstr "(مثال: ویژگی های فیلم ها)"
+
+#: inc/post-types.php:787
+msgid "Used for the title of the post attributes meta box."
+msgstr "برای عنوان متاباکس ویژگی های پست استفاده می شود."
+
+#: inc/post-types.php:786
+msgid "Attributes"
+msgstr "ویژگی ها"
+
+#: inc/post-types.php:550
+msgid "(e.g. View Movies)"
+msgstr "(مثال: مشاهده فیلم ها)"
+
+#: inc/post-types.php:545
+msgid "View Items"
+msgstr "مشاهده آیتم‌ها"
+
+#: inc/listings.php:201
+msgid "No associated taxonomies"
+msgstr "طبقه بندی های مرتبط وجود ندارد"
+
+#: inc/post-types.php:1504
+msgid "Add support for various available post editor features on the right. A checked value means the post type feature is supported."
+msgstr "پشتیبانی از ویژگی های مختلف ویرایشگر پست موجود را در سمت راست اضافه کنید. مقدار علامت زده شده به این معنی است که ویژگی نوع پست پشتیبانی می شود."
+
+#: custom-post-type-ui.php:150
+msgid "Tools"
+msgstr "ابزار ها"
+
+#: custom-post-type-ui.php:150
+msgid "Custom Post Type UI Tools"
+msgstr "ابزار های CPT UI"
+
+#: inc/utility.php:364
+msgid "Remove these ads?"
+msgstr "حذف این تبلیغات؟"
+
+#: inc/taxonomies.php:1013
+msgid "Show in nav menus"
+msgstr "نمایش در منوهای ناوبری"
+
+#: inc/taxonomies.php:988
+msgid "Show in menu"
+msgstr "نمایش در منو"
+
+#: inc/taxonomies.php:125
+msgid "Import/Export Taxonomies"
+msgstr "درون ریزی/برون بری طبقه‌بندی‌ها"
+
+#: inc/post-types.php:1713
+msgid "Add support for available registered taxonomies."
+msgstr " پشتیبانی از طبقه بندی های ثبت شده موجود"
+
+#: inc/post-types.php:1697
+msgid "Use this input to register custom \"supports\" values, separated by commas. Learn about this at %s"
+msgstr "از این ورودی برای ثبت مقادیر سفارشی \"پشتیبانی\" جدا شده با کاما استفاده کنید. برای کسب اطلاعات بیشتر به  %s بروید"
+
+#: inc/post-types.php:1442
+msgid "The top-level admin menu page file name for which the post type should be in the sub menu of."
+msgstr "نام فایل صفحه منوی ادمین سطح بالا که نوع پست باید برای آن در منوی فرعی باشد."
+
+#: inc/post-types.php:1429
+msgid "(default: true) Whether or not to show the post type in the admin menu and where to show that menu."
+msgstr "(پیشفرض: true) نمایش یا عدم نمایش نوع پست در منوی ادمین و مکان نمایش آن منو."
+
+#: inc/post-types.php:1387
+msgid "Available options"
+msgstr "گزینه های موجود"
+
+#: inc/post-types.php:1381
+msgid "See %s in the \"menu_position\" section. Range of 5-100"
+msgstr "%s را در بخش \"menu_position\" مشاهده کنید. محدوده 5-100"
+
+#: inc/post-types.php:1297
+msgid "(default: true) Whether or not WordPress should use rewrites for this post type."
+msgstr "(پیش فرض: true) وردپرس از بازنویسی برای این نوع پست استفاده کند یا نه."
+
+#: inc/taxonomies.php:859
+msgid "Toggle panel: Settings"
+msgstr "تاگل پنل:تنظیمات "
+
+#: inc/post-types.php:611
+msgid "Used for hierarchical types that need a colon."
+msgstr "برای انواع سلسله مراتبی که نیاز به کولون دارند استفاده می شود."
+
+#: inc/post-types.php:253 inc/taxonomies.php:257
+msgid "Slug has changed"
+msgstr "نامک تغییر کرد"
+
+#: inc/post-types.php:239 inc/post-types.php:405 inc/post-types.php:941
+#: inc/taxonomies.php:244
+msgid "Toggle panel: Basic settings"
+msgstr "تاگل پنل:تنظیمات اولیه"
+
+#: inc/post-types.php:122
+msgid "Import/Export Post Types"
+msgstr "درون ریزی/برون بری نوع پست ها"
+
+#: inc/listings.php:244
+msgid "*Replace \"post_slug\" with the slug of the actual post."
+msgstr "* \"post_slug\" را با نامک پست واقعی جایگزین کنید."
+
+#: inc/listings.php:164 inc/listings.php:378
+msgid "Get code"
+msgstr "دریافت کد"
+
+#: inc/utility.php:609
+msgid "Object"
+msgstr "آبجکت"
+
+#: inc/taxonomies.php:1266
+msgid "(default: false) Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr "(پیشفرض: false) نمایش طبقه بندی در پنل ویرایش سریع/گروهی"
+
+#: inc/taxonomies.php:1136
+msgid "(default: false) Should the permastruct allow hierarchical urls."
+msgstr "(پیشفرض: false) ساختار های یکتا(permastruct) URL های سلسله مراتبی را مجاز می کند."
+
+#: inc/taxonomies.php:1075
+msgid "(default: true) Whether or not WordPress should use rewrites for this taxonomy."
+msgstr "(پیشفرض: true) وردپرس باید از بازنویسی برای این طبقه بندی استفاده کند."
+
+#: inc/taxonomies.php:1039
+msgid "(default: true) Sets the query_var key for this taxonomy."
+msgstr "(پیشفرض: true) کلید query_var را برای این طبقه بندی تنظیم می کند."
+
+#: inc/taxonomies.php:1014
+msgid "(default: value of public) Whether to make the taxonomy available for selection in navigation menus."
+msgstr "(پیشفرض: مقدار عمومی) طبقه بندی برای انتخاب در منوهای ناوبری در دسترس باشد."
+
+#: inc/taxonomies.php:989
+msgid "(default: value of show_ui) Whether to show the taxonomy in the admin menu."
+msgstr "(پیشفرض: مقدار show_ui) طبقه بندی در منوی ادمین نمایش داده شود."
+
+#: inc/taxonomies.php:964
+msgid "(default: true) Whether to generate a default UI for managing this custom taxonomy."
+msgstr "(پیشفرض: true)یک UI پیش فرض برای مدیریت این طبقه بندی سفارشی ایجاد می شود."
+
+#: inc/post-types.php:1360
+msgid "(default: true) Sets the query_var key for this post type."
+msgstr "(پیشفرض: true) کلید query_var را برای این نوع پست تنظیم می کند."
+
+#: inc/post-types.php:1161
+msgid "(default: false) Whether or not the post type will have a post type archive URL."
+msgstr "(پیشفرض: false) نوع پست، URL آرشیو نوع پست داشته باشد"
+
+#: inc/post-types.php:1049
+msgid "(Custom Post Type UI default: true) Whether or not this post type is available for selection in navigation menus."
+msgstr "(پیشفرض:true) موجود بودن برای انتخاب این نوع پست در منوهای ناوبری"
+
+#: inc/post-types.php:1023
+msgid "(default: true) Whether or not to generate a default UI for managing this post type."
+msgstr "(پیشفرض:true) تولید رابط کاربری پیشفرض برای مدیریت این نوع پست"
+
+#: inc/post-types.php:997
+msgid "(default: true) Whether or not queries can be performed on the front end as part of parse_request()"
+msgstr "(پیشفرض:true) اجرا شدن کوئری ها در فرانت اند به عنوان قسمتی از parse_request()"
+
+#: inc/post-types.php:996
+msgid "Publicly Queryable"
+msgstr "کوئری های عمومی "
+
+#: inc/post-types.php:971
+msgid "(Custom Post Type UI default: true) Whether or not posts of this type should be shown in the admin UI and is publicly queryable."
+msgstr "(پیشفرض:true)نمایش پست این نوع در رابط کابری ادمین و قابل کوئری شدن به صورت عمومی "
+
+#. translators: Placeholder will hold the name of the author of the plugin.
+#: inc/about.php:132
+msgid "More from %s"
+msgstr "بیشتر از%s"
+
+#: inc/taxonomies.php:456
+msgid "Toggle panel: Additional labels"
+msgstr "پنل تاگل(باز و بسته شونده):برچسب های اضافی"
+
+#: inc/about.php:77
+msgid "Thank you for choosing Custom Post Type UI! We hope that your experience with our plugin makes creating post types and taxonomies and organizing your content quick and easy."
+msgstr "از انتخاب رابط کاربری سفارشی نوع پست(CPT UI) متشکریم! امیدواریم شما کار کردن با افزونه ما باعث ایجاد انواع پست و طبقه بندی و سازماندهی سریع و آسان محتوای شما شود."
+
+#: inc/support.php:130
+msgid "No it does not. The Shortcode builder is not multisite dependent and will work with either setup."
+msgstr "نه اینطور نیست. سازنده شورتکد به چند سایتی وابسته نیست و با هر دو راه اندازی کار می کند."
+
+#: inc/support.php:129
+msgid "Does Custom Post Type UI Extended require multisite?"
+msgstr "آیا Custom Post Type UI Extended نیاز به مولتی سایت(چند سایتی) دارد؟"
+
+#: inc/support.php:125
+msgid "Yes you will. The Custom Post Type UI Extended is not a replacement of the free version with added extra features. It acts based on the data made available through Custom Post Type UI"
+msgstr "بله. نوع CPT UI Extended جایگزین نسخه رایگان با ویژگی های اضافی نیست. این بر اساس داده های موجود از طریق CPT UI عمل می کند"
+
+#: inc/support.php:124
+msgid "Do I still need Custom Post Type UI if I purchase and install Custom Post Type UI Extended?"
+msgstr "آیا در صورت خرید و نصب CPT UI Extended ، هنوز به CPT UI نیاز دارم؟"
+
+#: inc/support.php:120
+msgid "No, there is no data being sent out from your site with these. The only way anything is tracked is via UTM parameters for WebDevStudios's analytics so we can get an idea of where traffic is coming from. Those are only tracked if you actually click on an ad spot."
+msgstr "نه ، هیچ داده ای با این موارد از سایت شما ارسال نمی شود. تنها راهی که همه چیز را ردیابی می کند از طریق پارامترهای UTM برای تجزیه و تحلیل WebDevStudios است ، بنابراین ما می توانیم بفهمیم که ترافیک از کجا دریافت می شود. این موارد تنها در صورتی ردیابی می شوند که واقعاً روی یک نقطه تبلیغاتی کلیک کنید."
+
+#: inc/support.php:93
+msgid "What does Pluginize offer?"
+msgstr "چه چیز Pluginize پیشنهاد می دهد؟"
+
+#: inc/support.php:88
+msgid "What is Pluginize?"
+msgstr "Pluginize چیست؟"
+
+#: inc/support.php:119
+msgid "Are these ad spots tracking my personal information in any way?"
+msgstr "آیا این نقاط تبلیغاتی(ad spot) به هیچ وجه اطلاعات شخصی من را ردیابی می کنند؟"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:108
+msgid "You can have them automatically removed from display via a purchased copy of %s."
+msgstr "می توانید آنها را به صورت خودکار از طریق نسخه خریداری شده در %s  حذف کنید."
+
+#: inc/support.php:103
+msgid "How can I remove the ads that suddenly started showing up?"
+msgstr "چگونه می توانم تبلیغاتی را که ناگهان نمایش داده میشوند را حذف کنم؟"
+
+#: inc/support.php:99
+msgid "No. These spots are intended for and will only be used for other available WebDevStudios products and services."
+msgstr "خیر. این نقاط فقط برای سایر محصولات و خدمات WebDevStudios در نظر گرفته شده و مورد استفاده قرار خواهند گرفت."
+
+#: inc/support.php:98
+msgid "Will these ad spots ever show third-party data?"
+msgstr "آیا این نقاط تبلیغاتی(ad spots) داده های شخص ثالث را نشان می دهند؟"
+
+#: inc/support.php:94
+msgid "Pluginize offers both free and paid WordPress plugins."
+msgstr "Pluginize افزونه های رایگان و پولی وردپرس را ارائه می دهد."
+
+#: inc/support.php:89
+msgid "Pluginize is a marketplace of plugins by WebDevStudios."
+msgstr "Pluginize بازار افزونه های WebDevStudios است."
+
+#: inc/support.php:75
+msgid "CPTUI Extended"
+msgstr "CPTUI Extended"
+
+#: inc/support.php:85
+msgid "Pluginize"
+msgstr "Pluginize"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated.
+#: inc/utility.php:120
+msgid "Support forums"
+msgstr "انجمن‌های پشتیبانی"
+
+#: inc/utility.php:39
+msgid "About"
+msgstr "درباره"
+
+#: inc/taxonomies.php:757
+msgid "(e.g. Actors list)"
+msgstr "(مثال: لیست بازیگران)"
+
+#: inc/taxonomies.php:725
+msgid "(e.g. No actors)"
+msgstr "(مثال: بدون هیچ بازیگر)"
+
+#: inc/taxonomies.php:535
+msgid "Used in the admin bar when viewing editor screen for an existing taxonomy term."
+msgstr "هنگام مشاهده صفحه ویرایشگر برای یک شرایط طبقه بندی موجود ، در ادمین بار استفاده می شود."
+
+#: inc/taxonomies.php:269
+msgid "The taxonomy name/slug. Used for various queries for taxonomy content."
+msgstr "نام/نامک طبقه بندی.برای کوئری های مختلف محتوای طبقه بندی شده"
+
+#: inc/taxonomies.php:118
+msgid "View Taxonomies"
+msgstr "مشاهده طبقه بندی ها"
+
+#: inc/post-types.php:1744 inc/taxonomies.php:381
+msgid "(WP Core)"
+msgstr "(هسته وردپرس)"
+
+#: inc/post-types.php:1485
+msgid "Choose image icon"
+msgstr "انتحاب عکس آیکون"
+
+#: inc/post-types.php:1462
+msgid "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
+msgstr "آدرس تصویر یا %sنام کلاس Dashicon %s برای استفاده در آیکون. تصویر سفارشی باید 20 در 20 پیکسل باشد."
+
+#: inc/taxonomies.php:1265
+msgid "Show in quick/bulk edit panel."
+msgstr "نمایش در پنل ویرایش سریع/گروهی"
+
+#: inc/taxonomies.php:741
+msgid "(e.g. Actors list navigation)"
+msgstr "(مثال: ناوبری لیست بازیگران)"
+
+#: inc/taxonomies.php:726
+msgid "No terms"
+msgstr "بدون شرایط"
+
+#: inc/taxonomies.php:488
+msgid "Custom admin menu name for your taxonomy."
+msgstr "نام منوی ادمین سفارشی برای طبقه بندی شما."
+
+#: inc/taxonomies.php:477
+msgid "Describe what your taxonomy is used for."
+msgstr "شرح می دهد که طبقه بندی شما برای چه مواردی استفاده می شود."
+
+#: inc/taxonomies.php:308
+msgid "Used for the taxonomy admin menu item."
+msgstr "برای آیتم طبقه بندی منوی ادمین "
+
+#: inc/taxonomies.php:292
+msgid "Migrate terms to newly renamed taxonomy?"
+msgstr "شرایط به طبقه بندی تغییر نام یافته منتقل شوند؟"
+
+#: inc/taxonomies.php:282
+msgid "DO NOT EDIT the taxonomy slug unless also planning to migrate terms. Changing the slug registers a new taxonomy entry."
+msgstr "نامک طبقه بندی را ویرایش نکنید مگر اینکه قصد اتصال دادن شرایط را دارید. تغییر نامک، یک طبقه بندی جدید ثبت می کند."
+
+#: inc/utility.php:778
+msgid "Please provide a post type to attach to."
+msgstr "لطفاً یک نوع پست برای پیوست ارائه دهید."
+
+#: inc/taxonomies.php:759
+msgid "Screen reader text for the items list heading on the term listing screen."
+msgstr "متن صفحه‌خوان برای عنوان فهرست آیتم ها در صفحه فهرست شرایط."
+
+#: inc/post-types.php:775
+msgid "(e.g. Movies list)"
+msgstr "(مثال: لیست فیلم ها)"
+
+#: inc/post-types.php:771
+msgid "Screen reader text for the items list heading on the post type listing screen."
+msgstr "متن خواننده صفحه برای عنوان لیست آیتم ها در صفحه فهرست نوع پست."
+
+#: inc/post-types.php:770 inc/taxonomies.php:758
+msgid "Items List"
+msgstr "لیست آیتم‌ها"
+
+#: inc/post-types.php:755
+msgid "Screen reader text for the pagination heading on the post type listing screen."
+msgstr "متن خواننده صفحه برای عنوان صفحه بندی در صفحه فهرست نوع پست."
+
+#: inc/post-types.php:754 inc/taxonomies.php:742
+msgid "Items List Navigation"
+msgstr "ناوبری لیست آیتم ها"
+
+#: inc/post-types.php:743
+msgid "(e.g. Filter movies list)"
+msgstr "(مثال: لیست فیلتر فیلم ها)"
+
+#: inc/post-types.php:739
+msgid "Screen reader text for the filter links heading on the post type listing screen."
+msgstr "متن خواننده صفحه برای عنوان لینک های فیلتر در صفحه فهرست نوع پست."
+
+#: inc/post-types.php:738
+msgid "Filter Items List"
+msgstr "لیست فیلتر آیتم ها"
+
+#: inc/post-types.php:727
+msgid "(e.g. Uploaded to this movie)"
+msgstr "(مثال:آپلود شده در این فیلم)"
+
+#: inc/post-types.php:723
+msgid "Used as the \"Uploaded to this post\" or \"Uploaded to this page\" phrase for the post type."
+msgstr "به عنوان عبارت \"آپلود شده در این پست\" یا \"آپلود شدهدر این صفحه\" برای نوع پست استفاده می شود."
+
+#: inc/post-types.php:722
+msgid "Uploaded to this Item"
+msgstr "آپلود شده در این شرایط"
+
+#: inc/post-types.php:711
+msgid "(e.g. Insert into movie)"
+msgstr "(مثال: قرار دادن در فیلم ها)"
+
+#: inc/post-types.php:707
+msgid "Used as the \"Insert into post\" or \"Insert into page\" phrase for the post type."
+msgstr "به عنوان عبارت \"درج در پست\" یا \"درج در صفحه\" برای نوع پست استفاده می شود."
+
+#: inc/post-types.php:706
+msgid "Insert into item"
+msgstr "درج در آیتم"
+
+#: inc/post-types.php:695
+msgid "(e.g. Movie archives)"
+msgstr "(مثال: آرشیو فیلم ها)"
+
+#: inc/post-types.php:691
+msgid "Post type archive label used in nav menus."
+msgstr "برچسب آرشیو نوع پست مورد استفاده در منوهای ناوبری."
+
+#: inc/post-types.php:675
+msgid "Used as the \"Use as featured image\" phrase for the post type."
+msgstr "به عنوان عبارت \"استفاده از تصویر شاخص\" برای نوع پست استفاده می شود."
+
+#: inc/post-types.php:674
+msgid "Use Featured Image"
+msgstr "استفاده از تصویر شاخص"
+
+#: inc/post-types.php:659
+msgid "Used as the \"Remove featured image\" phrase for the post type."
+msgstr "به عنوان عبارت \"حذف تصویر شاخص\" برای نوع پست استفاده می شود."
+
+#: inc/post-types.php:658
+msgid "Remove Featured Image"
+msgstr "حذف تصویر شاخص"
+
+#: inc/post-types.php:647
+msgid "(e.g. Set featured image for this movie)"
+msgstr "(مثال: عکس شاخص را برای این فیلم تنظیم کنید)"
+
+#: inc/post-types.php:643
+msgid "Used as the \"Set featured image\" phrase for the post type."
+msgstr "به عنوان عبارت \"تنظیم تصویر شاخص\" برای نوع پست استفاده می شود."
+
+#: inc/post-types.php:759
+msgid "(e.g. Movies list navigation)"
+msgstr "(مثال: ناوبری لیست فیلم ها)"
+
+#: inc/post-types.php:679
+msgid "(e.g. Use as featured image for this movie)"
+msgstr "(مثال: استفاده از عکس شاخص برای این فیلم)"
+
+#: inc/post-types.php:663
+msgid "(e.g. Remove featured image for this movie)"
+msgstr "(مثال:حذف عکس شاخص برای این فیلم)"
+
+#: inc/post-types.php:642
+msgid "Set Featured Image"
+msgstr "قرار دادن به‌عنوان تصویر شاخص"
+
+#: inc/post-types.php:631
+msgid "(e.g. Featured image for this movie)"
+msgstr "(مثال: عکس شاخص برای این فیلم)"
+
+#: inc/post-types.php:627
+msgid "Used as the \"Featured Image\" phrase for the post type."
+msgstr "به عنوان عبارت \"تصویر شاخص\" برای نوع پست استفاده می شود."
+
+#: inc/post-types.php:594
+msgid "Used when there are no posts to display on the post type list trash screen."
+msgstr "زمانی استفاده می شود که هیچ پستی برای نمایش در سطل زباله لیست پست ها وجود نداشته باشد."
+
+#: inc/post-types.php:578
+msgid "Used when there are no posts to display on the post type list screen."
+msgstr "زمانی استفاده می شود که هیچ پستی برای نمایش در صفحه لیست نوع پست وجود نداشته باشد."
+
+#: inc/post-types.php:562
+msgid "Used as the text for the search button on post type list screen."
+msgstr "به عنوان متن برای دکمه جستجو در صفحه لیست نوع پست استفاده می شود."
+
+#: inc/post-types.php:530 inc/post-types.php:546
+msgid "Used in the admin bar when viewing editor screen for a published post in the post type."
+msgstr "هنگام مشاهده صفحه ویرایشگر برای پست منتشر شده در نوع پست ، در ادمین بار استفاده می شود."
+
+#: inc/post-types.php:498
+msgid "Used at the top of the post editor screen for an existing post type post."
+msgstr "در بالای صفحه ویرایشگر پست برای پست نوع پست موجود استفاده می شود."
+
+#: inc/post-types.php:482
+msgid "Used at the top of the post editor screen for a new post type post."
+msgstr "در بالای صفحه ویرایشگر پست برای پست نوع پست جدید استفاده می شود."
+
+#: inc/post-types.php:450 inc/post-types.php:466
+msgid "Used in the post type admin submenu."
+msgstr "در  زیرمنوی نوع پست ادمین استفاده می شود."
+
+#: inc/post-types.php:427
+msgid "Perhaps describe what your custom post type is used for?"
+msgstr "توضیح دهید نوع پست سفارشی شما برای چه مواردی استفاده می شود"
+
+#: inc/post-types.php:426
+msgid "Post Type Description"
+msgstr "توضیحات نوع پست"
+
+#: inc/post-types.php:401 inc/taxonomies.php:452
+msgid "Additional labels"
+msgstr "برچسب های اضافی"
+
+#: inc/post-types.php:317 inc/taxonomies.php:320
+msgid "Used when a singular label is needed."
+msgstr "هنگامی که برچسب مفرد موردنیاز است استفاده می شود"
+
+#: inc/post-types.php:305
+msgid "Used for the post type admin menu item."
+msgstr "برای آیتم نوع پست منوی ادمین استفاده می شود."
+
+#: inc/post-types.php:277
+msgid "DO NOT EDIT the post type slug unless also planning to migrate posts. Changing the slug registers a new post type entry."
+msgstr "نامک نوع پست را ویرایش نکنید مگر اینکه قصد انتقال پست ها را نیز داشته باشید. تغییر نامک، یک نوع پست جدید را ثبت می کند."
+
+#: inc/post-types.php:265
+msgid "The post type name/slug. Used for various queries for post type content."
+msgstr "نام/نامک نوع پست.برای کوئری های مختلف محتوای پست استفاده می شود."
+
+#: inc/post-types.php:235 inc/taxonomies.php:240
+msgid "Basic settings"
+msgstr "تنظیمات اولیه"
+
+#: inc/post-types.php:115
+msgid "View Post Types"
+msgstr "مشاهده نوع پست ها"
+
+#: inc/post-types.php:62 inc/taxonomies.php:65
+msgid "Are you sure you want to delete this? Deleting will NOT remove created content."
+msgstr "آیا مطمئن هستید که می خواهید این را حذف کنید؟ حذف محتوای تولید شده را از بین نمی برد ."
+
+#: inc/post-types.php:1372
+msgid "Custom query var slug to use instead of the default."
+msgstr "نامک متغییر کوئری سفارشی به جای پیشفرض ستفاده می شود"
+
+#: inc/post-types.php:1370
+msgid "Custom Query Var Slug"
+msgstr "نامک متغییر کوئری سفارشی"
+
+#: inc/post-types.php:1100 inc/taxonomies.php:1185
+msgid "Show in REST API"
+msgstr "نمايش در REST API"
+
+#: inc/post-types.php:1048
+msgid "Show in Nav Menus"
+msgstr "نمایش در منوهای ناوبری"
+
+#. translators: %s: Link to manage taxonomies section
+#: inc/listings.php:518
+msgid "No taxonomies registered for display. Visit %s to get started."
+msgstr "هیچ طبقه بندی برای نمایش ثبت نشده است. برای شروع به %s مراجعه کنید."
+
+#: inc/taxonomies.php:1049
+msgid "(default: taxonomy slug). Query var needs to be true to use."
+msgstr "(پیشفرض: نامک طبقه بندی). برای استفاده از query var باید true باشد."
+
+#: inc/support.php:139
+msgid "I have post types with spaces in their slug and can not successfully delete them. How can I fix that?"
+msgstr "انواع پست های من که فاصله بین آنها وجود دارد و نمی توانم آنها را با موفقیت حذف کنم. چطور میتوانم آن ها را تعمیر کنم؟"
+
+#: inc/post-types.php:1371
+msgid "(default: post type slug) Query var needs to be true to use."
+msgstr "(پیشفرض: نامک نوع پست) برای استفاده از query var باید true باشد."
+
+#: inc/post-types.php:1111 inc/taxonomies.php:1196
+msgid "Slug to use in REST API URLs."
+msgstr "نامک مورد استفاده در URL های REST API"
+
+#: inc/post-types.php:1110 inc/taxonomies.php:1195
+msgid "REST API base slug"
+msgstr "نامک اولیه REST API"
+
+#: inc/support.php:140
+msgid "Visit the Import/Export page and copy the export code into the import side on the left. Replace the space with an underscore and then click \"Import\". You should be able to delete the individual post types afterwards."
+msgstr "به صفحه درون ریزی/برون ریزی بروید و کد خروجی را در درون ریزی در سمت چپ کپی کنید. فاصله ها را با یک زیر خط جایگزین کنید و سپس روی \"درون ریزی\" کلیک کنید. پس از آن باید بتوانید انواع پست های شخصی را حذف کنید."
+
+#: inc/post-types.php:690
+msgid "Archives"
+msgstr "بایگانی‌ها"
+
+#. translators: 1st %s: Link to manage post types section 2nd %s Link text
+#: inc/listings.php:496
+msgid "No post types registered for display. Visit %s to get started."
+msgstr "هیچ نوع پستی برای نمایش ثبت نشده است. برای شروع به %s مراجعه کنید."
+
+#: inc/listings.php:251 inc/listings.php:439
+msgid "Template hierarchy Theme Handbook"
+msgstr "دفترچه راهنمای تم سلسله مراتب قالب"
+
+#: inc/listings.php:229 inc/listings.php:424
+msgid "Archives file name examples."
+msgstr "مثال نام فایل آرشیو"
+
+#: inc/listings.php:235
+msgid "Single Posts file name examples."
+msgstr "مثال های نام فایل پست تکی."
+
+#: inc/tools.php:82
+msgid "Debug Info"
+msgstr "اطلاعات اشکال‌زدایی"
+
+#: inc/listings.php:91 inc/listings.php:311
+msgid "Template Hierarchy"
+msgstr "سلسله مراتب قالب"
+
+#: inc/tools-sections/tools-debug.php:39
+msgid "Send debug info"
+msgstr "ارسال اطلاعات اشکال‌زدایی"
+
+#: inc/tools-sections/tools-debug.php:30
+msgid "Please provide an email address to send debug information to: "
+msgstr "لطفاً یک آدرس ایمیل برای ارسال اطلاعات اشکال زدایی وارد کنید:"
+
+#: inc/tools-sections/tools-get-code.php:59
+msgid "%s Taxonomy"
+msgstr "طبقه بندی %s"
+
+#: inc/tools-sections/tools-get-code.php:34
+msgid "%s Post Type"
+msgstr "نوع پست %s"
+
+#: inc/tools.php:367
+msgid "This will not export the associated posts or taxonomy terms, just the settings."
+msgstr " این کار پست های مرتبط یا شرایط طبقه بندی  را برون بری نمی کند، تنها تنظیمات."
+
+#. translators: Placeholder will hold the plugin version.
+#: inc/about.php:94
+msgid "What's new in version %s"
+msgstr "بیایید نگاهی به آنچه در نسخه %s جدید است بندازیم"
+
+#: classes/class.cptui_debug_info.php:24
+msgid "If you have sought support for Custom Post Type UI on the forums, you may be requested to send the information below to the plugin developer. Simply insert the email they provided in the input field at the bottom and click the \"Send debug info\" button. Only the data below will be sent to them."
+msgstr "اگر در انجمن ها به دنبال پشتیبانی برای CPT UI هستید ، ممکن است از شما خواسته شود اطلاعات زیر را به توسعه دهنده افزونه ارسال کنید. کافی است ایمیلی را که ارائه کرده اید در قسمت ورودی در پایین وارد کرده و روی دکمه \"ارسال اطلاعات اشکال زدایی\" کلیک کنید. فقط اطلاعات زیر برای آنها ارسال می شود."
+
+#: inc/post-types.php:1537
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/post-types.php:626 inc/post-types.php:1571
+msgid "Featured Image"
+msgstr "عکس شاخص"
+
+#: inc/post-types.php:1649
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/post-types.php:1662
+msgid "Page Attributes"
+msgstr "ویژگی های صفحه"
+
+#: inc/post-types.php:1675
+msgid "Post Formats"
+msgstr "فرمت های پست"
+
+#: inc/post-types.php:1942
+msgid "Please provide a post type to delete"
+msgstr "لطفا نوع پستی را برای حذف آماده کنید"
+
+#: inc/post-types.php:2015
+msgid "Please provide a post type name"
+msgstr "لطفا نام نوع پستی را آماده کنید"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:750
+msgid "Please choose a different post type name. %s is already registered."
+msgstr "لطفاً نام نوع پست دیگری را انتخاب کنید. %s قبلاً ثبت شده است."
+
+#: inc/support.php:77
+msgid "Support Forums"
+msgstr "انجمن‌های پشتیبانی"
+
+#. Author URI of the plugin
+msgid "https://webdevstudios.com/"
+msgstr "https://webdevstudios.com/"
+
+#. Author of the plugin
+msgid "WebDevStudios"
+msgstr "WebDevStudios"
+
+#: inc/taxonomies.php:1579
+msgid "Please provide a taxonomy name"
+msgstr "لطفا نام طبقه بندی را وارد کنید"
+
+#: inc/taxonomies.php:1505
+msgid "Please provide a taxonomy to delete"
+msgstr "لطفاً طبقه بندی برای حذف وارد کنید"
+
+#: inc/taxonomies.php:1160
+msgid "Show Admin Column"
+msgstr "نمایش ستون ادمین"
+
+#: inc/taxonomies.php:1085
+msgid "(default: taxonomy name)"
+msgstr "(پیشفرض: نام طبقه بندی)"
+
+#: inc/taxonomies.php:1051
+msgid "Sets a custom query_var slug for this taxonomy."
+msgstr "برای این طبقه بندی یک query_var سفارشی تنظیم می کند."
+
+#: inc/taxonomies.php:710
+msgid "Not found"
+msgstr "پیدا نشد"
+
+#: inc/taxonomies.php:694
+msgid "Choose From Most Used"
+msgstr "انتخاب از پراستفاده ترین"
+
+#: inc/taxonomies.php:678
+msgid "Add or Remove Items"
+msgstr "افزودن یا حذف آیتم ها"
+
+#: inc/taxonomies.php:662
+msgid "Separate Items with Commas"
+msgstr "جدا کردن آیتم ها با کاما"
+
+#: inc/taxonomies.php:661
+msgid "(e.g. Separate Actors with commas)"
+msgstr "(مثال: بازیگر ها را با کاما جدا کنید)"
+
+#: inc/taxonomies.php:646
+msgid "Popular Items"
+msgstr "آیتم های محبوب"
+
+#: inc/taxonomies.php:645
+msgid "(e.g. Popular Actors)"
+msgstr "(مثال: بازیگران محبوب)"
+
+#: inc/taxonomies.php:630
+msgid "Search Items"
+msgstr "جستجوی آیتم ها"
+
+#: inc/taxonomies.php:629
+msgid "(e.g. Search Actors)"
+msgstr "(مثال: جستجوی بازیگر ها)"
+
+#: inc/taxonomies.php:614
+msgid "Parent Item Colon"
+msgstr "کولون آِیتم والد"
+
+#: inc/taxonomies.php:613
+msgid "(e.g. Parent Actor:)"
+msgstr "(مثال: والد بازیگر:)"
+
+#: inc/taxonomies.php:598
+msgid "Parent Item"
+msgstr "آیتم والد"
+
+#: inc/taxonomies.php:597
+msgid "(e.g. Parent Actor)"
+msgstr "(مثال: والد بازیگر)"
+
+#: inc/taxonomies.php:582
+msgid "New Item Name"
+msgstr "نام آیتم جدید"
+
+#: inc/taxonomies.php:581
+msgid "(e.g. New Actor Name)"
+msgstr "(مثال: نام بازیگر جدید)"
+
+#: inc/taxonomies.php:565
+msgid "(e.g. Add New Actor)"
+msgstr "(مثال: افزودن بازیگر جدید)"
+
+#: inc/taxonomies.php:550
+msgid "Update Item Name"
+msgstr "به روزرسانی نام آیتم "
+
+#: inc/taxonomies.php:533
+msgid "(e.g. View Actor)"
+msgstr "(مثال: مشاهده بازیگر)"
+
+#: inc/taxonomies.php:517
+msgid "(e.g. Edit Actor)"
+msgstr "(مثال: ویرایش بازیگران)"
+
+#: inc/taxonomies.php:501
+msgid "(e.g. All Actors)"
+msgstr "(مثال: همه بازیگران)"
+
+#: inc/taxonomies.php:434 inc/taxonomies.php:1367
+msgid "Add Taxonomy"
+msgstr "افزودن طبقه بندی"
+
+#: inc/taxonomies.php:422 inc/taxonomies.php:1355
+msgid "Delete Taxonomy"
+msgstr "حذف طبقه بندی"
+
+#: inc/taxonomies.php:411 inc/taxonomies.php:1344
+msgid "Save Taxonomy"
+msgstr "ذخیره طبقه بندی"
+
+#: inc/taxonomies.php:340
+msgid "Attach to Post Type"
+msgstr "ضمیمه کردن به نوع پست"
+
+#: inc/taxonomies.php:318
+msgid "(e.g. Actor)"
+msgstr "(مثال: بازیگر)"
+
+#: inc/taxonomies.php:306 inc/taxonomies.php:486
+msgid "(e.g. Actors)"
+msgstr "(مثال: بازیگران)"
+
+#: inc/taxonomies.php:254
+msgid "Taxonomy Slug"
+msgstr "نامک طبقه بندی"
+
+#: inc/support.php:257
+msgid "Post relationships?"
+msgstr "روابط پست؟"
+
+#: inc/support.php:230
+msgid "Advanced"
+msgstr "تنظیمات پیشرفته"
+
+#: inc/support.php:162
+msgid "Front-end Display"
+msgstr "نمایش فرانت اند"
+
+#: inc/support.php:136
+msgid "General"
+msgstr "تنظیمات کلی"
+
+#: inc/post-types.php:1753
+msgid "Adds %s support"
+msgstr "افزودن %s پشتیبانی"
+
+#: inc/post-types.php:1704
+msgid "Provide custom support slugs here."
+msgstr "در اینجا نامک های پشتیبانی سفارشی قرار دهید."
+
+#: inc/post-types.php:1696 inc/post-types.php:1697
+msgid "Custom \"Supports\""
+msgstr "پشتیبانی های سفارشی"
+
+#: inc/post-types.php:1506
+msgid "Use the \"None\" option to explicitly set \"supports\" to false."
+msgstr "از گزینه \"هیچ\" تنظیم \"پشتیبانی\" روی false استفاده کنید."
+
+#: inc/post-types.php:1636
+msgid "Revisions"
+msgstr "رونوشت ها"
+
+#: inc/post-types.php:1623
+msgid "Comments"
+msgstr "نظرها"
+
+#: inc/post-types.php:1610
+msgid "Custom Fields"
+msgstr "فیلدهای سفارشی"
+
+#: inc/post-types.php:1597
+msgid "Trackbacks"
+msgstr "ترک ‌بک‌ها"
+
+#: inc/post-types.php:1584
+msgid "Excerpt"
+msgstr "چکیده"
+
+#: inc/post-types.php:1554
+msgid "Editor"
+msgstr "ویرایشگر"
+
+#: inc/post-types.php:1460
+msgid "(Full URL for icon or Dashicon class)"
+msgstr "(URL کامل برای آیکون یا کلاس Dashicon)"
+
+#: inc/post-types.php:1453
+msgid "Menu Icon"
+msgstr "آیکون منو"
+
+#: inc/post-types.php:1406
+msgid "\"Show UI\" must be \"true\". If an existing top level page such as \"tools.php\" is indicated for second input, post type will be sub menu of that."
+msgstr "\"نمایش رابط کاربری\" باید مقدار \"True\" باشد.اگر یک صفحه سطح بالا مانند \"tools.php\" برای ورودی دوم تعیین شده است، نوع پست باید زیرمنوی آن باشد."
+
+#: inc/post-types.php:1405
+msgid "Show in Menu"
+msgstr "نمایش در منو"
+
+#: inc/post-types.php:1398
+msgid "The position in the menu order the post type should appear. show_in_menu must be true."
+msgstr "موقعیت در ترتیب منو نوع پست  که باید ظاهر شود. show_in_menu باید true باشد"
+
+#: inc/post-types.php:1377
+msgid "Menu Position"
+msgstr "موقعیت منو"
+
+#: inc/post-types.php:1359 inc/taxonomies.php:1038
+msgid "Query Var"
+msgstr "متغیر کوئری"
+
+#: inc/post-types.php:1333
+msgid "With Front"
+msgstr "با فرانت"
+
+#: inc/post-types.php:1309
+msgid "Custom post type slug to use instead of the default."
+msgstr "از نامک نوع پست سفارشی به جای پیشفرض استفاده کنید."
+
+#: inc/post-types.php:1308
+msgid "(default: post type slug)"
+msgstr "(پیشفرض: نامک نوع پست)"
+
+#: inc/post-types.php:1307 inc/taxonomies.php:1086
+msgid "Custom Rewrite Slug"
+msgstr "نامک رونوشت سفارشی"
+
+#: inc/post-types.php:1296 inc/taxonomies.php:1074
+msgid "Rewrite"
+msgstr "بازنویسی"
+
+#: inc/post-types.php:1218 inc/post-types.php:1242 inc/taxonomies.php:938
+msgid "Hierarchical"
+msgstr "بر اساس سلسله مراتب"
+
+#: inc/post-types.php:1212
+msgid "Capability Type"
+msgstr "نوع قابلیت"
+
+#: inc/post-types.php:1201
+msgid "Exclude From Search"
+msgstr "مستثنی کردن از جستجو"
+
+#: inc/post-types.php:1137
+msgid "Has Archive"
+msgstr "آرشیو دارد"
+
+#: inc/post-types.php:1022 inc/taxonomies.php:963
+msgid "Show UI"
+msgstr "نمايش رابط کاربری"
+
+#: inc/post-types.php:970 inc/taxonomies.php:888
+msgid "Public"
+msgstr "عمومی"
+
+#: inc/post-types.php:615
+msgid "(e.g. Parent Movie:)"
+msgstr "(مثال: والد فیلم:)"
+
+#: inc/post-types.php:610
+msgid "Parent"
+msgstr "والد"
+
+#: inc/post-types.php:598
+msgid "(e.g. No Movies found in Trash)"
+msgstr "(مثال: هیچ فیلمی در سطل زباله یافت نشد)"
+
+#: inc/post-types.php:593
+msgid "Not Found in Trash"
+msgstr "در سطل زباله یافت نشد"
+
+#: inc/post-types.php:582
+msgid "(e.g. No Movies found)"
+msgstr "(مثال: هیچ فیلمی یافت نشد)"
+
+#: external/wpgraphql.php:213 inc/post-types.php:958 inc/post-types.php:984
+#: inc/post-types.php:1010 inc/post-types.php:1036 inc/post-types.php:1063
+#: inc/post-types.php:1088 inc/post-types.php:1150 inc/post-types.php:1190
+#: inc/post-types.php:1231 inc/post-types.php:1259 inc/post-types.php:1284
+#: inc/post-types.php:1321 inc/post-types.php:1347 inc/post-types.php:1417
+#: inc/taxonomies.php:877 inc/taxonomies.php:902 inc/taxonomies.php:928
+#: inc/taxonomies.php:952 inc/taxonomies.php:977 inc/taxonomies.php:1002
+#: inc/taxonomies.php:1027 inc/taxonomies.php:1063 inc/taxonomies.php:1099
+#: inc/taxonomies.php:1125 inc/taxonomies.php:1150 inc/taxonomies.php:1174
+#: inc/taxonomies.php:1230 inc/taxonomies.php:1255 inc/taxonomies.php:1280
+msgid "True"
+msgstr "True"
+
+#: external/wpgraphql.php:209 inc/post-types.php:954 inc/post-types.php:980
+#: inc/post-types.php:1006 inc/post-types.php:1032 inc/post-types.php:1058
+#: inc/post-types.php:1084 inc/post-types.php:1145 inc/post-types.php:1185
+#: inc/post-types.php:1226 inc/post-types.php:1254 inc/post-types.php:1280
+#: inc/post-types.php:1317 inc/post-types.php:1343 inc/post-types.php:1413
+#: inc/taxonomies.php:873 inc/taxonomies.php:898 inc/taxonomies.php:923
+#: inc/taxonomies.php:948 inc/taxonomies.php:973 inc/taxonomies.php:998
+#: inc/taxonomies.php:1023 inc/taxonomies.php:1059 inc/taxonomies.php:1095
+#: inc/taxonomies.php:1120 inc/taxonomies.php:1145 inc/taxonomies.php:1170
+#: inc/taxonomies.php:1225 inc/taxonomies.php:1250 inc/taxonomies.php:1275
+msgid "False"
+msgstr "False"
+
+#: inc/post-types.php:577
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+#: inc/post-types.php:566
+msgid "(e.g. Search Movies)"
+msgstr "(مثال: جستجوی فیلم ها)"
+
+#: inc/post-types.php:561
+msgid "Search Item"
+msgstr "جستجوی آیتم "
+
+#: inc/post-types.php:534
+msgid "(e.g. View Movie)"
+msgstr "(مثال: مشاهده فیلم)"
+
+#: inc/post-types.php:529 inc/taxonomies.php:534
+msgid "View Item"
+msgstr "مشاهده آیتم‌"
+
+#: inc/post-types.php:518
+msgid "(e.g. New Movie)"
+msgstr "(مثال: فیلم جدید)"
+
+#: inc/post-types.php:513
+msgid "New Item"
+msgstr "آیتم جدید"
+
+#: inc/post-types.php:502
+msgid "(e.g. Edit Movie)"
+msgstr "(مثال: ویرایش فیلم ها)"
+
+#: inc/post-types.php:497 inc/taxonomies.php:518
+msgid "Edit Item"
+msgstr "ویرایش آیتم "
+
+#: inc/post-types.php:486
+msgid "(e.g. Add New Movie)"
+msgstr "(مثال: افزودن فیلم جدید)"
+
+#: inc/post-types.php:481 inc/taxonomies.php:566
+msgid "Add New Item"
+msgstr "افزودن آیتم جدید"
+
+#: inc/post-types.php:470
+msgid "(e.g. Add New)"
+msgstr "(مثال: افزودن جدید)"
+
+#: inc/post-types.php:454
+msgid "(e.g. All Movies)"
+msgstr "(مثال: همه فیلم ها)"
+
+#: inc/post-types.php:449 inc/taxonomies.php:502
+msgid "All Items"
+msgstr "همه آیتم ها"
+
+#: inc/post-types.php:438
+msgid "(e.g. My Movies)"
+msgstr "(مثال: فیلم های من)"
+
+#: inc/post-types.php:434
+msgid "Custom admin menu name for your custom post type."
+msgstr "نام منوی ادمین سفارشی برای نوع پست سفارشی شما."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WebDevStudios/custom-post-type-ui/"
+msgstr "https://github.com/WebDevStudios/custom-post-type-ui/"
+
+#: inc/taxonomies.php:1161
+msgid "(default: false) Whether to allow automatic creation of taxonomy columns on associated post-types."
+msgstr "(پیشفرض: false) اجازه به تولید اتوماتیک ستون های طبقه بندی برای نوع پست های مرتبط"
+
+#: inc/taxonomies.php:1087
+msgid "Custom taxonomy rewrite slug."
+msgstr "نامک رونوشت طبقه بندی سفارشی"
+
+#: inc/taxonomies.php:1050
+msgid "Custom Query Var String"
+msgstr "رشته سفارشی Query Var"
+
+#: inc/taxonomies.php:709
+msgid "(e.g. No Actors found)"
+msgstr "(مثال: هیچ بازیگری پیدا نشد)"
+
+#: inc/taxonomies.php:693
+msgid "(e.g. Choose from the most used Actors)"
+msgstr "(مثال: انتخاب از پراستفاده ترین بازیگرها)"
+
+#: inc/taxonomies.php:677
+msgid "(e.g. Add or remove Actors)"
+msgstr "(مثال: افزودن یا حذف بازیگرها)"
+
+#: inc/taxonomies.php:549
+msgid "(e.g. Update Actor Name)"
+msgstr "(مثال: به روزرسانی نام بازیگر)"
+
+#: inc/taxonomies.php:551 inc/taxonomies.php:583 inc/taxonomies.php:599
+#: inc/taxonomies.php:615 inc/taxonomies.php:631 inc/taxonomies.php:647
+#: inc/taxonomies.php:663 inc/taxonomies.php:679
+msgid "Custom taxonomy label. Used in the admin menu for displaying taxonomies."
+msgstr "برچسب سفارشی  طبقه بندی .در منوی ادمین برای نمایش طبقه بندی ها استفاده می شود."
+
+#: inc/support.php:274
+msgid "Change text inside the post/page editor title field. Should be able to adapt as necessary."
+msgstr "متن را در قسمت عنوان ویرایشگر پست/صفحه تغییر دهید. باید بتواند در صورت لزوم سازگار شود."
+
+#: inc/support.php:273
+msgid "How do I filter the \"enter title here\" text in the post editor screen?"
+msgstr "چگونه می توانم متن \"عنوان را در اینجا وارد کنید\" را در صفحه ویرایشگر پست فیلتر کنم؟"
+
+#: inc/support.php:245
+msgid "How do I add a newly registered taxonomy to a post type that already exists?"
+msgstr "چگونه می توان طبقه بندی تازه ثبت شده را به نوع پست موجود اضافه کرد؟"
+
+#: inc/support.php:233
+msgid "How do I add custom metaboxes to my post type?"
+msgstr "چگونه می توانم متاباکس های سفارشی را به نوع پست خود اضافه کنم؟"
+
+#: inc/support.php:195
+msgid "I have added categories and tags to my custom post type, but they do not appear in the archives."
+msgstr "من دسته ها و برچسب ها را به نوع پست سفارشی خود اضافه کرده ام ، اما در آرشیوها ظاهر نمی شوند."
+
+#: inc/support.php:178
+msgid "How do I display my custom post type on my site?"
+msgstr "چگونه می توانم نوع پست سفارشی خود را در سایت خود نمایش دهم؟"
+
+#: inc/support.php:165
+msgid "What template files should I edit to alter my post type display?"
+msgstr "برای تغییر نوع نمایش پست خود ، چه فایلهای الگویی را باید ویرایش کنم؟"
+
+#: inc/support.php:155
+msgid "Make sure your theme has post \"post-thumbnails\" theme support enabled."
+msgstr "مطمئن شوید که قالب شما پشتیبانی از \"post-thumbnails\" را فعال کرده است."
+
+#: inc/support.php:154
+msgid "I have added post thumbnail and/or post format support to my post type, but those do not appear when adding a post type post."
+msgstr "من تصویر بندانگشتی پست و/یا پشتیبانی از فرمت پست را به نوع پست خود اضافه کرده ام ، اما هنگام افزودن  نوع پست آن ، آنها ظاهر نمی شوند."
+
+#: inc/support.php:150
+msgid "I changed my custom post type or taxonomy slug and now I have duplicates shown. How do I remove the duplicate?"
+msgstr "من نامک نوع پست یا طبقه بندی سفارشی را تغییر دادم و اکنون موارد تکراری نشان داده می شود. چگونه می توانم تکراری ها را حذف کنم؟"
+
+#: inc/support.php:144
+msgid "I changed my custom post type name and now I can not get to my posts. How do I get them back?"
+msgstr "من نام نوع پست سفارشی خود را تغییر دادم و اکنون نمی توانم به پست های خود دسترسی ندارم. چگونه آنها را پس بگیرم؟"
+
+#: inc/support.php:66
+msgid "Custom Post Type UI Support"
+msgstr "پشتیبانی  رابط کاربری نوع پست سفارشی "
+
+#: inc/post-types.php:1688
+msgid "None"
+msgstr "هیچ‌"
+
+#: inc/post-types.php:1174
+msgid "Slug to be used for archive URL."
+msgstr "نامک مورد استفاده برای URL آرشیو"
+
+#: inc/post-types.php:1138
+msgid "If left blank, the archive slug will default to the post type slug."
+msgstr "اگر خالی بماند ، نامک آرشیو به طور پیش فرض  نامک نوع پست قرار می گیرد."
+
+#: inc/post-types.php:465
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: inc/taxonomies.php:1135
+msgid "Rewrite Hierarchical"
+msgstr "بازنویسی سلسله مراتبی"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:765
+msgid "Please choose a different taxonomy name. %s is already registered."
+msgstr "لطفاً نام طبقه بندی متفاوتی را انتخاب کنید. %s قبلا ثبت شده است."
+
+#: inc/listings.php:87 inc/listings.php:308 inc/post-types.php:937
+#: inc/taxonomies.php:855
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: custom-post-type-ui.php:146
+msgid "Custom Post Types"
+msgstr "انواع پست سفارشی"
+
+#: custom-post-type-ui.php:146
+msgid "CPT UI"
+msgstr "CPT UI"
+
+#: custom-post-type-ui.php:165
+msgid "About CPT UI"
+msgstr "درباره CPT UI"
+
+#: inc/utility.php:136
+msgid "Follow on Twitter:"
+msgstr "دنبال کردن در توییتر:"
+
+#: inc/post-types.php:108
+msgid "Edit Post Types"
+msgstr "ویرایش انواع پست"
+
+#: inc/taxonomies.php:111
+msgid "Edit Taxonomies"
+msgstr "ویرایش طبقه بندی ها"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1045 custom-post-type-ui.php:1046
+#: custom-post-type-ui.php:1087 custom-post-type-ui.php:1090
+#: inc/post-types.php:537 inc/post-types.php:553 inc/taxonomies.php:538
+msgid "View %s"
+msgstr "مشاهده %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1047 custom-post-type-ui.php:1055
+#: custom-post-type-ui.php:1091 custom-post-type-ui.php:1109
+#: inc/post-types.php:457 inc/taxonomies.php:506
+msgid "All %s"
+msgstr "همه %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1048 custom-post-type-ui.php:1053
+#: custom-post-type-ui.php:1092 custom-post-type-ui.php:1107
+#: inc/post-types.php:569 inc/taxonomies.php:634
+msgid "Search %s"
+msgstr "جستجوی %s"
+
+#: custom-post-type-ui.php:1049 custom-post-type-ui.php:1093
+msgid "No %s found."
+msgstr "هیچ %s پیدا نشد"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1057 custom-post-type-ui.php:1100
+#: inc/post-types.php:618 inc/taxonomies.php:618
+msgid "Parent %s:"
+msgstr "والد %s:"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1056 custom-post-type-ui.php:1099
+#: inc/taxonomies.php:602
+msgid "Parent %s"
+msgstr "والد %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1054 custom-post-type-ui.php:1108
+#: inc/taxonomies.php:650
+msgid "Popular %s"
+msgstr "%s محبوب"
+
+#: custom-post-type-ui.php:1059 custom-post-type-ui.php:1102
+msgid "Update %s"
+msgstr "به‌روزرسانی %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1061 custom-post-type-ui.php:1104
+#: inc/taxonomies.php:586
+msgid "New %s name"
+msgstr "اسم %s جدید "
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1062 custom-post-type-ui.php:1110
+#: inc/taxonomies.php:666
+msgid "Separate %s with commas"
+msgstr "%s را با کاما جدا کنید"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1063 custom-post-type-ui.php:1111
+#: inc/taxonomies.php:682
+msgid "Add or remove %s"
+msgstr "اضافه یا حذف %s"
+
+#: inc/tools.php:366
+msgid "NOTE"
+msgstr "توجه"
+
+#: inc/tools-sections/tools-taxonomies.php:37
+msgid "No taxonomies to display at this time"
+msgstr "هیچ طبقه بندی برای نمایش در حال حاضر نیست"
+
+#: inc/tools-sections/tools-post-types.php:40
+msgid "No post types to display at this time"
+msgstr "هیچ نوع پستی برای نمایش در حال حاضر نیست"
+
+#: inc/listings.php:86
+msgid "Post Type"
+msgstr "نوع پست"
+
+#: inc/listings.php:88 inc/post-types.php:1502
+msgid "Supports"
+msgstr "پشتیبانی ها"
+
+#: inc/listings.php:90 inc/listings.php:310
+msgid "Labels"
+msgstr "برچسب ها"
+
+#: inc/listings.php:169
+msgid "View frontend archive"
+msgstr "نمایش آرشیو های فرانت اند"
+
+#: inc/listings.php:307
+msgid "Taxonomy"
+msgstr "طبقه بندی"
+
+#: inc/post-types.php:200 inc/taxonomies.php:205
+msgid "Select: "
+msgstr "انتخاب:"
+
+#: inc/post-types.php:214 inc/taxonomies.php:219
+msgid "Select"
+msgstr "انتخاب"
+
+#: inc/post-types.php:249
+msgid "Post Type Slug"
+msgstr "نامک نوع پست "
+
+#: inc/post-types.php:303 inc/taxonomies.php:307
+msgid "Plural Label"
+msgstr "برچسب جمع"
+
+#: inc/post-types.php:514
+msgid "Post type label. Used in the admin menu for displaying post types."
+msgstr "برچسب نوع پست.در منوی ادمین برای نمایش نوع پست استفاده می شود"
+
+#: inc/post-types.php:433 inc/taxonomies.php:487
+msgid "Menu Name"
+msgstr "نام منو"
+
+#: inc/post-types.php:381 inc/post-types.php:1810
+msgid "Add Post Type"
+msgstr "افزودن نوع پست"
+
+#: inc/post-types.php:369 inc/post-types.php:1798
+msgid "Delete Post Type"
+msgstr "حذف نوع پست"
+
+#: inc/post-types.php:358 inc/post-types.php:1787
+msgid "Save Post Type"
+msgstr "ذخیره نوع پست"
+
+#: inc/post-types.php:316 inc/post-types.php:807
+msgid "(e.g. Movie)"
+msgstr "(مثال: فیلم)"
+
+#: inc/post-types.php:315 inc/taxonomies.php:319
+msgid "Singular Label"
+msgstr "برچسب مفرد"
+
+#: inc/post-types.php:304
+msgid "(e.g. Movies)"
+msgstr "(مثال:فیلم ها)"
+
+#: inc/listings.php:223 inc/listings.php:418
+msgid "No custom labels to display"
+msgstr "هیچ برچسب سفارشی برای نمایش وجود ندارد"
+
+#: inc/tools-sections/tools-get-code.php:23
+#: inc/tools-sections/tools-get-code.php:36
+#: inc/tools-sections/tools-get-code.php:48
+#: inc/tools-sections/tools-get-code.php:63
+msgid "Copy/paste the code below into your functions.php file."
+msgstr "کد زیر را در فایل functions.php خود کپی/جایگذاری کنید."
+
+#: inc/tools-sections/tools-get-code.php:15
+msgid "Get Post Type and Taxonomy Code"
+msgstr "کد نوع پست و طبقه بندی را دریافت کنید"
+
+#: inc/tools.php:452
+msgid "Use the content above to import current taxonomies into a different WordPress site. You can also use this to simply back up your taxonomy settings."
+msgstr "از محتوای بالا برای وارد کردن طبقه بندی های فعلی به سایت های دیگر وردپرس استفاده کنید. همچنین می توانید از این گزینه برای بکاپ گیری از تنظیمات طبقه بندی خود استفاده کنید."
+
+#: inc/tools.php:446
+msgid "No taxonomies registered yet."
+msgstr "هنوز طبقه بندی ثبت نشده است"
+
+#: inc/tools.php:427
+msgid "To import taxonomies from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "برای وارد کردن طبقه بندی ها از یک سایت دیگر وردپرس ، محتوای برون بری شده را در اینجا قرار دهید و روی دکمه \"درون ریزی\" کلیک کنید."
+
+#: inc/tools.php:417
+msgid "Import Taxonomies"
+msgstr "درون ریزی طبقه‌بندی‌ها"
+
+#: inc/tools.php:410
+msgid "Use the content above to import current post types into a different WordPress site. You can also use this to simply back up your post type settings."
+msgstr "از محتوای بالا برای درون ریزی نوع پست های فعلی به سایت های مختلف وردپرس استفاده کنید. همچنین می توانید به سادگی از تنظیمات نوع پست خود بکاپ تهیه کنید."
+
+#: inc/tools.php:404
+msgid "No post types registered yet."
+msgstr "هنوز هیچ نوع پست ثبت نشده است"
+
+#: inc/tools.php:389 inc/tools.php:431
+msgid "Import"
+msgstr "درون ریزی"
+
+#: inc/tools.php:385
+msgid "To import post types from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "برای وارد کردن انواع پست از یک سایت دیگر وردپرس ، محتوای برون بری شده را در اینجا وارد کنید  و روی دکمه \"درون ریزی\" کلیک کنید."
+
+#: inc/tools.php:381 inc/tools.php:423
+msgid "Importing will overwrite previous registered settings."
+msgstr "درون ریزی ، تنظیمات ثبت شده قبلی را بازنویسی می کند."
+
+#: inc/tools.php:381 inc/tools.php:423
+msgid "Note:"
+msgstr "توجه:"
+
+#: inc/tools.php:378 inc/tools.php:420
+msgid "Paste content here."
+msgstr "محتوا را اینجا قرار دهید"
+
+#: inc/tools.php:375
+msgid "Import Post Types"
+msgstr "درون ریزی نوع پست ها"
+
+#: inc/tools.php:360
+msgid "If you are wanting to migrate registered post types or taxonomies from this site to another, that will also use Custom Post Type UI, use the import and export functionality. If you are moving away from Custom Post Type UI, use the information in the \"Get Code\" tab."
+msgstr "اگر می خواهید نوع پست ها یا طبقه بندی های ثبت شده را از این سایت به سایت دیگری منتقل کنید که از CPT UI نیز استفاده می کند ، از قابلیت وارد کردن و خروجی گرفتن استفاده کنید. اگر از  CPT UI دیگر استفاده نمی کنید، از اطلاعات موجود در تب\"دریافت کد\" استفاده کنید."
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1064 custom-post-type-ui.php:1112
+#: inc/taxonomies.php:698
+msgid "Choose from the most used %s"
+msgstr "انتخاب از پراستفاده ترین %s"
+
+#: custom-post-type-ui.php:1050 custom-post-type-ui.php:1094
+msgid "No %s found in trash."
+msgstr "No %s found in trash."
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1044 custom-post-type-ui.php:1086
+#: inc/post-types.php:521
+msgid "New %s"
+msgstr "%s جدید"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1043 custom-post-type-ui.php:1058
+#: custom-post-type-ui.php:1085 custom-post-type-ui.php:1101
+#: inc/post-types.php:505 inc/taxonomies.php:522
+msgid "Edit %s"
+msgstr "ویرایش %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1042 custom-post-type-ui.php:1060
+#: custom-post-type-ui.php:1084 custom-post-type-ui.php:1103
+#: inc/post-types.php:489 inc/taxonomies.php:570
+msgid "Add new %s"
+msgstr "افزودن %s جدید"
+
+#: custom-post-type-ui.php:958
+msgid "%s has failed to be imported"
+msgstr "%s درون ریزی نشد."
+
+#: custom-post-type-ui.php:956
+msgid "%s has been successfully imported"
+msgstr "%s با موفقیت درون ریزی شد"
+
+#: inc/utility.php:40
+msgid "Help"
+msgstr "راهنما"
+
+#: inc/tools.php:75
+msgid "Get Code"
+msgstr "گرفتن کد"
+
+#: inc/listings.php:89 inc/listings.php:291 inc/post-types.php:1711
+#: inc/tools.php:68
+msgid "Taxonomies"
+msgstr "طبقه‌بندی‌ها"
+
+#: inc/listings.php:70 inc/listings.php:309 inc/tools.php:61
+msgid "Post Types"
+msgstr "نوع پست ها"
+
+#: inc/listings.php:67 inc/taxonomies.php:93
+msgid "Add New Taxonomy"
+msgstr "افزودن طبقه بندی جدید"
+
+#: inc/listings.php:66 inc/post-types.php:90
+msgid "Add New Post Type"
+msgstr "افزودن نوع پست جدید"
+
+#. Plugin Name of the plugin
+#. translators: Placeholder will hold the name of the plugin, version of the
+#. plugin and a link to WebdevStudios.
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated.
+#: inc/about.php:64 inc/utility.php:113 inc/utility.php:131
+msgid "Custom Post Type UI"
+msgstr "رابط کاربری نوع پست سفارشی (CPT UI)"
+
+#: custom-post-type-ui.php:151
+msgid "Help/Support"
+msgstr "راهنما/پشتیبانی"
+
+#: custom-post-type-ui.php:149
+msgid "Registered Types/Taxes"
+msgstr "نوع پست/طبقه بندی های ثبت شده"
+
+#: custom-post-type-ui.php:149
+msgid "Registered Types and Taxes"
+msgstr "نوع پست و طبقه بندی های ثبت شده"
+
+#: custom-post-type-ui.php:148 inc/listings.php:522
+msgid "Add/Edit Taxonomies"
+msgstr "افزودن/ویرایش طبقه بندی ها"
+
+#: custom-post-type-ui.php:147 inc/listings.php:500
+msgid "Add/Edit Post Types"
+msgstr "افزودن/ویرایش انواع پست"
+
+#: inc/post-types.php:287
+msgid "Migrate posts to newly renamed post type?"
+msgstr "پست ها به نوع پست جدید تغییر نام داده منتقل شوند؟"
+
+#: inc/taxonomies.php:476
+msgid "Description"
+msgstr "توضیحات"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:952 inc/utility.php:698
+msgid "%s has failed to be deleted"
+msgstr "%s حذف نشد"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:950 inc/utility.php:683
+msgid "%s has been successfully deleted"
+msgstr "%s با موفقیت حذف شد"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:946 inc/utility.php:667
+msgid "%s has failed to be updated"
+msgstr "%s به روزرسانی نشد"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:944 inc/utility.php:652
+msgid "%s has been successfully updated"
+msgstr "%s با موفقیت به روزرسانی شد"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:940 inc/utility.php:636
+msgid "%s has failed to be added"
+msgstr "%s اضافه نشد"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:938 inc/utility.php:621
+msgid "%s has been successfully added"
+msgstr "%s با موفقیت اضافه شد"

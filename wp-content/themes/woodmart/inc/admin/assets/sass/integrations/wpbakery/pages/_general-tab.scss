@@ -1,0 +1,211 @@
+// ------------------------------------------------------------------------------------------------
+// GENERAL TAB
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------------
+// ELEMENTS
+// ------------------------------------------------------------------------------------------------
+
+@if $int-wpbakery {
+
+	// ------------------------------------------
+	// SECTION
+	// ------------------------------------------
+
+	[data-vc-shortcode*="vc_section"] {
+
+		[data-vc-shortcode-param-name="full_width"] {
+
+			&,
+			~ * {
+				order: 2;
+			}
+		}
+
+		[data-vc-shortcode-param-name="woodmart_stretch_content"] {
+			order: 1;
+		}
+	}
+
+	// ------------------------------------------
+	// ROW
+	// ------------------------------------------
+
+	[data-vc-shortcode*="vc_row"] {
+
+		[data-vc-shortcode-param-name="full_width"] {
+
+			&,
+			~ * {
+				order: 2;
+			}
+		}
+
+		[data-vc-shortcode-param-name="woodmart_stretch_content"] {
+			order: 1;
+		}
+	}
+
+	// ------------------------------------------
+	// COLUMN
+	// ------------------------------------------
+
+	[data-vc-shortcode*="vc_column"] {
+
+	// [data-vc-shortcode="vc_column"],
+	// [data-vc-shortcode="vc_column_inner"] {
+
+		[data-vc-shortcode-param-name="el_id"] {
+
+			&,
+			~ * {
+				order: 2;
+			}
+		}
+
+		[data-vc-shortcode-param-name="woodmart_color_scheme"] {
+			order: -2;
+		}
+
+		:is(
+		[data-vc-shortcode-param-name="woodmart_text_align"],
+		[data-vc-shortcode-param-name="vertical_alignment"],
+		[data-vc-shortcode-param-name="horizontal_alignment"]) {
+			order: -1;
+		}
+
+		:is(
+		[data-vc-shortcode-param-name="parallax_scroll"],
+		[data-vc-shortcode-param-name*="scroll_"],
+		[data-vc-shortcode-param-name*="woodmart_sticky_column"],
+		[data-vc-shortcode-param-name*="wd_collapsible_"],
+		[data-vc-shortcode-param-name*="wd_column_role"],
+		[data-vc-shortcode-param-name="wd_off_canvas_alignment"]) {
+			order: 1;
+		}
+
+		[data-vc-shortcode-param-name*="wd_column_role"] {
+
+			.wpb_element_label {
+
+				&:before {
+					margin-inline-end: 8px;
+					color: #BFBFBF;
+					font-weight: 400;
+					font-size: 15px;
+
+					@include font-icon-base;
+				}
+			}
+		}
+
+		:is(
+		[data-vc-shortcode-param-name*="wd_column_role_offcanvas_desktop"],
+		[data-vc-shortcode-param-name*="wd_column_role_content_desktop"]) {
+
+			.wpb_element_label {
+
+				&:before {
+					@include font-icon-content($xts-icon-desktop);
+				}
+			}
+		}
+
+		:is(
+		[data-vc-shortcode-param-name*="wd_column_role_offcanvas_tablet"],
+		[data-vc-shortcode-param-name*="wd_column_role_content_tablet"]) {
+
+			.wpb_element_label {
+
+				&:before {
+					@include font-icon-content($xts-icon-tablet);
+				}
+			}
+		}
+
+		:is(
+		[data-vc-shortcode-param-name*="wd_column_role_offcanvas_mobile"],
+		[data-vc-shortcode-param-name*="wd_column_role_content_mobile"]) {
+
+			.wpb_element_label {
+
+				&:before {
+					@include font-icon-content($xts-icon-phone);
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// WOODMART ANIMATIONS SELECTOR
+	// ------------------------------------------
+
+	.vc_param-animation-style-preview {
+
+		.vc_btn {
+			height: 36px;
+		}
+	}
+
+	.wd-slide-from-bottom,
+	.wd-slide-from-top,
+	.wd-slide-from-left,
+	.wd-slide-from-right,
+	.wd-left-flip-y,
+	.wd-right-flip-y,
+	.wd-top-flip-x,
+	.wd-bottom-flip-x,
+	.wd-zoom-in,
+	.wd-rotate-z {
+		transition: opacity .7s cubic-bezier(0, .87, .58, 1);
+
+		&:is(
+		.animated) {
+			animation-duration: .7s;
+			animation-timing-function: cubic-bezier(0, .87, .58, 1);
+		}
+	}
+
+	.wd-slide-from-top {
+		animation-name: wd-SlideFromTop;
+	}
+
+	.wd-slide-from-bottom {
+		animation-name: wd-SlideFromBottom;
+	}
+
+	.wd-slide-from-left {
+		animation-name: wd-SlideFromLeft;
+	}
+
+	.wd-slide-from-right {
+		animation-name: wd-SlideFromRight;
+	}
+
+	.wd-right-flip-y {
+		animation-name: wd-RightFlipY;
+	}
+
+	.wd-left-flip-y {
+		animation-name: wd-LeftFlipY;
+	}
+
+	.wd-top-flip-x {
+		animation-name: wd-TopFlipX;
+	}
+
+	.wd-bottom-flip-x {
+		animation-name: wd-BottomFlipX;
+	}
+
+	.wd-zoom-in {
+		animation-name: wd-ZoomIn-wpb;
+	}
+
+	.wd-rotate-z {
+		animation-name: wd-RotateZ;
+
+		will-change: animation;
+	}
+
+} // END IF

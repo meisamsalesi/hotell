@@ -1,0 +1,109 @@
+// ------------------------------------------------------------------------------------------------
+// FREQUENTLY BOUGHT TOGETHER
+// ------------------------------------------------------------------------------------------------
+
+@if $page-fbt {
+
+	.xts-bundle {
+		display: flex;
+		margin-bottom: 10px;
+
+		label {
+			font-weight: 600;
+		}
+
+		> div {
+
+			&:not(:last-child) {
+				margin-inline-end: 15px;
+			}
+		}
+	}
+
+	.xts-bundle-name {
+		width: 340px;
+	}
+
+	// .xts-bought-together-btn {
+	// 	margin-top: 15px;
+
+	// 	margin-inline-start: 6px;
+	// }
+
+	// ------------------------------------------------------------------------------------------------
+	// SINGLE PRODUCT OPTIONS
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-bought-together {
+		position: relative;
+
+		:is(
+		tbody,
+		.xts-bought-together-controls) {
+			z-index: 999999;
+			transition: all .3s ease;
+		}
+
+		&:before {
+			position: absolute;
+			top: calc(50% - 15px);
+			left: calc(50% - 15px);
+			z-index: 999999;
+			visibility: hidden;
+			opacity: 0;
+
+			@include loader(30px);
+		}
+
+		&.xts-loading {
+
+			:is(
+			tbody,
+			.xts-bought-together-controls) {
+				opacity: .5;
+				pointer-events: none;
+			}
+
+			&:before {
+				visibility: visible;
+				opacity: 1;
+				transition: all .3s ease;
+
+				@include act-loader;
+			}
+		}
+	}
+
+	.xts-bought-together-controls {
+
+		a {
+			display: inline-block;
+			margin-top: 10px;
+			margin-inline-start: 10px;
+		}
+
+		.select2-container--xts {
+			// --xts-input-width: 450px;
+
+			.select2-selection__arrow {
+
+				&:before {
+					top: 5px !important;
+				}
+			}
+		}
+
+		.form-field {
+
+			.select2-container--xts {
+				max-width: 450px !important;
+			}
+		}
+
+		.button {
+			margin-top: 15px;
+			margin-inline-start: 10px;
+		}
+	}
+
+} // END IF

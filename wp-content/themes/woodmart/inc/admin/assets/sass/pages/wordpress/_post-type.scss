@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------------------------------------
+// POST TYPE
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	// ------------------------------------------------------------------------------------
+	// XTS METABOXES
+	// ------------------------------------------------------------------------------------
+
+	.xts-metaboxes {
+
+		.xts-section {
+			margin-bottom: -40px;
+		}
+
+		.xts-set-btn-img {
+			flex-basis: 80px;
+		}
+
+		.postbox & {
+			box-shadow: none;
+		}
+	}
+
+	body.block-editor-page {
+
+		.xts-metaboxes {
+
+			.xts-box-content {
+				padding: 0;
+			}
+		}
+	}
+
+	body:not(.block-editor-page) {
+
+		.postbox {
+
+			.xts-metaboxes {
+
+				.xts-box-content {
+					padding: 12px 6px 6px 6px;
+				}
+			}
+		}
+	}
+
+} // END IF

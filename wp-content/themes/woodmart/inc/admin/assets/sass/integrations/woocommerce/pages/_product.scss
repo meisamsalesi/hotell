@@ -1,0 +1,578 @@
+// ------------------------------------------------------------------------------------------------
+// POST TYPE PRODUCT
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	// ------------------------------------------
+	// CAUNTDOWN STYLES
+	// ------------------------------------------
+
+	.ui-datepicker {
+
+		.ui-timepicker-div {
+
+			.ui-slider-handle {
+				top: -.2em;
+				border-radius: 3px;
+				background-color: #4D93D1;
+				cursor: pointer;
+
+				&:is(
+				:hover,
+				:focus) {
+					background-color: #3B7EB8;
+				}
+			}
+		}
+
+		.ui-datepicker-buttonpane {
+
+			button {
+				border-radius: 3px;
+			}
+		}
+	}
+
+	.ui-timepicker-div {
+
+		.ui-widget-header {
+			margin-bottom: 8px;
+		}
+
+		dl {
+			text-align: left;
+
+			dt {
+				float: left;
+				clear: left;
+				padding: 0 0 0 5px;
+			}
+
+			dd {
+				margin: 0 10px 10px 40%;
+			}
+
+			td {
+				font-size: 90%;
+			}
+		}
+
+		.ui_tpicker_unit_hide {
+			display: none;
+		}
+
+		.ui_tpicker_time {
+
+			.ui_tpicker_time_input {
+				width: 95%;
+				outline: none;
+				border: none;
+				border-bottom: solid 1px #555;
+				background: none;
+				color: inherit;
+
+				&:focus {
+					border-bottom-color: #AAA;
+				}
+			}
+		}
+	}
+
+	.ui-tpicker-grid-label {
+		margin: 0;
+		padding: 0;
+		border: none;
+		background: none;
+	}
+
+	.ui-timepicker-rtl {
+		direction: rtl;
+
+		dl {
+			padding: 0 5px 0 0;
+			text-align: right;
+
+			dt {
+				float: right;
+				clear: right;
+			}
+
+			dd {
+				margin: 0 40% 10px 10px;
+			}
+		}
+	}
+
+	.ui-timepicker-div {
+
+		&.ui-timepicker-oneLine {
+			padding-right: 2px;
+
+			:is(
+			dt,
+			.ui_tpicker_time) {
+				display: none;
+			}
+
+			.ui_tpicker_time_label {
+				display: block;
+				padding-top: 2px;
+			}
+
+			dl {
+				text-align: right;
+
+				dd,
+				dd > div {
+					display: inline-block; margin: 0;
+				}
+
+				dd {
+
+					&:is(
+					.ui_tpicker_minute,
+					.ui_tpicker_second) {
+
+						&:before {
+							content: ':';
+							display: inline-block;
+						}
+					}
+
+					&:is(
+					.ui_tpicker_millisec,
+					.ui_tpicker_microsec) {
+
+						&:before {
+							content: '.';
+							display: inline-block;
+						}
+					}
+				}
+			}
+
+			.ui_tpicker_unit_hide,
+			.ui_tpicker_unit_hide:before {
+				display: none;
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// 360 VIEW GALLERY SHOP
+	// ------------------------------------------
+
+	#woocommerce-product-360-images .inside {
+		margin: 0;
+		padding: 0;
+
+		.add_product_360_images {
+			padding: 0 12px 12px;
+		}
+
+		#product_360_images_container {
+			padding: 0 0 0 9px;
+
+			ul {
+				margin: 0;
+				padding: 0;
+
+				&:after {
+					content: " ";
+					display: table;
+					clear: both;
+				}
+
+				&:before {
+					content: " ";
+					display: table;
+				}
+
+				li {
+
+					&.add {
+						position: relative;
+						float: left;
+						box-sizing: border-box;
+						margin: 9px 9px 0 0;
+						width: 80px;
+						border: 1px solid #D5D5D5;
+						border-radius: 2px;
+						background: #F7F7F7;
+						cursor: move;
+
+						img {
+							display: block;
+							width: 100%;
+							height: auto;
+						}
+					}
+
+					&.image {
+						position: relative;
+						float: left;
+						box-sizing: border-box;
+						margin: 9px 9px 0 0;
+						width: 80px;
+						border: 1px solid #D5D5D5;
+						border-radius: 2px;
+						background: #F7F7F7;
+						cursor: move;
+
+						img {
+							display: block;
+							width: 100%;
+							height: auto;
+						}
+					}
+
+					&.wc-metabox-sortable-placeholder {
+						position: relative;
+						float: left;
+						box-sizing: border-box;
+						margin: 9px 9px 0 0;
+						width: 80px;
+						border: 1px solid #D5D5D5;
+						border: 3px dashed #DDD;
+						border-radius: 2px;
+						background: #F7F7F7;
+						cursor: move;
+
+						img {
+							display: block;
+							width: 100%;
+							height: auto;
+						}
+
+						&:after {
+							content: "\f161";
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							color: #DDD;
+							text-align: center;
+							font-weight: 400;
+							font-size: 2.618em;
+							font-family: Dashicons;
+							line-height: 72px;
+							-webkit-transform: translate(-50%, -50%);
+							transform: translate(-50%, -50%);
+						}
+					}
+
+					&:hover {
+
+						ul.actions {
+							display: block;
+						}
+					}
+				}
+
+				ul.actions {
+					position: absolute;
+					top: -8px;
+					right: -8px;
+					display: none;
+					padding: 2px;
+
+					li {
+						float: right;
+						margin: 0 0 0 2px;
+
+						a {
+							display: block;
+							overflow: hidden;
+							margin: 0;
+							width: 1em;
+							height: 0;
+
+							&.tips {
+								cursor: pointer;
+							}
+
+							&.delete {
+								position: relative;
+								display: block;
+								width: 1em;
+								height: 1em;
+								text-indent: -9999px;
+								font-size: 1.4em;
+
+								&:before {
+									content: "\f153";
+									position: absolute;
+									top: 0;
+									left: 0;
+									margin: 0;
+									width: 100%;
+									height: 100%;
+									border-radius: 50%;
+									background: #FFF;
+									color: #999;
+									text-align: center;
+									text-indent: 0;
+									text-transform: none;
+									font-weight: 400;
+									font-variant: normal;
+									font-family: Dashicons;
+									line-height: 1;
+									speak: none;
+								}
+
+								&:hover {
+
+									&:before {
+										color: #A00;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// VARITATION GALLERY
+	// ------------------------------------------
+
+	.woodmart-variation-gallery-images {
+
+		li {
+
+			&:is(
+			.image,
+			.wc-metabox-sortable-placeholder) {
+				position: relative;
+				float: left;
+				box-sizing: border-box;
+				margin: 0 9px 9px 0;
+				width: 80px;
+				border: 1px solid #D5D5D5;
+				border-radius: 2px;
+				background: #F7F7F7;
+				cursor: move;
+			}
+
+			&.image {
+
+				img {
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+
+				&:hover {
+
+					.delete {
+						display: block;
+					}
+				}
+			}
+
+			&.wc-metabox-sortable-placeholder {
+				overflow: hidden;
+				border: 3px dashed #DDD;
+
+				&:after {
+					content: "\f161";
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					color: #DDD;
+					text-align: center;
+					font-weight: 400;
+					font-size: 2.618em;
+					font-family: Dashicons;
+					line-height: 72px;
+					-webkit-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+				}
+			}
+
+			.delete {
+				position: absolute;
+				top: -8px;
+				right: -8px;
+				display: none;
+				padding: 1px;
+				text-decoration: none;
+
+				span {
+
+					&:before {
+						border-radius: 50%;
+						background-color: #FFF;
+						color: #333;
+						font-size: 8px;
+						width: 15px;
+						height: 15px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						box-shadow: 0 1px 3px 1px rgba(0, 0, 0, .2);
+					}
+				}
+
+				&:hover {
+
+					span {
+
+						&:before {
+							color: #A00;
+						}
+					}
+				}
+			}
+		}
+
+		&:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
+	}
+
+	// ------------------------------------------
+	// PROGUCT GALLERY VIDEO
+	// ------------------------------------------
+
+	.xts-product-gallery-video {
+
+		&:is(
+		.xts-edit-video,
+		.xts-add-video) {
+
+			&.xts-active {
+				opacity: .5;
+			}
+		}
+
+		&.xts-edit-video {
+
+			&:before {
+				@include font-icon-content($xts-icon-edit-write);
+			}
+		}
+	}
+
+	//**** POPUP ****//
+
+	.xts-popup-product-gallery {
+
+		.xts-upload-preview {
+			display: none;
+		}
+
+		.xts-popup-content {
+			padding-bottom: 0;
+
+			&:before,
+			&:after {
+				display: none;
+			}
+		}
+
+		&.xts-loading {
+
+			:is(
+			.xts-set-btn,
+			.xts-switcher-btn
+			.xts-switcher-dot-wrap) {
+				transition: none !important;
+			}
+
+			.xts-field {
+				animation: none;
+				opacity: 0;
+			}
+		}
+
+		:is(
+		.xts-gallery_hide_gallery_img-field,
+		.xts-gallery_autoplay-field) { // NOTE ALIGN SWITCHER TO BUTTON SWITCH
+
+			.xts-option-control {
+				display: flex;
+				align-items: center;
+				min-height: 41px;
+			}
+		}
+	}
+
+	//**** MAIN IMAGE ****//
+
+	.xts-product-video-wrapp {
+
+		#postimagediv & {
+			padding: 10px;
+		}
+	}
+
+	//**** PRODUCT GALLERY ****//
+
+	#woocommerce-product-images {
+		// display: none !important;
+
+		.xts-product-gallery-video {
+			position: absolute;
+			left: -1px;
+			right: -1px;
+			bottom: -1px;
+			height: 20px;
+			padding: 3px 5px;
+			border-radius: 0;
+			transition: .2s background-color ease-in-out !important;
+			// transition: none;
+
+			&.xts-add-video {
+				opacity: 0;
+				visibility: hidden;
+
+				&.xts-active {
+					opacity: .5;
+					visibility: visible;
+				}
+			}
+		}
+
+		.product_images {
+
+			> .image {
+
+				&:hover {
+
+					.xts-product-gallery-video {
+
+						&.xts-add-video {
+							opacity: 1;
+							visibility: visible;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// FREQUENTLY BOUGHT TOGETHER
+	// ------------------------------------------
+
+	#woocommerce-product-data .wc-tabs {
+
+		.woodmart_bought_together_tab {
+
+			a {
+
+				&:before {
+					font-size: 12px;
+
+					@include font-icon($xts-icon-fbt);
+				}
+			}
+		}
+	}
+
+}

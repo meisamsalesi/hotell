@@ -1,0 +1,1 @@
+.wd-review-likes .wd-like{margin-inline-end:8px}.wd-review-likes .wd-like:is(:hover,.wd-active){--action-btn-color: #83b735;--action-btn-hover-color: #83b735}.wd-review-likes .wd-dislike:is(:hover,.wd-active){--action-btn-color: #E01020;--action-btn-hover-color: #E01020}.wd-like-icon>a:before{content:"\e906"}.wd-dislike-icon>a:before{content:"\e907"}

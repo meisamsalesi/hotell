@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php": "^7.4",
+        "morilog/jalali": "^3.4"
+    }
+}

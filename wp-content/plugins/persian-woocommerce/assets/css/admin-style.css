@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+    url('../fonts/Vazirmatn[wght].woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+#wpbody, h1, h2, h3, h4, h5, h6 {
+    font-family: Vazirmatn, serif !important;
+}
+
+.persian-woocommerce {
+    background: #fff;
+    font-family: Vazirmatn;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px #ddd;
+    -webkit-box-shadow: 0 0 30px #ddd;
+    -moz-box-shadow: 0 0 30px #ddd;
+    border: 1px solid #e4e4e4;
+}
+
+.persian-woocommerce h1, .persian-woocommerce h2, .persian-woocommerce h3, .persian-woocommerce h4, .persian-woocommerce h5, .persian-woocommerce h6 {
+    font-family: Vazirmatn !important;
+}
+
+
+.persian-woocommerce img.logo {
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.persian-woocommerce .clear {
+    clear: both;
+}
+
+.persian-woocommerce hr.pwoo_line {
+    border-top: 1px dashed #8c8b8b;
+    border-bottom: 1px dashed #fff;
+}
+
+.persian-woocommerce .float-left-buttons {
+    float: left;
+}
+
+.persian-woocommerce .nav-tab {
+    border-radius: 9px;
+    border-bottom: 3px solid #080809 !important;
+    background: #f4f4fb !important;
+}
+
+.persian-woocommerce .nav-tab-active {
+    border-bottom: 3px solid #080809 !important;
+    background: #6666c8 !important;
+    color: #fff !important;
+    border-radius: 9px;
+}
+
+.persian-woocommerce .nav-tab-wrapper {
+    border-bottom: none !important;
+}
+
+.right-side-pwoo {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .persian-woocommerce {
+        width: 65%;
+        float: right;
+    }
+
+    .right-side-pwoo {
+        width: 27%;
+        display: inline;
+        float: right;
+        padding: 5px;
+        font-family: Vazirmatn;
+
+
+    }
+
+    .right-side-pwoo h3 {
+        font-family: Vazirmatn;
+        margin: none;
+        margin-top: 12px;
+    }
+
+    .right-side-pwoo img.tblq {
+        max-width: 400px;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 18px;
+        display: block;
+        border: 1px solid #e4e4e4;
+    }
+}
+
+
+.col {
+    width: 45%;
+}
+
+.two-col {
+    clear: both;
+}
+
+.two-col .col {
+    width: 45%;
+    float: right;
+    padding: 1%;
+}
+
+.feature-section, .changelog {
+    clear: both;
+}
+
+.persian-woocommerce .about-wrap h1, .persian-woocommerce .about-wrap h2, .persian-woocommerce .about-wrap h3, .persian-woocommerce .about-wrap h4, .persian-woocommerce .about-wrap h5 {
+    font-family: Vazirmatn !important;
+}
+
+.about-wrap img {
+    width: auto;
+}
+
+.persian-woocommerce ul {
+
+    list-style: square;
+}
+
+.persian-woocommerce form .notice {
+    display: none !important
+}
+
+
+.promote_hosting {
+    padding: 24px 16px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    background: #6666c8;
+    margin: 5px 15px 2px;
+}
+
+.promote_hosting .promote-hosting {
+    display: contents;
+    font-size: 3.25rem;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.promote_hosting h3 {
+    color: #fff;
+}
+
+.right-side-pwoo .notice img {
+    vertical-align: bottom;
+}
+
+.feature-section div {
+    width: 46%;
+    padding: 2%;
+    float: right;
+}

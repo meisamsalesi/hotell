@@ -1,0 +1,86 @@
+// ------------------------------------------------------------------------------------------------
+// WPB DATE PICKER
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-date-picker {
+
+	div.ui-datepicker {
+		margin-top: 12px;
+
+		.ui-datepicker-header {
+			border: none;
+			border-radius: 0;
+			background-color: #F3F3F3;
+			background-image: none;
+
+			.ui-corner-all {
+				border-radius: 0;
+				cursor: pointer;
+			}
+
+			.ui-state-hover {
+				border: none;
+				background-image: none;
+			}
+
+			.ui-icon {
+				background-image: none;
+				// font-size: 0;
+			}
+
+			:is(
+			.ui-datepicker-next,
+			.ui-datepicker-prev) {
+
+				.ui-icon {
+					display: none !important;
+				}
+
+				&:before {
+					position: absolute;
+					top: 5px;
+					left: 5px;
+					display: block;
+					width: 20px;
+					height: 20px;
+					font-weight: 400;
+					font-size: 16px;
+					font-family: dashicons;
+				}
+			}
+
+			.ui-datepicker-next {
+
+				&:before {
+					content: "\f345";
+				}
+			}
+
+			.ui-datepicker-prev {
+
+				&:before {
+					content: "\f341";
+				}
+			}
+		}
+
+		.ui-state-default {
+			border: none;
+			background-color: #F3F3F3;
+			background-image: none;
+
+			&:is(
+			.ui-state-hover,
+			.ui-state-active) {
+				background-color: #E0E0E0;
+				color: #000;
+			}
+		}
+
+		.ui-state-highlight {
+			background-color: $woodmart-button-color;
+			color: #FFF;
+		}
+	}
+
+} // END IF

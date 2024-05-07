@@ -1,0 +1,1 @@
+.wd-text-block:not(.inline-element){max-width:var(--content-width);--content-width: var(--wd-max-width)}.wd-text-block:not(.inline-element).text-left{margin-right:auto}.wd-text-block:not(.inline-element).text-center{margin-right:auto;margin-left:auto}.wd-text-block:not(.inline-element).text-right{margin-left:auto}

@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "id": "image_377",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/accessories/wp-content/uploads/sites/5/2022/09/mag-safe-case-category.jpg"
+    },
+    {
+      "id": "image_378",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/accessories/wp-content/uploads/sites/5/2022/09/fabric-case-category.jpg"
+    },
+    {
+      "id": "image_379",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/accessories/wp-content/uploads/sites/5/2022/09/silicone-case-category.jpg"
+    }
+  ]
+}

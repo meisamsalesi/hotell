@@ -1,0 +1,125 @@
+// ------------------------------------------------------------------------------------------------
+// XTS UPLOAD
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-upload {
+
+	.xts-upload-preview {
+		position: relative;
+		display: inline-flex;
+		flex-wrap: wrap;
+		vertical-align: top;
+		cursor: pointer;
+
+		img {
+			display: inline-block;
+			padding: 2px;
+			// max-width: 100%;
+			max-height: 35px;
+			width: 100%;
+			border: 1px solid var(--xts-option-border-color);
+			border-radius: var(--xts-option-border-radius);
+			// background-color: #FFF;
+			background-color: #F9F9F9;
+			object-fit: contain;
+			transition: all .2s ease-in-out;
+		}
+
+		> div[data-attachment_id] {
+			position: relative;
+
+			&:not(:first-child) {
+				margin-inline-start: 3px;
+			}
+		}
+
+		.xts-remove {
+			position: absolute;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			color: var(--xts-btn-warning-color);
+			text-decoration: none;
+			opacity: 0;
+			background-color: rgba(0,0,0,.15);
+			border-radius: var(--xts-option-border-radius);
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+
+		&:hover {
+
+			img {
+				border-color: var(--xts-option-border-color-darker-10);
+			}
+		}
+	}
+
+	.xts-upload-btns {
+		display: inline-flex;
+		margin-top: 0 !important;
+		vertical-align: top;
+
+		.xts-btn {
+
+			&:first-child {
+				margin-inline-end: calc(var(--xts-option-space) / 2);
+			}
+		}
+	}
+
+	.xts-remove-upload-btn {
+		display: none;
+
+		&.xts-active {
+			display: inline-flex;
+		}
+	}
+
+	.xts-bg-source {
+		display: flex;
+
+		:is(
+		.xts-upload-preview img,
+		.xts-upload-btns ){
+			margin-inline-start: calc(var(--xts-option-space) / 2);
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// WHB UPLOAD
+// ------------------------------------------------------------------------------------------------
+
+@if $whb-cont-upload {
+
+	.whb-imagepicker {
+
+		.xts-btn {
+			margin-inline-end: 8px;
+		}
+	}
+
+	.whb-imagepicker-preview {
+		display: inline-block;
+		margin-inline-end: 8px;
+		padding: 2px;
+		max-height: var(--xts-input-height);
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-option-border-radius);
+		background-color: #F9F9F9;
+		cursor: pointer;
+
+		&:hover {
+			color: var(--xts-option-border-color-darker-10);
+		}
+	}
+
+} // END IF

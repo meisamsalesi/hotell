@@ -1,0 +1,790 @@
+// ------------------------------------------------------------------------------------
+// ICON FONT
+// ------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// XTS FONT ICON VARIABLES
+// ------------------------------------------
+
+$xts-icon-check: \e900;
+$xts-icon-help-question: \e901;
+$xts-icon-alert-information: \e902;
+$xts-icon-alert-warning: \e903;
+$xts-icon-round-left: \e904;
+$xts-icon-round-right: \e905;
+$xts-icon-button-up: \e906;
+$xts-icon-button-down: \e907;
+$xts-icon-button-left: \e908;
+$xts-icon-button-right: \e909;
+$xts-icon-arrow-left: \e912;
+$xts-icon-arrow-right: \e913;
+$xts-icon-expand: \e914;
+$xts-icon-cart: \e915;
+$xts-icon-bag: \e916;
+$xts-icon-heart: \e917;
+$xts-icon-compare: \e918;
+$xts-icon-brush: \e919;
+$xts-icon-book-edit: \e920;
+$xts-icon-edit-write: \e921;
+$xts-icon-check-all: \e922;
+$xts-icon-uncheck-all: \e923;
+$xts-icon-validation-check: \e924;
+$xts-icon-add: \e925;
+$xts-icon-close: \e927;
+$xts-icon-delete-bin: \e928;
+$xts-icon-export: \e929;
+$xts-icon-import: \e930;
+$xts-icon-general: \e931;
+$xts-icon-typography: \e932;
+$xts-icon-portfolio: \e933;
+$xts-icon-portfolio-fill: \e94c;
+$xts-icon-content-archive: \e934;
+$xts-icon-login: \e935;
+$xts-icon-social: \e936;
+$xts-icon-setting-cog: \e937;
+$xts-icon-performance: \e938;
+$xts-icon-setting-wrench: \e939;
+$xts-icon-tag: \e940;
+$xts-icon-file-code-css: \e941;
+$xts-icon-file-code-js: \e942;
+$xts-icon-setting-slider-in-square: \e943;
+$xts-icon-module-puzzle: \e944;
+$xts-icon-key: \e945;
+$xts-icon-setting-slider: \e946;
+$xts-icon-setting-slider-fill: \e94d;
+$xts-icon-script-code: \e947;
+$xts-icon-status: \e948;
+$xts-icon-view: \e950;
+$xts-icon-search: \e951;
+$xts-icon-flag: \e952;
+$xts-icon-clock: \e953;
+$xts-icon-hamburger-circle: \e954;
+$xts-icon-dropdown: \e955;
+$xts-icon-account: \e956;
+$xts-icon-html-block: \e957;
+$xts-icon-html-block-fill: \e94e;
+$xts-icon-text-html: \e958;
+$xts-icon-button: \e959;
+$xts-icon-divider: \e960;
+$xts-icon-main-menu: \e961;
+$xts-icon-menu: \e962;
+$xts-icon-translate: \e963;
+$xts-icon-layout: \e964;
+$xts-icon-sidebar-right: \e966;
+$xts-icon-sidebar-right-fill: \e95b;
+$xts-icon-page-title: \e967;
+$xts-icon-header: \e968;
+$xts-icon-footer: \e969;
+$xts-icon-dashboard: \e970;
+$xts-icon-layers: \e971;
+$xts-icon-layers-fill: \e978;
+$xts-icon-layers-2: \e972;
+$xts-icon-layers-2-fill: \e979;
+$xts-icon-file-text: \e96d;
+$xts-icon-menu-vertical: \e96a;
+$xts-icon-star-lined: \e96b;
+$xts-icon-star-solid: \e96c;
+$xts-icon-spacer: \e96e;
+$xts-icon-desktop: \e973;
+$xts-icon-tablet: \e974;
+$xts-icon-phone: \e975;
+$xts-icon-desktop-dis: \e980;
+$xts-icon-phone-dis: \e981;
+$xts-icon-logo-woodmart: \e976;
+$xts-icon-mail-fill: \e97a;
+$xts-icon-save: \e93e;
+$xts-icon-update: \e93f;
+$xts-icon-global: \e94a;
+$xts-icon-image: \e94f;
+$xts-icon-fbt: \e95c;
+$xts-icon-sticky-nav: \e95d;
+
+$xts-icon-logo-youtube: \e977;
+$xts-icon-logo-facebook: \e90a;
+$xts-icon-logo-instagram: \e90b;
+$xts-icon-logo-twitter: \e90c;
+$xts-icon-logo-pinterest: \e90d;
+$xts-icon-logo-youtube-o: \e90e;
+$xts-icon-logo-tumblr: \e90f;
+$xts-icon-logo-linkedin: \e91a;
+$xts-icon-logo-vimeo: \e91b;
+$xts-icon-logo-flickr: \e91c;
+$xts-icon-logo-github: \e91d;
+$xts-icon-logo-dribbble: \e91e;
+$xts-icon-logo-behance: \e91f;
+$xts-icon-logo-soundcloud: \e92a;
+$xts-icon-logo-spotify: \e92b;
+$xts-icon-logo-ok: \e92c;
+$xts-icon-logo-vk: \e92d;
+$xts-icon-logo-whatsapp: \e92e;
+$xts-icon-logo-snapchat: \e92f;
+$xts-icon-logo-telegram: \e93a;
+$xts-icon-logo-tiktok: \e93b;
+$xts-icon-logo-viber: \e93c;
+$xts-icon-logo-xtemos: \e93d;
+$xts-icon-logo-google: \e94b;
+
+// ------------------------------------------
+// MIXIN
+// ------------------------------------------
+
+@function icon-name($i) {
+	@return unquote("\"#{ $i }\"");
+}
+
+@mixin font-icon-content($i) {
+	content: unquote("\"#{ $i }\"");
+}
+
+@mixin font-icon-base {
+	// vertical-align: middle;і
+	font-weight: 400;
+	font-family: "xts-icon-font";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin font-icon($i) {
+	@include font-icon-content($i);
+	@include font-icon-base;
+}
+
+// ------------------------------------------
+// XTS FONT
+// ------------------------------------------
+
+@if $base-icon-font {
+
+	//**** FONT ****//
+
+	@font-face {
+		font-weight: normal;
+		font-style: normal;
+		font-family: "xts-icon-font";
+		src: url("../../fonts/xts-icon-font.woff2") format("woff2");
+	}
+
+	//**** CLASSES ****//
+
+	[class*="xts-i-"] {
+
+		&:before {
+			@include font-icon-base;
+		}
+	}
+
+	.xts-i-help-question {
+
+		&:before {
+			@include font-icon-content($xts-icon-help-question);
+		}
+	}
+
+	.xts-i-theme-settings {
+
+		&:before {
+			@include font-icon-content($xts-icon-setting-slider);
+		}
+	}
+
+	.xts-i-dummy-content {
+
+		&:before {
+			@include font-icon-content($xts-icon-dashboard);
+		}
+	}
+
+	.xts-i-key {
+
+		&:before {
+			@include font-icon-content($xts-icon-key);
+		}
+	}
+
+	.xts-i-tools {
+
+		&:before {
+			@include font-icon-content($xts-icon-setting-wrench);
+		}
+	}
+
+	.xts-i-header-builder {
+
+		&:before {
+			@include font-icon-content($xts-icon-header);
+		}
+	}
+
+	.xts-i-layouts {
+
+		&:before {
+			@include font-icon-content($xts-icon-layers);
+		}
+	}
+
+	.xts-i-slides {
+
+		&:before {
+			@include font-icon-content($xts-icon-layers-2);
+		}
+	}
+
+	.xts-i-sidebars {
+
+		&:before {
+			@include font-icon-content($xts-icon-sidebar-right);
+		}
+	}
+
+	.xts-i-cog {
+
+		&:before {
+			@include font-icon-content($xts-icon-setting-cog);
+		}
+	}
+
+	.xts-i-trash {
+
+		&:before {
+			@include font-icon-content($xts-icon-delete-bin);
+		}
+	}
+
+	.xts-i-add {
+
+		&:before {
+			@include font-icon-content($xts-icon-add);
+		}
+	}
+
+	.xts-i-search {
+
+		&:before {
+			@include font-icon-content($xts-icon-search);
+		}
+	}
+
+	.xts-i-home {
+
+		&:before {
+			@include font-icon-content($xts-icon-general);
+		}
+	}
+
+	.xts-i-layout {
+
+		&:before {
+			@include font-icon-content($xts-icon-layout);
+		}
+	}
+
+	.xts-i-page-title {
+
+		&:before {
+			@include font-icon-content($xts-icon-page-title);
+		}
+	}
+
+	.xts-i-footer {
+
+		&:before {
+			@include font-icon-content($xts-icon-footer);
+		}
+	}
+
+	.xts-i-typography {
+
+		&:before {
+			@include font-icon-content($xts-icon-typography);
+		}
+	}
+
+	.xts-i-brush {
+
+		&:before {
+			@include font-icon-content($xts-icon-brush);
+		}
+	}
+
+	.xts-i-book-edit {
+
+		&:before {
+			@include font-icon-content($xts-icon-book-edit);
+		}
+	}
+
+	.xts-i-portfolio {
+
+		&:before {
+			@include font-icon-content($xts-icon-portfolio);
+		}
+	}
+
+	.xts-i-cart {
+
+		&:before {
+			@include font-icon-content($xts-icon-cart);
+		}
+	}
+
+	.xts-i-compare {
+
+		&:before {
+			@include font-icon-content($xts-icon-compare);
+		}
+	}
+
+	.xts-i-sticky-nav {
+
+		&:before {
+			@include font-icon-content($xts-icon-sticky-nav);
+		}
+	}
+
+	.xts-i-archive {
+
+		&:before {
+			@include font-icon-content($xts-icon-content-archive);
+		}
+	}
+
+	.xts-i-bag {
+
+		&:before {
+			@include font-icon-content($xts-icon-bag);
+		}
+	}
+
+	.xts-i-login {
+
+		&:before {
+			@include font-icon-content($xts-icon-login);
+		}
+	}
+
+	.xts-i-social {
+
+		&:before {
+			@include font-icon-content($xts-icon-social);
+		}
+	}
+
+	.xts-i-performance {
+
+		&:before {
+			@include font-icon-content($xts-icon-performance);
+		}
+	}
+
+	.xts-i-tag {
+
+		&:before {
+			@include font-icon-content($xts-icon-tag);
+		}
+	}
+
+	.xts-i-file-code-css {
+
+		&:before {
+			@include font-icon-content($xts-icon-file-code-css);
+		}
+	}
+
+	.xts-i-file-code-js {
+
+		&:before {
+			@include font-icon-content($xts-icon-file-code-js);
+		}
+	}
+
+	.xts-i-setting-slider-in-square {
+
+		&:before {
+			@include font-icon-content($xts-icon-setting-slider-in-square);
+		}
+	}
+
+	.xts-i-round-left {
+
+		&:before {
+			@include font-icon-content($xts-icon-round-left);
+		}
+	}
+
+	.xts-i-round-right {
+
+		&:before {
+			@include font-icon-content($xts-icon-round-right);
+		}
+	}
+
+	.xts-i-puzzle {
+
+		&:before {
+			@include font-icon-content($xts-icon-module-puzzle);
+		}
+	}
+
+	.xts-i-code {
+
+		&:before {
+			@include font-icon-content($xts-icon-script-code);
+		}
+	}
+
+	.xts-i-status {
+
+		&:before {
+			@include font-icon-content($xts-icon-status);
+		}
+	}
+
+	.xts-i-check {
+
+		&:before {
+			@include font-icon-content($xts-icon-check);
+		}
+	}
+
+
+	.xts-i-check-all {
+
+		&:before {
+			@include font-icon-content($xts-icon-check-all);
+		}
+	}
+
+	.xts-i-uncheck-all {
+
+		&:before {
+			@include font-icon-content($xts-icon-uncheck-all);
+		}
+	}
+
+	.xts-i-uncheck-all {
+
+		&:before {
+			@include font-icon-content($xts-icon-uncheck-all);
+		}
+	}
+
+	.xts-i-close {
+
+		&:before {
+			@include font-icon-content($xts-icon-close);
+		}
+	}
+
+	.xts-i-view {
+
+		&:before {
+			@include font-icon-content($xts-icon-view);
+		}
+	}
+
+	.xts-i-file-text {
+
+		&:before {
+			@include font-icon-content($xts-icon-file-text);
+		}
+	}
+
+	.xts-i-import {
+
+		&:before {
+			@include font-icon-content($xts-icon-import);
+		}
+	}
+
+	.xts-i-export {
+
+		&:before {
+			@include font-icon-content($xts-icon-export);
+		}
+	}
+
+	.xts-i-expand {
+
+		&:before {
+			@include font-icon-content($xts-icon-expand);
+		}
+	}
+
+	.xts-i-flag {
+
+		&:before {
+			@include font-icon-content($xts-icon-flag);
+		}
+	}
+
+	.xts-i-alert-info {
+
+		&:before {
+			@include font-icon-content($xts-icon-alert-information);
+		}
+	}
+
+	.xts-i-clock {
+
+		&:before {
+			@include font-icon-content($xts-icon-clock);
+		}
+	}
+
+	.xts-i-alert-warning {
+
+		&:before {
+			@include font-icon-content($xts-icon-alert-warning);
+		}
+	}
+
+	.xts-i-edit-write {
+
+		&:before {
+			@include font-icon-content($xts-icon-edit-write);
+		}
+	}
+
+	.xts-i-edit-menu-vertical {
+
+		&:before {
+			@include font-icon-content($xts-icon-menu-vertical);
+		}
+	}
+
+	.xts-i-star-lined {
+
+		&:before {
+			@include font-icon-content($xts-icon-star-lined);
+		}
+	}
+
+	.xts-i-star-solid {
+
+		&:before {
+			@include font-icon-content($xts-icon-star-solid);
+		}
+	}
+
+	.xts-i-desktop {
+
+		&:before {
+			@include font-icon-content($xts-icon-desktop);
+		}
+	}
+
+	.xts-i-tablet {
+
+		&:before {
+			@include font-icon-content($xts-icon-tablet);
+		}
+	}
+
+	.xts-i-phone {
+
+		&:before {
+			@include font-icon-content($xts-icon-phone);
+		}
+	}
+
+	.xts-i-desktop-dis {
+
+		&:before {
+			@include font-icon-content($xts-icon-desktop-dis);
+		}
+	}
+
+	.xts-i-phone-dis {
+
+		&:before {
+			@include font-icon-content($xts-icon-phone-dis);
+		}
+	}
+
+	.xts-i-arrow-left {
+
+		&:before {
+			@include font-icon-content($xts-icon-arrow-left);
+		}
+	}
+
+	.xts-i-arrow-right {
+
+		&:before {
+			@include font-icon-content($xts-icon-arrow-right);
+		}
+	}
+
+	.xts-i-logo {
+
+		&:before {
+			@include font-icon-content($xts-icon-logo-woodmart);
+		}
+	}
+
+	.xts-i-heart {
+
+		&:before {
+			@include font-icon-content($xts-icon-heart);
+		}
+	}
+
+	.xts-i-main-menu {
+
+		&:before {
+			@include font-icon-content($xts-icon-main-menu);
+		}
+	}
+
+	.xts-i-menu {
+
+		&:before {
+			@include font-icon-content($xts-icon-menu);
+		}
+	}
+
+	.xts-i-burger-circle {
+
+		&:before {
+			@include font-icon-content($xts-icon-hamburger-circle);
+		}
+	}
+
+	.xts-i-account {
+
+		&:before {
+			@include font-icon-content($xts-icon-account);
+		}
+	}
+
+	.xts-i-dropdown {
+
+		&:before {
+			@include font-icon-content($xts-icon-dropdown);
+		}
+	}
+
+	.xts-i-divider {
+
+		&:before {
+			@include font-icon-content($xts-icon-divider);
+		}
+	}
+
+	.xts-i-spacing {
+
+		&:before {
+			@include font-icon-content($xts-icon-spacer);
+		}
+	}
+
+	.xts-i-html-block {
+
+		&:before {
+			@include font-icon-content($xts-icon-html-block);
+		}
+	}
+
+	.xts-i-text-html {
+
+		&:before {
+			@include font-icon-content($xts-icon-text-html);
+		}
+	}
+
+	.xts-i-button {
+
+		&:before {
+			@include font-icon-content($xts-icon-button);
+		}
+	}
+
+	.xts-i-translate {
+
+		&:before {
+			@include font-icon-content($xts-icon-translate);
+		}
+	}
+
+	.xts-i-button-left {
+
+		&:before {
+			@include font-icon-content($xts-icon-button-left);
+		}
+	}
+
+	.xts-i-button-right {
+
+		&:before {
+			@include font-icon-content($xts-icon-button-right);
+		}
+	}
+
+	.xts-i-save {
+
+		&:before {
+			@include font-icon-content($xts-icon-save);
+		}
+	}
+
+	.xts-i-update {
+
+		&:before {
+			@include font-icon-content($xts-icon-update);
+		}
+	}
+
+	.xts-i-global {
+
+		&:before {
+			@include font-icon-content($xts-icon-global);
+		}
+	}
+
+	.xts-i-image {
+
+		&:before {
+			@include font-icon-content($xts-icon-image);
+		}
+	}
+
+	// ------------------------------------------
+	// SOCIAL
+	// ------------------------------------------
+
+	// .xts-i-logo-xtemos {
+
+	// 	&:before {
+	// 		@include font-icon-content($xts-icon-logo-xtemos);
+	// 	}
+	// }
+
+	.xts-i-google {
+
+		&:before {
+			@include font-icon-content($xts-icon-logo-google);
+		}
+	}
+
+	.xts-i-vk {
+
+		&:before {
+			@include font-icon-content($xts-icon-logo-vk);
+		}
+	}
+
+	.xts-i-facebook {
+
+		&:before {
+			@include font-icon-content($xts-icon-logo-facebook);
+		}
+	}
+
+	.xts-i-telegram {
+
+		&:before {
+			@include font-icon-content($xts-icon-logo-telegram);
+		}
+	}
+
+} // END IF

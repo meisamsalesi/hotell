@@ -1,0 +1,316 @@
+// ------------------------------------------------------------------------------------------------
+// DEVICES SWITHCER
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	// ------------------------------------------------------------------------------------------------
+	// OPTION TABS
+	// ------------------------------------------------------------------------------------------------
+
+	// ------------------------------------------
+	// STYLE DEVICES
+	// ------------------------------------------
+
+	.xts-tabs {
+
+		&.wd-style-devices {
+			position: relative;
+
+			.xts-tabs-header {
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 0;
+				z-index: $z-layer-1;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				pointer-events: none;
+
+				h3 {
+					flex-grow: 1;
+					visibility: hidden;
+					margin-inline-end: 15px;
+					margin-bottom: 0;
+					opacity: 0;
+
+					@extend %option-title-label;
+				}
+			}
+
+			.xts-nav-tabs {
+				margin-right: -10px;
+				margin-left: -10px;
+				pointer-events: auto;
+
+				li {
+
+					a {
+						padding: 0 7px 0 7px;
+
+						&:before {
+							color: #BFBFBF;
+						}
+					}
+
+					&.wd-active {
+
+						a {
+							color: var(--xts-primary-color);
+
+							&:before {
+								color: inherit;
+							}
+						}
+					}
+
+					&:not(.wd-active) {
+
+						&:hover {
+
+							a {
+								opacity: .6;
+							}
+						}
+					}
+				}
+			}
+
+			.xts-group {
+				border-radius: 0;
+
+				--xts-group-sp: 0;
+				--xts-group-bg-color: transparent;
+				--xts-option-border-color: inherit;
+			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// WPB BUTTON SWITHCER WITH TABS DEVICES STYLE
+	// ------------------------------------------------------------------------------------------------
+
+	//**** CUSTOM CONTENT WIDTH OPTIONS SET ****//
+
+	.vc_column.wd-custom-width {
+
+		.wd-select-buttons {
+			position: absolute;
+			top: 1px;
+			// background-color: #FFF;
+			inset-inline-end: 15px;
+			z-index: $z-layer-6;
+			padding: 0;
+			border: none;
+			border-radius: 0;
+			background-color: transparent;
+
+			--xts-input-height: auto;
+
+			// .woodmart-td-content & {
+			// 	background-color: #F7F7F7;
+			// }
+		}
+
+		.vc-button-set-item {
+			padding: 0;
+			background-color: transparent !important;
+
+			@extend %xts-devices-tabs;
+
+			span {
+				line-height: 1;
+			}
+
+			&.xts-active {
+				color: var(--xts-secondary-color) !important;
+			}
+		}
+
+		.vc_column {
+			animation: wd-fadeInTooltip .5s ease;
+		}
+	}
+
+	.woodmart-td-content {
+
+		.wd-custom-width {
+			margin-bottom: 0 !important;
+		}
+	}
+
+	.vc_edit-form-tab {
+
+		> .wd-custom-width {
+			margin-bottom: 0 !important;
+
+			~ .wpb_el_type_woodmart_slider {
+				margin-top: -15px;
+				padding-top: 0 !important;
+			}
+		}
+	}
+
+	// .wd-res-control {
+
+	// 	~ .wd-res-item {
+	// 		margin-top: 15px !important;
+	// 	}
+	// }
+
+	// ------------------------------------------------------------------------------------------------
+	// WPB RANGE SLIDER DEVICES SWITHCER
+	// ------------------------------------------------------------------------------------------------
+
+	.wd-field-devices {
+		position: absolute;
+		top: 0;
+		inset-inline-end: 15px;
+		z-index: $z-layer-6;
+		display: flex;
+		align-items: center;
+		// background-color: #FFF;
+		line-height: 1;
+		text-transform: capitalize;
+		// position: absolute;
+		// top: -45px;
+		// right: 0 !important;
+		// // margin-bottom: 15px;
+
+		> span {
+			@extend %xts-devices-tabs;
+		}
+
+		// .woodmart-td-content & {
+		// 	background-color: #F7F7F7;
+		// }
+
+		:is(
+		.vc_col-xs-6,
+		.vc_col-sm-6) & {
+
+			.wd-device {
+
+				span {
+					display: none;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// MEDIA 1200 AND UP
+// ------------------------------------------
+
+// @mixin R-XL-UP__elements__option-tabs {
+
+// 	// ------------------------------------------
+// 	// STYLE DEVICES
+// 	// ------------------------------------------
+
+// 	.xts-tabs {
+
+// 		&.xts-style-devices {
+
+// 			// #addtag &,
+// 			// #edittag & {
+
+// 			// 	.xts-btns-set {
+// 			// 		position: absolute;
+// 			// 		top: 0;
+// 			// 		right: 15px;
+// 			// 		z-index: 5;
+// 			// 		justify-content: flex-end;
+// 			// 	}
+// 			// }
+
+// 			// .xts-metaboxes &,
+// 			// .xts-theme-style & {
+
+// 			// 	.xts-btns-set {
+// 			// 		margin-left: 30%;
+// 			// 	}
+// 			// }
+// 		}
+// 	}
+// }
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// @extend %xts-devices-tabs;
+
+%xts-devices-tabs {
+	display: inline-flex;
+	align-items: center;
+	color: #333;
+	vertical-align: middle;
+	// text-transform: uppercase;
+	// text-transform: capitalize;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 1;
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+
+	span {
+		margin-inline-start: 5px;
+	}
+
+	&:hover {
+		color: #333;
+
+		&:not(.xts-active) {
+			opacity: .6;
+		}
+	}
+
+	&.xts-active {
+		color: var(--xts-secondary-color);
+
+		&:before {
+			color: inherit;
+		}
+	}
+
+	&:not(:last-child) {
+		margin-inline-end: 7px;
+	}
+
+	&:before {
+		color: #BFBFBF;
+		font-weight: 400;
+		font-size: 15px;
+
+		@include font-icon-base;
+	}
+
+	&[data-value="desktop"] {
+
+		&:before {
+			@include font-icon-content($xts-icon-desktop);
+		}
+	}
+
+	&[data-value="tablet"] {
+
+		&:before {
+			@include font-icon-content($xts-icon-tablet);
+		}
+	}
+
+	&[data-value="mobile"] {
+
+		&:before {
+			@include font-icon-content($xts-icon-phone);
+		}
+	}
+}

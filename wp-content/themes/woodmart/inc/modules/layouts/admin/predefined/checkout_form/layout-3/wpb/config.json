@@ -1,0 +1,24 @@
+{
+	"assets": [
+		{
+			"id": "img_id_9063",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/trustpilot-logo.png"
+		},
+		{
+			"id": "image_5254",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/about-us-4-avatar-1.png"
+		},
+		{
+			"id": "image_9061",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/delivery-icon-1.svg"
+		},
+		{
+			"id": "image_9060",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/money-back-icon-1.svg"
+		}
+	]
+}

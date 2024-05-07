@@ -1,0 +1,429 @@
+// ------------------------------------------------------------------------------------------------
+// SLIDER
+// ------------------------------------------------------------------------------------------------
+
+@if $page-slider {
+
+	.taxonomy-woodmart_slider {
+
+		:is(
+		#addtag,
+		#edittag) {
+
+			.xts-box {
+				background-color: transparent;
+				box-shadow: none;
+			}
+
+			.xts-box-content {
+				padding: 0;
+			}
+
+			.form-field {
+				margin-top: 0;
+				margin-bottom: 40px;
+
+				label {
+					display: block;
+					padding-top: 0;
+
+					@extend %option-title;
+					@extend %option-title-label;
+				}
+
+				input[type=text] {
+					@extend %input-style;
+				}
+
+				label {
+					@extend %option-title;
+					@extend %option-title-label;
+				}
+
+				p {
+					max-width: 100%;
+
+					@extend %field-description;
+				}
+			}
+
+			.button {
+				@extend %xts-button;
+
+				&.button-primary {
+					@extend %xts-button-primary;
+					@extend %xts-button-primary-hover;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// ADD SLIDER
+// ------------------------------------------------------------------------------------------------
+
+@if $page-slider {
+
+	//**** LAYOUT ****//
+
+	.taxonomy-woodmart_slider.xts-pages {
+
+		:is(
+		.term-parent-wrap,
+		.term-description-wrap) {
+			display: none !important;
+		}
+
+		.wp-list-table {
+
+			.column-description {
+
+				a,
+				span {
+					display: none;
+				}
+			}
+
+			.row-actions {
+
+				.view {
+					display: none;
+				}
+
+				.delete {
+					font-size: 0;
+
+					a {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+
+	.taxonomy-woodmart_slider.xts-pages {
+
+		.form-wrap {
+
+			h2 {
+				margin-bottom: 18px;
+				font-size: 16px;
+			}
+		}
+
+		#addtag {
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			p.submit {
+				@extend %sticky-save-button;
+
+				&:before {
+					@include font-icon($xts-icon-add);
+				}
+			}
+
+			//**** LOADER ****//
+
+			.spinner {
+				margin-top: 0;
+				background-image: none !important;
+
+				@include loader;
+
+				&.is-active {
+					@include act-loader;
+				}
+			}
+		}
+
+		// div.form-field {
+		// 	margin-top: 0;
+		// 	margin-bottom: 20px;
+		// }
+
+		// @media (min-width: 783px) {
+
+		// 	.taxonomy-woodmart_slider.xts-pages {
+
+		// 		#col-left .col-wrap {
+		// 			padding-inline-end: 15px;
+		// 		}
+
+		// 		#col-right .col-wrap {
+		// 			padding-inline-start: 15px;
+		// 		}
+		// 	}
+		// }
+	}
+
+	// ------------------------------------------
+	// HIDE XTS BOX OPTIONS
+	// ------------------------------------------
+
+	.taxonomy-woodmart_slider.xts-pages {
+
+		.xts-box {
+			display: none;
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// EDIT SLIDER
+// ------------------------------------------------------------------------------------------------
+
+@if $page-edit-slider {
+
+	.taxonomy-woodmart_slider:not(.xts-pages) {
+
+		#edittag {
+			position: relative;
+			margin-top: 20px;
+
+			@extend %xts-box-content;
+
+			.form-table {
+				margin-top: 0;
+
+				:is(
+				th,
+				td) {
+					padding: 0;
+				}
+			}
+
+			.form-field {
+				display: flex;
+				flex-direction: column;
+
+				th {
+					width: 100%;
+				}
+
+				td {
+					margin-bottom: 0;
+				}
+			}
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			.edit-tag-actions {
+				@extend %sticky-save-button;
+
+				&:before {
+					@include font-icon($xts-icon-update);
+				}
+
+				#delete-link a {
+					@extend %sticky-save-button-delete;
+				}
+			}
+
+			&:before { // NOTE BACKGROUND STYLE IMITATION
+				content: "";
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: -1;
+
+				@extend %xts-box-wp;
+			}
+		}
+
+		:is(
+		.term-parent-wrap,
+		.term-description-wrap) {
+			display: none !important;
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// SLIDES TABLE
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-edit-slider-slides {
+		margin-bottom: 20px;
+	}
+
+	.xts-wp-add-heading {
+		margin-bottom: 10px;
+
+		h1 {
+			padding-top: 0px;
+		}
+	}
+
+	.xts-wp-table {
+		border: 1px solid rgb(195, 196, 199);
+		background-color: #FFF;
+		box-shadow: 0 1px 1px rgba(0,0,0,.1);
+
+		a {
+			box-shadow: none !important;
+			text-decoration: none;
+		}
+	}
+
+	.xts-wp-row {
+		display: flex;
+
+		> * {
+			display: block;
+			padding: 8px 10px;
+		}
+
+		&:nth-child(even) {
+			background-color: #F6F7F7;
+		}
+
+		&.xts-wp-row-heading {
+			background-color: #FFF;
+		}
+
+		&:first-child {
+			border-bottom: 1px solid rgb(195, 196, 199);
+		}
+
+		&:last-child {
+			border-top: 1px solid rgb(195, 196, 199);
+		}
+	}
+
+	.xts-wp-table-img {
+		width: 60px;
+
+		:is(
+		img,
+		.xts-slider-bg-color) {
+			outline: 1px solid rgba(0, 0, 0, .075);
+			outline-offset: -1px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.xts-slider-bg-color {
+			min-height: 35px;
+		}
+	}
+
+	.xts-wp-table-title {
+		flex-grow: 1;
+
+		> a {
+			display: block;
+			margin-bottom: 6px;
+			color: #0073AA;
+			font-weight: 600;
+			font-size: 14px;
+
+			&:hover {
+				color: #0096DD;
+			}
+		}
+
+		.xts-actions {
+			opacity: 0;
+
+			> a {
+
+				&.xts-bin {
+					color: #B32D2E;
+				}
+
+				&:not(:last-child) {
+					margin-inline-end: 1px;
+
+					&:after {
+						content: "|";
+						margin-inline-start: 2px;
+						color: #A7AAAD;
+					}
+				}
+			}
+		}
+
+		&:hover {
+
+			.xts-actions {
+				opacity: 1;
+			}
+		}
+	}
+
+	.xts-wp-table-date {
+		width: 140px;
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// RESPONSIVE
+	// ------------------------------------------------------------------------------------------------
+
+	@media (min-width: 1300px) {
+
+		.xts-edit-slider-slides-wrap {
+			position: absolute;
+			top: 0;
+			inset-inline-end: 0;
+			bottom: 0;
+			width: calc(50% - 15px);
+		}
+
+		.xts-edit-slider-slides {
+			position: sticky;
+			top: 50px;
+		}
+
+		.taxonomy-woodmart_slider {
+
+			.form-table {
+				max-width: calc(50% - 25px);
+			}
+		}
+
+		.taxonomy-woodmart_slider:not(.xts-pages) {
+
+			#wpbody-content {
+				position: relative;
+				// max-width: var(--xts-content-width);
+				width: calc(100% - 20px);
+
+				.wrap {
+					width: 100%;
+				}
+			}
+
+			#edittag {
+				max-width: 100%;
+
+				.xts-box,
+				.xts-box + * {
+					max-width: calc(50% - 30px);
+				}
+
+				// :is(
+				// .form-table,
+				// .xts-box) {
+				// 	max-width: calc(50% - 30px);
+				// }
+
+				&:before {
+					max-width: calc(50% - 10px);
+				}
+			}
+		}
+	}
+}

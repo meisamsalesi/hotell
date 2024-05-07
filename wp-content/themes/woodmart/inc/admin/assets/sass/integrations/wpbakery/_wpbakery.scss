@@ -1,0 +1,414 @@
+// ------------------------------------------------------------------------------------------------
+// WPBAKERY
+// ------------------------------------------------------------------------------------------------
+
+@if $int-wpbakery {
+
+	// ------------------------------------------
+	// GENERAL
+	// ------------------------------------------
+
+	.vc_ui-panel-content {
+		margin-top: 0 !important; // NOTE REMOVE VC WINDOW ALIGN BOTTOM
+
+		.wpb_element_label {
+			display: flex;
+			align-items: center;
+
+			--xts-tooltip-width: 300px;
+			// margin-bottom: 10px;
+			@extend %option-title;
+			@extend %option-title-label;
+
+			.xts-hint {
+				z-index: unset;
+				margin-inline-start: 5px;
+			}
+		}
+
+		.vc_description {
+			// color: var(--xts-body-color);
+			line-height: inherit;
+
+			@extend %field-description;
+		}
+
+		.vc_row {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.vc_column {
+			margin-bottom: 20px;
+			padding-top: 0 !important;
+
+			// &.vc_col-xs-12,
+			// &.vc_col-sm-12 {
+
+			// 	select,
+			// 	input[type="text"],
+			// 	input[type="number"] {
+			// 		min-width: 50%;
+			// 		max-width: var(--xts-input-width);
+			// 	}
+			// }
+
+			&:is(
+			.vc_col-sm-12,
+			.vc_col-xs-6,
+			.vc_col-sm-6) {
+				flex-grow: 1;
+				width: auto;
+			}
+
+			&.vc_col-sm-12 {
+				flex-basis: 100%;
+			}
+
+			&:is(
+			.vc_col-xs-6,
+			.vc_col-sm-6) {
+				flex-basis: 50%;
+			}
+		}
+
+		.vc_checkbox-label {
+			display: inline-flex;
+			align-items: center;
+		}
+
+		:is(
+		.vc_checkbox,
+		.vc_checkbox-label) {
+			user-select: none;
+		}
+
+		//**** COLOR PICKER ****//
+
+		span.wp-picker-input-wrap {
+
+			label {
+				display: inline-block; // NOTE FIX COLOR PICKER PALLETE
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	//**** OPTIONS ORDER ****//
+
+	.vc_ui-panel-content {
+
+		.vc_column-order-first {
+			order: -1;
+		}
+	}
+
+	//**** WOODMART SHORTCODE STYLES ****//
+
+	.wpb_edit_form_elements {
+
+		:is(
+		input,
+		select,
+		textarea) {
+			@extend %woodmart-input-style;
+
+			&:focus {
+				box-shadow: none;
+			}
+		}
+
+		.vc_column {
+			animation: wd-fadeInTooltip .5s ease;
+		}
+	}
+
+	.wpb_el_type_woodmart_empty_space {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.wpb_el_type_woodmart_css_id {
+		display: none;
+
+		& + .vc_col-xs-12 {
+			padding-top: 0 !important;
+		}
+	}
+
+	// [data-vc-shortcode="woodmart_responsive_text_block"] {
+
+	// 	[data-tab-index="2"] {
+	// 		display: none;
+	// 	}
+	// }
+
+	// ------------------------------------------
+	// VC AUTOCOMPLETE
+	// ------------------------------------------
+
+	.wpb_edit_form_elements {
+
+		.vc_autocomplete-field {
+
+			.vc_autocomplete {
+				padding-right: 6px;
+				padding-left: 6px;
+				border-color: var(--xts-option-border-color);
+				border-radius: var(--xts-option-border-radius);
+
+				li {
+
+					&.vc_data {
+						border-color: var(--xts-primary-color);
+						border-radius: 3px;
+						background-color: var(--xts-primary-color);
+
+						.vc_autocomplete-remove {
+							top: 4px !important;
+							color: #FFF !important;
+
+							&:hover {
+								opacity: .8;
+							}
+						}
+					}
+				}
+
+				&:hover {
+					border-color: var(--xts-option-border-color-darker-10);
+					box-shadow: var(--xts-option-box-shadow);
+				}
+			}
+		}
+	}
+
+	.vc_ui-auotocomplete {
+		border: 1px solid var(--xts-option-border-color-darker-10);
+		border-radius: var(--xts-brd-radius);
+		background-color: #FFF;
+		box-shadow: var(--xts-box-shadow);
+
+		li {
+
+			a {
+
+				&.ui-state-active {
+					border: none !important;
+					background: none !important;
+				}
+			}
+
+			&.vc_autocomplete-group {
+				font-weight: 600;
+				cursor: default;
+			}
+
+			&.vc_autocomplete-item {
+
+				&:hover {
+					background-color: var(--xts-primary-color);
+
+					a {
+						transition: none;
+
+						&:hover,
+						&.ui-state-active {
+							color: #FFF !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// XTS ELEMENTS TABS
+	// ------------------------------------------
+
+	// .vc_panel-tabs {
+	// 	transition: opacity .25s ease;
+	// }
+
+	.wpb_edit_form_elements {
+		transition: opacity .25s ease;
+
+		&:not(.xts-loaded) {
+			min-height: 110px;
+				
+			> div {
+				display: none !important;
+				opacity: 0;
+				visibility: hidden;
+			}
+
+			&:before {
+				content: "";
+				position: absolute;
+				left: 50%;
+				top: calc(50% - 16px);
+				background-image: url(../../../../../../../plugins/js_composer/assets/vc/loaders/spinner.svg);
+				height: 32px;
+				width: 32px;
+				background-size: contain;
+				animation: vc_ui-wp-spinner-animation 1.08s linear infinite;
+				opacity: .7;
+			}
+
+			// .vc_panel-tabs {
+			// 	min-height: 120px;
+				
+			// 	> div {
+			// 		display: none !important;
+			// 		opacity: 0;
+			// 		visibility: hidden;
+			// 	}
+	
+			// 	&:before {
+			// 		content: "";
+			// 		position: absolute;
+			// 		left: 50%;
+			// 		top: 50%;
+			// 		background-image: url(../../../../../../../plugins/js_composer/assets/vc/loaders/spinner.svg);
+			// 		height: 32px;
+			// 		width: 32px;
+			// 		background-size: contain;
+			// 		animation: vc_ui-wp-spinner-animation 1.08s linear infinite;
+			// 		opacity: .7;
+			// 	}
+			// }
+		}
+	}
+
+	.xts-wpb-tab-title {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-inline-start: 24px;
+
+		&:before {
+			position: absolute;
+			top: calc(50% - 9px);
+			inset-inline-start: 0;
+			font-size: 18px;
+
+			@include font-icon($xts-icon-logo-xtemos);
+		}
+	}
+
+	.vc_edit-form-tab-control {
+
+		&.vc_active {
+
+			.xts-wpb-tab-title {
+
+				&:before {
+					color: #5E5E5E;
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// WOODMART SELECT
+	// ------------------------------------------
+
+	.wd-option-placeholder {
+		display: none;
+	}
+
+	.wd-select-placeholder {
+		color: rgba(0,0,0,.3) !important;
+
+		option {
+			color: #2C3338;
+		}
+	}
+
+	// ------------------------------------------
+	// Z-INDEX
+	// ------------------------------------------
+
+	.xts-z-index-input {
+		display: none;
+		max-width: calc(var(--xts-input-width) / 2) !important;
+		animation: wd-fadeInTooltip .5s ease;
+
+		&.xts-active {
+			display: block;
+		}
+	}
+
+	// ------------------------------------------
+	// GROUP OPTIONS
+	// ------------------------------------------
+
+	.woodmart-td-wrapper {
+		margin-bottom: 30px;
+		width: 100%;
+
+		&:last-child {
+			margin-bottom: 20px;
+		}
+	}
+
+	// .woodmart-td-title {
+	// 	color: $woodmart-vc-element-title;
+	// 	text-transform: uppercase;
+	// 	font-weight: 600;
+	// 	font-size: 16px;
+	// }
+
+	:is(
+	[data-vc-shortcode="woodmart_open_street_map"],
+	[data-vc-shortcode="woodmart_google_map"]) {
+
+		.xts-slider-field-value-display {
+
+			.wd-slider-value-preview {
+				min-width: 42px;
+			}
+		}
+	}
+
+	.xts-slider-field-value-display {
+
+		.wd-slider-value-preview {
+			display: flex;
+			align-items: center;
+			min-width: 30px;
+			height: 30px !important;
+			// text-align: right;
+			text-align: end;
+			line-height: 1;
+			direction: rtl;
+		}
+
+		.wd-slider-value-preview {
+			font-weight: 600;
+		}
+	}
+
+	.xts-range-field-value-input {
+
+		.wd-slider-value-preview {
+			padding: 3px !important;
+			max-width: 60px !important;
+			width: auto !important;
+			height: 30px !important;
+		}
+	}
+
+	// ------------------------------------------
+	// WIDTH
+	// ------------------------------------------
+
+	.wpb_el_type_woodmart_slider {
+
+		.xts-slider-units {
+			top: -15px;
+		}
+	}
+
+} // END IF

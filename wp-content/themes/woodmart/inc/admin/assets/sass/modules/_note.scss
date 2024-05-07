@@ -1,0 +1,41 @@
+// ------------------------------------------------------------------------------------------------
+// NOTE
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-note {
+		margin-top: 20px;
+		padding: 15px 20px;
+		border-radius: var(--xts-brd-radius);
+		background-color: #F8F8F8;
+		color: #BABABA;
+		font-style: italic;
+		font-size: 14px;
+
+		span {
+
+			&:before {
+				font-style: normal;
+
+				@include font-icon($xts-icon-alert-information);
+				margin-inline-end: 5px;
+			}
+		}
+
+		&.xts-success {
+			background-color: #E8EEE0;
+			color: rgba(#535353,.7);
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+
+		.xts-setup-wizard & {
+			background-color: #F1F1F1;
+			font-size: 12px;
+		}
+	}
+
+} // END IF

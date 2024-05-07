@@ -1,0 +1,122 @@
+// ------------------------------------------------------------------------------------------------
+// CSS GENERATOR
+// ------------------------------------------------------------------------------------------------
+
+@if $page-css-generator {
+
+	.xts-css-generator {
+
+		h4 {
+			margin-bottom: 15px;
+			font-size: 18px;
+		}
+	}
+
+	// ------------------------------------------
+	// CHECKBOX GROUPS
+	// ------------------------------------------
+
+	.css-options-box {
+
+		h3 {
+			margin-top: 0;
+		}
+
+		.css-checkbox {
+
+			label {
+				position: relative;
+				display: inline-block;
+
+				margin-inline-start: -30px;
+				padding-inline-start: 30px;
+			}
+
+			.css-checkbox {
+				margin-bottom: 10px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				label {
+					margin-bottom: 0;
+					font-weight: 400;
+				}
+
+				.css-checkbox {
+
+					label {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+
+		> .css-checkbox {
+			padding: 20px;
+			border-radius: var(--xts-brd-radius);
+			background-color: var(--xts-group-bg-color);
+
+			> label {
+				font-weight: 600;
+			}
+
+			+ .css-checkbox {
+				margin-top: 15px;
+			}
+
+			> .css-checkbox-children {
+				margin-bottom: 0;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 25px;
+		}
+	}
+
+	.css-checkbox-children {
+		margin-top: 10px;
+
+		margin-inline-start: 20px;
+	}
+
+	.css-checkbox {
+
+		&.wooComm {
+			padding-bottom: 0 !important;
+
+			> .css-checkbox-children {
+
+				> .css-checkbox {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+
+	.xts-generate-btn {
+		margin-top: 20px;
+	}
+
+	// ------------------------------------------
+	// FILE INFORMATION
+	// ------------------------------------------
+
+	.css-file-information {
+		margin-top: 40px;
+
+		.xts-table {
+			max-width: 500px;
+		}
+	}
+
+	.css-file-actions {
+
+		.css-update-button {
+			margin-inline-end: 7px;
+		}
+	}
+
+} // END IF

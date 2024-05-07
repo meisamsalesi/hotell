@@ -1,0 +1,53 @@
+// ------------------------------------------------------------------------------------------------
+// DROPDOWNS
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-dropdown {
+		position: absolute;
+		top: calc(100% + 5px);
+		z-index: $z-layer-9;
+		visibility: hidden;
+		// padding: 2px;
+		padding: 12px 20px;
+		min-width: 190px;
+		border: 1px solid var(--xts-option-border-color-darker-10);
+		border-radius: var(--xts-brd-radius);
+		background-color: #FFF;
+		box-shadow: var(--xts-box-shadow);
+		opacity: 0;
+		transition: all .2s ease;
+		transform: translateY(10px);
+		pointer-events: none;
+
+		inset-inline-start: 0;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: -6px;
+			right: 0;
+			left: 0;
+			height: 5px;
+		}
+
+		.xts-nav li:hover & {
+			@extend %dropdown-hovered;
+		};
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// @extend %dropdown-hovered;
+
+%dropdown-hovered {
+	visibility: visible;
+	opacity: 1;
+	transform: none;
+	pointer-events: auto;
+}

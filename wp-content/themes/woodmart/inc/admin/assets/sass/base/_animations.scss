@@ -1,0 +1,329 @@
+// ------------------------------------------
+// ANIMATIONS OLD
+// ------------------------------------------
+
+@if $general {
+
+	//**** FADE IN ****//
+
+	@keyframes wd-fadeIn {
+
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	//**** ZOOM IN ****//
+
+	// @keyframes wd-zoomIn {
+
+	// 	from {
+	// 		visibility: hidden;
+	// 		opacity: 0;
+	// 		transform: scale(.8);
+	// 	}
+	// 	to {
+	// 		visibility: visible;
+	// 		opacity: 1;
+	// 		transform: none;
+	// 	}
+	// }
+
+	//**** IMPORT LOADING ****//
+
+	@keyframes woodmart_loading {
+		0% {
+			left: -20px;
+		}
+		100% {
+			left: 100%;
+		}
+	}
+
+	//**** LOADER ROTATE ****//
+
+	@keyframes woodmart_rotate {
+		to {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+
+	//**** SHAKE BLOCK AFTER IMPORT ****//
+
+	@keyframes woodmart_shake {
+		from, to {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		10%, 30%, 50%, 70%, 90% {
+			-webkit-transform: translate3d(0, -10px, 0);
+			transform: translate3d(0, -10px, 0);
+		}
+
+		20%, 40%, 60%, 80% {
+			-webkit-transform: translate3d(0, 10px, 0);
+			transform: translate3d(0, 10px, 0);
+		}
+	}
+
+	//**** TOOLTIP FADE IN ****//
+
+	@keyframes wd-fadeInTooltip {
+
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: .9;
+		}
+	}
+
+	//**** ELEMENT ANIMATIONS ****//
+
+	@keyframes wd-shopSlideFromBottom {
+		from {
+			transform: translate3d(0, 30px, 0);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	@keyframes wd-SlideFromTop {
+		from {
+			transform: translateY(-150px);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	@keyframes wd-SlideFromBottom {
+		from {
+			transform: translateY(150px);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	@keyframes wd-SlideFromLeft {
+		from {
+			transform: translateX(-150px);
+		}
+		to {
+			transform: none;
+		}
+	}
+	@keyframes wd-SlideFromRight {
+		from {
+			transform: translateX(150px);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	@keyframes wd-RightFlipY {
+		from {
+			transform: translateX(100px) rotate3d(0, 1, 0, 90deg) scale(.6);
+		}
+		to {
+			transform: perspective(1000px) translateY(0px) rotate3d(0, 1, 0, 0deg) scale(1);
+		}
+	}
+
+	@keyframes wd-LeftFlipY {
+		from {
+			transform: translateX(-100px) rotate3d(0, 1, 0, -90deg) scale(.6);
+		}
+		to {
+			transform: perspective(1000px) translateY(0px) rotate3d(0, 1, 0, 0deg) scale(1);
+		}
+	}
+
+	@keyframes wd-TopFlipX {
+		from {
+			transform: translateY(-100px) rotate3d(1, 0, 0, 90deg) scale(.6);
+		}
+		to {
+			transform: perspective(1000px) translateY(0) rotate3d(1, 0, 0, 0deg) scale(1);
+		}
+	}
+
+	@keyframes wd-BottomFlipX {
+		from {
+			transform: translateY(100px) rotate3d(1, 0, 0, 90deg) scale(.6);
+		}
+		to {
+			transform: perspective(1000px) translateY(0) rotate3d(1, 0, 0, 0deg) scale(1);
+		}
+	}
+
+	@keyframes wd-ZoomIn-wpb {
+		from {
+			transform: scale(.7);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	@keyframes wd-RotateZ {
+		from {
+			transform: matrix3d(.70592, .02465, .37557, -.00062, -.06052, .79532, .06156, -.0001, -.46435, -.10342, .87958, -.00146, -21.42566, 4.13698, 4.81749, .99197085);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	@keyframes flickerAnimation {
+		0% {
+		opacity: 1; }
+		50% {
+		opacity: 0; }
+		100% {
+		opacity: 1; }
+	}
+
+	// ------------------------------------------
+	// SLIDER ANIMATIONS
+	// ------------------------------------------
+
+	[class*="wd-animation"] {
+		opacity: 0;
+
+		backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+
+		&.xts-btn {
+			transition: none !important; // NOTE RESET BUTTON TRANSITION
+
+			&.wd-animated {
+				transition: all .8s ease !important;
+			}
+		}
+
+		&:not(.wd-animated) {
+			will-change: transform, opacity;
+		}
+
+		&.wd-animation-ready {
+
+			&.wd-animated {
+				opacity: 1;
+				transform: none;
+			}
+		}
+	}
+
+	.wd-animation-slide-from-top {
+
+		&.wd-animation-ready {
+			transform: translateY(-150px);
+		}
+	}
+
+	.wd-animation-slide-from-bottom {
+
+		&.wd-animation-ready {
+			transform: translateY(150px);
+		}
+	}
+
+	.wd-animation-slide-from-left {
+
+		&.wd-animation-ready {
+			transform: translateX(-500px);
+		}
+	}
+
+	.wd-animation-slide-from-right {
+
+		&.wd-animation-ready {
+			transform: translateX(500px);
+		}
+	}
+
+	.wd-animation-slide-short-from-left {
+
+		&.wd-animation-ready {
+			transform: translateX(-150px);
+		}
+	}
+
+	.wd-animation-slide-short-from-right {
+
+		&.wd-animation-ready {
+			transform: translateX(150px);
+		}
+	}
+
+	.wd-animation-zoom-in {
+
+		&.wd-animation-ready {
+			transform: scale(.6);
+		}
+	}
+
+	.wd-animation-bottom-flip-x {
+
+		&.wd-animation-ready {
+			transform: translateY(100px) rotate3d(1,0,0,90deg) scale(.6);
+		}
+	}
+
+	.wd-animation-top-flip-x {
+
+		&.wd-animation-ready {
+			transform: translateY(-100px) rotate3d(1,0,0,90deg) scale(.6);
+		}
+	}
+
+	:is(
+	.wd-animation-bottom-flip-x,
+	.wd-animation-top-flip-x) {
+
+		&.wd-animation-ready {
+
+			&.wd-animated {
+				transform: perspective(1000px) translateY(0) rotate3d(1,0,0,0deg) scale(1);
+			}
+		}
+	}
+
+	.wd-animation-left-flip-y {
+
+		&.wd-animation-ready {
+			transform: translateX(-100px) rotate3d(0,1,0,-90deg) scale(.6);
+		}
+	}
+
+	.wd-animation-right-flip-y {
+
+		&.wd-animation-ready {
+			transform: translateX(100px) rotate3d(0,1,0,90deg) scale(.6);
+		}
+	}
+
+	:is(
+	.wd-animation-left-flip-y,
+	.wd-animation-right-flip-y) {
+
+		&.wd-animation-ready {
+
+			&.wd-animated {
+				transform: perspective(1000px) translateY(0px) rotate3d(0, 1, 0, 0deg) scale(1);
+			}
+		}
+	}
+
+} // END IF

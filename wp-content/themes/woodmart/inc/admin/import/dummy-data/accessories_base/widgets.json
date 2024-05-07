@@ -1,0 +1,157 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "Categories",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 2,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 65,
+                "thumb_width": 75
+            },
+            "woodmart-instagram-2": {
+                "woodmart_css_id": "",
+                "data_divider": "",
+                "data_source": "images",
+                "images_divider": "",
+                "images": "199,192,193,195,196,194,197,198,200",
+                "images_size": "100x100",
+                "images_link": "https:\/\/www.instagram.com\/ozdesignfurniture\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "rounding_size": "",
+                "custom_rounding_size": "",
+                "content_divider": "",
+                "title": "Our Instagram",
+                "username": "ozdesignfurniture",
+                "number": "9",
+                "size": "",
+                "content": "",
+                "link_divider": "",
+                "target": "_self",
+                "link": "",
+                "layout_divider": "",
+                "design": "",
+                "per_row_tabs": "",
+                "per_row": "",
+                "per_row_tablet": "",
+                "per_row_mobile": "",
+                "spacing": "",
+                "spacing_custom": "",
+                "rounded": "",
+                "hide_mask": "",
+                "hide_pagination_control": "",
+                "hide_prev_next_buttons": "",
+                "extra_divider": "",
+                "el_class": ""
+            },
+            "recent-comments-2": {
+                "title": "Recent Comments",
+                "number": 3
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "iPhone Compatibility",
+                "attribute": "compatibility",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Filter by Brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Filter by color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-5": {
+                "title": "Filter by material",
+                "attribute": "material",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-6": {
+                "title": "Features",
+                "attribute": "features",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "wd-widget-stock-status-2": {
+                "title": "Stock status",
+                "instock": "1",
+                "onsale": "1",
+                "onbackorder": "1"
+            },
+            "woocommerce_top_rated_products-2": {
+                "title": "Top rated products",
+                "number": 3
+            }
+        }
+    }
+}

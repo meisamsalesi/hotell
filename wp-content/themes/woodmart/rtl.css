@@ -1,0 +1,561 @@
+@font-face{ font-family: 'vazir'; src:url('fonts/vazir.eot?#') format('eot'), url('fonts/vazir.woff') format('woff'), url('fonts/vazir.ttf') format('truetype');}
+@font-face{ font-family: 'yekan'; src:url('fonts/yekan.eot?#') format('eot'), url('fonts/yekan.woff') format('woff'), url('fonts/yekan.ttf') format('truetype');}
+
+
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-Thin.woff') format('woff');	
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-UltraLight.woff') format('woff');	
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-Light.woff') format('woff');		 
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-Medium.woff') format('woff');		 
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-DemiBold.woff') format('woff'); 
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-ExtraBold.woff') format('woff');		 
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-Black.woff') format('woff');		 
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-Bold.woff') format('woff'); 
+}
+@font-face {
+	font-family: IRANSansx;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/iransansx/woff/IRANSansXFaNum-Regular.woff') format('woff');	
+}
+
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	src: url('fonts/iranyekan/woff/IRANYekanXVF.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: shabnam;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/shabnam/Shabnam-Bold-FD.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: shabnam;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/shabnam/Shabnam-Light-FD.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: shabnam;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/shabnam/Shabnam-FD.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/*
+Dana Font
+*/
+
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 10;
+	src: url('fonts/dana/woff/DanaFaNum-Hairline.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/dana/woff/DanaFaNum-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/dana/woff/DanaFaNum-UltraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/dana/woff/DanaFaNum-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/dana/woff/DanaFaNum-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/dana/woff/DanaFaNum-DemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/dana/woff/DanaFaNum-ExtraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/dana/woff/DanaFaNum-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 930;
+	src: url('fonts/dana/woff/DanaFaNum-ExtraBlack.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 960;
+	src: url('fonts/dana/woff/DanaFaNum-Heavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 990;
+	src: url('fonts/dana/woff/DanaFaNum-Fat.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/dana/woff/DanaFaNum-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/dana/woff/DanaFaNum-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+
+/*
+Yekan Bakh Font
+*/
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-thin.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-Light.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-Light.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-Regular.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-Bold.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-Black.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-Black.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 950;
+	src: url('fonts/bakh/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),   
+	url('fonts/bakh/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');		 
+}
+
+
+label {
+    text-align: right;
+}
+.box-icon-align-top .box-icon-wrapper {
+    margin-bottom: 0px;
+}
+.menu-simple-dropdown .sub-menu-dropdown, .menu-simple-dropdown .sub-sub-menu {
+    width: 250px;
+}
+.woodmart-products-tabs.tabs-design-simple .owl-nav, .woodmart-products-tabs.tabs-design-simple .wrap-loading-arrow {
+    right: auto;
+	left: 0;
+}
+.woodmart-products-tabs .tabs-name {
+	font-weight:400;
+}
+.blog-design-masonry .entry-title {
+    font-size: 16px;
+}
+.post-single-page .article-body-container {
+    text-align: right;
+}
+.post-single-page .entry-title {
+    font-size: 22px;
+	text-align: right;
+}
+.post-single-page {
+    text-align: right;
+}
+.mega-menu-list .sub-sub-menu li a, .menu-mega-dropdown .sub-sub-menu li a {
+    padding: 5px 0;
+}
+.title-size-default .entry-title {
+    font-size: 34px;
+}
+.product-image-summary .entry-title {
+    font-size: 18px;
+}
+.product-image-summary .woodmart-after-add-to-cart, .product-image-summary .woodmart-before-add-to-cart {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.tabs-layout-tabs .tabs {
+    text-align: right;
+}
+.popup-added_to_cart h4 {
+    font-size: 18px;
+}
+.icons-design-colored .social-instagram {
+    background-color: #ef5a88;
+}
+
+.woodmart-sidebar-content .widget {
+    padding: 20px;
+    box-shadow: 0 0px 1px 1px #e6e6e6;
+}
+.woodmart-sidebar-content .widget-title {
+	background: rgba(125, 125, 125, 0.15);
+    padding: 10px 20px;
+}
+
+.woodmart-navigation .item-level-0>a {
+    letter-spacing: 0px;
+}
+
+.added_to_cart, .btn, .button, [type=button], [type=submit], button {
+    letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+.woodmart-products-tabs.tabs-design-simple .owl-carousel .owl-nav {
+    left: -5px;
+	right:auto;
+}
+}
+.tabs-layout-tabs .tabs li a {
+    text-align: center;
+}
+.tabs-layout-tabs .tabs li a:after {
+    top: 100%;
+    bottom: 0;
+}
+.tabs-layout-tabs #tab-additional_information .shop_attributes {
+    max-width: 100%;
+}
+#tab-additional_information .shop_attributes td {
+    text-align: right;
+}
+.woocommerce-order-pay .entry-content>.woocommerce {
+    max-width: 850px;
+    margin: 0 auto;
+}
+ul.order_details li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px dashed #c7c7c7;
+	margin-bottom: 15px;
+}
+ul.order_details li:last-child {
+    margin-left: 0px;
+    padding-left: 0px;
+    border-left: 0px dashed #c7c7c7;
+}
+.woocommerce-order-pay .entry-content>.woocommerce:after, .woocommerce-order-pay .entry-content>.woocommerce:before {
+    background-image: radial-gradient(farthest-side,rgba(0,0,0,0) 6px,#f9f9f9 0);
+}
+.checkout-order-review, .woocommerce-order-pay .entry-content>.woocommerce {
+    background-color: #f9f9f9;
+}
+.woodmart-prefooter {
+    padding-bottom: 0px !important;
+}
+.woodmart-slide-inner {
+    max-width: 100% !important;
+}
+
+.owl-items-lg-4 .post-slide .post-title {
+    font-size: 14px !important;
+	font-weight:600;
+}
+.zeus .tp-tab-title {
+    font-family: inherit !important;
+}
+
+.dokan-dashboard-wrap .dokan-dash-sidebar ul.dokan-dashboard-menu li.active:after {
+    left: 0;
+    right: auto;
+}
+.woodmart-single-footer .tags-list {
+    font-size: unset;
+	color:#fff;
+}
+
+.menu-mega-dropdown .sub-menu>li>a:before {
+	position: absolute;
+    top: 11px;
+    font-weight: 600;
+    font-size: 8px;
+    right: -13px;
+    font-family: woodmart-font;
+    content: "\f114";
+}
+.wd-show-cat .wd-nav-vertical>li>a:after {
+    -webkit-transform: rotate(
+0deg
+);
+    transform: rotate(
+0deg
+);
+}
+@media (max-width: 1200px) {
+.tp-tabs {
+    display: none;
+}
+}
+@media (max-width: 768px) {
+.woocommerce-ordering select {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    z-index: 24324;
+    background: #1110;
+    border: none;
+    background-image: none;
+    font-weight: 400;
+    font-size: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.woocommerce-ordering:after {
+    position: relative;
+    margin-top: 0;
+    color: #2d2a2a;
+    font-size: 20px;
+    content: "\f119";
+    font-family: woodmart-font;
+}
+}
+
+.menu-opener .menu-open-label {
+    letter-spacing: 0;
+    font-size: 15px;
+}
+
+.rtl .woocommerce-MyAccount-navigation {
+    float: none;
+    width: unset;
+}
+.mc4wp-form>div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 17px;
+    margin-left: 17px;
+}
+.mc4wp-form-fields {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mc4wp-form>div>p {
+    margin-right: -17px;
+    margin-bottom: 20px!important;
+    margin-left: -17px;
+}
+.mc4wp-form>div>p:first-child {
+    flex: 1 1 200px;
+    max-width: 290px;
+    width: 100%;
+}
+
+.title-line-two .product-grid-item .wd-entities-title {
+    max-height: 36px;
+	min-height: 36px;
+}
+.wd-more-desc .wd-more-desc-inner {
+    line-height: 14px;
+	text-align: right;
+}
+
+.mega-menu-list .sub-sub-menu li a, .menu-mega-dropdown .sub-sub-menu li a {
+    display: block;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.product_title {
+    font-size: 18px;
+	font-weight: 600;
+}
+
+.comments-area .comment-body ul>li:before, .elementor-text-editor>ol ul>li:before, .elementor-text-editor>ul ul>li:before, .elementor-text-editor>ul>li:before, .entry-content>ol ul>li:before, .entry-content>ul ul>li:before, .entry-content>ul>li:before, .header-banner-container>ol ul>li:before, .header-banner-container>ul ul>li:before, .header-banner-container>ul>li:before, .order-list ul>li:before, .portfolio-single-content>ol ul>li:before, .portfolio-single-content>ul ul>li:before, .portfolio-single-content>ul>li:before, .term-description>ol ul>li:before, .term-description>ul ul>li:before, .term-description>ul>li:before, .textwidget>ol:not(.menu) ul>li:before, .textwidget>ul:not(.menu) ul>li:before, .textwidget>ul:not(.menu)>li:before, .unordered-list ul>li:before, .unordered-list>li:before, .wc-tab-inner>div>ol ul>li:before, .wc-tab-inner>div>ul ul>li:before, .wc-tab-inner>div>ul>li:before, .woocommerce-product-details__short-description>ol ul>li:before, .woocommerce-product-details__short-description>ul ul>li:before, .woocommerce-product-details__short-description>ul>li:before, .woocommerce-terms-and-conditions>ol ul>li:before, .woocommerce-terms-and-conditions>ul ul>li:before, .woocommerce-terms-and-conditions>ul>li:before, .woodmart-entry-content>ol ul>li:before, .woodmart-entry-content>ul ul>li:before, .woodmart-entry-content>ul>li:before, .woodmart-more-desc-inner>ol ul>li:before, .woodmart-more-desc-inner>ul ul>li:before, .woodmart-more-desc-inner>ul>li:before {
+    position: absolute;
+    top: 6px;
+    right: -20px;
+    font-size: 8px;
+    content: "\f114";
+    font-family: woodmart-font;
+}
+.woodmart-more-desc-inner>ul>li:before {
+    top: 0px;
+}
+.wd-more-desc {
+    margin-top: 10px;
+}
+.comments-area .comment-body ul>li, .elementor-text-editor>ol ul>li, .elementor-text-editor>ul ul>li, .elementor-text-editor>ul>li, .entry-content>ol ul>li, .entry-content>ul ul>li, .entry-content>ul>li, .header-banner-container>ol ul>li, .header-banner-container>ul ul>li, .header-banner-container>ul>li, .order-list ul>li, .portfolio-single-content>ol ul>li, .portfolio-single-content>ul ul>li, .portfolio-single-content>ul>li, .term-description>ol ul>li, .term-description>ul ul>li, .term-description>ul>li, .textwidget>ol:not(.menu) ul>li, .textwidget>ul:not(.menu) ul>li, .textwidget>ul:not(.menu)>li, .unordered-list ul>li, .unordered-list>li, .wc-tab-inner>div>ol ul>li, .wc-tab-inner>div>ul ul>li, .wc-tab-inner>div>ul>li, .woocommerce-product-details__short-description>ol ul>li, .woocommerce-product-details__short-description>ul ul>li, .woocommerce-product-details__short-description>ul>li, .woocommerce-terms-and-conditions>ol ul>li, .woocommerce-terms-and-conditions>ul ul>li, .woocommerce-terms-and-conditions>ul>li, .woodmart-entry-content>ol ul>li, .woodmart-entry-content>ul ul>li, .woodmart-entry-content>ul>li, .woodmart-more-desc-inner>ol ul>li, .woodmart-more-desc-inner>ul ul>li, .woodmart-more-desc-inner>ul>li {
+    position: relative;
+    list-style: none;
+}
+
+.blog-design-masonry .post-title {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.whb-header .whb-header-bottom .wd-header-cats {
+    height: calc(100% - 2px) !important;
+}
+
+@media (min-width: 1025px) {
+.product-design-default .entry-summary:not(.col-lg-4) .wd-product-brands {
+    float: left !important;
+    margin-right: 10px;
+    margin-left: 0 !important;
+}
+.wd-reset-side-lg .wd-reset-var {
+    width: unset !important;
+}
+
+}
+
+
+@media (max-width: 992px) {
+
+	.wd-nav-tabs-wrapper {
+    overflow-x: auto;
+    -webkit-mask-image: linear-gradient(to right, transparent 5px, #000 40px) !important;
+    mask-image: linear-gradient(to right, transparent 5px, #000 40px) !important;
+}
+
+}
+
+.product-tabs-wrapper .tabs-layout-tabs>.wd-nav-tabs-wrapper {
+    margin-top: calc(var(--wd-single-spacing) * -1 - 1px);
+    margin-bottom: 30px;
+    text-align: right;
+}
+.wd-hover-tiled .wd-product-countdown {
+    direction:ltr;
+}
+.summary-inner .wd-product-countdown {
+    margin-bottom: 10px;
+    direction: ltr;
+    text-align: right;
+}
+.shop_attributes tr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.wd-single-brands.wd-layout-inline .wd-product-brands>*:not(:last-child) {
+    margin-top: 10px;
+}
+
+.wd-visits-count-number:before {
+    margin-inline-start: 7px;
+}
+p.stock.wd-style-with-bg.in-stock span:before {
+    margin-inline-end: 5px;
+    margin-inline-start: 5px;
+}
+.wd-close-side {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}

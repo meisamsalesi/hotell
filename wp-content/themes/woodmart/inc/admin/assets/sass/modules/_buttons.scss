@@ -1,0 +1,201 @@
+// ------------------------------------------------------------------------------------------------
+// BUTTONS
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	// ------------------------------------------
+	// GENERAL
+	// ------------------------------------------
+
+	:is(
+	.xts-btn,
+	.xts-bordered-btn,
+	.xts-inline-btn) {
+
+		&.xts-style-icon {
+			font-size: 0;
+
+			&:before {
+				margin: 0;
+				font-size: 14px;
+			}
+		}
+	}
+
+	:is(
+	.xts-btn,
+	.xts-bordered-btn) {
+
+		&:before {
+			margin-inline-end: 5px;
+			vertical-align: middle;
+		}
+
+		&.xts-style-icon {
+			padding: 0 12px;
+		}
+	}
+
+	// ------------------------------------------
+	// DEFAULT BTN
+	// ------------------------------------------
+
+	.xts-btn {
+		outline: none;
+		border: none;
+		border-radius: var(--xts-option-border-radius);
+
+		@extend %xts-button;
+		@extend %xts-button-default;
+		@extend %xts-button-default-hover;
+
+		&.xts-color-primary {
+			@extend %xts-button-primary;
+			@extend %xts-button-primary-hover;
+		}
+
+		&.xts-color-alt {
+			@extend %xts-button-alternative;
+			@extend %xts-button-alternative-hover;
+		}
+
+		&.xts-color-warning {
+			@extend %xts-button-warning;
+			@extend %xts-button-warning-hover;
+		}
+
+		&.xts-color-white {
+			@extend %xts-button-white;
+			@extend %xts-button-white-hover;
+		}
+
+		// &.xts-style-icon {
+		// 	font-size: 0;
+		// 	padding: 0 12px;
+
+		// 	&:before {
+		// 		margin: 0;
+		// 		font-size: 14px;
+		// 	}
+		// }
+	}
+
+	// .xts-remove-upload-btn,
+	// .xts-color-warning {
+	// 	@extend %xts-button-warning;
+	// 	@extend %xts-button-warning-hover;
+	// }
+
+	// ------------------------------------------
+	// BORDERED BTN
+	// ------------------------------------------
+
+	.xts-bordered-btn {
+		border-radius: var(--xts-option-border-radius);
+		background-color: #FFF;
+
+		@extend %xts-bordered-button;
+
+		//**** COLOR ****//
+
+		&.xts-color-default {
+			@extend %xts-bordered-button-default;
+		}
+
+		&.xts-color-primary {
+			@extend %xts-bordered-button-primary;
+		}
+
+		&.xts-color-warning {
+			@extend %xts-bordered-button-warning;
+		}
+
+		&.xts-color-white {
+			@extend %xts-bordered-button-white;
+		}
+
+		//**** STYLE ****//
+
+		// &.xts-style-icon {
+		// 	font-size: 0;
+		// 	padding: 0 12px;
+
+		// 	&:before {
+		// 		margin: 0;
+		// 		font-size: 14px;
+		// 	}
+		// }
+	}
+
+	// ------------------------------------------
+	// INLINE BTN
+	// ------------------------------------------
+
+	.xts-inline-btn {
+		@extend %xts-inline-button;
+
+		&.xts-color-primary {
+			@extend %xts-inline-button-primary;
+		}
+
+		&.xts-color-alt {
+			color: var(--xts-btn-secondary-color);
+
+			&:hover {
+				color: var(--xts-btn-secondary-color-hover);
+			}
+		}
+
+		&.xts-color-warning {
+			@extend %xts-inline-button-warning;
+		}
+
+		&.xts-style-underline {
+			border-bottom: 2px solid var(--xts-primary-color);
+		}
+
+		&.xts-style-icon {
+			height: 14px;
+			line-height: 1;
+		}
+	}
+
+	// ------------------------------------------
+	// DISABLED BTN
+	// ------------------------------------------
+
+	.xts-btn {
+
+		&.xts-disabled {
+			opacity: .7;
+			pointer-events: none;
+		}
+	}
+
+	// ------------------------------------------
+	// CROSS BTN
+	// ------------------------------------------
+
+	// .xts-cross-btn {
+	// 	display: inline-block;
+	// 	text-decoration: none;
+	// 	font-size: 0;
+	// 	line-height: 1;
+
+	// 	&:before {
+	// 		color: var(--xts-warning-color);
+	// 		font-size: 16px;
+	// 	}
+
+	// 	&:hover {
+	// 		opacity: .7;
+	// 	}
+
+	// 	&:focus {
+	// 		outline: none;
+	// 		box-shadow: none;
+	// 	}
+	// }
+
+} // END IF

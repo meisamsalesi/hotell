@@ -1,0 +1,23 @@
+.wd-collapsible-content {
+
+	&.e-con {
+
+		&:not(.wd-opened) {
+
+			.elementor-widget-wd_button {
+
+				&:nth-last-child(2) {
+					position: static; // OVERWRIGHT ELEMETOR STYLES
+
+					.wd-collapsible-button {
+						position: absolute;
+						right: 10px;
+						bottom: 10px;
+						left: 10px;
+						z-index: 11;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,143 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-1": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "woodmart-banner-3": {
+                "image_divider": "",
+                "image": "9062",
+                "img_size": "full",
+                "height": "400",
+                "image_bg_position": "center",
+                "link": "",
+                "style_divider": "",
+                "style": "default",
+                "hover": "zoom",
+                "woodmart_color_scheme": "light",
+                "custom_content_bg_color": "",
+                "extra_divider": "",
+                "el_class": "",
+                "title_divider": "",
+                "title": "HP Envy 34",
+                "title_font": "",
+                "title_tag": "h4",
+                "title_size": "default",
+                "font_weight": "",
+                "custom_title_size": "",
+                "custom_title_line_height": "",
+                "woodmart_empty_space": "",
+                "custom_title_color": "",
+                "subtitle_divider": "",
+                "subtitle": "ON SALE",
+                "subtitle_font": "",
+                "subtitle_font_weight": "",
+                "custom_subtitle_size": "",
+                "custom_subtitle_line_height": "",
+                "subtitle_color": "default",
+                "custom_subtitle_color": "",
+                "subtitle_style": "default",
+                "custom_subtitle_bg_color": "",
+                "content_divider": "",
+                "content": "",
+                "content_text_size": "default",
+                "custom_text_color": "",
+                "custom_text_size": "",
+                "custom_text_line_height": "",
+                "button_divider": "",
+                "btn_text": "To Shop",
+                "btn_position": "static",
+                "btn_color": "primary",
+                "btn_size": "default",
+                "btn_style": "default",
+                "btn_shape": "semi-round",
+                "hide_btn_tablet": "no",
+                "hide_btn_mobile": "no",
+                "positioning_divider": "",
+                "horizontal_alignment": "center",
+                "vertical_alignment": "top",
+                "text_alignment": "center",
+                "content_width": "100",
+                "increase_spaces": "no",
+                "title_desktop_text_size": "",
+                "title_tablet_text_size": "",
+                "title_mobile_text_size": "",
+                "subtitle_desktop_text_size": "",
+                "subtitle_tablet_text_size": "",
+                "subtitle_mobile_text_size": ""
+            },
+            "recent-comments-4": {
+                "title": "Recent Comments",
+                "number": 3
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-5": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-6": {
+                "title": "Filter by brands",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "inherit",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-7": {
+                "title": "Color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "inherit",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-8": {
+                "title": "Size",
+                "attribute": "size",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": false
+            }
+        }
+    }
+}

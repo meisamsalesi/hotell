@@ -1,0 +1,269 @@
+// ------------------------------------------------------------------------------------------------
+// FIELD
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-fields {
+		position: sticky;
+		top: 52px;
+		display: flex;
+		flex-wrap: wrap;
+
+		gap: 0 var(--xts-sp, 30px);
+	}
+
+	.xts-field {
+		position: relative;
+		flex-grow: 1;
+		flex-basis: 100%;
+		margin-bottom: 40px;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		max-width: 100%;
+		animation: wd-fadeIn .6s ease both;
+
+		.hide {
+			display: none;
+		}
+
+		&.xts-col-6 {
+			flex-basis: calc(50% - var(--xts-sp, 30px));
+		}
+
+		// &:last-child {
+		// 	margin-bottom: 0
+		// }
+
+		&.xts-divider-field {
+			margin-bottom: 0 !important;
+		}
+	}
+
+	.xts-field-description {
+		@extend %field-description;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	.xts-option-title {
+		@extend %option-title;
+
+		label {
+			display: inline-flex;
+			align-items: center;
+			padding: 0; // NOTE OVERWRIGHT WP ATTRIBUTES/TERMS STYLE
+			vertical-align: middle;
+
+			@extend %option-title-label;
+
+			span {
+				display: flex;
+				align-items: center;
+
+				&:before {
+					margin-inline-end: 8px;
+					min-width: 16px;
+					color: #BFBFBF;
+					font-weight: 400;
+					font-size: 16px;
+				}
+			}
+		}
+
+		.xts-hint {
+			margin-top: -1px;
+			margin-bottom: -1px;
+			margin-inline-start: 3px;
+		}
+
+		// .xts-custom_fonts-control &,
+		// .xts-advanced_typography-field &,
+		// .xts-advanced_typography_button-field & {
+		// 	display: none;
+		// }
+	}
+
+	.xts-field-status {
+		position: relative;
+		display: inline-flex;
+		margin-inline-start: 5px;
+		padding: 4px;
+		border-radius: 5px;
+		border-radius: var(--xts-option-border-radius);
+		background-color: #EDEDED;
+		color: #868686;
+		vertical-align: middle;
+		cursor: default;
+
+		--xts-tooltip-width: 250px;
+
+		&.xts-status-hint {
+			cursor: help;
+		}
+
+		.xts-status-label {
+			// font-weight: 600;
+			font-size: 12px;
+		}
+
+		.xts-status-icon {
+			margin-inline-start: 3px;
+			border-radius: 50%;
+			background-color: rgba(255,255,255,.8);
+			opacity: .8;;
+		}
+
+		.xts-tooltip {
+
+			&.xts-top {
+				inset-inline-start: calc(100% - 26px);
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// WPBAKERY
+	// ------------------------------------------
+
+	.xts-builder-wpb {
+
+		.xts-negative_gap-field,
+		[data-id="plugins_section"] .xts-fields-group:nth-child(4) + .xts-group-title,
+		[data-id="plugins_section"] .xts-fields-group:nth-child(4) + .xts-group-title + .xts-fields-group {
+			display: none;
+		}
+	}
+
+	// ------------------------------------------
+	// HELPERS
+	// ------------------------------------------
+
+	.xts-hide-field-title {
+
+		> .xts-option-title {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+			font-size: 0;
+
+			span {
+				display: none;
+			}
+
+			.xts-inherit-checkbox-wrapper {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	// .xts-notice-control.xts-field-disabled {
+	// 	user-select: auto;
+
+	// 	.xts-option-control {
+	// 		opacity: 1;
+	// 		pointer-events: auto;
+	// 	}
+	// }
+
+	.xts-field-notice {
+		margin-top: 18px;
+		animation: wd-fadeIn .6s ease both;
+		user-select: none;
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// WHB FIELD
+	// ------------------------------------------------------------------------------------------------
+
+	// .whb-field {
+	// 	margin-bottom: 8px;
+	// 	padding-bottom: 8px;
+	// }
+
+	.whb-editor-field {
+		animation: wd-fadeIn .2s ease-in-out;
+
+		label {
+			display: block;
+
+			@extend %option-title;
+			@extend %option-title-label;
+
+			span {
+				vertical-align: middle;
+			}
+		}
+
+		&.xts-col-6 {
+			flex: 1 0 50%;
+			// max-width: 50%;
+		}
+
+		.xts-hint {
+			margin-top: -1px;
+			margin-bottom: -1px;
+			margin-inline-start: 3px;
+		}
+	}
+
+	.whb-field-description {
+		@extend %field-description;
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+@mixin R-MD-DOWN__modules__field {
+
+	@if $general {
+
+		.xts-field {
+
+			&.xts-col-6 {
+				flex-basis: 100%;
+				max-width: 100%;
+			}
+		}
+
+	} // END IF
+}
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// @extend %option-title;
+
+%option-title {
+	margin-bottom: 15px;
+	padding-bottom: var(--xts-option-space);
+	border-bottom: 1px solid var(--xts-option-border-color);
+	line-height: 1;
+}
+
+// @extend %option-title-label;
+
+%option-title-label {
+	color: #333;
+	font-weight: 600;
+	font-size: 14px;
+	cursor: default;
+}
+
+// @extend %field-description;
+
+%field-description {
+	margin-top: var(--xts-option-space) !important;
+	margin-bottom: 0;
+	// opacity: .7;
+	color: rgba(60, 67, 74, .7);
+	font-weight: 400;
+	font-style: italic;
+	font-size: 13px;;
+}

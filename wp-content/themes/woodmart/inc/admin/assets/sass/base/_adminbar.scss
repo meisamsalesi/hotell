@@ -1,0 +1,100 @@
+// ------------------------------------------------------------------------------------
+// ADMINBAR
+// ------------------------------------------------------------------------------------
+
+@if $base-adminbar {
+
+	#wp-admin-bar-xts_dashboard {
+
+		.ab-item {
+
+			i {
+				font-style: normal;
+
+				margin-inline-end: 5px;
+			}
+		}
+
+		> .ab-item {
+			display: flex !important;
+			align-items: center;
+
+			img {
+				max-width: 18px;
+				max-height: 18px;
+
+				margin-inline-end: 5px;
+			}
+
+			&:before {
+				@include font-icon($xts-icon-logo-woodmart);
+			}
+		}
+
+		.wd-white-label-img & {
+
+			> .ab-item {
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	#wp-admin-bar-xts_theme_settings {
+
+		> .ab-sub-wrapper {
+
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				padding-bottom: 10px;
+				width: 500px;
+
+				li {
+					width: 33.3333333%;
+
+					a {
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+				}
+			}
+		}
+	}
+
+	#wp-admin-bar-xts_dashboard_external {
+		
+		> li {
+
+			> a {
+				display: flex !important;
+				align-items: center;
+			}
+		}
+	}
+
+	//**** PATCHER COUNT ****//
+
+	#wp-admin-bar-xts_patcher {
+
+		.xts-patcher-counter {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-inline-start: 5px;
+			padding: 3px 6px;
+			border-radius: 9px;
+			background-color: var(--xts-warning-color, #FA5757);
+			color: #FFF;
+			font-size: 11px;
+
+			.patcher-count {
+				font-size: inherit;
+				line-height: 1;
+			}
+		}
+	}
+
+} // END IF

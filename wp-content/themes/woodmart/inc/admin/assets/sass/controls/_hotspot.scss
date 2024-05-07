@@ -1,0 +1,78 @@
+// ------------------------------------------------------------------------------------------------
+// WPB HOTSPOT
+// ------------------------------------------------------------------------------------------------
+
+@if $wpb-cont-hotspot {
+
+	.wpb_woodmart_image_hotspot {
+
+		.attach_image {
+			position: absolute;
+			top: 45px;
+			left: 0;
+			margin: 10px;
+			max-width: 32px;
+			height: auto;
+			border-radius: var(--xts-option-border-radius);
+		}
+
+		&,
+		.wpb_element_wrapper {
+			padding-bottom: 10px;
+		}
+	}
+
+	.xts-image-hotspot-preview {
+		position: relative;
+		display: block;
+		min-height: 200px;
+		width: 100%;
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-option-border-radius);
+
+		@include xts-bg-loader;
+
+		&.xts-loading {
+			@include xts-act-bg-loader;
+		}
+	}
+
+	.xts-image-hotspot {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		margin-top: -5px;
+		margin-left: -5px;
+		width: 10px;
+		height: 10px;
+		// border: 1px solid rgba(0,0,0,.5);
+		border: 1px solid rgba(255,255,255,.8);
+		border-radius: 50%;
+		// background-color: #2EAE62;
+		background-color: var(--xts-btn-primay-color);
+	}
+
+	.xts-image-hotspot-overlay {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		cursor: pointer;
+	}
+
+	.xts-hotspot-img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: var(--xts-option-border-radius);
+	}
+
+	.xts-loading .xts-image-hotspot,
+	.xts-image-hotspot-image {
+		display: none;
+	}
+
+} // END IF

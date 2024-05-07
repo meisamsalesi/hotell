@@ -1,0 +1,61 @@
+// ------------------------------------------
+// THEME SETTINGS SEARCH
+// ------------------------------------------
+
+@if $general {
+
+	.xts-search {
+		position: relative;
+
+		input[type="text"] {
+			background-image: none; // NONE REMOVE AUTOCOMPLETE GIF LOADER
+
+			padding-inline-start: 35px !important;
+
+			// &:focus {
+			// 	outline: none;
+			// }
+		}
+
+		&:before {
+			position: absolute;
+			top: calc(50% - 9px);
+			z-index: $z-layer-1;
+			display: inline-block;
+			color: #3C434A;
+			font-size: 16px;
+			line-height: 1;
+			pointer-events: none;
+
+			inset-inline-start: 10px;
+		}
+
+		.xts-box-header & {
+
+			input[type="text"] {
+				width: 300px;
+			}
+		}
+
+		.xts-search-inner {
+			position: relative;
+
+			a {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 35px;
+				color: inherit;
+			}
+
+			input[type="text"] {
+				padding-inline-end: 35px;
+			}
+		}
+	}
+
+} // END IF

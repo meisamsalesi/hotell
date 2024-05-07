@@ -1,0 +1,1589 @@
+# Translation of Themes - Twenty Twenty-Four in Persian
+# This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-02 21:18:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fa\n"
+"Project-Id-Version: Themes - Twenty Twenty-Four\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
+msgstr "دو هزار و بیست و چهار به گونه‌ای طراحی شده است که انعطاف پذیر، همه کاره و قابل اجرا برای هر وب سایتی باشد. مجموعه قالب‌ها و الگوهای آن متناسب با نیازهای مختلف، مانند معرفی یک تجارت، وبلاگ نویسی و نوشتن یا نمایش کار است. تنها با چند تنظیم رنگ و تایپوگرافی، بسیاری از احتمالات باز می‌شود. دو هزار و بیست و چهار، دارای تغییرات سبک و طراحی کامل برگه برای کمک به سرعت بخشیدن به روند ساخت سایت است، کاملا با ویرایشگر سایت سازگار است و از ابزارهای طراحی جدید معرفی شده در وردپرس ۶.۴ بهره می‌برد."
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Twenty-Four"
+msgstr "دو هزار و بیست و چهار"
+
+#: patterns/footer.php:95
+msgid "Twitter/X"
+msgstr "توییتر/ایکس"
+
+#: patterns/footer.php:73
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: patterns/footer.php:72
+msgid "Terms and Conditions"
+msgstr "شرایط و ضوابط"
+
+#: patterns/footer.php:71
+msgid "Privacy Policy"
+msgstr "سیاست حریم خصوصی"
+
+#: patterns/footer.php:50
+msgid "Careers"
+msgstr "مشاغل"
+
+#: patterns/footer.php:49
+msgid "History"
+msgstr "تاریخچه"
+
+#: patterns/footer.php:48
+msgid "Team"
+msgstr "تیم"
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts without images, 1 column"
+msgstr "فهرست نوشته‌های بدون تصویر، ۱ ستون"
+
+#: patterns/hidden-portfolio-hero.php:16
+msgid "I’m <em>Leia Acosta</em>, a passionate photographer who finds inspiration in capturing the fleeting beauty of life."
+msgstr "من <em>لیا آکوستا</em> هستم، یک عکاس پرشور که در ثبت زیبایی‌های زودگذر زندگی الهام می‌گیرد."
+
+#: functions.php:200
+msgid "A collection of full page layouts."
+msgstr "مجموعه‌ای از چیدمان‌های تمام صفحه."
+
+#: functions.php:199
+msgctxt "Block pattern category"
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Sidebar"
+msgstr "تکی با نوار کناری"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Wide Image"
+msgstr "برگه با تصویر عریض"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Sidebar"
+msgstr "برگه با نوار کناری"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "برگه بدون عنوان"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr "متای نوشته"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "پابرگ"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "سربرگ"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "۶"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "۵"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "۴"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "۳"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "۲"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "۱"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical hard pewter to white"
+msgstr "مسی تیره به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical hard mint to white"
+msgstr "نعنایی تیره به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical hard sage to white"
+msgstr "سبز خاکستری تیره به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical hard rust to white"
+msgstr "زنگاری تیره به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical hard sandstone to white"
+msgstr "ماسه‌سنگی تیره به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical hard beige to white"
+msgstr "بژ تیره به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical soft pewter to white"
+msgstr "مسی روشن به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical soft mint to white"
+msgstr "نعنایی روشن به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical soft sage to white"
+msgstr "سبز خاکستری روشن به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical soft rust to white"
+msgstr "زنگاری روشن به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical soft sandstone to white"
+msgstr "ماسه‌سنگی روشن به سفید عمودی"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical soft beige to white"
+msgstr "بژ روشن به سفید عمودی"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and pastel blue"
+msgstr "مشکی و آبی پاستلی"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and sage"
+msgstr "مشکی و سبز خاکستری"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and rust"
+msgstr "مشکی و زنگاری"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and sandstone"
+msgstr "مشکی و ماسه‌سنگی"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and white"
+msgstr "مشکی و سفید"
+
+#: styles/rust.json
+msgctxt "Color name"
+msgid "Base / 2"
+msgstr "پایه \\ ۲"
+
+#: styles/rust.json
+msgctxt "Gradient name"
+msgid "Vertical hard rust to beige"
+msgstr "زنگاری تیره به بژ عمودی"
+
+#: styles/rust.json
+msgctxt "Gradient name"
+msgid "Vertical rust to beige"
+msgstr "زنگاری به بژ عمودی"
+
+#: styles/rust.json
+msgctxt "Gradient name"
+msgid "Vertical hard transparent rust to beige"
+msgstr "زنگاری شفاف تیره به بژ عمودی"
+
+#: styles/rust.json
+msgctxt "Gradient name"
+msgid "Vertical transparent rust to beige"
+msgstr "زنگاری شفاف به بژ عمودی"
+
+#: styles/rust.json
+msgctxt "Duotone name"
+msgid "Dark rust to beige"
+msgstr "زنگاری تیره به بژ"
+
+#: styles/rust.json
+msgctxt "Style variation name"
+msgid "Rust"
+msgstr "زنگاری"
+
+#: styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Accent / Five"
+msgstr "تاکید / پنج"
+
+#: styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Accent / Four"
+msgstr "تاکید / چهار"
+
+#: styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Accent / Three"
+msgstr "تاکید / سه"
+
+#: styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Accent / Two"
+msgstr "تاکید / دو"
+
+#: styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr "تاکید"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical hard pewter to dark gray"
+msgstr "مسی تیره به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical hard steel to dark gray"
+msgstr "استیل تیره به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical hard olive to dark gray"
+msgstr "زیتونی تیره به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical hard cinnamon to dark gray"
+msgstr "دارچینی تیره به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical hard walnut to dark gray"
+msgstr "گردویی تیره به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical hard beige to dark gray"
+msgstr "بژ تیره به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical soft pewter to dark gray"
+msgstr "مسی روشن به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical soft steel to dark gray"
+msgstr "استیل روشن به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical soft olive to dark gray"
+msgstr "زیتونی روشن به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical soft cinnamon to dark gray"
+msgstr "دارچینی روشن به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical soft walnut to dark gray"
+msgstr "گردویی روشن به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Gradient name"
+msgid "Vertical soft driftwood to dark gray"
+msgstr "الواری روشن به خاکستری تیره عمودی"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and steel"
+msgstr "خاکستری تیره و استیل"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and olive"
+msgstr "خاکستری تیره و زیتونی"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and cinnamon"
+msgstr "خاکستری تیره و دارچینی"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and walnut"
+msgstr "خاکستری تیره و گردویی"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and white"
+msgstr "خاکستری تیره و سفید"
+
+#: styles/onyx.json
+msgctxt "Style variation name"
+msgid "Onyx"
+msgstr "اونیکس"
+
+#: styles/mint.json
+msgctxt "Style variation name"
+msgid "Mint"
+msgstr "نعناع"
+
+#: styles/maelstrom.json
+msgctxt "Color name"
+msgid "Contrast / 3"
+msgstr "کنتراست / ۳"
+
+#: styles/maelstrom.json
+msgctxt "Style variation name"
+msgid "Maelstrom"
+msgstr "گرداب"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical hard ink to ocean"
+msgstr "جوهری تیره به اقیانوسی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical hard ocean to slate"
+msgstr "اقیانوسی تیره به سنگی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical hard ink to ice"
+msgstr "جوهری تیره به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical hard ocean to ice"
+msgstr "اقیانوسی تیره به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical hard slate to ice"
+msgstr "سنگی تیره به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical hard ice to azure"
+msgstr "یخی تیره به لاجوردی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical ink to ocean"
+msgstr "جوهر اقیانوسی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical ocean to slate"
+msgstr "اقیانوسی به سنگی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical ink to ice"
+msgstr "جوهر به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical ocean to ice"
+msgstr "اقیانوسی به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical slate to ice"
+msgstr "سنگی به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical azure to ice"
+msgstr "لاجوردی به یخی عمودی"
+
+#: styles/ice.json
+msgctxt "Style variation name"
+msgid "Ice"
+msgstr "یخ"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Extra Extra Large"
+msgstr "خیلی خیلی بزرگ"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "بسیار بزرگ"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "بزرگ"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "میانه"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "کوچک"
+
+#: styles/fossil.json styles/maelstrom.json theme.json
+msgctxt "Font family name"
+msgid "Cardo"
+msgstr "Cardo"
+
+#: styles/fossil.json styles/ice.json theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: styles/fossil.json styles/ice.json styles/mint.json styles/onyx.json
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast / Three"
+msgstr "کنتراست / سه"
+
+#: styles/fossil.json styles/ice.json styles/mint.json styles/onyx.json
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast / Two"
+msgstr "کنتراست / دو"
+
+#: styles/fossil.json
+msgctxt "Style variation name"
+msgid "Fossil"
+msgstr "فسیل"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "System Serif"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json theme.json
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr "System Sans-serif"
+
+#: styles/ember.json styles/ice.json styles/maelstrom.json styles/mint.json
+msgctxt "Font family name"
+msgid "Jost"
+msgstr "Jost"
+
+#: styles/ember.json styles/mint.json
+msgctxt "Font family name"
+msgid "Instrument Sans"
+msgstr "Instrument Sans"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Base / Two"
+msgstr "اصلی / دو"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json styles/onyx.json styles/rust.json theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "کنتراست"
+
+#: styles/ember.json styles/maelstrom.json
+msgctxt "Color name"
+msgid "Contrast / 2"
+msgstr "کنتراست / ۲"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json styles/onyx.json styles/rust.json theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "پایه"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical hard ebony to sable"
+msgstr "آبنوس تیره به قهوه‌ای خیلی تیره عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical hard sable to taupe"
+msgstr "زرد خاکستری تیره به قهوه‌ای خیلی تیره عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical hard ebony to beige"
+msgstr "آبنوس تیره به بژ عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical hard sable to beige"
+msgstr "قهوه‌ای خیلی تیره به بژ عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical hard taupe to beige"
+msgstr "زرد خاکستری تیره به بژ عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical hard beige to linen"
+msgstr "بژ تیره به کتان عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical ebony to sable"
+msgstr "آبنوس به قهوه‌ای تیره عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical ebony to beige"
+msgstr "آبنوس به بژ عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical sable to beige"
+msgstr "قهوی‌ای تیره به بژ عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical taupe to beige"
+msgstr "زرد خاکستری به بژ عمودی"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical linen to beige"
+msgstr "کتان به بژ عمودی"
+
+#: styles/ember.json
+msgctxt "Duotone name"
+msgid "Orange and white"
+msgstr "نارنجی و سفید"
+
+#: styles/ember.json
+msgctxt "Style variation name"
+msgid "Ember"
+msgstr "زغال"
+
+#: patterns/text-title-left-image-right.php:34
+msgctxt "Call to Action button text"
+msgid "About us"
+msgstr "درباره ما"
+
+#: patterns/text-title-left-image-right.php:27
+msgctxt "Description for the About pattern"
+msgid "Leaving an indelible mark on the landscape of tomorrow."
+msgstr "اثری ماندگار در چشم‌انداز فردا."
+
+#: patterns/text-title-left-image-right.php:20
+msgctxt "Headline for the About pattern"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études راه‌حل‌های جامع مشاوره، مدیریت، طراحی و تحقیق را ارائه می‌دهد. هر تلاش معماری فرصتی برای شکل دادن به آینده است."
+
+#: patterns/text-title-left-image-right.php
+msgctxt "Pattern title"
+msgid "Title text and button on left with image on right"
+msgstr "متن عنوان و دکمه در سمت چپ با تصویر در سمت راست"
+
+#: patterns/text-project-details.php:34 patterns/text-project-details.php:42
+msgctxt "Descriptive text for the feature area"
+msgid "The revitalized Art Gallery is set to redefine the cultural landscape of Toronto, serving as a nexus of artistic expression, community engagement, and architectural marvel. The expansion and renovation project pay homage to the Art Gallery's rich history while embracing the future, ensuring that the gallery remains a beacon of inspiration."
+msgstr "گالری هنری احیا شده قرار است چشم‌انداز فرهنگی تورنتو را بازتعریف کند و به عنوان کانون بیان هنری، مشارکت جامعه و اعجاز معماری عمل کند. پروژه توسعه و بازسازی با ادای احترام به تاریخ غنی گالری هنری، با آغوش باز به استقبال آینده می‌رود و این اطمینان را حاصل می‌کند که این گالری همچنان مشعل الهام باقی بماند."
+
+#: patterns/text-project-details.php:26
+msgctxt "Descriptive title for the feature area"
+msgid "With meticulous attention to detail and a commitment to excellence, we create spaces that inspire, elevate, and enrich the lives of those who inhabit them."
+msgstr "با توجه دقیق به جزئیات و تعهد به تعالی، ما فضاهایی را ایجاد می‌کنیم که الهام بخش و شور‌انگیز است و به زندگی افرادی که در آن ساکن می‌شوند، غنا می‌بخشد."
+
+#: patterns/text-project-details.php:17
+msgctxt "Title text for the feature area"
+msgid "The revitalized art gallery is set to redefine cultural landscape."
+msgstr "گالری هنری احیا شده قرار است چشم‌انداز فرهنگی را بازتعریف کند."
+
+#: patterns/text-project-details.php
+msgctxt "Pattern title"
+msgid "Project details"
+msgstr "جزییات پروژه"
+
+#: patterns/text-feature-grid-3-col.php:111
+msgctxt "Sample content"
+msgid "Experience the fusion of imagination and expertise with Études Architectural Solutions."
+msgstr "تلفیقی از تخیل و تخصص را با راه‌حل‌های معماری Études تجربه کنید."
+
+#: patterns/text-feature-grid-3-col.php:107
+msgctxt "Sample heading"
+msgid "Architectural Solutions"
+msgstr "راه‌حل‌های معماری"
+
+#: patterns/text-feature-grid-3-col.php:95
+msgctxt "Sample feature heading"
+msgid "Project Management"
+msgstr "مدیریت پروژه"
+
+#: patterns/text-feature-grid-3-col.php:83
+msgctxt "Sample feature heading"
+msgid "Consulting"
+msgstr "مشاوره"
+
+#: patterns/text-feature-grid-3-col.php:62
+msgctxt "Sample feature heading"
+msgid "App Access"
+msgstr "دسترسی به اپلیکیشن"
+
+#: patterns/text-feature-grid-3-col.php:50
+msgctxt "Sample feature heading"
+msgid "Continuous Support"
+msgstr "پشتیبانی مستمر"
+
+#: patterns/text-feature-grid-3-col.php:42
+#: patterns/text-feature-grid-3-col.php:54
+#: patterns/text-feature-grid-3-col.php:66
+#: patterns/text-feature-grid-3-col.php:87
+#: patterns/text-feature-grid-3-col.php:99
+msgctxt "Sample feature content"
+msgid "Experience the fusion of imagination and expertise with Études Architectural Solutions."
+msgstr "تلفیقی از تخیل و تخصص را با راه‌حل‌های معماری Études تجربه کنید."
+
+#: patterns/text-feature-grid-3-col.php:38
+msgctxt "Sample feature heading"
+msgid "Renovation and restoration"
+msgstr "نوسازی و مرمت"
+
+#: patterns/text-feature-grid-3-col.php:23
+msgctxt "Sub-heading of the features"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
+msgstr "مجموعه جامع خدمات تخصصی ما به طیف وسیع مشتریان، از صاحبان خانه تا توسعه‌دهندگان تجاری پاسخ می‌دهد."
+
+#: patterns/text-feature-grid-3-col.php:15
+msgctxt "Heading of the features"
+msgid "A passion for creating spaces"
+msgstr "اشتیاق به ایجاد فضاها"
+
+#: patterns/text-feature-grid-3-col.php
+msgctxt "Pattern title"
+msgid "Feature grid, 3 columns"
+msgstr "شبکه ویژگی، ۳ ستون"
+
+#: patterns/text-faq.php:52
+msgctxt "Question on the details block"
+msgid "Can I apply to be a part of the team or work as a contractor?"
+msgstr "آیا می‌توانم برای عضویت در تیم یا کار به صورت پیمانکاری اقدام کنم؟"
+
+#: patterns/text-faq.php:43
+msgctxt "Question on the details block"
+msgid "I'd like to get to meet fellow architects, how can I do that?"
+msgstr "من دوست دارم با معماران همکار آشنا شوم، چطور میتوانم اینکار را انجام دهم؟"
+
+#: patterns/text-faq.php:34
+msgctxt "Question on the details block"
+msgid "Who is behind Études?"
+msgstr "چه کسی پشت Études است؟"
+
+#: patterns/text-faq.php:27 patterns/text-faq.php:36 patterns/text-faq.php:45
+#: patterns/text-faq.php:54
+msgctxt "Hidden answer on the details block"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Our vision is to be at the forefront of architectural innovation, fostering a global community of architects and enthusiasts united by a passion for creating spaces. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études ارائه دهنده راهکارهای جامع مشاوره، مدیریت، طراحی و تحقیقات می‌باشد. چشم‌انداز ما قرار گرفتن در خط مقدم نوآوری‌های معماری، پرورش یک جامعه جهانی از معماران و علاقه‌مندان متحد شده به واسطه شور و اشتیاق برای خلق فضاها است. هر تلاش معماری فرصتی برای شکل دادن به آینده است."
+
+#: patterns/text-faq.php:25
+msgctxt "Question on the details block"
+msgid "What is your process working in smaller projects?"
+msgstr "روند کار شما در پروژه‌های کوچکتر چگونه است؟"
+
+#: patterns/text-faq.php:14
+msgctxt "Heading of the FAQs"
+msgid "FAQs"
+msgstr "سوالات متداول"
+
+#: patterns/text-faq.php:11
+msgctxt "Name of the FAQ pattern"
+msgid "FAQs"
+msgstr "سوالات متداول"
+
+#: patterns/text-faq.php
+msgctxt "Pattern title"
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: patterns/text-centered-statement.php:20
+msgid "<em>Études</em> is not confined to the past—we are passionate about the cutting edge designs shaping our world today."
+msgstr "<em>Études</em> به گذشته محدود نمی‌شود - ما مشتاق طراحی‌های نوآورانه‌ای هستیم که دنیای امروز ما را شکل می‌دهند."
+
+#: patterns/text-centered-statement.php
+msgctxt "Pattern title"
+msgid "Centered statement"
+msgstr "بیانیه محور"
+
+#. Translators: About text placeholder
+#: patterns/text-centered-statement-small.php:22
+msgid "I write about finance, management and economy, my book “%1$s” is out now."
+msgstr "من در مورد امور مالی، مدیریت و اقتصاد می‌نویسم، کتاب من «%1$s» به تازگی منتشر شده‌است."
+
+#. Translators: About link placeholder
+#: patterns/text-centered-statement-small.php:19
+msgid "Money Studies"
+msgstr "مطالعات مالی"
+
+#: patterns/text-centered-statement-small.php
+msgctxt "Pattern title"
+msgid "Centered statement, small"
+msgstr "بیانیه محور، کوچک"
+
+#: patterns/text-alternating-images.php:104
+msgctxt "Sample list item"
+msgid "Exclusive access to design insights."
+msgstr "دسترسی انحصاری به بینش‌های طراحی"
+
+#: patterns/text-alternating-images.php:100
+msgctxt "Sample list item"
+msgid "Case studies that celebrate architecture."
+msgstr "مطالعات موردی که معماری را ارج می نهند."
+
+#: patterns/text-alternating-images.php:96
+msgctxt "Sample list item"
+msgid "A world of thought-provoking articles."
+msgstr "دنیایی از مقالات تامل برانگیز."
+
+#: patterns/text-alternating-images.php:90
+msgctxt "Sample heading"
+msgid "Études Newsletter"
+msgstr "خبرنامه Études"
+
+#: patterns/text-alternating-images.php:81
+msgid "Windows of a building in Nuremberg, Germany"
+msgstr "پنجره‌های یک ساختمان در نورنبرگ، آلمان"
+
+#: patterns/text-alternating-images.php:63
+msgid "Tourist taking photo of a building"
+msgstr "گردشگر در حال عکاسی از یک ساختمان"
+
+#: patterns/text-alternating-images.php:36
+msgctxt "Sample list heading"
+msgid "Études Architect App"
+msgstr "اپلیکیشن معماری Études"
+
+#: patterns/text-alternating-images.php:22
+msgctxt "Sample subheading content"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
+msgstr "مجموعه جامع خدمات تخصصی ما به طیف وسیع مشتریان، از صاحبان خانه تا توسعه‌دهندگان تجاری را پاسخ می‌دهد."
+
+#: patterns/text-alternating-images.php:18
+msgctxt "Sample heading content"
+msgid "An array of resources"
+msgstr "آرایه‌ای از منابع"
+
+#: patterns/text-alternating-images.php
+msgctxt "Pattern title"
+msgid "Text with alternating images"
+msgstr "متن با تصاویر متناوب"
+
+#: patterns/testimonial-centered.php:38
+msgctxt "Designation of Person Provided Testimonial"
+msgid "CEO, Greenprint"
+msgstr "مدیر عامل، گرین‌پرینت"
+
+#: patterns/testimonial-centered.php:34
+msgctxt "Name of Person Provided the Testimonial"
+msgid "Annie Steiner"
+msgstr "آنی اشتاینر"
+
+#: patterns/testimonial-centered.php:25
+msgctxt "Name of testimonial citation group"
+msgid "Testimonial source"
+msgstr "منبع نظرات مشتریان"
+
+#: patterns/testimonial-centered.php:17
+msgctxt "Testimonial Text or Review Text Got From the Person"
+msgid "“Études has saved us thousands of hours of work and has unlocked insights we never thought possible.”"
+msgstr "«Études هزاران ساعت کار را برای ما صرفه‌جویی کرده و بینش‌هایی که هرگز فکر نمی‌کردیم امکان‌پذیر باشد، را در دسترس قرار داده‌است.»"
+
+#: patterns/testimonial-centered.php:11
+msgctxt "Name of testimonal pattern"
+msgid "Testimonial"
+msgstr "نظرات مشتریان"
+
+#: patterns/testimonial-centered.php
+msgctxt "Pattern title"
+msgid "Centered testimonial"
+msgstr "نظرات مشتریان وسط چین"
+
+#: patterns/template-single-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio single post template"
+msgstr "قالب تک نوشته‌ی نمونه‌کار"
+
+#: patterns/template-search-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging search template"
+msgstr "قالب جستجوی وبلاگ"
+
+#: patterns/template-search-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio search template"
+msgstr "قالب جستجوی نمونه‌کار"
+
+#: patterns/template-index-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio index template"
+msgstr "قالب فهرست نمونه کار"
+
+#: patterns/template-index-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging index template"
+msgstr "قالب فهرست وبلاگ"
+
+#: patterns/template-home-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio home template with post featured images"
+msgstr "قالب خانه نمونه کار همراه با تصاویر شاخص"
+
+#: patterns/template-home-business.php
+msgctxt "Pattern title"
+msgid "Business home template"
+msgstr "قالب خانه کسب و کار"
+
+#: patterns/template-home-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging home template"
+msgstr "قالب خانه وبلاگ نویسی"
+
+#: patterns/template-archive-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio archive template"
+msgstr "قالب بایگانی نمونه‌کارها"
+
+#: patterns/template-archive-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging archive template"
+msgstr "قالب بایگانی وبلاگ"
+
+#: patterns/team-4-col.php:120
+msgctxt "Sample role of a team member"
+msgid "Project Manager"
+msgstr "مدیر پروژه"
+
+#: patterns/team-4-col.php:115
+msgctxt "Sample name of a team member"
+msgid "Ivan Lawrence"
+msgstr "ایوان لارنس"
+
+#: patterns/team-4-col.php:96
+msgctxt "Sample role of a team member"
+msgid "Architect"
+msgstr "معمار"
+
+#: patterns/team-4-col.php:91
+msgctxt "Sample name of a team member"
+msgid "Helga Steiner"
+msgstr "هلگا اشتاینر"
+
+#: patterns/team-4-col.php:72
+msgctxt "Sample role of a team member"
+msgid "Engineering Manager"
+msgstr "مدیریت مهندسی"
+
+#: patterns/team-4-col.php:67
+msgctxt "Sample name of a team member"
+msgid "Rhye Moore"
+msgstr "رای مور"
+
+#: patterns/team-4-col.php:48
+msgctxt "Sample role of a team member"
+msgid "Founder, CEO & Architect"
+msgstr "بنیانگذار، مدیر عامل و معمار"
+
+#: patterns/team-4-col.php:43
+msgctxt "Sample name of a team member"
+msgid "Francesca Piovani"
+msgstr "فرانچسکا پیوانی"
+
+#: patterns/team-4-col.php:19
+msgctxt "Sample descriptive text of the team pattern"
+msgid "Our comprehensive suite of professionals caters to a diverse team, ranging from seasoned architects to renowned engineers."
+msgstr "مجموعه جامع و حرفه‌ای ما برای تیم‌های متنوعی از معماران با تجربه گرفته تا مهندسان مشهور پاسخگو است."
+
+#: patterns/team-4-col.php:15
+msgctxt "Sample heading for the team pattern"
+msgid "Meet our team"
+msgstr "آشنایی با تیم ما"
+
+#: patterns/team-4-col.php:10
+msgctxt "Name of team pattern"
+msgid "Team members"
+msgstr "اعضای تیم"
+
+#: patterns/team-4-col.php
+msgctxt "Pattern title"
+msgid "Team members, 4 columns"
+msgstr "اعضای تیم، ۴ ستون"
+
+#: patterns/posts-images-only-offset-4-col.php
+msgctxt "Pattern title"
+msgid "Offset posts with featured images only, 4 columns"
+msgstr "افست نوشته‌ها فقط با تصاویر شاخص، ۴ ستون"
+
+#: patterns/posts-images-only-3-col.php
+msgctxt "Pattern title"
+msgid "Posts with featured images only, 3 columns"
+msgstr "نوشته‌ها فقط با تصاویر شاخص، ۳ ستون"
+
+#: patterns/posts-grid-2-col.php:13 patterns/posts-list.php:13
+#: patterns/template-index-blogging.php:16
+msgid "Watch, Read, Listen"
+msgstr "مشاهده، خواندن، شنیدن"
+
+#: patterns/posts-grid-2-col.php
+msgctxt "Pattern title"
+msgid "Grid of posts featuring the first post, 2 columns"
+msgstr "شبکه نوشته‌ها شامل اولین نوشته، ۲ ستون"
+
+#: patterns/posts-3-col.php
+msgctxt "Pattern title"
+msgid "List of posts, 3 columns"
+msgstr "فهرست نوشته‌ها، ۳ ستون"
+
+#: patterns/posts-1-col.php
+msgctxt "Pattern title"
+msgid "List of posts, 1 column"
+msgstr "فهرست نوشته‌ها، ۱ ستون"
+
+#: patterns/page-rsvp-landing.php:48
+msgid "Green staircase at Western University, London, Canada"
+msgstr "پلکان سبز در دانشگاه وسترن، لندن، کانادا"
+
+#: patterns/page-rsvp-landing.php:13
+msgctxt "Name of RSVP landing page pattern"
+msgid "RSVP Landing Page"
+msgstr "صفحه لندینگ RSVP"
+
+#: patterns/page-rsvp-landing.php
+msgctxt "Pattern title"
+msgid "RSVP landing"
+msgstr "لندینگ RSVP"
+
+#: patterns/page-portfolio-overview.php
+msgctxt "Pattern title"
+msgid "Portfolio project overview"
+msgstr "نمای کلی پروژه نمونه کارها"
+
+#: patterns/page-newsletter-landing.php:39
+msgctxt "Sample content for newsletter subscribe button"
+msgid "Sign up"
+msgstr "عضویت"
+
+#: patterns/page-newsletter-landing.php:28
+msgctxt "sample content for newsletter subscription"
+msgid "Subscribe to the newsletter and stay connected with our community"
+msgstr "در خبرنامه مشترک شوید و با انجمن ما در ارتباط باشید"
+
+#: patterns/page-newsletter-landing.php
+msgctxt "Pattern title"
+msgid "Newsletter landing"
+msgstr "لندینگ خبرنامه"
+
+#: patterns/page-home-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio home with post featured images"
+msgstr "خانه نمونه‌کارها همراه با تصاویر شاخص نوشته"
+
+#: patterns/page-home-portfolio-gallery.php
+msgctxt "Pattern title"
+msgid "Portfolio home image gallery"
+msgstr "تصویر خانه گالری نمونه کار"
+
+#: patterns/page-home-business.php
+msgctxt "Pattern title"
+msgid "Business home"
+msgstr "خانه کسب و کار"
+
+#: patterns/page-home-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging home"
+msgstr "خانه وبلاگ"
+
+#: patterns/page-about-business.php
+msgctxt "Pattern title"
+msgid "About"
+msgstr "درباره"
+
+#: patterns/hidden-sidebar.php:75
+msgctxt "search form placeholder"
+msgid "Search..."
+msgstr "جستجو..."
+
+#: patterns/hidden-sidebar.php:72
+msgid "Search the website"
+msgstr "جستجوی وبسایت"
+
+#: patterns/hidden-sidebar.php:60
+msgid "Financial apps for families"
+msgstr "برنامه‌های مالی برای خانواده‌ها"
+
+#: patterns/hidden-sidebar.php:59
+msgid "Latest inflation report"
+msgstr "آخرین گزارش تورم"
+
+#: patterns/hidden-sidebar.php:53
+msgid "Links I found useful and wanted to share."
+msgstr "لینک‌هایی که مفید یافتم و می‌خواهم به اشتراک بگذارم."
+
+#: patterns/hidden-sidebar.php:49
+msgid "Useful Links"
+msgstr "پیوندهای مفید"
+
+#: patterns/hidden-sidebar.php:33
+msgid "Popular Categories"
+msgstr "دسته‌بندی‌های محبوب"
+
+#: patterns/hidden-sidebar.php:17
+msgid "About the author"
+msgstr "درباره‌ی نویسنده"
+
+#: patterns/hidden-sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: patterns/hidden-search.php:9
+msgctxt "search button text"
+msgid "Search"
+msgstr "جستجو"
+
+#: patterns/hidden-search.php:9 patterns/hidden-sidebar.php:75
+msgctxt "search form label"
+msgid "Search"
+msgstr "جستجو"
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr "جستجو"
+
+#: patterns/hidden-post-navigation.php:12
+msgctxt "Label before the title of the next post. There is a space after the colon."
+msgid "Next: "
+msgstr "بعدی: "
+
+#: patterns/hidden-post-navigation.php:11
+msgctxt "Label before the title of the previous post. There is a space after the colon."
+msgid "Previous: "
+msgstr "قبلی: "
+
+#: patterns/hidden-post-navigation.php:9 patterns/hidden-post-navigation.php:10
+#: patterns/template-index-portfolio.php:16
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: patterns/hidden-post-navigation.php
+msgctxt "Pattern title"
+msgid "Post navigation"
+msgstr "پیمایش نوشته"
+
+#: patterns/hidden-post-meta.php:25
+msgctxt "Prefix for the post category block: in category name"
+msgid "in "
+msgstr "در "
+
+#: patterns/hidden-post-meta.php:20
+msgctxt "Prefix for the post author block: By author name"
+msgid "by"
+msgstr "توسط"
+
+#: patterns/hidden-post-meta.php
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr "متای نوشته"
+
+#: patterns/hidden-portfolio-hero.php
+msgctxt "Pattern title"
+msgid "Portfolio hero"
+msgstr "بخش اصلی نمونه کار"
+
+#: patterns/hidden-no-results.php:9
+msgctxt "Message explaining that there are no results returned from a search"
+msgid "No posts were found."
+msgstr "هیچ نوشته‌ای پیدا نشد."
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "No results"
+msgstr "بدون نتیجه"
+
+#: patterns/hidden-comments.php:12
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: patterns/hidden-404.php:13
+msgctxt "Message to convey that a webpage could not be found"
+msgid "The page you are looking for does not exist, or it has been moved. Please try searching using the form below."
+msgstr "صفحه‌ای که به دنبالش هستید وجود ندارد و یا منتقل شده است. لطفا توسط فرم زیر جستجو کنید."
+
+#: patterns/hidden-404.php:10
+msgctxt "Heading for a webpage that is not found"
+msgid "Page Not Found"
+msgstr "برگه پیدا نشد"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "۴۰۴"
+
+#: patterns/gallery-project-layout.php:53
+msgid "Art Gallery of Ontario, Toronto, Canada"
+msgstr "گالری هنر انتاریو، تورنتو، کانادا"
+
+#: patterns/gallery-project-layout.php:48
+msgctxt "Sample text for the feature area"
+msgid "2. Case studies that celebrate the artistry can fuel curiosity and ignite inspiration."
+msgstr "۲. مطالعات موردی که هنر را ارج می نهند، می‌تواند حس کنجکاوی را تقویت کند و الهام‌بخش باشد."
+
+#: patterns/gallery-project-layout.php:37
+msgctxt "Sample text for the feature area"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers. With a commitment to innovation and sustainability, Études is the bridge that transforms architectural dreams into remarkable built realities."
+msgstr "مجموعه جامع خدمات حرفه‌ای ما به مشتریان متنوعی از صاحبان خانه تا توسعه دهندگان تجاری پاسخ می‌دهد. با تعهد به نوآوری و پایداری، Études پلی است که رویاهای معماری را به واقعیت‌های ساخته شده عالی تبدیل می‌کند."
+
+#: patterns/gallery-project-layout.php:25
+msgctxt "Sample text for the feature area"
+msgid "1. Through Études, we aspire to redefine architectural boundaries and usher in a new era of design excellence that leaves an indelible mark on the built environment."
+msgstr "1. از طریق Études، ما آرزوی بازتعریف مرزهای معماری را داریم و عصر جدیدی از تعالی طراحی را آغاز می‌کنیم که اثری ماندگار در محیط ساخته شده به جا می‌گذارد."
+
+#: patterns/gallery-project-layout.php:20
+msgid "An empty staircase under an angular roof in Darling Harbour, Sydney, Australia"
+msgstr "پلکانی خالی در زیر سقفی زاویه دار در بندر دارلینگ، سیدنی، استرالیا"
+
+#: patterns/gallery-project-layout.php
+msgctxt "Pattern title"
+msgid "Project layout"
+msgstr "چیدمان پروژه"
+
+#: patterns/gallery-offset-images-grid-4-col.php
+msgctxt "Pattern title"
+msgid "Offset gallery, 4 columns"
+msgstr "گالری افست، ۴ ستون"
+
+#: patterns/gallery-offset-images-grid-3-col.php
+msgctxt "Pattern title"
+msgid "Offset gallery, 3 columns"
+msgstr "گالری افست، ۳ ستون"
+
+#: patterns/gallery-offset-images-grid-2-col.php
+msgctxt "Pattern title"
+msgid "Offset gallery, 2 columns"
+msgstr "گالری افست، ۲ ستون"
+
+#: patterns/gallery-full-screen-image.php
+msgctxt "Pattern title"
+msgid "Full screen image"
+msgstr "تصویر تمام صفحه"
+
+#: patterns/footer.php:91
+msgid "Social Media"
+msgstr "شبکه اجتماعی"
+
+#: patterns/footer.php:85
+msgid "Social"
+msgstr "شبکه‌های اجتماعی"
+
+#: patterns/footer.php:63 patterns/footer.php:69
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: patterns/footer.php:40 patterns/footer.php:46
+msgid "About"
+msgstr "درباره"
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer with colophon, 4 columns"
+msgstr "پابرگ با انجامه ۴ ستونه"
+
+#: patterns/footer-colophon-3-col.php:81
+msgid "&copy;"
+msgstr "&copy;"
+
+#: patterns/footer-colophon-3-col.php:59 patterns/footer.php:93
+msgid "Facebook"
+msgstr "فیس‌بوک"
+
+#: patterns/footer-colophon-3-col.php:59 patterns/footer.php:94
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: patterns/footer-colophon-3-col.php:56
+msgid "Follow"
+msgstr "دنبال کنید"
+
+#: patterns/footer-colophon-3-col.php:41
+msgctxt "Example email in site footer"
+msgid "info@example.com"
+msgstr "info@example.com"
+
+#: patterns/footer-colophon-3-col.php:38
+msgid "Contact"
+msgstr "ارتباط"
+
+#: patterns/footer-colophon-3-col.php:29
+msgid "Keep up, get in touch."
+msgstr "ادامه دهید، در تماس باشید."
+
+#: patterns/footer-colophon-3-col.php
+msgctxt "Pattern title"
+msgid "Footer with colophon, 3 columns"
+msgstr "پابرگ با انجامه ۳ ستونه"
+
+#. Translators: Designed with WordPress
+#: patterns/footer-centered-logo-nav.php:24
+#: patterns/footer-colophon-3-col.php:93 patterns/footer.php:119
+msgid "Designed with %1$s"
+msgstr "طراحی شده توسط %1$s"
+
+#: patterns/footer-centered-logo-nav.php
+msgctxt "Pattern title"
+msgid "Footer with centered logo and navigation"
+msgstr "پابرگ با لوگو و راهبری وسط چین"
+
+#: patterns/cta-subscribe-centered.php:30
+msgctxt "Sample text for Sign Up Button"
+msgid "Sign up"
+msgstr "ثبت‌نام"
+
+#: patterns/cta-subscribe-centered.php:23
+msgctxt "Sample text for Subscriber Description"
+msgid "Stay in the loop with everything you need to know."
+msgstr "در جریان هر چیزی که باید بدانید باشید."
+
+#: patterns/cta-subscribe-centered.php:19
+msgctxt "Sample text for Subscriber Heading with numbers"
+msgid "Join 900+ subscribers"
+msgstr "به بیش از ۹۰۰ مشترک بپیوندید"
+
+#: patterns/cta-subscribe-centered.php
+msgctxt "Pattern title"
+msgid "Centered call to action"
+msgstr "دعوت به عمل وسط چین"
+
+#: patterns/cta-services-image-left.php:38
+msgctxt "Sample button text to view the services"
+msgid "Our services"
+msgstr "خدمات ما"
+
+#: patterns/cta-services-image-left.php:31
+msgctxt "Sample description of the services pattern"
+msgid "Experience the fusion of imagination and expertise with Études—the catalyst for architectural transformations that enrich the world around us."
+msgstr "ادغام تخیل و تخصص را با Études تجربه کنید - کاتالیزور دگرگونی‌های معماری که جهان اطراف ما را غنی می‌کند."
+
+#: patterns/cta-services-image-left.php:27
+msgctxt "Sample heading of the services pattern"
+msgid "Guiding your business through the project"
+msgstr "هدایت کسب و کار شما به صورت پروژه‌ای"
+
+#: patterns/cta-services-image-left.php
+msgctxt "Pattern title"
+msgid "Services call to action with image on left"
+msgstr "دعوت به عمل خدمات با تصویر در چپ"
+
+#: patterns/cta-rsvp.php:49 patterns/text-title-left-image-right.php:50
+msgid "A ramp along a curved wall in the Kiasma Museu, Helsinki, Finland"
+msgstr "یک سطح شیبدار در امتداد یک دیوار منحنی در موزه کیاسما، هلسینکی، فنلاند"
+
+#: patterns/cta-rsvp.php:33 patterns/page-rsvp-landing.php:33
+msgctxt "Call to action button text for the reservation button"
+msgid "Reserve your spot"
+msgstr "جای خود را رزرو کنید"
+
+#: patterns/cta-rsvp.php:26 patterns/page-rsvp-landing.php:27
+msgctxt "RSVP call to action description"
+msgid "Experience the fusion of imagination and expertise with Études Arch Summit, February 2025."
+msgstr "ادغام تخیل و تخصص را با همایش Études Arch، در فوریه 2025 تجربه کنید."
+
+#: patterns/cta-rsvp.php:20 patterns/page-rsvp-landing.php:22
+msgctxt "Initials for ´please respond´"
+msgid "RSVP"
+msgstr "RSVP"
+
+#: patterns/cta-rsvp.php:10
+msgctxt "Name of RSVP pattern"
+msgid "RSVP"
+msgstr "RSVP"
+
+#: patterns/cta-rsvp.php
+msgctxt "Pattern title"
+msgid "RSVP"
+msgstr "RSVP"
+
+#: patterns/cta-pricing.php:202
+msgctxt "Button text for the third pricing level"
+msgid "Subscribe"
+msgstr "اشتراک"
+
+#: patterns/cta-pricing.php:188
+msgctxt "Feature for pricing level"
+msgid "Exclusive access to the <em>Études</em> app for iOS and Android"
+msgstr "دسترسی انحصاری به اپلیکیشن <em>Études</em> برای iOS و Android"
+
+#: patterns/cta-pricing.php:172
+msgctxt "Feature for pricing level"
+msgid "Exclusive, unlimited access to <em>Études Articles</em>."
+msgstr "دسترسی انحصاری و نامحدود به <em>مقالات مطالعاتی</em>."
+
+#: patterns/cta-pricing.php:161
+msgctxt "Sample price for the third pricing level"
+msgid "$28"
+msgstr "۲۸ ریال"
+
+#: patterns/cta-pricing.php:156
+msgctxt "Sample heading for the third pricing level"
+msgid "Expert"
+msgstr "حرفه‌ای"
+
+#: patterns/cta-pricing.php:144
+msgctxt "Button text for the second pricing level"
+msgid "Subscribe"
+msgstr "اشتراک"
+
+#: patterns/cta-pricing.php:114
+msgctxt "Feature for pricing level"
+msgid "Access to 20 exclusive <em>Études Articles</em> per month."
+msgstr "دسترسی به ۲۰ <em>مقاله Études</em> اختصاصی در ماه."
+
+#: patterns/cta-pricing.php:103
+msgctxt "Sample price for the second pricing level"
+msgid "$12"
+msgstr "۱۲ ریال"
+
+#: patterns/cta-pricing.php:98
+msgctxt "Sample heading for the second pricing level"
+msgid "Connoisseur"
+msgstr "خبره"
+
+#: patterns/cta-pricing.php:86
+msgctxt "Button text for the first pricing level"
+msgid "Subscribe"
+msgstr "اشتراک"
+
+#: patterns/cta-pricing.php:71 patterns/cta-pricing.php:130
+msgctxt "Feature for pricing level"
+msgid "Exclusive access to the <em>Études</em> app for iOS and Android."
+msgstr "دسترسی اختصاصی به اپلیکیشن <em>Études</em> برای اندروید و iOS"
+
+#: patterns/cta-pricing.php:61 patterns/cta-pricing.php:122
+#: patterns/cta-pricing.php:180
+msgctxt "Feature for pricing level"
+msgid "Weekly print edition."
+msgstr "نسخه چاپی هفتگی."
+
+#: patterns/cta-pricing.php:52
+msgctxt "Feature for pricing level"
+msgid "Access to 5 exclusive <em>Études Articles</em> per month."
+msgstr "دسترسی به ۵ <em>مقاله Études</em> اختصاصی در ماه."
+
+#: patterns/cta-pricing.php:41
+msgctxt "Sample price for the first pricing level"
+msgid "$0"
+msgstr "۰ ریال"
+
+#: patterns/cta-pricing.php:36
+msgctxt "Sample heading for the first pricing level"
+msgid "Free"
+msgstr "رایگان"
+
+#: patterns/cta-pricing.php:21
+msgctxt "Sample description for a pricing table"
+msgid "We offer flexible options, which you can adapt to the different needs of each project."
+msgstr "ما گزینه‌های منعطفی را ارائه می‌دهیم که می‌توانید آنها را با نیازهای مختلف هر پروژه تطبیق دهید."
+
+#: patterns/cta-pricing.php:17
+msgctxt "Sample heading for pricing pattern"
+msgid "Our Services"
+msgstr "خدمات ما"
+
+#: patterns/cta-pricing.php:10
+msgctxt "Name for the pricing pattern"
+msgid "Pricing Table"
+msgstr "جدول قیمت‌گذاری"
+
+#: patterns/cta-pricing.php
+msgctxt "Pattern title"
+msgid "Pricing"
+msgstr "قیمت‌گذاری"
+
+#: patterns/cta-content-image-on-right.php:58
+#: patterns/cta-services-image-left.php:18
+msgid "White abstract geometric artwork from Dresden, Germany"
+msgstr "آثار هنری هندسی انتزاعی سفید از درسدن، آلمان"
+
+#: patterns/cta-content-image-on-right.php:46
+msgctxt "Button text of this section"
+msgid "How it works"
+msgstr "چگونه کار می‌کند"
+
+#: patterns/cta-content-image-on-right.php:40
+msgctxt "Button text of this section"
+msgid "Download app"
+msgstr "دانلود اپلیکیشن"
+
+#: patterns/cta-content-image-on-right.php:31
+#: patterns/text-alternating-images.php:51
+msgctxt "Sample list item"
+msgid "Experience the world of architecture."
+msgstr "دنیای هنر را تجربه کنید."
+
+#: patterns/cta-content-image-on-right.php:27
+#: patterns/text-alternating-images.php:47
+msgctxt "Sample list item"
+msgid "Showcase your projects."
+msgstr "ویترین پروژه‌های شما."
+
+#: patterns/cta-content-image-on-right.php:23
+#: patterns/text-alternating-images.php:43
+msgctxt "Sample list item"
+msgid "Collaborate with fellow architects."
+msgstr "با معماران دیگر همکاری کنید."
+
+#: patterns/cta-content-image-on-right.php:17
+msgctxt "Sample heading"
+msgid "Enhance your architectural journey with the Études Architect app."
+msgstr "سفر معماری خود را با اپلیکیشن Études Architect بهبود بخشید."
+
+#: patterns/cta-content-image-on-right.php
+msgctxt "Pattern title"
+msgid "Call to action with image on right"
+msgstr "دعوت به عمل با تصویر در راست"
+
+#: patterns/banner-project-description.php:40
+msgid "Hyatt Regency San Francisco, San Francisco, United States"
+msgstr "Hyatt Regency San Francisco، سانفرانسیسکو، ایالات متحده"
+
+#: patterns/banner-project-description.php:25
+msgctxt "Sample descriptive text for a project or post."
+msgid "This transformative project seeks to enhance the gallery's infrastructure, accessibility, and exhibition spaces while preserving its rich cultural heritage."
+msgstr "این پروژه متحول کننده به دنبال ارتقای زیرساخت، دسترسی و فضاهای نمایشگاهی گالری با حفظ میراث فرهنگی غنی آن است."
+
+#: patterns/banner-project-description.php:16
+msgctxt "Sample title for a project or post"
+msgid "Art Gallery — Overview"
+msgstr "گالری هنر - بررسی اجمالی"
+
+#: patterns/banner-project-description.php
+msgctxt "Pattern title"
+msgid "Project description"
+msgstr "توضیح پروژه"
+
+#: patterns/banner-hero.php:51
+msgid "Building exterior in Toronto, Canada"
+msgstr "نمای بیرونی ساختمان در تورنتو، کانادا"
+
+#: patterns/banner-hero.php:36
+msgctxt "Button text of the hero section"
+msgid "About us"
+msgstr "درباره ما"
+
+#: patterns/banner-hero.php:25
+msgctxt "Content of the hero section"
+msgid "Études is a pioneering firm that seamlessly merges creativity and functionality to redefine architectural excellence."
+msgstr "Études یک شرکت پیشگام است که به طور یکپارچه خلاقیت و عملکرد را برای بازتعریف برتری معماری ادغام می‌کند."
+
+#: patterns/banner-hero.php:17
+msgctxt "Heading of the hero section"
+msgid "A commitment to innovation and sustainability"
+msgstr "تعهد به نوآوری و پایداری"
+
+#: patterns/banner-hero.php
+msgctxt "Pattern title"
+msgid "Hero"
+msgstr "بخش اصلی"
+
+#: functions.php:111
+msgid "With asterisk"
+msgstr "همراه ستاره"
+
+#: functions.php:93
+msgid "With arrow"
+msgstr "با فلش"
+
+#: functions.php:74
+msgid "Checkmark"
+msgstr "علامت تیک"
+
+#: functions.php:51
+msgid "Pill"
+msgstr "قرص"
+
+#: functions.php:28
+msgid "Arrow icon"
+msgstr "آیکون فلش"
+
+#. Author URI of the theme
+#. Translators: WordPress link.
+#: style.css patterns/footer-centered-logo-nav.php:21
+#: patterns/footer-colophon-3-col.php:90 patterns/footer.php:116
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "تیم وردپرس"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentyfour/"
+msgstr "https://wordpress.org/themes/twentytwentyfour/"

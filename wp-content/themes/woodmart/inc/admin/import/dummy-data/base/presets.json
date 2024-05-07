@@ -1,0 +1,726 @@
+{
+    "67": {
+        "id": 67,
+        "name": "filters_area",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": ""
+                }
+            ]
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "hidden_sidebar",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": ""
+                }
+            ]
+        }
+    },
+    "75": {
+        "id": 75,
+        "name": "no_page_heading",
+        "condition": []
+    },
+    "76": {
+        "id": 76,
+        "name": "small_categories",
+        "condition": []
+    },
+    "77": {
+        "id": 77,
+        "name": "bordered_grid",
+        "condition": []
+    },
+    "78": {
+        "id": 78,
+        "name": "list_view",
+        "condition": []
+    },
+    "79": {
+        "id": 79,
+        "name": "with_background",
+        "condition": []
+    },
+    "80": {
+        "id": 80,
+        "name": "only_categories",
+        "condition": []
+    },
+    "81": {
+        "id": 81,
+        "name": "header_overlap",
+        "condition": []
+    },
+    "82": {
+        "id": 82,
+        "name": "hover_icons",
+        "condition": []
+    },
+    "83": {
+        "id": 83,
+        "name": "hover_icons_cart",
+        "condition": []
+    },
+    "85": {
+        "id": 85,
+        "name": "hover_info",
+        "condition": []
+    },
+    "87": {
+        "id": 87,
+        "name": "button_standard",
+        "condition": []
+    },
+    "88": {
+        "id": 88,
+        "name": "quick_shop",
+        "condition": []
+    },
+    "89": {
+        "id": 89,
+        "name": "tiled_hover",
+        "condition": []
+    },
+    "90": {
+        "id": 90,
+        "name": "product_center",
+        "condition": []
+    },
+    "91": {
+        "id": 91,
+        "name": "product_sticky",
+        "condition": []
+    },
+    "92": {
+        "id": 92,
+        "name": "product_shadow",
+        "condition": []
+    },
+    "93": {
+        "id": 93,
+        "name": "product_bg",
+        "condition": []
+    },
+    "94": {
+        "id": 94,
+        "name": "product_accordion",
+        "condition": []
+    },
+    "95": {
+        "id": 95,
+        "name": "accordion_content",
+        "condition": []
+    },
+    "96": {
+        "id": 96,
+        "name": "sticky_add_to_cart",
+        "condition": []
+    },
+    "97": {
+        "id": 97,
+        "name": "product_sidebar",
+        "condition": []
+    },
+    "86": {
+        "id": 86,
+        "name": "image_button",
+        "condition": []
+    },
+    "99": {
+        "id": 99,
+        "name": "images_sticky",
+        "condition": []
+    },
+    "100": {
+        "id": 100,
+        "name": "images_col1",
+        "condition": []
+    },
+    "101": {
+        "id": 101,
+        "name": "images_col2",
+        "condition": []
+    },
+    "102": {
+        "id": 102,
+        "name": "images_combined",
+        "condition": []
+    },
+    "103": {
+        "id": 103,
+        "name": "product_img_fullwidth",
+        "condition": []
+    },
+    "104": {
+        "id": 104,
+        "name": "images_small",
+        "condition": []
+    },
+    "105": {
+        "id": 105,
+        "name": "images_large",
+        "condition": []
+    },
+    "106": {
+        "id": 106,
+        "name": "without_thumb",
+        "condition": []
+    },
+    "109": {
+        "id": 109,
+        "name": "catalog_mode",
+        "condition": []
+    },
+    "110": {
+        "id": 110,
+        "name": "cookies_law",
+        "condition": []
+    },
+    "114": {
+        "id": 114,
+        "name": "blog_meta_on_image",
+        "condition": []
+    },
+    "111": {
+        "id": 111,
+        "name": "blog_alt",
+        "condition": []
+    },
+    "112": {
+        "id": 112,
+        "name": "blog_small",
+        "condition": []
+    },
+    "113": {
+        "id": 113,
+        "name": "blog_chess",
+        "condition": []
+    },
+    "115": {
+        "id": 115,
+        "name": "blog_infinit",
+        "condition": []
+    },
+    "116": {
+        "id": 116,
+        "name": "blog_flat",
+        "condition": []
+    },
+    "117": {
+        "id": 117,
+        "name": "blog_default_flat",
+        "condition": []
+    },
+    "118": {
+        "id": 118,
+        "name": "blog_mask",
+        "condition": []
+    },
+    "107": {
+        "id": 107,
+        "name": "infinit_scrolling",
+        "condition": []
+    },
+    "98": {
+        "id": 98,
+        "name": "images_bottom",
+        "condition": []
+    },
+    "108": {
+        "id": 108,
+        "name": "load_more",
+        "condition": []
+    },
+    "148": {
+        "id": 148,
+        "name": "custom_product_label",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "147": {
+        "id": 147,
+        "name": "visitor_counter",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "146": {
+        "id": 146,
+        "name": "buy_now_button",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "145": {
+        "id": 145,
+        "name": "show_product_brands",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "144": {
+        "id": 144,
+        "name": "quantity_input_on_product",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "143": {
+        "id": 143,
+        "name": "full_width_product_page",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "142": {
+        "id": 142,
+        "name": "pagination_gallery",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "141": {
+        "id": 141,
+        "name": "product_gallery",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "140": {
+        "id": 140,
+        "name": "quick_shop_options_click",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "139": {
+        "id": 139,
+        "name": "age_verification",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "138": {
+        "id": 138,
+        "name": "login_see_prices",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "137": {
+        "id": 137,
+        "name": "product_image_fullwidth_container",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "136": {
+        "id": 136,
+        "name": "carousel_2_columns",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "135": {
+        "id": 135,
+        "name": "fullheight_product_sidebar",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "134": {
+        "id": 134,
+        "name": "stock_status_position",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "133": {
+        "id": 133,
+        "name": "show_sku",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "132": {
+        "id": 132,
+        "name": "show_star_rating",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "131": {
+        "id": 131,
+        "name": "products_shadow",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "130": {
+        "id": 130,
+        "name": "products_background",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "129": {
+        "id": 129,
+        "name": "bordered_grid_inside",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "128": {
+        "id": 128,
+        "name": "bordered_grid",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "127": {
+        "id": 127,
+        "name": "products_color_scheme",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "126": {
+        "id": 126,
+        "name": "even_product_grid",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "125": {
+        "id": 125,
+        "name": "additional_information",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    },
+    "124": {
+        "id": 124,
+        "name": "full_width_button",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator"
+                }
+            ]
+        },
+        "priority": ""
+    }
+}

@@ -1,0 +1,67 @@
+// ------------------------------------------------------------------------------------------------
+// WIDGET CONTENT
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.widget-content {
+
+		input[type="checkbox"] {
+
+			+ label {
+				margin-bottom: 0;
+			}
+		}
+
+		label {
+			display: inline-block;
+			margin-bottom: 4px;
+		}
+
+		> .wd-widget-field {
+			margin-top: 8px;
+			margin-bottom: 8px;
+
+			.description {
+				padding: 2px 0 0 0 !important;
+				font-size: 12px;
+			}
+		}
+
+		.select2 {
+			max-width: 100% !important;
+
+			&.select2-container--xts {
+
+				.select2-selection {
+					border-color: #8C8F94 !important;
+				}
+			}
+		}
+	}
+
+	.wd-widget-field {
+
+		&.wd-type-checkbox {
+			display: flex;
+			align-items: center;
+			margin-top: 12px;
+			margin-bottom: 12px;
+
+			label {
+				margin-bottom: 1px;
+
+				margin-inline-end: 9px;
+
+				&:after {
+					display: none;
+				}
+			}
+
+			input[type*=checkbox] {
+				margin: 0;
+			}
+		}
+	}
+
+} // END IF

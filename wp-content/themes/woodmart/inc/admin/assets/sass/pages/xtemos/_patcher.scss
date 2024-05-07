@@ -1,0 +1,84 @@
+// ------------------------------------------------------------------------------------------------
+// PATCHER
+// ------------------------------------------------------------------------------------------------
+
+@if $page-patcher {
+
+	.xts-patches-notice {
+
+		.xts-success {
+			margin-bottom: 15px;
+		}
+	}
+
+	.xts-patch-item {
+		min-width: 700px;
+
+		> div {
+			width: 100%;
+
+			&:not(:last-child) {
+				margin-inline-end: 15px;
+			}
+		}
+
+		&.xts-applied {
+
+			.xts-patch-apply {
+				display: none;
+			}
+
+			.xts-patch-label-applied {
+				display: inline-flex;
+			}
+		}
+	}
+
+	.xts-patch-label-applied {
+		display: none;
+		align-items: center;
+		min-height: 35px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 12px;
+
+		&:before {
+			color: var(--xts-secondary-color);
+			font-size: 14px;
+
+			margin-inline-end: 4px;
+		}
+	}
+
+	.xts-patch-date {
+		max-width: 160px;
+		// white-space: nowrap;
+
+		// flex-shrink: 0;
+
+		.xts-table-row & {
+
+			&:before {
+				@include font-icon($xts-icon-clock);
+			}
+		}
+	}
+
+	.xts-patch-id {
+		max-width: 90px;
+	}
+
+	.xts-patch-button-wrapper {
+		max-width: 100px;
+		text-align: end;
+	}
+
+	// .xts-empty-patches {
+
+	// 	p {
+	// 		margin-bottom: 0;
+	// 	}
+	// }
+		
+}

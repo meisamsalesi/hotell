@@ -1,0 +1,17 @@
+{
+    "1": {
+        "page-title-design": "centered",
+        "page-title-size": "default",
+        "title-background": {
+            "color": "rgb(40,89,184)",
+            "url": "",
+            "id": "",
+            "repeat": "",
+            "size": "cover",
+            "attachment": "",
+            "position": "center center"
+        },
+        "page-title-color": "light",
+        "fields_to_save": "page-title-design,page-title-size,title-background,page-title-color"
+    }
+}

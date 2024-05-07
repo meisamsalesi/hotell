@@ -1,0 +1,127 @@
+// ------------------------------------------------------------------------------------------------
+// POST TYPE LIST
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	// ------------------------------------------
+	// POST TYPE STYLES
+	// ------------------------------------------
+
+	.column-thumb {
+		width: 60px;
+
+		img {
+			max-width: 100%;
+		}
+
+		.xts-slider-bg-color {
+			min-height: 45px;
+		}
+
+		// :is(
+		// img,
+		// .xts-slider-bg-color) {
+		// 	outline: 1px solid rgba(0, 0, 0, .075);
+		// 	outline-offset: -1px;
+		// }
+	}
+
+	.column-price {
+
+		.wd-price-unit {
+			margin-inline-start: 4px;
+		}
+	}
+
+	// ------------------------------------------
+	// BRAND STYLES
+	// ------------------------------------------
+
+	.column-thumbnail {
+		width: 75px;
+	}
+
+	.wd-attr-peview {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		box-sizing: border-box;
+		min-width: 35px;
+		min-height: 35px;
+		border-radius: 35px;
+		text-align: center;
+		padding-top: 3px;
+		padding-bottom: 3px;
+
+		&.wd-img {
+			@extend %attributes-outline;
+
+			img {
+				display: block;
+				margin: 0 !important;
+				width: 35px;
+				height: 35px;
+				border-radius: inherit;
+				object-fit: cover;
+			}
+		}
+
+		&.wd-bg {
+			overflow: hidden;
+
+			&:is(
+			[style*="#ffffff"],
+			[style*="#FFFFFF"],
+			[style*="255,255,255"]) {
+				@extend %attributes-outline;
+			}
+		}
+
+		&.wd-text {
+			@extend %attributes-outline;
+
+			span {
+				padding: 0 7px;
+				font-weight: 600;
+				font-size: 16px;
+			}
+		}
+	}
+
+	.taxonomy-pa_brand {
+
+		.wd-attr-peview {
+			min-width: auto;
+			min-width: auto;
+
+			&.wd-img {
+				outline: none;
+				border-radius: 0;
+
+				img {
+					max-width: 60px;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	// @extend %attributes-outline;
+
+	%attributes-outline {
+		outline: 1px solid rgba(0, 0, 0, .075);
+		outline-offset: -1px;
+	}
+
+	// ------------------------------------------
+	// HTML BLOCK STYLES
+	// ------------------------------------------
+
+	td.column-shortcode {
+		user-select: all;
+		// cursor: copy;
+	}
+
+} // END IF

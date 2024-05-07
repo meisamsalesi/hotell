@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------------------------
+// XTS TOOLTIPS
+// ------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-hint {
+		position: relative;
+		z-index: $z-layer-6;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 16px;
+		height: 16px;
+		border: 1px solid var(--xts-hint-color);
+		border-radius: 50%;
+		background-color: #FFF;
+		vertical-align: middle;
+		cursor: help;
+		transition: all .2s ease;
+
+		--xts-hint-color: #A0A0A0;
+
+		&:before {
+			content: "?";
+			color: var(--xts-hint-color);
+			font-weight: 600;
+			font-size: 11px;
+			line-height: 1;
+			transition: inherit;
+		}
+
+		&:hover {
+			--xts-hint-color: #CCC;
+		}
+
+		&.xts-loading {
+
+			.xts-tooltip-inner {
+				min-height: 282px;
+			}
+		}
+
+		.wp-list-table & {
+			margin-inline-start: 5px;
+		}
+	}
+
+} // END IF

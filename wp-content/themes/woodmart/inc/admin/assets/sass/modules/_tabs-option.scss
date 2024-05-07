@@ -1,0 +1,412 @@
+// ------------------------------------------------------------------------------------------------
+// XTS NEW OPTION TABS
+// ------------------------------------------------------------------------------------------------
+
+@if $mod-option-tabs {
+
+	.xts-tabs {
+		flex-grow: 1;
+		flex-basis: 100%;
+		animation: wd-fadeIn .6s ease both;
+	}
+
+	.xts-tab-content {
+		display: none;
+		flex-wrap: wrap;
+
+		gap: 0 var(--xts-sp);
+
+		&.wd-active {
+			@extend %tabs-content-active;
+		}
+	}
+
+	.xts-tabs {
+
+		&:not(.wd-inited) {
+
+			.xts-tab-content {
+
+				&:first-child {
+					@extend %tabs-content-active;
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// STYLE TABS
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-tabs {
+
+		&.wd-style-default {
+
+			// ------------------------------------------
+			// HEADING
+			// ------------------------------------------
+
+			.xts-tabs-header {
+				display: flex;
+				align-items: center;
+				margin-bottom: calc(var(--xts-brd-radius) * -1);
+
+				h3 {
+					margin-bottom: 8px;
+
+					@extend %group-title;
+					margin-inline-end: 15px;
+				}
+			}
+
+			.xts-nav-tabs {
+				margin-right: 0;
+				margin-left: 0;
+
+				li {
+
+					a {
+						padding-bottom: calc(15px + var(--xts-brd-radius)) !important;
+						border-top-left-radius: var(--xts-brd-radius);
+						border-top-right-radius: var(--xts-brd-radius);
+					}
+
+					&.wd-active {
+
+						a {
+							@extend %tabs-nav-design-tabs;
+						}
+					}
+
+					&:hover {
+
+						&:not(.wd-active) {
+
+							a {
+								color: var(--xts-primary-color);
+							}
+						}
+					}
+				}
+
+				.xts-group & {
+
+					li {
+
+						&.wd-active {
+
+							a {
+								@extend %tabs-nav-design-tabs-group;
+							}
+						}
+					}
+				}
+			}
+
+			&:not(.wd-inited) {
+
+				.xts-nav-tabs {
+
+					li {
+
+						&:first-child {
+
+							a {
+								@extend %tabs-nav-design-tabs;
+							}
+						}
+					}
+
+					.xts-group & {
+
+						li {
+
+							&:first-child {
+
+								a {
+									@extend %tabs-nav-design-tabs-group;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			// ------------------------------------------
+			// CONTENT
+			// ------------------------------------------
+
+			.xts-tab-content-wrapper {
+				padding-bottom: .1px;
+			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// EXTENDS
+	// ------------------------------------------------------------------------------------------------
+
+	// @extend %tabs-nav-design-tabs;
+
+	%tabs-nav-design-tabs {
+		background-color: #F7F7F7;
+		color: var(--xts-primary-color);
+		cursor: default;
+
+		// span {
+
+		// 	&:before {
+		// 		content: "";
+		// 		position: absolute;
+		// 		bottom: 5px;
+		// 		left: calc(50% - 8px);
+		// 		width: 16px;
+		// 		height: 3px;
+		// 		border-radius: var(--xts-brd-radius);
+		// 		background-color: var(--xts-primary-color);
+		// 	}
+		// }
+	}
+
+	// @extend %tabs-nav-design-tabs-group;
+
+	%tabs-nav-design-tabs-group {
+		background-color: #FFF;
+	}
+
+	// @extend %tabs-content-active;
+
+	%tabs-content-active {
+		display: flex;
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// STYLE DEVICES
+	// ------------------------------------------------------------------------------------------------
+
+	// ------------------------------------------------------------------------------------------------
+	// OPTION TABS
+	// ------------------------------------------------------------------------------------------------
+
+	// .xts-tabs {
+
+	// 	.xts-btns-set {
+	// 		display: flex;
+	// 	}
+
+	// 	.xts-set-item {
+	// 		display: flex;
+	// 		align-items: center;
+	// 		cursor: pointer;
+	// 		transition: all .25s ease;
+
+	// 		&.xts-active {
+	// 			background-color: transparent;
+	// 		}
+	// 	}
+	// }
+
+	// ------------------------------------------
+	// STYLE DEFAULT
+	// ------------------------------------------
+
+	// .xts-tabs {
+
+	// 	&.xts-style-default {
+
+	// 		.xts-option-title {
+	// 			margin-bottom: 12px;
+	// 			padding-bottom: 0;
+	// 			border: none;
+	// 		}
+
+	// 		.xts-btns-set {
+	// 			border-bottom: 1px solid var(--xts-option-border-color);
+	// 		}
+
+	// 		.xts-set-item {
+	// 			margin-bottom: -1px;
+	// 			padding: 10px 10px;
+	// 			border: 1px solid var(--xts-option-border-color);
+	// 			border-top-left-radius: 4px;
+	// 			border-top-right-radius: 4px;
+	// 			background: #EFEFF0;
+	// 			color: #50575E;
+	// 			white-space: nowrap;
+	// 			font-weight: 600;
+	// 			font-size: 13px;
+
+	// 			margin-inline-start: 8px;
+
+	// 			&.xts-active {
+	// 				border-bottom-color: #FFF;
+	// 				background-color: transparent;
+	// 				color: #000;
+	// 			}
+
+	// 			&:not(.xts-active) {
+	// 				border-color: var(--xts-option-border-color);
+	// 				border-bottom-color: var(--xts-option-border-color);
+
+	// 				&:hover {
+	// 					background-color: #FBFBFB;
+	// 				}
+	// 			}
+
+	// 			&:hover {
+	// 				color: #333 !important;
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+	// .xts-tab-field {
+	// 	margin-bottom: 0;
+
+	// 	> div {
+	// 		padding-bottom: 0;
+	// 		border-bottom: 0;
+	// 	}
+	// }
+
+	// ------------------------------------------------------------------------------------------------
+	// RESPONSIVE
+	// ------------------------------------------------------------------------------------------------
+
+	// @media (max-width: 1024px) {
+
+	// 	.xts-tabs {
+
+	// 		&.xts-style-default {
+
+	// 			.xts-btns-set {
+	// 				margin-inline-start: 20px;
+	// 			}
+	// 		}
+	// 	}
+
+	// 	.xts-last-tab-field {
+
+	// 		.xts-option-control {
+	// 			padding-inline-start: 20px;
+	// 		}
+	// 	}
+	// }
+
+	// ------------------------------------------
+	// MEDIA 1024 AND DOWN
+	// ------------------------------------------
+
+	// @media (max-width: 1024px) {
+
+	// 	.xts-tabs {
+
+	// 		&.xts-style-default {
+
+	// 			.xts-btns-set {
+	// 				margin-left: 20px;
+	// 			}
+	// 		}
+	// 	}
+
+	// 	.xts-last-tab-field {
+
+	// 		.xts-option-control {
+	// 			padding-left: 20px;
+	// 		}
+	// 	}
+
+	// 	// ------------------------------------------
+	// 	// RTL
+	// 	// ------------------------------------------
+
+	// 	.rtl {
+
+	// 		.xts-tabs {
+
+	// 			&.xts-style-default {
+
+	// 				.xts-btns-set {
+	// 					margin-right: 20px;
+	// 					margin-left: 0;
+	// 				}
+	// 			}
+	// 		}
+
+	// 		.xts-last-tab-field {
+
+	// 			.xts-option-control {
+	// 				padding-right: 20px;
+	// 				padding-left: 0;
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// WHB TABS
+// ------------------------------------------------------------------------------------------------
+
+@if $whb-mod-option-tabs {
+
+	.whb-tabs-titles {
+		// position: sticky;
+		// top: -20px;
+		z-index: 101;
+		display: flex;
+		// margin: -20px -20px 20px;
+		// margin-bottom: 20px;
+		padding: 10px 20px 0 20px;
+		border-bottom: 1px solid var(--xts-option-border-color);
+		background: #F7F7F7;
+	}
+
+	.whb-tabs-title {
+		position: relative;
+		margin-bottom: -1px;
+		padding: 15px;
+		border-width: 1px 1px 0 1px;
+		border-style: solid;
+		border-color: transparent;
+		border-top-left-radius: var(--xts-brd-radius);
+		border-top-right-radius: var(--xts-brd-radius);
+		color: var(--xts-body-color);
+		font-weight: 600;
+		font-size: 14px;
+		transition: all .2s ease-in-out;
+		animation: wd-fadeIn .2s ease-in-out;
+		user-select: none;
+		margin-bottom: -1px;
+
+		&.whb-active-tab {
+			border-color: var(--xts-option-border-color);
+			background: #FFF;
+			color: var(--xts-primary-color);
+
+			// span {
+
+			// 	&:before {
+			// 		content: "";
+			// 		position: absolute;
+			// 		bottom: 0;
+			// 		left: calc(50% - 8px);
+			// 		width: 16px;
+			// 		height: 3px;
+			// 		border-radius: var(--xts-brd-radius);
+			// 		background-color: var(--xts-primary-color);
+			// 	}
+			// }
+		}
+
+		&:not(.whb-active-tab) {
+			cursor: pointer;
+
+			&:hover {
+				color: var(--xts-primary-color);
+			}
+		}
+	}
+
+} // END IF

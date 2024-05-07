@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "id": "image_369",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/accessories/wp-content/uploads/sites/5/2022/09/protective-cases-category.jpg"
+    },
+    {
+      "id": "image_370",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/accessories/wp-content/uploads/sites/5/2022/09/mag-safe-accessories-category.jpg"
+    },
+    {
+      "id": "image_371",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/accessories/wp-content/uploads/sites/5/2022/09/watches-straps-category.jpg"
+    }
+  ]
+}

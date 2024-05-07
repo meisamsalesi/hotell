@@ -1,0 +1,237 @@
+// ------------------------------------------------------------------------------------------------
+// OPTION PRESETS
+// ------------------------------------------------------------------------------------------------
+
+@if $page-presets {
+
+	// ------------------------------------------
+	// PRESET
+	// ------------------------------------------
+
+	.xts-preset {
+		position: relative;
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-brd-radius);
+		transition: all .25s ease;
+
+		@include xts-bg-loader;
+
+		> div {
+			padding: 10px;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+
+		&.xts-loading {
+			@include xts-act-bg-loader;
+		}
+
+		&.xts-opened {
+
+			:is(
+			.xts-preset-content,
+			.xts-preset-footer) {
+				display: block;
+			}
+		}
+
+
+
+		&.xts-opened,
+		&:hover {
+			box-shadow: var(--xts-box-shadow);
+		}
+	}
+
+	:is(
+	.xts-preset-content,
+	.xts-preset-footer) {
+		display: none;
+		animation: wd-fadeIn .4s ease both;
+
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: 600;
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// PRESET HEADER
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-preset {
+
+		&.xts-opened {
+
+			.xts-preset-header {
+				border-bottom: 1px solid var(--xts-option-border-color);
+			}
+		}
+
+		&:not(.xts-opened) {
+
+			.xts-col {
+				pointer-events: none;
+			}
+
+			.xts-col-auto { // NOTE MAKE EDIT LINK CLICKABLE
+				pointer-events: none;
+
+				> * {
+					pointer-events: auto;
+				}
+			}
+		}
+	}
+
+	//**** LINK ****//
+
+	.xts-preset-link {
+
+		&:hover {
+
+			~ .xts-col-auto {
+
+				.xts-edit-preset {
+					background-color: var(--xts-btn-primary-color-hover);
+				}
+			}
+		}
+	}
+
+	//**** NAME ****//
+
+	.xts-preset-name {
+
+		h4 {
+			margin-bottom: 0;
+			white-space: nowrap;
+			font-size: 14px;
+			line-height: var(--xts-input-height);
+		}
+
+		[type="text"] {
+			display: none;
+		}
+	}
+
+	.xts-preset {
+
+		&.xts-opened {
+
+			.xts-preset-name {
+
+				[type="text"] {
+					display: block;
+				}
+
+				h4 {
+					display: none;
+				}
+			}
+
+			.xts-preset-link {
+				display: none;
+			}
+		}
+	}
+
+	//**** ACTIONS ****//
+
+	.xts-preset-actions {
+		display: flex;
+		justify-content: flex-end;
+
+		> * {
+
+			&:not(:last-child) {
+				margin-inline-end: 8px;
+			}
+		}
+	}
+
+	.xts-preset-edit {
+		min-width: 138px;
+	}
+
+	.xts-preset-close {
+		display: none;
+	}
+
+	.xts-preset {
+
+		&.xts-opened {
+
+			.xts-preset-edit:not(.xts-preset-close) {
+				display: none;
+			}
+
+			.xts-preset-close {
+				display: flex;
+			}
+		}
+	}
+
+	.xts-preset-link {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// PRESET CONTENT
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-condition {
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 10px;
+		animation: wd-fadeIn .4s ease both;
+
+		--xts-input-width: 100%;
+
+		> div {
+			flex: 1 0 0%;
+			margin-inline-end: var(--xts-option-space);
+		}
+
+		// select {
+		// 	max-width: 100% !important;
+		// }
+	}
+
+	// .xts-preset-add-condition {
+	// 	width: 100%;
+	// 	border-width: 2px;
+	// 	border-style: dashed;
+	// 	font-size: 13px;
+
+	// 	--xts-input-height: 55px;
+	// }
+
+	// ------------------------------------------------------------------------------------------------
+	// PRESET FOOTER
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-preset-footer {
+		border-top: 1px solid var(--xts-option-border-color);
+	}
+
+	.xts-preset-priority {
+		display: flex;
+		align-items: center;
+
+		--xts-input-width: 70px;
+
+		label {
+			margin-inline-end: var(--xts-option-space);
+			margin-bottom: 0;
+		}
+	}
+
+} // END IF

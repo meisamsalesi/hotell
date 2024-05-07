@@ -1,0 +1,41 @@
+// ------------------------------------------------------------------------------------------------
+// FILTERS
+// ------------------------------------------------------------------------------------------------
+
+@if $mod-filter {
+
+	.xts-filter {
+		margin: 0;
+		animation: wd-fadeIn .4s ease both;
+
+		li {
+			margin-bottom: 5px;
+			// cursor: pointer;
+
+			a {
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 8px;
+				border-radius: var(--xts-option-border-radius);
+				color: #878787;
+				font-weight: 600;
+				cursor: pointer;
+				transition: all .2s ease-in-out;
+			}
+
+			&.xts-active,
+			&:hover {
+
+				a {
+					background-color: #F7F7F7;
+					color: var(--xts-body-color);
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+} // END IF

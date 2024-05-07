@@ -1,0 +1,357 @@
+// ------------------------------------------------------------------------------------------------
+// XTS RANGE SLIDER [1]
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------------
+// CONFIG
+// ------------------------------------------------------------------------------------------------
+
+$xts-slider-height: 8px;
+
+// ------------------------------------------------------------------------------------------------
+// GENERAL
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-range-slider {
+
+	.xts-range-slider-wrap {
+		position: relative;
+		display: flex;
+		align-items: center;
+		// margin-top: calc(var(--xts-option-space) * 2) !important;
+	}
+
+	.xts-range-slider {
+		border: none !important;
+		border-radius: var(--xts-option-border-radius);
+		cursor: pointer;
+		// margin-inline-end: 50px;
+
+		@extend %xts-js-loading-fadein;
+
+		&.ui-slider-horizontal {
+			flex-grow: 1;
+			box-sizing: content-box;
+			height: $xts-slider-height;
+			border: 1px solid var(--xts-option-border-color) !important;
+			background-color: #F8F8F8;
+
+			.ui-slider-handle {
+				top: -4px;
+				width: 16px;
+				height: 16px;
+
+				@extend %slider-handle;
+			}
+
+			.xts-tabs.wd-style-default &,
+			.xts-fields-group & {
+				background-color: #FFF;
+			}
+		}
+
+		.ui-widget-header {
+			border-radius: var(--xts-option-border-radius);
+			background: var(--xts-primary-color);
+		}
+
+		.ui-slider-handle {
+
+			&.ui-state-hover {
+				@extend %slider-handle-hover;
+			}
+
+			&.ui-state-active {
+				@extend %slider-handle-focus;
+			}
+		}
+
+		&:empty {
+			height: $xts-slider-height;
+			width: 100%;
+		}
+	}
+
+	.xts-range-field-value-display,
+	.xts-range-field-value-input {
+		display: block;
+		margin-inline-start: 10px;
+	}
+
+	.xts-range-field-value-input {
+		max-width: 70px;
+
+		input {
+			text-align: right;
+			direction: rtl;
+		}
+
+		+ .xts-slider-units {
+			margin-inline-start: 10px;
+		}
+	}
+
+	.xts-range-field-value-display {
+		margin-bottom: 3px;
+		width: 30px;
+		text-align: end;
+		line-height: 1;
+
+		.xts-autoplay_speed-field & {
+			width: 40px;
+		}
+	}
+
+	.xts-range-field-value-text {
+		font-weight: 600;
+
+		@extend %xts-js-loading-fadein;
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	// ------------------------------------------------------------------------------------
+	// XTS RANGE SLIDER [2]
+	// ------------------------------------------------------------------------------------
+
+	.wd-sliders {
+		// position: relative;
+
+		.wd-slider {
+			display: none;
+			align-items: center;
+			animation: wd-fadeInTooltip .5s ease;
+
+			&.xts-active {
+				display: flex;
+			}
+		}
+	}
+
+	.xts-slider-units {
+		// position: absolute;
+		// top: 0;
+		display: flex;
+		flex-direction: column;
+		margin-inline-start: 5px;
+		text-transform: uppercase;
+		font-size: 11px;
+		line-height: 1;
+
+		// inset-inline-end: 0;
+
+		.wd-slider-unit-control {
+			z-index: $z-layer-1;
+			margin-bottom: 3px;
+			min-width: 12px;
+			text-align: center;
+			opacity: .6;
+			cursor: pointer;
+
+			// &:not(:last-child) {
+			// 	// margin-inline-end: 3px;
+			// 	margin-bottom: 4px;
+			// }
+
+			&.xts-active {
+				text-decoration: underline;
+				opacity: 1;
+				cursor: default;
+			}
+		}
+	}
+
+	.wd-slider {
+
+		&[data-unit="-"] {
+
+			.xts-slider-units {
+				display: none; // HIDE UNIT WRAPPER IF THERE IS NO UNIT TITLE
+ 			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------
+	// WPB RANGE SLIDER
+	// ------------------------------------------------------------------------------------
+
+	.wpb_el_type_woodmart_slider {
+		margin-bottom: 5px;
+	}
+
+	.woodmart-vc-slider {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.wd-slider-field {
+		border-radius: var(--xts-option-border-radius);
+		cursor: pointer;
+
+		&.ui-slider-horizontal {
+			flex-grow: 1;
+			box-sizing: content-box;
+			height: $xts-slider-height;
+			border: 1px solid var(--xts-option-border-color) !important;
+			background-color: #F8F8F8;
+
+			.ui-slider-handle {
+				top: -4px;
+				width: 16px;
+				height: 16px;
+
+				@extend %slider-handle;
+			}
+
+			.woodmart-td-content & {
+				background-color: #FFF;
+			}
+		}
+
+		.ui-widget-header {
+			border-radius: var(--xts-option-border-radius);
+			background: var(--xts-primary-color);
+		}
+
+		.ui-slider-handle {
+
+			&.ui-state-hover {
+				@extend %slider-handle-hover;
+			}
+
+			&.ui-state-active {
+				@extend %slider-handle-focus;
+			}
+		}
+
+		&:empty {
+			height: $xts-slider-height;
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// WHB RANGE SLIDER
+// ------------------------------------------------------------------------------------------------
+
+@if $whb-cont-range-slider {
+
+	//**** SLIDER ****//
+
+	.rc-slider {
+		position: relative;
+		padding: 5px 0;
+		width: calc(100% - 65px);
+		height: 14px;
+		border-radius: var(--xts-option-border-radius);
+
+		touch-action: none;
+	}
+
+	.rc-slider-track {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: $xts-slider-height;
+		border-radius: var(--xts-option-border-radius);
+		background: var(--xts-primary-color);
+	}
+
+	.rc-slider-rail {
+		position: absolute;
+		box-sizing: content-box;
+		width: 100%;
+		height: $xts-slider-height;
+		border: 1px solid var(--xts-option-border-color) !important;
+		border-radius: var(--xts-option-border-radius);
+		background-color: #F8F8F8;
+
+		.xts-group & {
+			background-color: #FFF;
+		}
+	}
+
+	.rc-slider-step {
+		position: absolute;
+		width: 100%;
+		height: $xts-slider-height;
+		background: transparent;
+		cursor: pointer;
+	}
+
+	.rc-slider-handle {
+		margin-top: -2px;
+		margin-left: -7px;
+		width: 14px;
+		height: 14px;
+
+		@extend %slider-handle;
+
+		&:hover {
+			@extend %slider-handle-hover;
+		}
+
+		&:focus,
+		&:active {
+			@extend %slider-handle-focus;
+		}
+	}
+
+	.whb-slider-value-display {
+		position: absolute;
+		top: 44px;
+		inset-inline-end: 10px;
+		display: flex;
+		align-items: center;
+		line-height: 1;
+
+		.whb-slider-value {
+			font-weight: 600;
+		}
+
+		.whb-slider-unit {
+			margin-inline-start: 5px;
+			// margin-bottom: 2px;
+			text-decoration: underline;
+			text-transform: uppercase;
+			font-size: 11px;
+			line-height: 1;
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// @extend %slider-handle;
+
+%slider-handle {
+	position: absolute;
+	outline: none !important;
+	border: none;
+	border-radius: 50%;
+	background: #FFF;
+	box-shadow: 0px 2px 7px -1px rgba(0,0,0,.4);
+	cursor: pointer;
+	transition: box-shadow .2s ease;
+
+	touch-action: pan-x;
+}
+
+// @extend %slider-handle-hover;
+
+%slider-handle-hover {
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,.4);
+}
+
+// @extend %slider-handle-focus;
+
+%slider-handle-focus {
+	box-shadow: 0px 2px 9px 0px rgba(0,0,0,.5);
+}

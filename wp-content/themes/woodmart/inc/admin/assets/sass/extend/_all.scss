@@ -1,0 +1,537 @@
+// ------------------------------------------
+// EXTEND OLD
+// ------------------------------------------ 
+
+%woodmart-input-style {
+	border-radius: var(--xts-option-border-radius);
+	box-shadow: none;
+
+	&:hover {
+		border-color: #BDBDBD;
+	}
+
+	&:focus {
+		border-color: #999;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------------
+// BUTTONS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// GENERAL
+// ------------------------------------------
+
+// @extend %xts-button;
+
+%xts-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	// box-sizing: border-box;
+	padding: 0 15px;
+	height: var(--xts-input-height);
+	outline: none !important;
+	border: none;
+	// background-color: var(--xts-btn-grey-color);
+	box-shadow: none;
+	vertical-align: middle;
+	// color: #444;
+	text-decoration: none;
+	// text-transform: uppercase;
+	white-space: nowrap;
+	font-weight: 600;
+	font-size: 12px;
+	// line-height: var(--xts-input-height);
+	line-height: 1;
+	transition: .2s all ease-in-out !important;
+	transform: none;
+
+	&:hover {
+		// background-color: var(--xts-btn-grey-color-hover);
+		cursor: pointer;
+	}
+
+	&:hover,
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+// ------------------------------------------
+// BUTTON PRIMARY
+// ------------------------------------------
+
+// @extend %xts-button-primary;
+
+%xts-button-primary {
+	background-color: var(--xts-btn-primay-color);
+	color: #FFF !important;
+
+	// &:hover,
+	// &:focus {
+	// 	color: #FFF !important;
+	// }
+}
+
+// @extend %xts-button-primary-hover;
+
+%xts-button-primary-hover {
+
+	&:hover {
+		background-color: var(--xts-btn-primary-color-hover);
+	}
+}
+
+// ------------------------------------------
+// BUTTON ALTERNATIVE
+// ------------------------------------------
+
+// @extend %xts-button-alternative;
+
+%xts-button-alternative {
+	background-color: var(--xts-btn-secondary-color);
+	color: #FFF !important;
+
+	// &:hover,
+	// &:focus {
+	// 	color: #FFF !important;
+	// }
+}
+
+// @extend %xts-button-alternative-hover;
+
+%xts-button-alternative-hover {
+
+	&:hover {
+		background-color: var(--xts-btn-secondary-color-hover);
+	}
+}
+
+// ------------------------------------------
+// BUTTON DEFAULT
+// ------------------------------------------
+
+// @extend %xts-button-default;
+
+%xts-button-default {
+	background-color: var(--xts-btn-grey-color);
+	color: #444 !important;
+
+	// &:hover,
+	// &:focus {
+	// 	color: #444 !important;
+	// }
+}
+
+// @extend %xts-button-default-hover;
+
+%xts-button-default-hover {
+
+	&:hover {
+		background-color: var(--xts-btn-grey-color-hover);
+	}
+}
+
+// ------------------------------------------
+// BUTTON WARNINNG
+// ------------------------------------------
+
+// @extend %xts-button-warning;
+
+%xts-button-warning {
+	background-color: var(--xts-btn-warning-color);
+	color: #FFF !important;
+
+	// &:hover,
+	// &:focus {
+	// 	color: #FFF !important;
+	// }
+}
+
+// @extend %xts-button-warning-hover;
+
+%xts-button-warning-hover {
+
+	&:hover {
+		background-color: var(--xts-btn-warning-color-hover);
+	}
+}
+
+// ------------------------------------------
+// BUTTON WHITE
+// ------------------------------------------
+
+// @extend %xts-button-white;
+
+%xts-button-white {
+	background-color: #FFF;
+	color: #4E4E4E !important;
+
+	// &:hover,
+	// &:focus {
+	// 	color: #FFF !important;
+	// }
+}
+
+// @extend %xts-button-white-hover;
+
+%xts-button-white-hover {
+
+	&:hover {
+		background-color: #FFF;
+		color: #000 !important;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// BUTTONS BORDERED
+// ------------------------------------------------------------------------------------------------
+
+// @extend %xts-bordered-button;
+
+%xts-bordered-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	// box-sizing: border-box;
+	padding: 0 15px;
+	height: var(--xts-input-height);
+	outline: none !important;
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: none;
+	vertical-align: middle;
+	// color: #444;
+	// text-decoration: none;
+	// text-transform: uppercase;
+	white-space: nowrap;
+	font-weight: 600;
+	font-size: 12px;
+	// line-height: var(--xts-input-height);
+	line-height: 1;
+	cursor: pointer;
+	transition: .2s all ease-in-out;
+	transform: none;
+
+	&:hover,
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+// ------------------------------------------
+// BUTTON BORDERED PRIMARY
+// ------------------------------------------
+
+// @extend %xts-bordered-button-primary;
+
+%xts-bordered-button-primary {
+	border-color: var(--xts-btn-primay-color);
+	color: var(--xts-btn-primay-color) !important;
+
+	&:hover,
+	&:focus {
+		border-color: var(--xts-btn-primary-color-hover);
+		// background-color: var(--xts-btn-primary-color-hover);
+		background-color: #F7F7F7;
+		color: var(--xts-btn-primay-color) !important;
+	}
+}
+
+// ------------------------------------------
+// BUTTON BORDERED DEFAULT
+// ------------------------------------------
+
+// @extend %xts-bordered-button-default;
+
+%xts-bordered-button-default {
+	border-color: var(--xts-btn-grey-color);
+	// color: var(--xts-btn-primay-color) !important;
+	color: #4E4E4E !important;
+
+	&:hover,
+	&:focus {
+		border-color: var(--xts-btn-grey-color-hover);
+		// background-color: var(--xts-btn-grey-color-hover);
+		background-color: #F7F7F7;
+		color: #444 !important;
+	}
+}
+
+// ------------------------------------------
+// BUTTON BORDERED WARNINNG
+// ------------------------------------------
+
+// @extend %xts-bordered-button-warning;
+
+%xts-bordered-button-warning {
+	border-color: var(--xts-btn-warning-color);
+	color: var(--xts-btn-warning-color) !important;
+
+	&:hover,
+	&:focus {
+		border-color: var(--xts-btn-warning-color-hover);
+		// background-color: var(--xts-btn-warning-color-hover);
+		background-color: #F7F7F7;
+		color: var(--xts-btn-warning-color) !important;
+	}
+}
+
+
+// ------------------------------------------
+// BUTTON BORDERED WHITE
+// ------------------------------------------
+
+// @extend %xts-bordered-button-white;
+
+%xts-bordered-button-white {
+	border-color: #FFF;
+	color: #FFF !important;
+
+	&:hover,
+	&:focus {
+		border-color: #FFF;
+		background-color: #FFF;
+		color: #444 !important;
+	}
+}
+
+// ------------------------------------------
+// BUTTONS SHAPE
+// ------------------------------------------
+
+// @extend %xts-js-loading-fadein;
+
+%xts-js-loading-fadein {
+	animation: wd-fadeIn .2s ease both;
+}
+
+// @extend %xts-fill;
+
+%xts-fill {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+// ------------------------------------------------------------------------------------------------
+// BUTTONS INLINE
+// ------------------------------------------------------------------------------------------------
+
+// @extend %xts-inline-button;
+
+%xts-inline-button {
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+	width: auto !important;
+	border: 0;
+	background-color: transparent;
+	box-shadow: none !important;
+	color: #101010;
+	text-decoration: none;
+	// text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all .2s ease-in-out !important;
+
+	&:hover,
+	&:focus {
+		outline: none;
+		box-shadow: none !important;
+		color: inherit;
+		opacity: .8;
+	}
+
+	&:before {
+		position: relative;
+		bottom: -1px;
+		vertical-align: middle;
+
+		margin-inline-end: 5px;
+	}
+}
+
+// ------------------------------------------
+// BUTTONS INLINE PRIMARY
+// ------------------------------------------
+
+// @extend %xts-inline-button-primary;
+
+%xts-inline-button-primary {
+	color: var(--xts-primary-color);
+}
+
+// ------------------------------------------
+// BUTTONS INLINE WARNING
+// ------------------------------------------
+
+// @extend %xts-inline-button-warning;
+
+%xts-inline-button-warning {
+	color: var(--xts-btn-warning-color);
+}
+
+// ------------------------------------------------------------------------------------------------
+// CSS CHECKBOXES
+// ------------------------------------------------------------------------------------------------
+
+%xts-checkbox {
+
+	input[type=checkbox] {
+		position: relative;
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		width: 18px !important;
+		height: 18px;
+		border: 1px solid #C5C5C5;
+		border-radius: 3px;
+		box-shadow: none !important;
+		transition: all .15s ease-out;
+
+		margin-inline-end: 5px !important;
+		margin-inline-start: 0 !important;
+
+		&:checked {
+			border: 1px solid var(--xts-btn-primay-color);
+			background-color: var(--xts-btn-primay-color);
+
+			&:before {
+				opacity: 1;
+				transform: scale(1);
+
+				@include font-icon($xts-icon-validation-check);
+			}
+		}
+
+		&:before {
+			position: absolute;
+			top: 2px;
+			display: block;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			color: #FFF;
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 19px;
+			opacity: 0;
+			transition: all .15s ease-out;
+			transform: scale(.5);
+
+			inset-inline-start: 2px;
+
+			// @include font-icon($xts-icon-validation-check);
+		}
+
+		&:disabled {
+			opacity: .5;
+			cursor: default;
+
+			+ label {
+				opacity: .5;
+				cursor: default;
+			}
+		}
+
+		&:hover:not(:disabled) {
+			border: 1px solid var(--xts-btn-primay-color);
+		}
+
+		+ label {
+			user-select: none;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// MIXINS
+// ------------------------------------------------------------------------------------------------
+
+//------------------------------------------
+// SIMPLE LOADER
+// -----------------------------------------
+
+
+// @include loader;
+
+@mixin loader($size: 18px, $b-width: 1px, $color-loader: #BBB, $color-border: #000) {
+	content: "";
+	display: inline-block;
+	width: $size;
+	height: $size;
+	border: $b-width solid $color-loader;
+	border-left-color: $color-border;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+// @include act-loader;
+
+@mixin act-loader {
+	animation: woodmart_rotate 450ms infinite linear;
+}
+
+//------------------------------------------
+// BACKGROUND LOADER
+// -----------------------------------------
+
+// @include xts-bg-loader;
+
+@mixin xts-bg-loader($bg-color: rgba(255,255,255,.8)) {
+
+	&:before,
+	&:after {
+		position: absolute;
+		z-index: $z-layer-10;
+		visibility: hidden;
+		opacity: 0;
+
+		// visibility: visible;
+		// opacity: 1;
+		// transition: .4s all ease;
+		// pointer-events: none;
+	}
+
+	&:before {
+		content: "";
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		border-radius: var(--xts-brd-radius);
+		background-color: $bg-color;
+	}
+
+	&:after {
+		top: calc(50% - 18px);
+		right: calc(50% - 18px);
+
+		@include loader(36px,1px,rgba(255,255,255,.15));
+	}
+}
+
+// @include xts-act-bg-loader;
+
+@mixin xts-act-bg-loader {
+
+	&:before,
+	&:after {
+		visibility: visible;
+		opacity: 1;
+		transition: .4s all ease;
+	}
+
+
+	&:after {
+		@include act-loader;
+	}
+}

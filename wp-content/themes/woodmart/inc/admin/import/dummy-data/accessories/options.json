@@ -1,0 +1,376 @@
+{
+    "default_header": "header_913291",
+    "site_width": "custom",
+    "site_custom_width": "1320",
+    "promo_popup": "1",
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/accessories\/wp-content\/uploads\/sites\/5\/2022\/09\/accessories-popup.jpg",
+        "id": "215",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "sticky_toolbar": "1",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/accessories\/wp-content\/uploads\/sites\/5\/2022\/09\/accessories-page-title.jpg",
+        "id": "216",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "page-title-color": "light",
+    "footer_content_type": "html_block",
+    "footer_html_block": "214",
+    "footer-bar-bg": {
+        "color": "rgb(16,16,16)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "light",
+    "copyrights": "<small><a href=\"http:\/\/woodmart.xtemos.com\"><strong>WOODMART<\/strong><\/a> <i class=\"fa fa-copyright\"><\/i>  2022 CREATED BY <a href=\"http:\/\/xtemos.com\"><strong>XTEMOS STUDIO<\/strong><\/a>. PREMIUM E-COMMERCE SOLUTIONS.<\/small>",
+    "prefooter_content_type": "text",
+    "prefooter_area": "",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/accessories\/wp-content\/uploads\/sites\/5\/2022\/09\/hkgroteskpro-semibold.woff",
+                "id": "182"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/accessories\/wp-content\/uploads\/sites\/5\/2022\/09\/hkgroteskpro-semibold.woff2",
+                "id": "183"
+            }
+        },
+        "{{index}}": {
+            "font-name": "",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": ""
+            },
+            "font-woff2": {
+                "url": "",
+                "id": ""
+            }
+        }
+    },
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Jost",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-font": [
+        {
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "secondary-font": [
+        {
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "none",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "selector": [
+                "product_category_title"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "none",
+            "font-size": "18",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "1": {
+            "custom": "",
+            "selector": [
+                "mobile_menu_first_level",
+                "mobile_menu_second_level"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "none",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "2": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "true",
+            "font-family": "Jost",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "rounding_size": "custom",
+    "custom_rounding_size": "eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiI4In19fQ==",
+    "primary-color": {
+        "idle": "rgb(46,107,198)"
+    },
+    "secondary-color": {
+        "idle": "#fbbc34"
+    },
+    "link-color": {
+        "idle": "#333333",
+        "hover": "#242424"
+    },
+    "android_browser_bar_color": {
+        "idle": ""
+    },
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_shop_bg": {
+        "idle": "rgb(46,107,198)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(42,97,180)"
+    },
+    "btns_accent_style": "semi-rounded",
+    "btns_accent_bg": {
+        "idle": "rgb(46,107,198)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(42,97,180)"
+    },
+    "advanced_typography_button": {
+        "0": {
+            "custom": "",
+            "selector": [
+                "single_buy_now"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "",
+            "hover": {
+                "color": "",
+                "background": "rgb(51,51,51)"
+            },
+            "background": "rgb(36,36,36)"
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "",
+            "hover": {
+                "color": "",
+                "background": ""
+            },
+            "background": ""
+        }
+    },
+    "form_fields_style": "semi-rounded",
+    "blog_columns": "4",
+    "blog_spacing": "20",
+    "blog_excerpt": "excerpt",
+    "blog_words_or_letters": "letter",
+    "blog_excerpt_length": "130",
+    "bought_together_enabled": "1",
+    "bought_together_column": "3",
+    "disable_copyrights": "0",
+    "single_product_thumbnails_gallery_image_width": "148",
+    "linked_variations": "1",
+    "grid_swatches_attribute": "pa_color",
+    "swatches_use_variation_images": "1",
+    "brands_attribute": "pa_brand",
+    "shipping_progress_bar_calculation": "custom",
+    "shipping_progress_bar_enabled": "1",
+    "shipping_progress_bar_amount": "900",
+    "shipping_progress_bar_include_coupon": "include",
+    "shipping_progress_bar_location_card_page": "1",
+    "shipping_progress_bar_location_mini_cart": "1",
+    "products_columns": "4",
+    "products_spacing": "20",
+    "shop_per_page": "18",
+    "products_hover": "quick",
+    "buy_now_enabled": "1",
+    "buy_now_redirect": "checkout",
+    "related_product_columns": "5",
+    "related_product_count": "8",
+    "shop_categories": "0",
+    "wishlist_expanded": "1",
+    "wishlist_show_popup": "enable",
+    "compare_by_category": "1",
+    "show_more_products_btn": "1",
+    "wishlist_bulk_action": "1",
+    "grid_stock_progress_bar": "0"
+}

@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "id": "image_401",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/promotions.svg"
+    },
+    {
+      "id": "image_377",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/payment-methods.jpg"
+    },
+    {
+      "id": "image_359",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/overview.svg"
+    },
+    {
+      "id": "image_360",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/processor.svg"
+    },
+    {
+      "id": "image_366",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/display.svg"
+    },
+    {
+      "id": "image_361",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/ram.svg"
+    },
+    {
+      "id": "image_363",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/video-card.svg"
+    },
+    {
+      "id": "image_367",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/connectivity.svg"
+    },
+    {
+      "id": "image_365",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/features.svg"
+    },
+    {
+      "id": "image_368",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/battery.svg"
+    },
+    {
+      "id": "image_364",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/general.svg"
+    },
+    {
+      "id": "image_362",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/storage.svg"
+    }
+  ]
+}

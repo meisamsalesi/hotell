@@ -1,0 +1,433 @@
+# Translation of Themes - Twenty Twenty-Three in Persian
+# This file is distributed under the same license as the Themes - Twenty Twenty-Three package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-25 14:58:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fa\n"
+"Project-Id-Version: Themes - Twenty Twenty-Three\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself."
+msgstr "قالب دوهزارو بیست و سه (2023) برای استفاده از ابزارهای طراحی معرفی شده جدید در وردپرس 6.1 ایجاد شده است. با یک پایه تمیز و خالی به عنوان نقطه شروع، این قالب پیش فرض شامل ده استایل برای تغییر است که توسط اعضای جامعه وردپرس ایجاد شده است. چه بخواهید یک وب‌سایت پیچیده یا یک وب سایت بسیار ساده ایجاد کنید، می‌توانید آن را به سرعت و به طور مستقیم از طریق استایل های همراه انجام دهید یا خودتان به ایجاد و سفارشی‌سازی کامل آن بپردازید."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Three"
+msgstr "دو هزار و بیست و سه"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr "متای نوشته"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr "نظرات"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "پاورقی"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "سربرگ"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "منبع فونت Serif Pro"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "فونت سیستم"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "اینتر"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "404"
+msgstr "۴۰۴"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog (Alternative)"
+msgstr "وبلاگ (جایگزین)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "خالی"
+
+#: styles/whisper.json
+msgctxt "Style variation name"
+msgid "Whisper"
+msgstr "نامی برای تغییر استایل (نجوا)"
+
+#: styles/sherbet.json
+msgctxt "Gradient name"
+msgid "Tertiary to Secondary to Primary Fixed"
+msgstr "سومی تا دومی تا اولی ثابت"
+
+#: styles/sherbet.json
+msgctxt "Gradient name"
+msgid "Primary to Secondary to Tertiary Fixed"
+msgstr "اولی تا دومی تا سومی ثابت"
+
+#: styles/sherbet.json
+msgctxt "Gradient name"
+msgid "Primary to Secondary to Tertiary"
+msgstr "اولی تا دومی تا سومی"
+
+#: styles/sherbet.json
+msgctxt "Style variation name"
+msgid "Sherbet"
+msgstr "شربت (نام استایل)"
+
+#: styles/pitch.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr "بزرگ x2"
+
+#: styles/pitch.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "بسیار  بزرگ"
+
+#: styles/pitch.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "بزرگ"
+
+#: styles/pitch.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "میانه"
+
+#: styles/pitch.json
+msgctxt "Font size name"
+msgid "small"
+msgstr "کوچک"
+
+#: styles/pitch.json
+msgctxt "Space size name"
+msgid "7"
+msgstr "۷"
+
+#: styles/pitch.json
+msgctxt "Style variation name"
+msgid "Pitch"
+msgstr "گام صدا (نام استایل)"
+
+#: styles/pilgrimage.json
+msgctxt "Gradient name"
+msgid "Dots"
+msgstr "نقطه‌چین"
+
+#: styles/pilgrimage.json
+msgctxt "Gradient name"
+msgid "Base to Primary"
+msgstr "پایه تا اولی"
+
+#: styles/pilgrimage.json
+msgctxt "Gradient name"
+msgid "Tertiary to Secondary"
+msgstr "سوم تا دومی"
+
+#: styles/pilgrimage.json
+msgctxt "Gradient name"
+msgid "Secondary to Primary"
+msgstr "دومی تا اولی"
+
+#: styles/pilgrimage.json
+msgctxt "Gradient name"
+msgid "Primary to Secondary"
+msgstr "اولی تا دومی"
+
+#: styles/pilgrimage.json
+msgctxt "Style variation name"
+msgid "Pilgrimage"
+msgstr "زیارت (نام استایل)"
+
+#: styles/marigold.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr "بسیار بسیار بزرگ"
+
+#: styles/marigold.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "خیلی بزرگ"
+
+#: styles/marigold.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr "معمولی"
+
+#: styles/marigold.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr "ریز"
+
+#: theme.json styles/marigold.json styles/pitch.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "۶"
+
+#: theme.json styles/marigold.json styles/pitch.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "۵"
+
+#: theme.json styles/marigold.json styles/pitch.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "۴"
+
+#: theme.json styles/marigold.json styles/pitch.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "۳"
+
+#: theme.json styles/marigold.json styles/pitch.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "۲"
+
+#: theme.json styles/marigold.json styles/pitch.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "۱"
+
+#: styles/marigold.json
+msgctxt "Style variation name"
+msgid "Marigold"
+msgstr "گل بهار( نام استایل)"
+
+#: styles/grapes.json
+msgctxt "Style variation name"
+msgid "Grapes"
+msgstr "انگور(نام استایل)"
+
+#: styles/electric.json
+msgctxt "Style variation name"
+msgid "Electric"
+msgstr "برق(نام استایل)"
+
+#: styles/canary.json
+msgctxt "Style variation name"
+msgid "Canary"
+msgstr "قناری(نام استایل)"
+
+#: styles/block-out.json styles/canary.json styles/pilgrimage.json
+#: styles/sherbet.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "فیلتر پیشفرض"
+
+#: styles/block-out.json
+msgctxt "Style variation name"
+msgid "Block out"
+msgstr "جلوگیری(نام استایل)"
+
+#: theme.json styles/aubergine.json styles/block-out.json styles/canary.json
+#: styles/electric.json styles/grapes.json styles/marigold.json
+#: styles/pilgrimage.json styles/pitch.json styles/sherbet.json
+#: styles/whisper.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "سومی"
+
+#: theme.json styles/aubergine.json styles/block-out.json styles/canary.json
+#: styles/electric.json styles/grapes.json styles/marigold.json
+#: styles/pilgrimage.json styles/pitch.json styles/sherbet.json
+#: styles/whisper.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "دومی"
+
+#: theme.json styles/aubergine.json styles/block-out.json styles/canary.json
+#: styles/electric.json styles/grapes.json styles/marigold.json
+#: styles/pilgrimage.json styles/pitch.json styles/sherbet.json
+#: styles/whisper.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "اولی"
+
+#: theme.json styles/aubergine.json styles/block-out.json styles/canary.json
+#: styles/electric.json styles/grapes.json styles/marigold.json
+#: styles/pilgrimage.json styles/pitch.json styles/sherbet.json
+#: styles/whisper.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "کنتراست"
+
+#: theme.json styles/aubergine.json styles/block-out.json styles/canary.json
+#: styles/electric.json styles/grapes.json styles/marigold.json
+#: styles/pilgrimage.json styles/pitch.json styles/sherbet.json
+#: styles/whisper.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "پایه"
+
+#: styles/aubergine.json
+msgctxt "Gradient name"
+msgid "Primary to Tertiary"
+msgstr "اولی تا سومی"
+
+#: styles/aubergine.json styles/pilgrimage.json
+msgctxt "Gradient name"
+msgid "Tertiary to Primary"
+msgstr "سومی تا اولی"
+
+#: styles/aubergine.json
+msgctxt "Gradient name"
+msgid "Base to Secondary to Base"
+msgstr "اولی تا دومی تا اولی"
+
+#: styles/aubergine.json
+msgctxt "Gradient name"
+msgid "Secondary to Base"
+msgstr "دومی تا اولی"
+
+#: styles/aubergine.json
+msgctxt "Style variation name"
+msgid "Aubergine"
+msgstr "بادمجان(نام استایل)"
+
+#: patterns/post-meta.php:64
+msgctxt "Label for a list of post tags"
+msgid "Tags:"
+msgstr "برچسب‌ها:"
+
+#: patterns/post-meta.php:48
+msgctxt "Preposition to show the relationship between the post and its author"
+msgid "by"
+msgstr "توسط"
+
+#: patterns/post-meta.php:36
+msgctxt "Preposition to show the relationship between the post and its categories"
+msgid "in"
+msgstr "در"
+
+#: patterns/post-meta.php:28
+msgctxt "Verb to explain the publication status of a post"
+msgid "Posted"
+msgstr "منتشر شده"
+
+#: patterns/post-meta.php
+msgctxt "Pattern title"
+msgid "Post Meta"
+msgstr "متای نوشته"
+
+#: patterns/hidden-no-results.php:10
+msgctxt "Message explaining that there are no results returned from a search"
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "پوزش، اما چیزی با عبارت‌های جستجوی شما هم‌خوانی پیدا نکرد. لطفاً بار دیگر با کلیدواژه‌هایی متفاوت آزمایش کنید."
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "Hidden No Results Content"
+msgstr "محتوای پنهان بدون نتیجه"
+
+#: patterns/hidden-comments.php:13
+msgctxt "Title of comments section"
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Hidden Comments"
+msgstr "محتوای پنهان"
+
+#: patterns/hidden-404.php:22 patterns/hidden-no-results.php:14
+msgid "Search"
+msgstr "جستجو"
+
+#: patterns/hidden-404.php:22 patterns/hidden-no-results.php:14
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr "جست‌وجو..."
+
+#: patterns/hidden-404.php:22 patterns/hidden-no-results.php:14
+msgctxt "label"
+msgid "Search"
+msgstr "جستجو"
+
+#: patterns/hidden-404.php:19
+msgctxt "Message to convey that a webpage could not be found"
+msgid "This page could not be found."
+msgstr "این صفحه یافت نشد."
+
+#: patterns/hidden-404.php:13
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "404"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr "صفحه 404 پنهان"
+
+#. Translators: WordPress link.
+#: patterns/footer-default.php:19
+msgid "Proudly powered by %s"
+msgstr "با افتخار، ایجاد شده با %s"
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr "پاورقی پیش‌فرض"
+
+#: patterns/call-to-action.php:24
+msgctxt "sample content for call to action button"
+msgid "Get In Touch"
+msgstr "در تماس باشید"
+
+#: patterns/call-to-action.php:15
+msgctxt "sample content for call to action"
+msgid "Got any book recommendations?"
+msgstr "آیا توصیه کتاب دارید؟"
+
+#: patterns/call-to-action.php
+msgctxt "Pattern title"
+msgid "Call to action"
+msgstr "دعوت برای تماس"
+
+#. Author URI of the theme
+#: patterns/footer-default.php:20
+#, gp-priority: low
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "تیم وردپرس"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentythree"
+msgstr "https://wordpress.org/themes/twentytwentythree"

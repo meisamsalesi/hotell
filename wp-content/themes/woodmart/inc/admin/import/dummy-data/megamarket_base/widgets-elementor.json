@@ -1,0 +1,185 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 65,
+                "thumb_width": 75
+            },
+            "woodmart-banner-2": {
+                "image_divider": "",
+                "image": "631",
+                "img_size": "full",
+                "height": "350",
+                "image_bg_position": "center",
+                "link": "#",
+                "style_divider": "",
+                "style": "mask",
+                "hover": "zoom",
+                "woodmart_color_scheme": "light",
+                "custom_content_bg_color": "",
+                "extra_divider": "",
+                "el_class": "",
+                "title_divider": "",
+                "title": "Plumbing Install Discount",
+                "title_font": "",
+                "title_tag": "h2",
+                "title_size": "large",
+                "font_weight": "800",
+                "custom_title_size": "",
+                "custom_title_line_height": "",
+                "woodmart_empty_space": "",
+                "custom_title_color": "",
+                "subtitle_divider": "",
+                "subtitle": "",
+                "subtitle_font": "",
+                "subtitle_font_weight": "",
+                "custom_subtitle_size": "",
+                "custom_subtitle_line_height": "",
+                "subtitle_color": "default",
+                "custom_subtitle_color": "",
+                "subtitle_style": "default",
+                "custom_subtitle_bg_color": "",
+                "content_divider": "",
+                "content": "03 Nov \u2013 03 Dec",
+                "content_text_size": "default",
+                "custom_text_color": "",
+                "custom_text_size": "",
+                "custom_text_line_height": "",
+                "button_divider": "",
+                "btn_text": "Read More",
+                "btn_position": "static",
+                "btn_color": "primary",
+                "btn_size": "default",
+                "btn_style": "default",
+                "btn_shape": "rectangle",
+                "hide_btn_tablet": "no",
+                "hide_btn_mobile": "no",
+                "positioning_divider": "",
+                "horizontal_alignment": "left",
+                "vertical_alignment": "bottom",
+                "text_alignment": "left",
+                "content_width": "100",
+                "increase_spaces": "no",
+                "title_desktop_text_size": "",
+                "title_tablet_text_size": "",
+                "title_mobile_text_size": "",
+                "subtitle_desktop_text_size": "",
+                "subtitle_tablet_text_size": "",
+                "subtitle_mobile_text_size": ""
+            },
+            "recent-comments-2": {
+                "title": "Recent Comments",
+                "number": 3
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Filter by brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": "1"
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Filter by color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": "1"
+            },
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Filter by country",
+                "attribute": "country",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-5": {
+                "title": "Filter by material",
+                "attribute": "material",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-6": {
+                "title": "Filter by size",
+                "attribute": "size",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-7": {
+                "title": "Filter by shape",
+                "attribute": "shape",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "wd-widget-stock-status-2": {
+                "title": "Stock status",
+                "instock": "1",
+                "onsale": "1"
+            },
+            "woocommerce_top_rated_products-2": {
+                "title": "Top rated products",
+                "number": 3
+            }
+        }
+    }
+}

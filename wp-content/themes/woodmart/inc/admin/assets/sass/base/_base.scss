@@ -1,0 +1,291 @@
+// ------------------------------------------------------------------------------------
+// BASE GENERAL
+// ------------------------------------------------------------------------------------
+
+@if $general {
+
+// html body {
+// 	background: #F0F0F1; // NOTE FIX THEME SETTINGS BODY BACKGROUND COLOR
+// }
+
+	:where(
+	.xts-theme-style,
+	div.vc_ui-panel-content) {
+		color: var(--xts-body-color);
+
+		@extend %xts-checkbox;
+
+		* {
+			box-sizing: border-box;
+		}
+
+		a {
+			color: var(--xts-primary-color);
+			text-decoration: none;
+			transition: all .25s ease;
+
+			&:hover {
+				color: var(--xts-primary-color-darker-20);
+			}
+
+			&:hover,
+			&:focus,
+			&:active {
+				outline: none;
+				box-shadow: none;
+				text-decoration: none;
+			}
+		}
+
+		:is(h1, h2, h3, h4, h4, h6) {
+			margin-top: 0;
+			margin-bottom: 20px;
+			color: var(--xts-heading-color);
+			line-height: 1.2;
+		}
+
+		p {
+			margin-top: 0;
+			margin-bottom: 20px;
+			color: var(--xts-body-color);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			vertical-align: middle;
+		}
+
+		button {
+			text-align: start;
+			cursor: pointer;
+			transition: all .25s ease;
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// HIDE NOTICES ON XTS PAGES
+	// ------------------------------------------------------------------------------------------------
+
+	.xts-pages {
+		// overflow-x: hidden;
+
+		#wpbody-content {
+			position: relative;
+			// position: sticky;
+			// top: 32px;
+			padding-top: 151px;
+			// max-width: var(--xts-content-width);
+			width: calc(100% - 20px);
+
+			> *:not(div[class*="xts-"]):not(.wrap):not(#whb-header-builder):not([id*="screen-meta"]) {
+				display: none !important;
+			}
+
+			> .wrap {
+				margin-top: -10px;
+				// max-width: var(--xts-content-width);
+
+				> *:not(div[class*="xts-"]):not(form):not(.wp-heading-inline):not(.page-title-action):not(.wd-layout):not(.subsubsub):not(.wp-header-end):not([id="col-container"]) {
+					display: none !important;
+				}
+			}
+
+			.wrap {
+				margin-right: 0;
+				margin-left: 0;
+			}
+
+			.xts-popup-opened & {
+				z-index: 9999;
+			}
+		}
+
+		#screen-meta {
+			margin: -20px -20px 20px -20px;
+			border-left: 0;
+			border-right: 0;
+			border-color: var(--xts-option-border-color);
+		}
+
+		#screen-meta-links {
+			margin: -21px 0 0 0;
+
+			.show-settings {
+				border-color: #E2E4E5;
+			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// WP SIDEBAR XTS MENU ITEMS
+	// ------------------------------------------------------------------------------------------------
+
+	:is(
+	#toplevel_page_xts_dashboard,
+	#toplevel_page_xts_theme_settings,
+	#menu-posts-portfolio,
+	#menu-posts-cms_block,
+	#menu-posts-woodmart_layout,
+	#menu-posts-woodmart_slide,
+	#menu-posts-woodmart_sidebar) {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					font-size: 16px;
+					line-height: 20px;
+
+					@include font-icon-base;
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// LAYOUTS
+	// ------------------------------------------
+
+	#menu-posts-woodmart_sidebar {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					@include font-icon-content($xts-icon-sidebar-right-fill);
+				}
+			}
+		}
+	}
+
+	#menu-posts-woodmart_layout {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					@include font-icon-content($xts-icon-layers-fill);
+				}
+			}
+		}
+	}
+
+	#menu-posts-woodmart_slide {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					font-size: 17px;
+
+					@include font-icon-content($xts-icon-layers-2-fill);
+				}
+			}
+		}
+	}
+
+	#toplevel_page_xts_theme_settings {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					@include font-icon-content($xts-icon-setting-slider-fill);
+				}
+			}
+		}
+	}
+
+	#toplevel_page_xts_dashboard {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					font-size: 20px;
+
+					@include font-icon-content($xts-icon-logo-woodmart);
+				}
+			}
+		}
+	}
+
+	#menu-posts-cms_block {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					// font-size: 17px;
+					@include font-icon-content($xts-icon-html-block-fill);
+				}
+			}
+		}
+	}
+
+	#menu-posts-portfolio {
+
+		.menu-top {
+
+			.wp-menu-image {
+
+				&:before {
+					@include font-icon-content($xts-icon-portfolio-fill);
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// WOOD TREE
+	// ------------------------------------------
+
+	.toplevel_page_xts_dashboard {
+
+		&.menu-top {
+
+			.wp-menu-image {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				img {
+					padding: 0 !important;
+					max-width: 20px;
+					max-height: 20px;
+				}
+			}
+		}
+	}
+
+	//**** WHITE LABEL ****//
+
+	.wd-white-label-img {
+
+		#toplevel_page_xts_dashboard {
+
+			.menu-top {
+
+				.wp-menu-image {
+
+					&:before {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+} // END IF

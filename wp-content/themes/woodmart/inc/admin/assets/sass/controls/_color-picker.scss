@@ -1,0 +1,388 @@
+// ------------------------------------------------------------------------------------
+// XTS COLOR-PICKER
+// ------------------------------------------------------------------------------------
+
+@if $cont-color-picker {
+
+	:is(
+	.xts-theme-style,
+	div.vc_ui-panel-content) {
+
+		.wp-color-result {
+
+			&.button {
+				position: relative;
+				margin-inline-end: 0 !important;
+				margin-bottom: 0 !important;
+				padding: var(--xts-picker-space) !important;
+				padding-inline-start: 39px !important;
+				height: 35px;
+				border: 1px solid var(--xts-option-border-color) !important;
+				border-radius: var(--xts-option-border-radius);
+				background-image: none !important;
+
+				--xts-picker-space: 2px;
+				--xts-input-height: calc(35px - (var(--xts-picker-space) * 2) - 2px);
+
+				&:focus {
+					outline: none !important;
+					box-shadow: none !important;
+				}
+			}
+
+			// &:active {
+			// 	background: none;
+			// }
+
+			&:hover {
+
+				.wp-color-result-text {
+					background-color: var(--xts-btn-grey-color-hover);
+				}
+			}
+		}
+
+		.wp-picker-container {
+			position: relative;
+			// display: inline-block;
+
+			.iris-picker {
+				z-index: 401; // REWRITE FOR BUTTON CUSTOM TEXT COLORSCHEME.
+				border: 1px solid var(--xts-option-border-color);
+				border-radius: var(--xts-option-border-radius);
+				box-shadow: var(--xts-option-box-shadow);
+			}
+		}
+
+		.wp-color-result-text {
+			padding: 0 10px;
+			width: 35px !important;
+			height: var(--xts-input-height) !important;
+			border: none;
+			border-radius: var(--xts-option-border-radius);
+			font-size: 0;
+
+			@extend %xts-button;
+			@extend %xts-button-default;
+			@extend %xts-button-default-hover;
+
+			&:before {
+				font-size: 14px;
+
+				@include font-icon($xts-icon-brush);
+			}
+		}
+
+		.color-alpha {
+			top: 2px !important;
+			inset-inline-start: 2px !important;
+			width: 35px !important;
+			height: var(--xts-input-height) !important;
+			border-radius: var(--xts-option-border-radius) !important;
+		}
+
+		.wp-picker-input-wrap {
+			margin-inline-start: 5px;
+
+			label {
+				display: inline-block;
+				margin-bottom: 0;
+				padding: 0;
+			}
+
+			input[type=text] {
+				width: 110px !important;
+			}
+
+			.button {
+				width: 58px;
+
+				@extend %xts-button;
+				@extend %xts-button-default;
+				@extend %xts-button-default-hover;
+			}
+		}
+
+		:is(
+		.iris-square-handle,
+		.ui-draggable-handle) {
+			transition: none !important;
+		}
+	}
+
+	.xts-theme-style {
+
+		.wp-color-result {
+
+			&.button {
+				background-color: #FFF !important;
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// BEFORE LOAD
+	// ------------------------------------------
+
+	.xts-theme-style {
+
+		input.color-picker:not(.wp-color-picker) {
+			max-width: 78px;
+			// opacity: 0;
+			color: transparent;
+		}
+	}
+
+	// STYLES BEFORE COLOR-PICKER LOAD
+
+	// .xts-color-control,
+	// .xts-bg-color {
+
+	// 	> input[type="text"] {
+	// 		width: 135px;
+	// 		height: var(--xts-input-height);
+	// 		opacity: 0;
+	// 	}
+	// }
+
+} // END IF
+
+@if $wpb-cont-color-picker {
+
+	// ------------------------------------------------------------------------------------------------
+	// WPB COLOR-PICKER
+	// ------------------------------------------------------------------------------------------------
+
+	div.vc_ui-panel-content {
+
+		.wp-picker-container {
+
+			.wp-color-result {
+
+				&:before,
+				&:after {
+					content: "";
+					position: absolute;
+					top: 50%;
+					border-radius: inherit;
+					transform: translateY(-50%) translateZ(0);
+
+					backface-visibility: hidden;
+					-webkit-backface-visibility: hidden;
+					perspective: 800px;
+				}
+
+				&:before {
+					inset-inline-start: -1px;
+					width: 78px;
+					height: 35px;
+					border: 1px solid var(--xts-option-border-color) !important;
+					background-color: #FFF;
+				}
+
+				&:after {
+					inset-inline-start: 3px;
+					z-index: 2;
+					display: block !important;
+					width: 34px;
+					height: 29px;
+					border: none !important;
+					background-color: inherit;
+				}
+
+				.wp-color-result-text {
+					position: relative;
+					z-index: 2;
+				}
+			}
+		}
+
+		.wp-picker-container {
+
+			.wp-color-picker {
+				height: var(--xts-input-height) !important;
+			}
+
+			:is(
+			.woodmart-opacity-container,
+			.vc_alpha-container) {
+				border: 1px solid var(--xts-option-border-color) !important;
+				border-radius: var(--xts-option-border-radius) !important;
+				box-shadow: var(--xts-option-box-shadow);
+
+				label {
+					margin-top: 0;
+				}
+			}
+
+			.color-alpha {
+				z-index: $z-layer-10;
+				width: 35px !important;
+			}
+		}
+	}
+
+	.woodmart-vc-colorpicker {
+
+		.wp-picker-container {
+			position: relative;
+
+			.wp-color-result {
+
+				&.wp-picker-open {
+
+					&:after {
+						display: none;
+					}
+				}
+			}
+
+			.iris-picker {
+				margin-bottom: 74px;
+			}
+		}
+
+		.wp-picker-holder {
+			position: absolute;
+			top: 100%;
+			inset-inline-start: 0;
+			padding-bottom: 10px;
+		}
+	}
+
+	.woodmart-opacity-container {
+		position: absolute;
+		bottom: -73px;
+		inset-inline-start: -1px;
+		z-index: 1000;
+		padding: 6px;
+		width: 243px;
+		border: 1px solid #DFDFDF;
+		border-radius: 0;
+		background-color: #FFF;
+
+		border-end-end-radius: var(--xts-option-border-radius);
+		border-end-start-radius: var(--xts-option-border-radius);
+
+		.woodmart-opacity-field {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+} // END IF
+
+@if $whb-cont-color-picker {
+
+	// ------------------------------------------------------------------------------------------------
+	// WHB COLOR-PICKER
+	// ------------------------------------------------------------------------------------------------
+
+	.whb-color-picker {
+		position: relative;
+		display: inline-flex;
+		padding: 2px;
+		height: var(--xts-input-height);
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-option-border-radius);
+		background-color: #FFF;
+		vertical-align: middle;
+	}
+
+	.whb-color-preview {
+		width: 35px;
+		border-radius: inherit;
+	}
+
+	.whb-color-handler {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-inline-start: 2px;
+		width: 35px;
+		border-radius: inherit;
+		background-color: var(--xts-btn-grey-color);
+		font-size: 14px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+
+		&:before {
+			@include font-icon($xts-icon-brush);
+		}
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+
+		&:hover {
+			background-color: var(--xts-btn-grey-color-hover);
+		}
+	}
+
+	.whb-color-picker-option {
+		position: relative;
+
+		.whb-clear-color {
+			display: inline-block;
+			margin-inline-start: 5px;
+			width: 20px;
+			height: 20px;
+			color: var(--xts-btn-warning-color);
+			vertical-align: middle;
+			text-align: center;
+			font-size: 16px;
+			cursor: pointer;
+			transition: all .2s ease-in-out;
+
+			&:before {
+				@include font-icon($xts-icon-delete-bin);
+			}
+
+			&:hover {
+				color: var(--xts-btn-warning-color-hover);
+			}
+		}
+
+		.sketch-picker {
+			border: 1px solid var(--xts-option-border-color-darker-10) !important;
+			border-radius: var(--xts-option-border-radius) !important;
+			box-shadow: var(--xts-option-box-shadow) !important;
+		}
+	}
+
+	.whb-color-picker-cover {
+		position: absolute;
+		top: -60px;
+		right: -100vw;
+		bottom: -30px;
+		left: -100vw;
+	}
+
+	.whb-color-picker-absolute {
+		position: absolute;
+		top: 50px;
+		z-index: 2;
+
+		.whb-picker-top & {
+			top: auto;
+			bottom: 45px;
+		}
+
+		.whb-picker-overlap & {
+			top: 90px;
+		}
+	}
+
+	.whb-color-picker-option {
+
+		&.whb-picker-opened:not(.whb-picker-top):not(.whb-picker-overlap) {
+			padding-bottom: 320px;
+		}
+	}
+
+} // END IF

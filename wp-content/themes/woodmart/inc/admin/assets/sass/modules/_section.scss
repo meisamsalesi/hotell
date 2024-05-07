@@ -1,0 +1,56 @@
+// ------------------------------------------------------------------------------------------------
+// SECTION
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-sections {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		height: 100%;
+	}
+
+	.xts-section {
+		flex-grow: 1;
+		height: 100%;
+		animation: wd-fadeIn .4s ease both;
+
+		&:last-child:first-child {
+
+			.xts-section-title {
+				display: none;
+			}
+		}
+	}
+
+	.xts-section-title {
+		display: flex;
+		align-items: center;
+		margin-bottom: 25px;
+		padding-top: 2px;
+
+		h3 {
+			margin-bottom: 0;
+			font-size: 24px;
+			line-height: 48px;
+		}
+
+		.xts-title-icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 48px;
+			height: 48px;
+			border-radius: var(--xts-option-border-radius);
+			background-color: #F3F3F3;
+
+			margin-inline-end: 12px;
+
+			&:before {
+				font-size: 22px;
+			}
+		}
+	}
+
+} // END IF

@@ -1,0 +1,112 @@
+// ------------------------------------------------------------------------------------------------
+// WPB GRADIENT
+// ------------------------------------------------------------------------------------------------
+
+@if $wpb-cont-gradient {
+
+	.woodmart-grad-line {
+
+		.gradx {
+			box-sizing: content-box;
+			padding: 10px 10px 6px 10px;
+			border: none;
+			border: 1px solid var(--xts-option-border-color);
+			border-radius: 5px;
+			background: #FFF;
+			box-shadow: var(--xts-option-box-shadow);
+		}
+
+		.gradx_btn {
+			justify-content: center;
+			width: 82px;
+			background-image: none;
+
+			@extend %xts-button;
+			@extend %xts-button-default;
+
+			// @extend %woodmart-admin-btn;
+
+			i {
+				inset-inline-start: -10px;
+				margin-top: -4px;
+			}
+		}
+
+		.gradx_slider {
+
+			&:after {
+				border-width: 60px 1px 0 0;
+			}
+		}
+
+		.cp-default {
+			border-radius: 0 !important;
+		}
+
+		.gradx_start_sliders {
+			margin-right: -6px;
+			margin-left: -6px;
+		}
+
+		.sp-container {
+			border: none;
+		}
+
+		.sp-picker-container {
+			border-left: none;
+		}
+
+		.sp-picker-container {
+			padding-top: 5px;
+		}
+
+		#gradx_slider_controls {
+			margin-left: 10px;
+			padding-top: 5px;
+		}
+
+		.gradx_slectboxes {
+			display: flexbox;
+			display: flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			-ms-flex-align: stretch;
+			align-items: stretch;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+			justify-content: flex-start;
+			margin-right: -5px;
+			margin-left: -5px;
+
+			-webkit-align-items: stretch;
+			-webkit-justify-content: flex-start;
+			-ms-justify-content: flex-start;
+
+			select {
+				flex-basis: 100%;
+				margin-right: 5px;
+				margin-left: 5px;
+				padding: 0 8px;
+				max-width: 100%;
+				width: 100%;
+				height: 28px;
+				line-height: 28px;
+
+				-webkit-flex-basis: 100%;
+				-ms-flex-basis: 100%;
+			}
+		}
+
+		:is(
+		#gradx_slider_info,
+		.sp-picker-container) {
+			background-color: #FFF;
+		}
+	}
+
+	.woodmart-grad-preview {
+		display: none;
+	}
+
+} // END IF

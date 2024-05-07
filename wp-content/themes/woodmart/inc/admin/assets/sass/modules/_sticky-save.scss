@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------------------------------------
+// STICKY SAVE BUTTON
+// ------------------------------------------------------------------------------------------------
+
+// @extend %sticky-save-button;
+
+%sticky-save-button {
+	position: sticky;
+	bottom: 0;
+	z-index: $z-layer-2;
+	margin-top: 30px;
+	margin-bottom: -19px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid var(--xts-option-border-color);
+	background-color: #FFF;
+
+	:is(
+	.button,
+	[type="submit"]) {
+		padding-inline-start: 30px;
+	}
+
+	&:before {
+		position: absolute;
+		top: 15px;
+		inset-inline-start: 10px;
+		height: 35px;
+		line-height: 35px;
+		z-index: $z-layer-1;
+		color: #FFF;
+		pointer-events: none;
+		@include font-icon-base;
+	}
+}
+
+// @extend %sticky-save-button-delete;
+
+%sticky-save-button-delete {
+	@extend %xts-inline-button;
+
+	&.delete {
+		@extend %xts-inline-button-warning;
+	}
+
+	&:before {
+		@include font-icon($xts-icon-delete-bin);
+	}
+}

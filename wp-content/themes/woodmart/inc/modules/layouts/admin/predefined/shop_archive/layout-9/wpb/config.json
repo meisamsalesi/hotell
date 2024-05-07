@@ -1,0 +1,24 @@
+{
+	"assets": [
+		{
+			"id": "image_8871",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/w-b-p2-category-1.jpg"
+		},
+		{
+			"id": "image_881",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2017/06/wine-bottle-lantern-1.jpg"
+		},
+		{
+			"id": "image_885",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2017/06/wooden-single-drawer-1.jpg"
+		},
+		{
+			"id": "image_8872",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/w-b-p2-category-2.jpg"
+		}
+	]
+}

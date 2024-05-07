@@ -1,0 +1,131 @@
+// ------------------------------------------------------------------------------------------------
+// WELCOME
+// ------------------------------------------------------------------------------------------------
+
+@if $page-welcome {
+
+	.xts-welcome-page {
+		max-width: var(--xts-content-width);
+	}
+
+	.xts-welcome-box {
+		overflow: hidden;
+		// margin-bottom: 20px;
+		background-color: #7CB32C;
+
+		img {
+			position: absolute;
+			top: 0;
+			inset-inline-end: 0;
+			bottom: 0;
+			z-index: -1;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		// h3,
+		// p {
+		// 	max-width: 60%;
+		// }
+
+		h3 {
+			font-size: 28px;
+		}
+
+		p {
+			font-size: 120%;
+		}
+
+		.xts-box-content {
+			display: flex;
+			align-items: flex-start;
+			flex-direction: column;
+			justify-content: center;
+			min-height: 215px;
+		}
+	}
+
+	:is(
+	.xts-welcome-box,
+	.xts-white-label-box) {
+
+		h3 {
+			font-size: 28px;
+		}
+
+		p {
+			font-size: 120%;
+		}
+	}
+
+	.xts-white-label-box {
+
+		.xts-about-text {
+			font-size: 120%;
+			line-height: 1.5;
+		}
+	}
+
+	.xts-info-boxes {
+
+		h4 {
+			margin-bottom: 5px;
+			color: var(--xts-primary-color);
+			font-size: 18px;
+		}
+
+		p {
+			font-size: 120%;
+		}
+	}
+
+	.xts-info-box-img {
+
+		img {
+			max-width: 128px;
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------------
+// 1025 AND DOWN
+// ------------------------------------------------------------------------------------------------
+
+@mixin R-MD-UP__pages__xtemos__welcome {
+
+	@if $page-welcome {
+
+		.xts-welcome-box {
+
+			:is(
+			h3,
+			p) {
+				max-width: 60%;
+			}
+		}
+
+	} // END IF
+}
+
+// ------------------------------------------------------------------------------------------------
+// 1024 AND DOWN
+// ------------------------------------------------------------------------------------------------
+
+@mixin R-MD-DOWN__pages__xtemos__welcome {
+
+	@if $page-welcome {
+
+		.xts-welcome-box {
+
+			.xts-box-content {
+				background-color: rgba(#000,.4);
+			}
+		}
+
+	} // END IF
+}

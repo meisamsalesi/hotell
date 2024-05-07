@@ -1,0 +1,40 @@
+{
+  "assets": [
+    {
+      "id": "image_255",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/available-new-7000-series.jpg"
+    },
+    {
+      "id": "image_354",
+      "type": "external-image",
+      "src": "http://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/real-speed-with5ghz-home-router.jpg"
+    },
+    {
+      "id": "image_150",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/motherboards.jpg"
+    },
+    {
+      "id": "image_151",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/cooling.jpg"
+    },
+    {
+      "id": "image_152",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2022/12/hardware-and-other.jpg"
+    },
+    {
+      "id": "image_1026",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2023/01/chevron-right-primary.svg"
+    }
+    ,
+    {
+      "id": "image_1025",
+      "type": "external-image",
+      "src": "https://dummy.xtemos.com/woodmart2/mega-electronics/wp-content/uploads/sites/7/2023/01/chevron-down-black.svg"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+    "name": "Header Accessories checkout",
+    "id": "header_174829",
+    "structure": {
+        "id": "root",
+        "type": "root",
+        "content": [
+            {
+                "id": "top-bar",
+                "type": "row",
+                "content": [
+                    {
+                        "id": "column5",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column6",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column7",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile1",
+                        "type": "column",
+                        "content": []
+                    }
+                ],
+                "params": {
+                    "flex_layout": {
+                        "id": "flex_layout",
+                        "value": "flex-middle",
+                        "type": "selector"
+                    },
+                    "height": {
+                        "id": "height",
+                        "value": 45,
+                        "type": "slider"
+                    },
+                    "mobile_height": {
+                        "id": "mobile_height",
+                        "value": 40,
+                        "type": "slider"
+                    },
+                    "hide_desktop": {
+                        "id": "hide_desktop",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "hide_mobile": {
+                        "id": "hide_mobile",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "sticky": {
+                        "id": "sticky",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky_height": {
+                        "id": "sticky_height",
+                        "value": 41,
+                        "type": "slider"
+                    },
+                    "color_scheme": {
+                        "id": "color_scheme",
+                        "value": "light",
+                        "type": "selector"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "background": {
+                        "id": "background",
+                        "value": [],
+                        "type": "bg"
+                    },
+                    "border": {
+                        "id": "border",
+                        "value": {
+                            "width": "1",
+                            "color": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "a": 0.25
+                            },
+                            "sides": [
+                                "bottom"
+                            ],
+                            "applyFor": "boxed"
+                        },
+                        "type": "border"
+                    }
+                }
+            },
+            {
+                "id": "general-header",
+                "type": "row",
+                "content": [
+                    {
+                        "id": "column8",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column9",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "gs8bcnxektjsro21n657",
+                                "type": "logo",
+                                "params": {
+                                    "image": {
+                                        "id": "image",
+                                        "value": {
+                                            "id": 103,
+                                            "url": "http:\/\/dummy.xtemos.com\/woodmart2\/accessories-elementor\/wp-content\/uploads\/sites\/6\/2022\/09\/wood-logo-dark.svg",
+                                            "width": 369,
+                                            "height": 53
+                                        },
+                                        "type": "image"
+                                    },
+                                    "width": {
+                                        "id": "width",
+                                        "value": 180,
+                                        "type": "slider"
+                                    },
+                                    "sticky_notice": {
+                                        "id": "sticky_notice",
+                                        "value": "",
+                                        "type": "notice"
+                                    },
+                                    "sticky_image": {
+                                        "id": "sticky_image",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "sticky_width": {
+                                        "id": "sticky_width",
+                                        "value": 245,
+                                        "type": "slider"
+                                    },
+                                    "width_height": {
+                                        "id": "width_height",
+                                        "value": true,
+                                        "type": "switcher"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "column10",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile2",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile3",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "lt7vdqgaccmapftzurvt",
+                                "type": "logo",
+                                "params": {
+                                    "image": {
+                                        "id": "image",
+                                        "value": {
+                                            "id": 103,
+                                            "url": "http:\/\/dummy.xtemos.com\/woodmart2\/accessories-elementor\/wp-content\/uploads\/sites\/6\/2022\/09\/wood-logo-dark.svg",
+                                            "width": 369,
+                                            "height": 53
+                                        },
+                                        "type": "image"
+                                    },
+                                    "width": {
+                                        "id": "width",
+                                        "value": 179,
+                                        "type": "slider"
+                                    },
+                                    "sticky_notice": {
+                                        "id": "sticky_notice",
+                                        "value": "",
+                                        "type": "notice"
+                                    },
+                                    "sticky_image": {
+                                        "id": "sticky_image",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "sticky_width": {
+                                        "id": "sticky_width",
+                                        "value": 179,
+                                        "type": "slider"
+                                    },
+                                    "width_height": {
+                                        "id": "width_height",
+                                        "value": true,
+                                        "type": "switcher"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "column_mobile4",
+                        "type": "column",
+                        "content": []
+                    }
+                ],
+                "params": {
+                    "flex_layout": {
+                        "id": "flex_layout",
+                        "value": "equal-sides",
+                        "type": "selector"
+                    },
+                    "height": {
+                        "id": "height",
+                        "value": 90,
+                        "type": "slider"
+                    },
+                    "mobile_height": {
+                        "id": "mobile_height",
+                        "value": 60,
+                        "type": "slider"
+                    },
+                    "hide_desktop": {
+                        "id": "hide_desktop",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "hide_mobile": {
+                        "id": "hide_mobile",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky": {
+                        "id": "sticky",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky_height": {
+                        "id": "sticky_height",
+                        "value": 60,
+                        "type": "slider"
+                    },
+                    "color_scheme": {
+                        "id": "color_scheme",
+                        "value": "dark",
+                        "type": "selector"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "background": {
+                        "id": "background",
+                        "value": [],
+                        "type": "bg"
+                    },
+                    "border": {
+                        "id": "border",
+                        "value": {
+                            "width": "0",
+                            "applyFor": "fullwidth",
+                            "style": "solid",
+                            "sides": [
+                                "bottom"
+                            ]
+                        },
+                        "type": "border"
+                    }
+                }
+            },
+            {
+                "id": "header-bottom",
+                "type": "row",
+                "content": [
+                    {
+                        "id": "column11",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column12",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column13",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile5",
+                        "type": "column",
+                        "content": []
+                    }
+                ],
+                "params": {
+                    "flex_layout": {
+                        "id": "flex_layout",
+                        "value": "flex-middle",
+                        "type": "selector"
+                    },
+                    "height": {
+                        "id": "height",
+                        "value": 50,
+                        "type": "slider"
+                    },
+                    "mobile_height": {
+                        "id": "mobile_height",
+                        "value": 50,
+                        "type": "slider"
+                    },
+                    "hide_desktop": {
+                        "id": "hide_desktop",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "hide_mobile": {
+                        "id": "hide_mobile",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "sticky": {
+                        "id": "sticky",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky_height": {
+                        "id": "sticky_height",
+                        "value": 50,
+                        "type": "slider"
+                    },
+                    "color_scheme": {
+                        "id": "color_scheme",
+                        "value": "dark",
+                        "type": "selector"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "background": {
+                        "id": "background",
+                        "value": [],
+                        "type": "bg"
+                    },
+                    "border": {
+                        "id": "border",
+                        "value": {
+                            "style": "solid",
+                            "applyFor": "fullwidth",
+                            "sides": [
+                                "bottom"
+                            ],
+                            "width": "1",
+                            "color": {
+                                "r": 230,
+                                "g": 230,
+                                "b": 230,
+                                "a": 1
+                            }
+                        },
+                        "type": "border"
+                    }
+                }
+            }
+        ]
+    },
+    "settings": {
+        "overlap": {
+            "id": "overlap",
+            "value": false,
+            "type": "switcher"
+        },
+        "boxed": {
+            "id": "boxed",
+            "value": false,
+            "type": "switcher"
+        },
+        "full_width": {
+            "id": "full_width",
+            "value": false,
+            "type": "switcher"
+        },
+        "dropdowns_dark": {
+            "id": "dropdowns_dark",
+            "value": false,
+            "type": "switcher"
+        },
+        "sticky_shadow": {
+            "id": "sticky_shadow",
+            "value": false,
+            "type": "switcher"
+        },
+        "hide_on_scroll": {
+            "id": "hide_on_scroll",
+            "value": false,
+            "type": "switcher"
+        },
+        "sticky_effect": {
+            "id": "sticky_effect",
+            "value": "stick",
+            "type": "selector"
+        },
+        "sticky_clone": {
+            "id": "sticky_clone",
+            "value": false,
+            "type": "switcher"
+        },
+        "sticky_height": {
+            "id": "sticky_height",
+            "value": 60,
+            "type": "slider"
+        }
+    }
+}

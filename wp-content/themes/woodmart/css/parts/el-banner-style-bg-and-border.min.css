@@ -1,0 +1,1 @@
+:is(.banner-background,.banner-border) .wrapper-content-banner{top:20px;right:20px;bottom:20px;left:20px;overflow:hidden}.banner-background .wrapper-content-banner{background-color:rgba(0,0,0,0.8)}.banner-background.color-scheme-dark .wrapper-content-banner{background-color:rgba(255,255,255,0.8)}.banner-border .wrapper-content-banner{border:5px solid var(--brdcolor-gray-400)}

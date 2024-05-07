@@ -1,0 +1,24 @@
+{
+	"assets": [
+		{
+			"id": "image_9066",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/product-delivery-1.svg"
+		},
+		{
+			"id": "image_9067",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/product-meny-products-1.svg"
+		},
+		{
+			"id": "image_9069",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/product-support-1.svg"
+		},
+		{
+			"id": "image_9068",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/06/product-quality-1.svg"
+		}
+	]
+}

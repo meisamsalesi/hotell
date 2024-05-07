@@ -1,0 +1,341 @@
+// ------------------------------------------------------------------------------------------------
+// ATTRIBUTES
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-attributes {
+
+	:is(
+	.product_page_product_attributes,
+	.edit-tags-php[class*="taxonomy-pa"],
+	.term-php[class*="taxonomy-pa"]){
+
+		:is(
+		.wrap.woocommerce > form,
+		.form-wrap form,
+		#addtag,
+		#edittag) {
+
+			.xts-box {
+				background-color: transparent;
+				box-shadow: none;
+			}
+
+			.xts-box-content {
+				padding: 0;
+			}
+
+			.form-field {
+				margin-top: 0;
+				margin-bottom: 40px;
+
+				label {
+					display: block;
+
+					@extend %option-title;
+					@extend %option-title-label;
+				}
+
+				input[type=text],
+				select,
+				textarea {
+					@extend %input-style;
+				}
+
+				textarea {
+					@extend %textarea-style;
+				}
+
+				p {
+					max-width: 100%;
+
+					@extend %field-description;
+				}
+			}
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			p.submit {
+				@extend %sticky-save-button;
+			}
+
+			[type="submit"] {
+				@extend %xts-button;
+
+				&.button-primary {
+					@extend %xts-button-primary;
+					@extend %xts-button-primary-hover;
+				}
+			}
+		}
+	}
+
+	.product_page_product_attributes {
+
+		.xts-metaboxes {
+
+			.xts-set-btn-img {
+				flex-basis: 25%;
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// ATTRIBUTES ADD PAGE
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-attributes {
+
+	.product_page_product_attributes {
+
+		#col-left {
+			width: 600px;
+		}
+
+		#col-right {
+			width: calc(100% - 600px);
+		}
+
+		.form-wrap {
+
+			h2 {
+				margin-top: 0;
+				margin-bottom: 18px;
+				font-size: 16px;
+			}
+		}
+
+		.form-wrap form {
+			margin-top: 20px;
+
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			p.submit {
+
+				&:before {
+					@include font-icon-content($xts-icon-add);
+				}
+			}
+		}
+
+		.form-field {
+
+			> label[for="attribute_public"] {
+				position: relative;
+				margin-bottom: 45px !important;
+
+				input {
+					position: absolute;
+					top: 52px;
+					inset-inline-start: 0;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// ATTRIBUTES EDIT
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-attributes {
+
+	.product_page_product_attributes {
+
+		.wrap.woocommerce > form {
+			display: flex;
+			flex-direction: column;
+			margin-top: 20px;
+			max-width: 600px; // NOTE MAKE ATTRIBUTE EDIT PAGE LOOKS LIKE SINGLE ATTRIBUTE EDIT PAGE
+
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			.xts-box {
+				margin-bottom: 0;
+			}
+
+			.form-table {
+				order: -1;
+				margin-top: 0;
+
+				:is(
+				th,
+				td) {
+					padding: 0;
+				}
+			}
+
+			.form-field {
+				display: flex;
+				flex-direction: column;
+
+				th {
+					width: 100%;
+				}
+
+				td {
+					margin-bottom: 0;
+				}
+			}
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			p.submit {
+
+				&:before {
+					@include font-icon-content($xts-icon-update);
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// ATTRIBUTES TERM ADD
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-attributes {
+
+	.edit-tags-php[class*="taxonomy-pa"] {
+
+		.form-wrap {
+
+			h2 {
+				margin-bottom: 18px;
+				font-size: 16px;
+			}
+		}
+
+		#addtag {
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			p.submit {
+
+				&:before {
+					@include font-icon-content($xts-icon-add);
+				}
+			}
+
+			//**** LOADER ****//
+
+			.spinner {
+				margin-top: 0;
+				background-image: none !important;
+
+				@include loader;
+
+				&.is-active {
+					@include act-loader;
+				}
+			}
+		}
+
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// ATTRIBUTES TERM EDIT
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-attributes {
+
+	.term-php[class*="taxonomy-pa"] {
+
+		#edittag {
+			margin-top: 20px;
+
+			@extend %xts-box-wp;
+			@extend %xts-box-content;
+
+			.form-table {
+				margin-top: 0;
+
+				:is(
+				th,
+				td) {
+					padding: 0;
+				}
+			}
+
+			.form-field {
+				display: flex;
+				flex-direction: column;
+
+				th {
+					width: 100%;
+				}
+
+				td {
+					margin-bottom: 0;
+				}
+			}
+
+			// ------------------------------------------
+			// ACTIONS
+			// ------------------------------------------
+
+			.edit-tag-actions {
+				@extend %sticky-save-button;
+
+				&:before {
+					@include font-icon($xts-icon-update);
+				}
+
+				#delete-link a {
+					@extend %sticky-save-button-delete;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+@if $int-woo-page-attributes {
+
+	@media (max-width: 1200px) {
+
+		// ------------------------------------------
+		// LAYOUT
+		// ------------------------------------------
+
+		.product_page_product_attributes {
+
+			:is(
+			#col-left,
+			#col-right) {
+				width: 100%;
+			}
+
+			#col-right {
+				margin-bottom: 30px;
+
+				.col-wrap {
+					padding: 0;
+				}
+			}
+		}
+	}
+}

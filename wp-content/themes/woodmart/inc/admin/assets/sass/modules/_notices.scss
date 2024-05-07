@@ -1,0 +1,350 @@
+// ------------------------------------------------------------------------------------------------
+// NOTICES
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	// ------------------------------------------
+	// NOTICES
+	// ------------------------------------------
+
+	.xts-notice {
+		position: relative;
+		margin-bottom: 20px;
+		padding: 15px;
+		padding-inline-start: 15px;
+		border: 1px solid rgb(195, 196, 199);
+		background-color: #FFF;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: -1px;
+			bottom: -1px;
+			inset-inline-start: -1px;
+			box-sizing: border-box;
+			width: 40px;
+			border-width: 0;
+			border-style: solid;
+
+			border-inline-start-width: 3px;
+		}
+
+		// &:after {
+		// 	position: absolute;
+		// 	top: 0;
+		// 	bottom: 0;
+		// 	display: flex;
+		// 	justify-content: center;
+		// 	padding-top: 15px;
+		// 	width: 40px;
+		// 	font-size: 20px;
+
+		// 	inset-inline-start: 2px;
+		// 	@include font-icon($xts-icon-logo-woodmart);
+		// }
+
+		&.xts-info {
+
+			&:before {
+				border-color: $woodmart-notice-info-text;
+			}
+
+			// &:after {
+			// 	background-color: rgba($woodmart-notice-info, .6);
+			// }
+		}
+
+		&.xts-success {
+
+			&:before {
+				border-color: $woodmart-notice-success-text;
+			}
+
+			// &:after {
+			// 	background-color: rgba($woodmart-notice-success, .6);
+			// }
+		}
+
+		&:is(
+		.xts-error,
+		.xts-warning) {
+
+			&:before {
+				border-color: $woodmart-notice-warning-text;
+			}
+
+			// &:after {
+			// 	background-color: rgba($woodmart-notice-warning, .6);
+			// }
+		}
+
+		&.xts-switcher {
+			background-color: var(--xts-bg-color);
+			color: #FFF;
+
+			&:before {
+				position: static;
+				display: inline-block !important;
+				margin-inline-end: 5px;
+				width: auto;
+				border: none;
+				vertical-align: middle;
+
+				@include font-icon($xts-icon-alert-warning);
+			}
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0;
+				bottom: 100%;
+				inset-inline-start: 25px;
+				display: block;
+				width: 10px;
+				height: 10px;
+				// border-top: 1px solid var(--xts-option-border-color-darker-10);
+				// border-right: 1px solid var(--xts-option-border-color-darker-10);
+				background-color: inherit;
+				transform: translateY(-50%) rotate(-45deg);
+			}
+
+			.admin-color-light & {
+				color: var(--xts-body-color);
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// NOTICES IN XTS-BOX
+	// ------------------------------------------
+
+	.xts-notices-wrapper {
+
+		&:not(:last-child) {
+
+			.xts-notice {
+				margin-bottom: 15px;
+			}
+		}
+
+		&:empty {
+			display: none;
+		}
+
+	}
+
+	:where(
+	.xts-popup,
+	.xts-box){
+
+		.xts-notice {
+			@extend %notice;
+
+			a {
+				color: inherit;
+				text-decoration: underline;
+				font-weight: 600;
+
+				&:hover {
+					opacity: .8;
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			// &:after,
+			&:before {
+				display: none;
+			}
+		}
+
+		.xts-notice {
+
+			&.xts-info {
+				@extend %warning-info;
+			}
+
+			&.xts-success {
+				@extend %success-notice;
+			}
+
+			&:is(
+			.xts-error,
+			.xts-warning) {
+				@extend %warning-notice;
+			}
+
+			&.xts-desc {
+				padding: 0;
+				color: rgba(60,67,74,.7);
+				font-weight: 400;
+				font-style: italic;
+				// font-size: 13px;
+			}
+		}
+	}
+
+	//**** STICKY NOTICES ****//
+
+	.xts-notices-sticky {
+		position: sticky;
+		top: 32px;
+		z-index: $z-layer-10;
+		margin-top: -15px;
+		margin-right: -15px;
+		margin-left: -15px;
+		padding-top: 15px;
+		padding-right: 15px;
+		// padding-bottom: 15px;
+		padding-left: 15px;
+		background-color: #FFF;
+	}
+
+	//**======================================================
+	//            Styles for warnings and errors             b  
+	//======================================================**//
+
+	// .woodmart-error,
+	// .woodmart-success,
+	// .woodmart-warning,
+	// .woodmart-notice {
+	// 	@extend %notice;
+
+	// 	p {
+	// 		margin-bottom: 0;
+	// 	}
+
+	// 	a {
+	// 		text-decoration: underline;
+	// 		// color: #FFF;
+	// 		font-weight: 600;
+	// 	}
+
+	// 	br:last-child {
+	// 		display: none;
+	// 	}
+
+	// 	&.small {
+	// 		margin-bottom: 20px;
+	// 		padding: 10px 15px;
+	// 		max-width: 100%;
+	// 		width: 250px;
+	// 		font-size: 12px;
+	// 	}
+	// }
+
+	// .woodmart-success {
+	// 	@extend %success-notice;
+	// }
+
+	// .woodmart-warning {
+	// 	@extend %warning-notice;
+	// }
+
+	// .woodmart-notice {
+	// 	@extend %warning-info;
+	// }
+
+	// ------------------------------------------------------------------------------------------------
+	// WHB NOTICES
+	// ------------------------------------------------------------------------------------------------
+
+	:is(
+	.whb-errors-area,
+	.whb-success-area) {
+		display: block;
+		margin-bottom: 15px;
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	.whb-push-notification {
+		@extend %notice;
+
+		.whb-success-area & {
+			@extend %success-notice;
+		}
+
+		.whb-errors-area & {
+			@extend %warning-notice;
+		}
+	}
+
+	// ------------------------------------------
+	// POPUP NOTICE
+	// ------------------------------------------
+
+	.whb-notice-option {
+
+		&.xts-notice {
+			padding-top: 0;
+			padding-bottom: 0;
+			background-color: transparent !important;
+
+			&:is(
+			.xts-warning,
+			.xts-info) {
+
+				.whb-editor-field-inner {
+					padding: 15px;
+					border-radius: inherit;
+				}
+			}
+
+			&.xts-warning {
+
+				.whb-editor-field-inner {
+					@extend %warning-notice;
+				}
+			}
+
+			&.xts-info {
+
+				.whb-editor-field-inner {
+					@extend %warning-info;
+				}
+			}
+		}
+	}
+
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// @extend %notice;
+
+%notice {
+	padding: 15px;
+	border: none !important; // NOTE RESET BORDER IN HEADER BUILDER
+	border-radius: var(--xts-brd-radius);
+	background-color: #F7F7F7;
+	box-shadow: none;
+}
+
+// @extend %success-notice;
+
+%success-notice {
+	background-color: $woodmart-notice-success;
+	color: $woodmart-notice-success-text;
+}
+
+// @extend %warning-notice;
+
+%warning-notice {
+	background-color: $woodmart-notice-warning;
+	color: $woodmart-notice-warning-text;
+}
+
+// @extend %warning-info;
+
+%warning-info {
+	background-color: $woodmart-notice-info;
+	color: $woodmart-notice-info-text;
+}

@@ -1,0 +1,3338 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JetBlocks for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-26 14:29+0300\n"
+"PO-Revision-Date: 2018-01-03 12:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: Zemez\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: includes/class-jet-blocks-db-upgrader.php:60
+msgid "Start Update"
+msgstr ""
+
+#: includes/class-jet-blocks-db-upgrader.php:61
+msgid "Data Update"
+msgstr ""
+
+#: includes/class-jet-blocks-db-upgrader.php:63
+#, php-format
+msgid ""
+"Module DB Updater init error in %s - version and slug is required arguments"
+msgstr ""
+
+#: includes/class-jet-blocks-db-upgrader.php:64
+msgid "We need to update your database to the latest version."
+msgstr ""
+
+#: includes/class-jet-blocks-db-upgrader.php:65
+msgid "Update complete, thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:71
+#: includes/class-jet-blocks-settings.php:107
+msgid "Column Order"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:98
+msgid "Jet Sticky"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:106
+#: includes/class-jet-blocks-settings.php:103
+msgid "Sticky Section"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:116
+msgid "Sticky Section Visibility"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:122
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:123
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:124
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:137
+msgid "Z-index"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:155
+msgid "Max Width (px)"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:175
+msgid "Sticky Section Style"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:187
+msgid "Minimum Height"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:217
+#: includes/widgets/jet-blocks-auth-links.php:650
+#: includes/widgets/jet-blocks-auth-links.php:863
+#: includes/widgets/jet-blocks-auth-links.php:1076
+#: includes/widgets/jet-blocks-auth-links.php:1289
+#: includes/widgets/jet-blocks-breadcrumbs.php:338
+#: includes/widgets/jet-blocks-hamburger-panel.php:517
+#: includes/widgets/jet-blocks-login.php:226
+#: includes/widgets/jet-blocks-login.php:329
+#: includes/widgets/jet-blocks-login.php:499
+#: includes/widgets/jet-blocks-login.php:620
+#: includes/widgets/jet-blocks-login.php:705
+#: includes/widgets/jet-blocks-nav-menu.php:649
+#: includes/widgets/jet-blocks-register.php:342
+#: includes/widgets/jet-blocks-register.php:445
+#: includes/widgets/jet-blocks-register.php:615
+#: includes/widgets/jet-blocks-register.php:774
+#: includes/widgets/jet-blocks-register.php:843
+#: includes/widgets/jet-blocks-register.php:942
+#: includes/widgets/jet-blocks-reset.php:411
+#: includes/widgets/jet-blocks-reset.php:502
+#: includes/widgets/jet-blocks-reset.php:621
+#: includes/widgets/jet-blocks-reset.php:752
+#: includes/widgets/jet-blocks-reset.php:1040
+#: includes/widgets/jet-blocks-reset.php:1180
+#: includes/widgets/jet-blocks-reset.php:1249
+#: includes/widgets/jet-blocks-reset.php:1341
+#: includes/widgets/jet-blocks-reset.php:1440
+#: includes/widgets/jet-blocks-reset.php:1539
+#: includes/widgets/jet-blocks-search.php:421
+#: includes/widgets/jet-blocks-search.php:634
+#: includes/widgets/jet-blocks-search.php:714
+#: includes/widgets/jet-blocks-search.php:823
+#: includes/widgets/jet-blocks-search.php:1198
+#: includes/widgets/jet-blocks-search.php:1376
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:641
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:951
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1045
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1144
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1194
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1324
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1501
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1660
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1874
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:2064
+msgid "Margin"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:239
+#: includes/widgets/jet-blocks-auth-links.php:636
+#: includes/widgets/jet-blocks-auth-links.php:849
+#: includes/widgets/jet-blocks-auth-links.php:1062
+#: includes/widgets/jet-blocks-auth-links.php:1275
+#: includes/widgets/jet-blocks-breadcrumbs.php:351
+#: includes/widgets/jet-blocks-breadcrumbs.php:569
+#: includes/widgets/jet-blocks-breadcrumbs.php:696
+#: includes/widgets/jet-blocks-breadcrumbs.php:810
+#: includes/widgets/jet-blocks-hamburger-panel.php:278
+#: includes/widgets/jet-blocks-hamburger-panel.php:503
+#: includes/widgets/jet-blocks-login.php:213
+#: includes/widgets/jet-blocks-login.php:316
+#: includes/widgets/jet-blocks-login.php:485
+#: includes/widgets/jet-blocks-login.php:692
+#: includes/widgets/jet-blocks-nav-menu.php:635
+#: includes/widgets/jet-blocks-nav-menu.php:869
+#: includes/widgets/jet-blocks-nav-menu.php:1095
+#: includes/widgets/jet-blocks-nav-menu.php:1485
+#: includes/widgets/jet-blocks-register.php:328
+#: includes/widgets/jet-blocks-register.php:432
+#: includes/widgets/jet-blocks-register.php:601
+#: includes/widgets/jet-blocks-register.php:761
+#: includes/widgets/jet-blocks-reset.php:398
+#: includes/widgets/jet-blocks-reset.php:489
+#: includes/widgets/jet-blocks-reset.php:608
+#: includes/widgets/jet-blocks-reset.php:739
+#: includes/widgets/jet-blocks-reset.php:870
+#: includes/widgets/jet-blocks-reset.php:1026
+#: includes/widgets/jet-blocks-reset.php:1236
+#: includes/widgets/jet-blocks-reset.php:1328
+#: includes/widgets/jet-blocks-search.php:407
+#: includes/widgets/jet-blocks-search.php:620
+#: includes/widgets/jet-blocks-search.php:701
+#: includes/widgets/jet-blocks-search.php:810
+#: includes/widgets/jet-blocks-search.php:1185
+#: includes/widgets/jet-blocks-search.php:1362
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:459
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:749
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:967
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1058
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1157
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1207
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1514
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1673
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1860
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:2050
+msgid "Padding"
+msgstr ""
+
+#: includes/class-jet-blocks-ext-elements.php:276
+msgid "Transition Duration"
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:106
+msgid "ERROR"
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:107
+msgid "The username field is empty."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:178
+msgid "Entered passwords don't match"
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:222
+#: includes/widgets/jet-blocks-reset.php:1673
+msgid "something went wrong with that!"
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:252
+msgid "Please enter a new password."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:256
+msgid "The passwords don't match."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:265
+msgid "The reset link is not valid."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:281
+msgid "Sorry, that key has expired. Please reset your password again."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:285
+msgid ""
+"Sorry, that key does not appear to be valid. Please reset your password "
+"again."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:322
+msgid "Please enter a valid account username."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:329
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:337
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:344
+msgid ""
+"An account is already registered with your email address. Please log in."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:352
+msgid "Please enter an account password."
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:373
+msgid "Error:"
+msgstr ""
+
+#: includes/class-jet-blocks-handlers.php:373
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact us if you continue to "
+"have problems."
+msgstr ""
+
+#: includes/class-jet-blocks-integration.php:251
+#: includes/settings/manager.php:72
+msgid "JetBlocks"
+msgstr ""
+
+#: includes/class-jet-blocks-settings.php:130
+#: includes/class-jet-blocks-tools.php:147
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:209
+#: includes/widgets/jet-blocks-nav-menu.php:1582
+#: includes/widgets/jet-blocks-search.php:219
+msgid "None"
+msgstr ""
+
+#: includes/class-jet-blocks-settings.php:200
+msgid "Saved"
+msgstr ""
+
+#: includes/class-jet-blocks-settings.php:201
+#: includes/widgets/jet-blocks-reset.php:1204
+msgid "Error"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:96
+#: includes/widgets/jet-blocks-breadcrumbs.php:214
+msgid "Full"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:148
+msgid "ID"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:149
+msgid "Author"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:150
+#: includes/widgets/jet-blocks-register.php:856
+#: includes/widgets/jet-blocks-reset.php:70
+#: includes/widgets/jet-blocks-reset.php:459
+#: includes/widgets/jet-blocks-reset.php:1453
+msgid "Title"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:151
+msgid "Name (slug)"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:152
+msgid "Date"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:153
+msgid "Modified"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:154
+msgid "Rand"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:155
+msgid "Comment Count"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:156
+msgid "Menu Order"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:168
+msgid "Descending"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:169
+msgid "Ascending"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:181
+#: includes/widgets/jet-blocks-logo.php:226
+msgid "Baseline"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:182
+#: includes/widgets/jet-blocks-logo.php:214
+#: includes/widgets/jet-blocks-search.php:886
+msgid "Top"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:183
+#: includes/widgets/jet-blocks-logo.php:218
+msgid "Middle"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:184
+#: includes/widgets/jet-blocks-logo.php:222
+#: includes/widgets/jet-blocks-search.php:887
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:185
+msgid "Sub"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:186
+msgid "Super"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:187
+msgid "Text Top"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:188
+msgid "Text Bottom"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:331
+#: includes/class-jet-blocks-tools.php:354
+#: includes/widgets/jet-blocks-nav-menu.php:1574
+msgid "Angle"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:332
+#: includes/class-jet-blocks-tools.php:355
+#: includes/widgets/jet-blocks-nav-menu.php:1576
+msgid "Chevron"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:333
+#: includes/class-jet-blocks-tools.php:356
+#: includes/widgets/jet-blocks-nav-menu.php:1575
+msgid "Angle Double"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:334
+#: includes/class-jet-blocks-tools.php:357
+msgid "Arrow"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:335
+#: includes/class-jet-blocks-tools.php:358
+#: includes/widgets/jet-blocks-nav-menu.php:1578
+msgid "Caret"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:336
+#: includes/class-jet-blocks-tools.php:359
+msgid "Long Arrow"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:337
+#: includes/class-jet-blocks-tools.php:360
+msgid "Arrow Circle"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:338
+#: includes/class-jet-blocks-tools.php:361
+#: includes/widgets/jet-blocks-nav-menu.php:1577
+msgid "Chevron Circle"
+msgstr ""
+
+#: includes/class-jet-blocks-tools.php:339
+#: includes/class-jet-blocks-tools.php:362
+msgid "Caret Square"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:27
+#: includes/widgets/jet-blocks-auth-links.php:673
+#: includes/widgets/jet-blocks-auth-links.php:886
+#: includes/widgets/jet-blocks-auth-links.php:1099
+#: includes/widgets/jet-blocks-auth-links.php:1312
+#: includes/widgets/jet-blocks-breadcrumbs.php:314
+#: includes/widgets/jet-blocks-breadcrumbs.php:427
+#: includes/widgets/jet-blocks-breadcrumbs.php:469
+#: includes/widgets/jet-blocks-breadcrumbs.php:526
+#: includes/widgets/jet-blocks-breadcrumbs.php:672
+#: includes/widgets/jet-blocks-breadcrumbs.php:780
+#: includes/widgets/jet-blocks-login.php:596
+#: includes/widgets/jet-blocks-logo.php:258
+#: includes/widgets/jet-blocks-nav-menu.php:1523
+#: includes/widgets/jet-blocks-register.php:865
+#: includes/widgets/jet-blocks-register.php:895
+#: includes/widgets/jet-blocks-reset.php:477
+#: includes/widgets/jet-blocks-reset.php:596
+#: includes/widgets/jet-blocks-reset.php:1156
+#: includes/widgets/jet-blocks-reset.php:1462
+#: includes/widgets/jet-blocks-reset.php:1492
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1277
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1359
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1396
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1442
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1476
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1586
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1620
+msgid "Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:35
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:39
+msgctxt "Background Control"
+msgid "Classic"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:43
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:52
+msgctxt "Background Control"
+msgid "Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:55
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:65
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:91
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:80
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:106
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:109
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:110
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:121
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:144
+msgctxt "Background Control"
+msgid "Position"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:147
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:148
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:149
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:150
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:151
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:152
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:153
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:154
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:155
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:169
+#: includes/widgets/jet-blocks-breadcrumbs.php:638
+#: includes/widgets/jet-blocks-nav-menu.php:1386
+#: includes/widgets/jet-blocks-search.php:471
+#: includes/widgets/jet-blocks-search.php:516
+#: includes/widgets/jet-blocks-search.php:1054
+#: includes/widgets/jet-blocks-search.php:1258
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:507
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:808
+msgid "Icon Size"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:188
+msgid "Box Size"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:206
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:210
+msgctxt "Border Control"
+msgid "Solid"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:211
+msgctxt "Border Control"
+msgid "Double"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:212
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:213
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:221
+msgctxt "Border Control"
+msgid "Width"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:232
+msgctxt "Border Control"
+msgid "Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:244
+#: includes/widgets/jet-blocks-auth-links.php:614
+#: includes/widgets/jet-blocks-auth-links.php:827
+#: includes/widgets/jet-blocks-auth-links.php:1040
+#: includes/widgets/jet-blocks-auth-links.php:1253
+#: includes/widgets/jet-blocks-breadcrumbs.php:374
+#: includes/widgets/jet-blocks-breadcrumbs.php:595
+#: includes/widgets/jet-blocks-breadcrumbs.php:720
+#: includes/widgets/jet-blocks-breadcrumbs.php:840
+#: includes/widgets/jet-blocks-hamburger-panel.php:312
+#: includes/widgets/jet-blocks-hamburger-panel.php:542
+#: includes/widgets/jet-blocks-login.php:250
+#: includes/widgets/jet-blocks-login.php:353
+#: includes/widgets/jet-blocks-login.php:523
+#: includes/widgets/jet-blocks-login.php:729
+#: includes/widgets/jet-blocks-nav-menu.php:673
+#: includes/widgets/jet-blocks-nav-menu.php:844
+#: includes/widgets/jet-blocks-nav-menu.php:1330
+#: includes/widgets/jet-blocks-register.php:366
+#: includes/widgets/jet-blocks-register.php:469
+#: includes/widgets/jet-blocks-register.php:639
+#: includes/widgets/jet-blocks-register.php:798
+#: includes/widgets/jet-blocks-reset.php:435
+#: includes/widgets/jet-blocks-reset.php:526
+#: includes/widgets/jet-blocks-reset.php:645
+#: includes/widgets/jet-blocks-reset.php:776
+#: includes/widgets/jet-blocks-reset.php:894
+#: includes/widgets/jet-blocks-reset.php:1064
+#: includes/widgets/jet-blocks-reset.php:1273
+#: includes/widgets/jet-blocks-reset.php:1365
+#: includes/widgets/jet-blocks-search.php:445
+#: includes/widgets/jet-blocks-search.php:658
+#: includes/widgets/jet-blocks-search.php:738
+#: includes/widgets/jet-blocks-search.php:847
+#: includes/widgets/jet-blocks-search.php:1222
+#: includes/widgets/jet-blocks-search.php:1400
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:484
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:654
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:773
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1764
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1834
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1954
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:2024
+msgid "Border Radius"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:253
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:263
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:255
+#: includes/widgets/jet-blocks-auth-links.php:60
+#: includes/widgets/jet-blocks-auth-links.php:142
+#: includes/widgets/jet-blocks-auth-links.php:255
+#: includes/widgets/jet-blocks-auth-links.php:337
+#: includes/widgets/jet-blocks-logo.php:131
+#: includes/widgets/jet-blocks-logo.php:143
+#: includes/widgets/jet-blocks-register.php:112
+#: includes/widgets/jet-blocks-register.php:192
+#: includes/widgets/jet-blocks-register.php:219
+#: includes/widgets/jet-blocks-reset.php:133
+#: includes/widgets/jet-blocks-search.php:85
+#: includes/widgets/jet-blocks-search.php:153
+#: includes/widgets/jet-blocks-search.php:165
+#: includes/widgets/jet-blocks-search.php:237
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:66
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:90
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:114
+msgid "Yes"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:256
+#: includes/widgets/jet-blocks-auth-links.php:61
+#: includes/widgets/jet-blocks-auth-links.php:143
+#: includes/widgets/jet-blocks-auth-links.php:256
+#: includes/widgets/jet-blocks-auth-links.php:338
+#: includes/widgets/jet-blocks-logo.php:132
+#: includes/widgets/jet-blocks-logo.php:144
+#: includes/widgets/jet-blocks-register.php:113
+#: includes/widgets/jet-blocks-register.php:193
+#: includes/widgets/jet-blocks-register.php:220
+#: includes/widgets/jet-blocks-reset.php:134
+#: includes/widgets/jet-blocks-search.php:86
+#: includes/widgets/jet-blocks-search.php:154
+#: includes/widgets/jet-blocks-search.php:166
+#: includes/widgets/jet-blocks-search.php:238
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:67
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:91
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:115
+msgid "No"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:274
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:277
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr ""
+
+#: includes/controls/groups/class-jet-blocks-group-control-box-style.php:278
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:46
+msgid "Go to docs"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:329
+#, javascript-format
+msgid "You can update <b>%s plugin</b>"
+msgid_plural "You can update <b>%s plugins</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:330
+msgid "All plugins updated"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:334
+msgid "Activate license to update your JetPlugins"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:341
+#, javascript-format
+msgid "You can install <b>%s more Plugin</b> with your licence"
+msgid_plural "You can install <b>%s more Plugins</b>  with your licence"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:342
+msgid "All available plugins are already installed"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:372
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:380
+msgid "Try quickstart installation"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:377
+msgid "Unpack Free All-inclusive items"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:451
+msgid "<b class=\"lifetime\">Lifetime</b>"
+msgstr ""
+
+#: includes/modules/jet-dashboard/assets/js/welcome-page.js:454
+#, javascript-format
+msgid "Licence expires <b class=\"expire-date\">%s</b>"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/license-manager.php:253
+msgid "License expires soon!"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/license-manager.php:254
+msgid ""
+"Your primary license will expire in 30 days. You can renew you current "
+"licese in your crocoblock account"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/license-manager.php:257
+msgid "Go to account"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/license/module.php:37
+msgid "Plugin Manager"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/license/module.php:65
+#: includes/modules/jet-dashboard/inc/modules/license/module.php:66
+msgid "Update & Installation"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/license/module.php:84
+#: includes/modules/jet-dashboard/inc/modules/license/module.php:85
+msgid "License"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/settings/module.php:43
+#: includes/widgets/jet-blocks-hamburger-panel.php:167
+#: includes/widgets/jet-blocks-logo.php:122
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:32
+msgid "Settings"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/settings/module.php:74
+#: includes/modules/jet-dashboard/inc/modules/settings/module.php:75
+msgid "JetPlugins Settings"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:49
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:189
+#: includes/modules/jet-dashboard/views/upsale/main.php:38
+msgid "Get Crocoblock"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:110
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:111
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:183
+msgid "Go Lifetime"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:128
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:129
+#: includes/modules/jet-dashboard/inc/modules/upsale/module.php:186
+msgid "Go All-Inclusive"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/welcome/dev-test.php:37
+msgid "Dev Test Page"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/modules/welcome/module.php:37
+msgid "Welcome"
+msgstr ""
+
+#: includes/modules/jet-dashboard/inc/plugin-manager.php:224
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/modules/jet-dashboard/jet-dashboard.php:244
+#: includes/modules/jet-dashboard/jet-dashboard.php:245
+msgid "Crocoblock"
+msgstr ""
+
+#: includes/modules/jet-dashboard/jet-dashboard.php:257
+#: includes/modules/jet-dashboard/jet-dashboard.php:258
+msgid "Dashboard"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/common/sidebar.php:28
+msgid "New to Crocoblock?"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/common/sidebar.php:29
+msgid "Start Here"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/common/sidebar.php:63
+msgid "Support & Info"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/common/sidebar.php:64
+msgid "Help Center"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:9
+msgid "JetPlugins License Activation"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:10
+msgid "Congratulations!"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:10
+msgid "Your license has been activated!"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:13
+msgid "Activate license for automatic updates and awesome support"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:32
+#: includes/modules/jet-dashboard/views/license/license-item.php:103
+#: includes/modules/jet-dashboard/views/license/main.php:146
+msgid "Activate License"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:33
+#: includes/modules/jet-dashboard/views/license/license-item.php:104
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:44
+msgid "License Key:"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:48
+msgid "Product Name:"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:52
+msgid "Status:"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:56
+msgid "Type:"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:60
+msgid "Expiration Date:"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:64
+msgid "Included Plugins:"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:84
+msgid ""
+"This license will activate licenses for all plugins included in this set."
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/license-item.php:94
+#: includes/modules/jet-dashboard/views/license/main.php:35
+#: includes/modules/jet-dashboard/views/license/main.php:115
+msgid "License Manager"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:10
+msgid "Your Installed JetPlugins"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:22
+msgid "Check For Updates"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:54
+msgid "More included JetPlugins with your licence"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:70
+#: includes/modules/jet-dashboard/views/welcome/main.php:207
+msgid "Get More Plugins"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:105
+msgid "JetPlugins License Deactivation"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:108
+msgid ""
+"Your license includes several plugins within the package. License "
+"deactivation in one plugin disables it in the rest of them. You can manage "
+"it through the License Manager."
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:128
+msgid "JetPlugin’s Update"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:139
+msgid "Sorry, but you need to activate license to update your JetPlugin"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:160
+msgid "Your Licenses"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:169
+msgid "Add New License"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/license/main.php:174
+msgid ""
+"Add and Activate license for automatic updates, awesome support, useful "
+"features and more"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/upsale/main.php:12
+msgid "Dynamic"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/upsale/main.php:18
+msgid "E-commerce"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/upsale/main.php:24
+msgid "Design"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/upsale/main.php:27
+msgid "18 Advanced JetPlugins"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/upsale/main.php:28
+msgid ""
+"Unlock the ultimate website building toolkit for Elementor 150+ widgets and "
+"50+ templates"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:20
+msgid "Manage plugins"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:21
+msgid "Updates"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:35
+msgid "Update Now"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:45
+#: includes/modules/jet-dashboard/views/welcome/main.php:95
+msgid "Activate Now"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:60
+msgid "Manage license"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:61
+msgid "Active Licence"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:85
+msgid "License not active"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:94
+msgid "Manage Now"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:109
+msgid "Installed JetPlugins"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:135
+msgid "Install"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:168
+msgid "Install Wizard"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:179
+msgid "Activate Wizard"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:191
+msgid "Enjoy the perks of All-inclusive"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:223
+msgid "Get a JetPlugins bundle"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:224
+msgid "Save up to 60%"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:234
+msgid "See all plans"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/main.php:246
+msgid "Hot Deals"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/plugin-item-registered.php:29
+msgid "Documentation"
+msgstr ""
+
+#: includes/modules/jet-dashboard/views/welcome/plugin-item-registered.php:55
+msgid "Plugin pages"
+msgstr ""
+
+#: includes/rest-api/endpoints/plugin-settings.php:44
+msgid "Server Error"
+msgstr ""
+
+#: includes/rest-api/endpoints/plugin-settings.php:56
+msgid "Settings have been saved"
+msgstr ""
+
+#: includes/settings/subpage-modules/avaliable-addons.php:36
+msgid "Widgets & Extensions"
+msgstr ""
+
+#: includes/settings/subpage-modules/general.php:36
+#: includes/widgets/jet-blocks-breadcrumbs.php:67
+#: includes/widgets/jet-blocks-search.php:67
+#: templates/admin-templates/settings-page.php:18
+msgid "General Settings"
+msgstr ""
+
+#: includes/settings/subpage-modules/integrations.php:36
+msgid "Integrations"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:30
+msgid "Auth Links"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:50
+#: includes/widgets/jet-blocks-reset.php:1135
+msgid "Login Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:57
+msgid "Show Login Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:58
+#: includes/widgets/jet-blocks-auth-links.php:253
+msgid "For not logged-in users"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:70
+msgid "Login Page URL"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:88
+msgid "Login Link Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:90
+msgid "Login"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:100
+msgid "Login Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:118
+msgid "Login Prefix"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:120
+msgid "Have an account?"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:132
+msgid "Logout Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:139
+msgid "Show Logout Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:140
+#: includes/widgets/jet-blocks-auth-links.php:335
+msgid "For logged-in users"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:152
+msgid "Logout Link Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:154
+msgid "Logout"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:164
+msgid "Logout Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:183
+msgid "Redirect After Logout"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:186
+#: includes/widgets/jet-blocks-login.php:114
+#: includes/widgets/jet-blocks-register.php:159
+#: includes/widgets/jet-blocks-reset.php:182
+msgid "Home page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:187
+msgid "Left on the current page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:188
+#: includes/widgets/jet-blocks-login.php:116
+#: includes/widgets/jet-blocks-register.php:161
+msgid "Custom URL"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:199
+msgid "Logout Link URL"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:213
+msgid "User Name Display Format"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:216
+msgid "Profile Name Settings"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:217
+#: includes/widgets/jet-blocks-login.php:58
+#: includes/widgets/jet-blocks-register.php:58
+#: includes/widgets/jet-blocks-register.php:67
+msgid "Username"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:218
+msgid "First Name"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:219
+msgid "Last Name"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:220
+msgid "Nickname"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:221
+msgid "First Name - Last Name"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:222
+msgid "Last Name - First Name"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:230
+msgid "Logout Prefix"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:232
+#, php-format
+msgid "Hi, %s"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:233
+#, php-format
+msgid "Use %s marker for username"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:245
+msgid "Register Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:252
+msgid "Show Register Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:265
+msgid "Register Page URL"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:283
+msgid "Register Link Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:285
+#: includes/widgets/jet-blocks-register.php:148
+msgid "Register"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:295
+msgid "Register Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:313
+msgid "Register Prefix"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:315
+msgid "or"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:327
+msgid "Registered Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:334
+msgid "Show Registered Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:347
+msgid "Registered Page URL"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:365
+msgid "Registered Link Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:367
+msgid "My Account"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:377
+msgid "Registered Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:395
+msgid "Registered Prefix"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:409
+msgid "General"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:416
+#: includes/widgets/jet-blocks-breadcrumbs.php:254
+msgid "Order"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:421
+#: includes/widgets/jet-blocks-auth-links.php:422
+msgid "Login/Logout, Register/Registered"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:421
+#: includes/widgets/jet-blocks-auth-links.php:422
+msgid "Register/Registered, Login/Logout"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:432
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:223
+msgid "General Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:441
+msgid "Auth Links Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:446
+#: includes/widgets/jet-blocks-hamburger-panel.php:131
+#: includes/widgets/jet-blocks-logo.php:186
+#: includes/widgets/jet-blocks-search.php:1162
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:236
+msgid "Start"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:450
+#: includes/widgets/jet-blocks-breadcrumbs.php:231
+#: includes/widgets/jet-blocks-hamburger-panel.php:135
+#: includes/widgets/jet-blocks-login.php:554
+#: includes/widgets/jet-blocks-logo.php:190
+#: includes/widgets/jet-blocks-logo.php:325
+#: includes/widgets/jet-blocks-nav-menu.php:177
+#: includes/widgets/jet-blocks-nav-menu.php:262
+#: includes/widgets/jet-blocks-nav-menu.php:376
+#: includes/widgets/jet-blocks-register.php:670
+#: includes/widgets/jet-blocks-reset.php:557
+#: includes/widgets/jet-blocks-reset.php:676
+#: includes/widgets/jet-blocks-reset.php:807
+#: includes/widgets/jet-blocks-reset.php:1095
+#: includes/widgets/jet-blocks-reset.php:1396
+#: includes/widgets/jet-blocks-search.php:1166
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:240
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1005
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1079
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1546
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:454
+#: includes/widgets/jet-blocks-hamburger-panel.php:139
+#: includes/widgets/jet-blocks-logo.php:194
+#: includes/widgets/jet-blocks-search.php:1170
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:244
+msgid "End"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:484
+msgid "Login Link Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:493
+#: includes/widgets/jet-blocks-auth-links.php:706
+#: includes/widgets/jet-blocks-auth-links.php:919
+#: includes/widgets/jet-blocks-auth-links.php:1132
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:514
+#: includes/widgets/jet-blocks-auth-links.php:727
+#: includes/widgets/jet-blocks-auth-links.php:940
+#: includes/widgets/jet-blocks-auth-links.php:1153
+#: includes/widgets/jet-blocks-breadcrumbs.php:411
+#: includes/widgets/jet-blocks-hamburger-panel.php:368
+#: includes/widgets/jet-blocks-hamburger-panel.php:449
+#: includes/widgets/jet-blocks-hamburger-panel.php:576
+#: includes/widgets/jet-blocks-hamburger-panel.php:628
+#: includes/widgets/jet-blocks-login.php:388
+#: includes/widgets/jet-blocks-nav-menu.php:405
+#: includes/widgets/jet-blocks-nav-menu.php:994
+#: includes/widgets/jet-blocks-nav-menu.php:1235
+#: includes/widgets/jet-blocks-register.php:504
+#: includes/widgets/jet-blocks-reset.php:929
+#: includes/widgets/jet-blocks-search.php:279
+#: includes/widgets/jet-blocks-search.php:537
+#: includes/widgets/jet-blocks-search.php:1075
+#: includes/widgets/jet-blocks-search.php:1279
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:280
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1721
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1911
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:521
+#: includes/widgets/jet-blocks-auth-links.php:559
+#: includes/widgets/jet-blocks-auth-links.php:734
+#: includes/widgets/jet-blocks-auth-links.php:772
+#: includes/widgets/jet-blocks-auth-links.php:947
+#: includes/widgets/jet-blocks-auth-links.php:985
+#: includes/widgets/jet-blocks-auth-links.php:1160
+#: includes/widgets/jet-blocks-auth-links.php:1198
+#: includes/widgets/jet-blocks-login.php:192
+#: includes/widgets/jet-blocks-login.php:295
+#: includes/widgets/jet-blocks-login.php:407
+#: includes/widgets/jet-blocks-login.php:440
+#: includes/widgets/jet-blocks-login.php:656
+#: includes/widgets/jet-blocks-nav-menu.php:424
+#: includes/widgets/jet-blocks-nav-menu.php:490
+#: includes/widgets/jet-blocks-nav-menu.php:571
+#: includes/widgets/jet-blocks-nav-menu.php:1013
+#: includes/widgets/jet-blocks-nav-menu.php:1046
+#: includes/widgets/jet-blocks-nav-menu.php:1079
+#: includes/widgets/jet-blocks-nav-menu.php:1254
+#: includes/widgets/jet-blocks-nav-menu.php:1287
+#: includes/widgets/jet-blocks-register.php:274
+#: includes/widgets/jet-blocks-register.php:411
+#: includes/widgets/jet-blocks-register.php:523
+#: includes/widgets/jet-blocks-register.php:556
+#: includes/widgets/jet-blocks-register.php:749
+#: includes/widgets/jet-blocks-reset.php:718
+#: includes/widgets/jet-blocks-reset.php:849
+#: includes/widgets/jet-blocks-reset.php:948
+#: includes/widgets/jet-blocks-reset.php:981
+#: includes/widgets/jet-blocks-reset.php:1224
+#: includes/widgets/jet-blocks-reset.php:1316
+#: includes/widgets/jet-blocks-search.php:298
+#: includes/widgets/jet-blocks-search.php:354
+#: includes/widgets/jet-blocks-search.php:556
+#: includes/widgets/jet-blocks-search.php:589
+#: includes/widgets/jet-blocks-search.php:1094
+#: includes/widgets/jet-blocks-search.php:1127
+#: includes/widgets/jet-blocks-search.php:1298
+#: includes/widgets/jet-blocks-search.php:1331
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1740
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1807
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1930
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1997
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:538
+#: includes/widgets/jet-blocks-auth-links.php:571
+#: includes/widgets/jet-blocks-auth-links.php:751
+#: includes/widgets/jet-blocks-auth-links.php:784
+#: includes/widgets/jet-blocks-auth-links.php:964
+#: includes/widgets/jet-blocks-auth-links.php:997
+#: includes/widgets/jet-blocks-auth-links.php:1177
+#: includes/widgets/jet-blocks-auth-links.php:1210
+#: includes/widgets/jet-blocks-breadcrumbs.php:326
+#: includes/widgets/jet-blocks-breadcrumbs.php:439
+#: includes/widgets/jet-blocks-breadcrumbs.php:481
+#: includes/widgets/jet-blocks-breadcrumbs.php:538
+#: includes/widgets/jet-blocks-breadcrumbs.php:684
+#: includes/widgets/jet-blocks-breadcrumbs.php:795
+#: includes/widgets/jet-blocks-login.php:180
+#: includes/widgets/jet-blocks-login.php:283
+#: includes/widgets/jet-blocks-login.php:395
+#: includes/widgets/jet-blocks-login.php:428
+#: includes/widgets/jet-blocks-login.php:644
+#: includes/widgets/jet-blocks-nav-menu.php:412
+#: includes/widgets/jet-blocks-nav-menu.php:478
+#: includes/widgets/jet-blocks-nav-menu.php:559
+#: includes/widgets/jet-blocks-nav-menu.php:821
+#: includes/widgets/jet-blocks-nav-menu.php:1001
+#: includes/widgets/jet-blocks-nav-menu.php:1034
+#: includes/widgets/jet-blocks-nav-menu.php:1067
+#: includes/widgets/jet-blocks-nav-menu.php:1242
+#: includes/widgets/jet-blocks-nav-menu.php:1275
+#: includes/widgets/jet-blocks-register.php:262
+#: includes/widgets/jet-blocks-register.php:399
+#: includes/widgets/jet-blocks-register.php:511
+#: includes/widgets/jet-blocks-register.php:544
+#: includes/widgets/jet-blocks-register.php:737
+#: includes/widgets/jet-blocks-reset.php:386
+#: includes/widgets/jet-blocks-reset.php:706
+#: includes/widgets/jet-blocks-reset.php:837
+#: includes/widgets/jet-blocks-reset.php:936
+#: includes/widgets/jet-blocks-reset.php:969
+#: includes/widgets/jet-blocks-reset.php:1212
+#: includes/widgets/jet-blocks-reset.php:1304
+#: includes/widgets/jet-blocks-search.php:286
+#: includes/widgets/jet-blocks-search.php:342
+#: includes/widgets/jet-blocks-search.php:544
+#: includes/widgets/jet-blocks-search.php:577
+#: includes/widgets/jet-blocks-search.php:689
+#: includes/widgets/jet-blocks-search.php:798
+#: includes/widgets/jet-blocks-search.php:1082
+#: includes/widgets/jet-blocks-search.php:1115
+#: includes/widgets/jet-blocks-search.php:1286
+#: includes/widgets/jet-blocks-search.php:1319
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:287
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:368
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:737
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1728
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1795
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1918
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1985
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:552
+#: includes/widgets/jet-blocks-auth-links.php:765
+#: includes/widgets/jet-blocks-auth-links.php:978
+#: includes/widgets/jet-blocks-auth-links.php:1191
+#: includes/widgets/jet-blocks-breadcrumbs.php:453
+#: includes/widgets/jet-blocks-hamburger-panel.php:387
+#: includes/widgets/jet-blocks-hamburger-panel.php:475
+#: includes/widgets/jet-blocks-hamburger-panel.php:595
+#: includes/widgets/jet-blocks-hamburger-panel.php:659
+#: includes/widgets/jet-blocks-login.php:421
+#: includes/widgets/jet-blocks-nav-menu.php:471
+#: includes/widgets/jet-blocks-nav-menu.php:1027
+#: includes/widgets/jet-blocks-nav-menu.php:1268
+#: includes/widgets/jet-blocks-register.php:537
+#: includes/widgets/jet-blocks-reset.php:962
+#: includes/widgets/jet-blocks-search.php:570
+#: includes/widgets/jet-blocks-search.php:1108
+#: includes/widgets/jet-blocks-search.php:1312
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:129
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:361
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1788
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1978
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:583
+#: includes/widgets/jet-blocks-auth-links.php:796
+#: includes/widgets/jet-blocks-auth-links.php:1009
+#: includes/widgets/jet-blocks-auth-links.php:1222
+#: includes/widgets/jet-blocks-breadcrumbs.php:493
+#: includes/widgets/jet-blocks-breadcrumbs.php:550
+#: includes/widgets/jet-blocks-login.php:452
+#: includes/widgets/jet-blocks-nav-menu.php:514
+#: includes/widgets/jet-blocks-nav-menu.php:595
+#: includes/widgets/jet-blocks-nav-menu.php:1299
+#: includes/widgets/jet-blocks-register.php:568
+#: includes/widgets/jet-blocks-reset.php:993
+#: includes/widgets/jet-blocks-search.php:380
+#: includes/widgets/jet-blocks-search.php:601
+#: includes/widgets/jet-blocks-search.php:1139
+#: includes/widgets/jet-blocks-search.php:1343
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:380
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1819
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:2009
+msgid "Border Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:663
+#: includes/widgets/jet-blocks-auth-links.php:876
+#: includes/widgets/jet-blocks-auth-links.php:1089
+#: includes/widgets/jet-blocks-auth-links.php:1302
+msgid "Prefix"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:697
+msgid "Logout Link Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:910
+msgid "Register Link Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-auth-links.php:1123
+msgid "Registered Link Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:29
+#: includes/widgets/jet-blocks-breadcrumbs.php:391
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:74
+msgid "Show on Front Page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:84
+msgid "Show Page Title"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:95
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:116
+msgid "Show Prefix"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:125
+msgid "Prefix for the breadcrumb path"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:128
+msgid "Browse:"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:138
+msgid "Custom Home Page Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:147
+msgid "Label for home page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:150
+#: includes/widgets/jet-blocks-breadcrumbs.php:868
+msgid "Home"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:160
+msgid "Custom post type link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:169
+msgid "Separator Type"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:172
+#: includes/widgets/jet-blocks-hamburger-panel.php:70
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:48
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:497
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:173
+#: includes/widgets/jet-blocks-logo.php:97
+msgid "Custom"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:182
+msgid "Icon Separator"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:198
+msgid "Custom Separator"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:210
+msgid "Path type"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:215
+msgid "Minified"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:223
+#: includes/widgets/jet-blocks-login.php:545
+#: includes/widgets/jet-blocks-logo.php:317
+#: includes/widgets/jet-blocks-register.php:661
+#: includes/widgets/jet-blocks-reset.php:548
+#: includes/widgets/jet-blocks-reset.php:667
+#: includes/widgets/jet-blocks-reset.php:798
+#: includes/widgets/jet-blocks-reset.php:1086
+#: includes/widgets/jet-blocks-reset.php:1387
+#: includes/widgets/jet-blocks-search.php:1158
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:232
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:997
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1071
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1538
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:227
+#: includes/widgets/jet-blocks-hamburger-panel.php:179
+#: includes/widgets/jet-blocks-login.php:550
+#: includes/widgets/jet-blocks-logo.php:321
+#: includes/widgets/jet-blocks-nav-menu.php:173
+#: includes/widgets/jet-blocks-nav-menu.php:258
+#: includes/widgets/jet-blocks-nav-menu.php:372
+#: includes/widgets/jet-blocks-register.php:666
+#: includes/widgets/jet-blocks-reset.php:553
+#: includes/widgets/jet-blocks-reset.php:672
+#: includes/widgets/jet-blocks-reset.php:803
+#: includes/widgets/jet-blocks-reset.php:1091
+#: includes/widgets/jet-blocks-reset.php:1392
+#: includes/widgets/jet-blocks-search.php:965
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:850
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1001
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1075
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1542
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:235
+#: includes/widgets/jet-blocks-hamburger-panel.php:178
+#: includes/widgets/jet-blocks-login.php:558
+#: includes/widgets/jet-blocks-logo.php:329
+#: includes/widgets/jet-blocks-nav-menu.php:181
+#: includes/widgets/jet-blocks-nav-menu.php:266
+#: includes/widgets/jet-blocks-nav-menu.php:380
+#: includes/widgets/jet-blocks-register.php:674
+#: includes/widgets/jet-blocks-reset.php:561
+#: includes/widgets/jet-blocks-reset.php:680
+#: includes/widgets/jet-blocks-reset.php:811
+#: includes/widgets/jet-blocks-reset.php:1099
+#: includes/widgets/jet-blocks-reset.php:1400
+#: includes/widgets/jet-blocks-search.php:966
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:851
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1009
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1083
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1550
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:239
+#: includes/widgets/jet-blocks-nav-menu.php:185
+msgid "Justified"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:259
+msgid "Page Title / Breadcrumbs Items"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:260
+msgid "Breadcrumbs Items / Page Title"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:279
+#, php-format
+msgid "Additional settings are available in the %s"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:280
+msgid "Settings page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:293
+msgid "Page Title"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:365
+#: includes/widgets/jet-blocks-breadcrumbs.php:585
+#: includes/widgets/jet-blocks-breadcrumbs.php:710
+#: includes/widgets/jet-blocks-breadcrumbs.php:827
+#: includes/widgets/jet-blocks-hamburger-panel.php:301
+#: includes/widgets/jet-blocks-hamburger-panel.php:531
+#: includes/widgets/jet-blocks-login.php:240
+#: includes/widgets/jet-blocks-login.php:343
+#: includes/widgets/jet-blocks-login.php:513
+#: includes/widgets/jet-blocks-login.php:719
+#: includes/widgets/jet-blocks-nav-menu.php:663
+#: includes/widgets/jet-blocks-nav-menu.php:834
+#: includes/widgets/jet-blocks-nav-menu.php:1319
+#: includes/widgets/jet-blocks-register.php:356
+#: includes/widgets/jet-blocks-register.php:459
+#: includes/widgets/jet-blocks-register.php:629
+#: includes/widgets/jet-blocks-register.php:788
+#: includes/widgets/jet-blocks-reset.php:425
+#: includes/widgets/jet-blocks-reset.php:516
+#: includes/widgets/jet-blocks-reset.php:635
+#: includes/widgets/jet-blocks-reset.php:766
+#: includes/widgets/jet-blocks-reset.php:884
+#: includes/widgets/jet-blocks-reset.php:1054
+#: includes/widgets/jet-blocks-reset.php:1263
+#: includes/widgets/jet-blocks-reset.php:1355
+#: includes/widgets/jet-blocks-search.php:435
+#: includes/widgets/jet-blocks-search.php:648
+#: includes/widgets/jet-blocks-search.php:728
+#: includes/widgets/jet-blocks-search.php:837
+#: includes/widgets/jet-blocks-search.php:1212
+#: includes/widgets/jet-blocks-search.php:1390
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:474
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:763
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:984
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1171
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1528
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1687
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1753
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1943
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:400
+msgid "Crumbs Style"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:510
+msgid "Current"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:609
+msgid "Separators Style"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:619
+#: includes/widgets/jet-blocks-breadcrumbs.php:746
+#: includes/widgets/jet-blocks-logo.php:290
+#: includes/widgets/jet-blocks-register.php:712
+msgid "Gap"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:733
+msgid "Prefix Style"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:883
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:884
+msgid "Archives"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:885
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:886
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:887
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:888
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:891
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:892
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:893
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:894
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:895
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:896
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/widgets/jet-blocks-breadcrumbs.php:897
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:29
+msgid "Hamburger Panel"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:63
+#: includes/widgets/jet-blocks-login.php:49
+#: includes/widgets/jet-blocks-logo.php:49
+#: includes/widgets/jet-blocks-register.php:49
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:86
+msgid "Active Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:102
+#: includes/widgets/jet-blocks-hamburger-panel.php:375
+#: includes/widgets/jet-blocks-hamburger-panel.php:394
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:169
+msgid "Close Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:118
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:39
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:545
+msgid "Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:120
+msgid "More"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:127
+msgid "Toggle Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:152
+msgid "Choose Template"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:157
+#: includes/widgets/jet-blocks-hamburger-panel.php:761
+msgid "Edit Template"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:174
+msgid "Position"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:187
+msgid "Effect"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:191
+msgid "Slide"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:192
+#: includes/widgets/jet-blocks-search.php:220
+msgid "Fade"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:193
+msgid "Zoom"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:201
+msgid "Z-Index"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:215
+msgid "Use Ajax Loading for Template"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:217
+#: includes/widgets/jet-blocks-hamburger-panel.php:229
+msgid "On"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:218
+#: includes/widgets/jet-blocks-hamburger-panel.php:230
+msgid "Off"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:227
+msgid "Use Cache for Template"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:244
+msgid "Panel"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:253
+msgid "Panel Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:334
+msgid "Cover"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:344
+#: includes/widgets/jet-blocks-nav-menu.php:1473
+msgid "Background color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:356
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:795
+msgid "Close Button"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:408
+msgid "Loader Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:421
+msgid "Loader color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:438
+msgid "Toggle"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:564
+msgid "Icon Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:583
+#: includes/widgets/jet-blocks-hamburger-panel.php:602
+msgid "Toggle Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:616
+msgid "Label Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:635
+#: includes/widgets/jet-blocks-hamburger-panel.php:666
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:299
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:395
+msgid "Label Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:800
+msgid "You Haven’t Saved Templates Yet."
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:801
+msgid "What is Library?"
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:801
+msgid "Read our tutorial on using Library templates."
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:811
+msgid "Template is not defined. "
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:823
+msgid "Select an existing template or create a "
+msgstr ""
+
+#: includes/widgets/jet-blocks-hamburger-panel.php:823
+msgid "new one"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:29
+msgid "Login Form"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:56
+#: includes/widgets/jet-blocks-register.php:56
+msgid "Username Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:65
+#: includes/widgets/jet-blocks-register.php:65
+msgid "Username Placeholder"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:74
+#: includes/widgets/jet-blocks-register.php:92
+msgid "Password Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:76
+#: includes/widgets/jet-blocks-register.php:94
+#: includes/widgets/jet-blocks-register.php:103
+msgid "Password"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:83
+#: includes/widgets/jet-blocks-register.php:101
+msgid "Password Placeholder"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:92
+msgid "Remember Me Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:94
+msgid "Remember Me"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:101
+msgid "Log In Button Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:103
+msgid "Log In"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:111
+msgid "Redirect After Login"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:115
+#: includes/widgets/jet-blocks-register.php:160
+#: includes/widgets/jet-blocks-reset.php:183
+msgid "Stay on the current page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:124
+#: includes/widgets/jet-blocks-register.php:169
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:139
+msgid "Logged in message"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:141
+msgid "You already logged in"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:148
+msgid "Lost Password link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:157
+msgid "Lost Password link text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:159
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:171
+#: includes/widgets/jet-blocks-register.php:253
+#: includes/widgets/jet-blocks-reset.php:828
+msgid "Fields"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:274
+#: includes/widgets/jet-blocks-register.php:390
+#: includes/widgets/jet-blocks-reset.php:697
+msgid "Labels"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:377
+#: includes/widgets/jet-blocks-register.php:493
+#: includes/widgets/jet-blocks-reset.php:918
+msgid "Submit"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:575
+msgid "Lost Password Link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:608
+#: includes/widgets/jet-blocks-reset.php:1168
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1371
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1408
+msgid "Hover Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:635
+#: includes/widgets/jet-blocks-register.php:728
+msgid "Errors"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:668
+msgid "Link Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-login.php:680
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:29
+msgid "Site Logo"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:57
+msgid "Logo Type"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:60
+#: includes/widgets/jet-blocks-logo.php:246
+#: includes/widgets/jet-blocks-reset.php:261
+#: includes/widgets/jet-blocks-reset.php:578
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:61
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:62
+msgid "Both Text and Image"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:70
+msgid "Logo Image"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:81
+msgid "Retina Logo Image"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:93
+msgid "Logo Text From"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:96
+msgid "Site Name"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:108
+msgid "Custom Logo Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:129
+msgid "Linked Logo"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:141
+msgid "Remove Link on Front Page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:154
+msgid "Display Logo Image and Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:158
+msgid "Inline"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:159
+msgid "Text Below Image"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:172
+msgid "Logo"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:181
+msgid "Logo Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-logo.php:208
+msgid "Image and Text Vertical Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:29
+msgid "Navigation Menu"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:72
+msgid "Menu"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:87
+msgid "Select Menu"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:97
+msgid "Layout"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:101
+msgid "Horizontal"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:102
+msgid "Vertical"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:110
+msgid "Dropdown Placement"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:114
+msgid "Left Side"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:115
+msgid "Right Side"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:116
+msgid "At the bottom"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:127
+msgid "Top Dropdown Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:143
+msgid "Sub Dropdown Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:159
+msgid "Show Items Description"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:168
+msgid "Menu Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:226
+msgid "Enable Mobile Trigger"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:236
+msgid "Start Showing Mobile Menu From"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:253
+msgid "Mobile Trigger Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:280
+msgid "Mobile Trigger Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:298
+msgid "Mobile Trigger Close Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:316
+msgid "Mobile Menu Layout"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:320
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:321
+msgid "Full Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:322
+msgid "Slide From The Left Side "
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:323
+msgid "Slide From The Right Side "
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:336
+msgid "Top Level Items"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:345
+msgid "Vertical Menu Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:367
+msgid "Vertical Menu Alignment"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:436
+#: includes/widgets/jet-blocks-nav-menu.php:502
+#: includes/widgets/jet-blocks-nav-menu.php:583
+msgid "Text Background Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:448
+#: includes/widgets/jet-blocks-nav-menu.php:529
+#: includes/widgets/jet-blocks-nav-menu.php:610
+msgid "Dropdown Icon Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:552
+#: includes/widgets/jet-blocks-nav-menu.php:1060
+msgid "Active"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:686
+#: includes/widgets/jet-blocks-nav-menu.php:1109
+msgid "Dropdown Icon Size"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:706
+#: includes/widgets/jet-blocks-nav-menu.php:1129
+msgid "Gap Before Dropdown Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:728
+#: includes/widgets/jet-blocks-nav-menu.php:1194
+msgid "Description"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:755
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:145
+msgid "Dropdown"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:764
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:709
+msgid "Container Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:773
+msgid "Container Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:882
+msgid "Gap Before 1st Level Sub"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:928
+msgid "Gap Before 2nd Level Sub"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:973
+msgid "Items Styles"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1151
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1220
+msgid "Divider"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1171
+msgid "Border Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1221
+msgid "Mobile Trigger"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1343
+#: includes/widgets/jet-blocks-nav-menu.php:1418
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1305
+msgid "Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1367
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1407
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1447
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1125
+msgid "Max Height"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1507
+msgid "Close icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1541
+msgid "Font size"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1579
+msgid "Plus"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1580
+msgid "Plus Square"
+msgstr ""
+
+#: includes/widgets/jet-blocks-nav-menu.php:1581
+msgid "Plus Circle"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:29
+msgid "Registration Form"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:74
+msgid "Email Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:76
+#: includes/widgets/jet-blocks-register.php:85
+#: includes/widgets/jet-blocks-reset.php:331
+msgid "Email"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:83
+msgid "Email Placeholder"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:110
+msgid "Show Confirm Password Field"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:122
+msgid "Confirm Password Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:124
+msgid "Please Confirm Password"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:134
+msgid "Confirm Password Placeholder"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:136
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:146
+msgid "Register Button Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:156
+msgid "Redirect After Register"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:181
+msgid "User Registered Message"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:183
+msgid "You already registered"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:190
+msgid "Show Privacy Policy Checkbox"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:207
+msgid "I agree with the terms and conditions and the privacy policy"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:230
+#: includes/widgets/jet-blocks-register.php:822
+#: includes/widgets/jet-blocks-reset.php:144
+#: includes/widgets/jet-blocks-reset.php:1419
+msgid "Password Requirements"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:236
+#: includes/widgets/jet-blocks-reset.php:150
+msgid "Length"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:237
+#: includes/widgets/jet-blocks-reset.php:151
+msgid "Lowercase"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:238
+#: includes/widgets/jet-blocks-reset.php:152
+msgid "Uppercase"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:239
+#: includes/widgets/jet-blocks-reset.php:153
+msgid "Number"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:240
+#: includes/widgets/jet-blocks-reset.php:154
+msgid "Special character"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:295
+msgid "Placeholder"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:305
+#: includes/widgets/jet-blocks-search.php:310
+#: includes/widgets/jet-blocks-search.php:366
+msgid "Placeholder Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:691
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:834
+#: includes/widgets/jet-blocks-reset.php:1431
+msgid "Container"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:886
+#: includes/widgets/jet-blocks-reset.php:1483
+msgid "Items"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:907
+#: includes/widgets/jet-blocks-reset.php:1504
+msgid "Success Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:920
+#: includes/widgets/jet-blocks-reset.php:1517
+msgid "Error Color"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:976
+msgid "Registration disabled"
+msgstr ""
+
+#: includes/widgets/jet-blocks-register.php:998
+msgid ""
+"Registration currently disabled and this form will not be visible for guest "
+"users. Please, enable registration in Settings/General or remove this widget "
+"from the page."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:29
+msgid "Reset Password Form"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:63
+msgid "Forms"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:71
+msgid "Customise the form title."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:73
+#: includes/widgets/jet-blocks-reset.php:354
+msgid "Reset Password"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:80
+msgid "Username/Email Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:83
+msgid "Email Address or Username"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:90
+msgid "New Password Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:93
+msgid "New Password"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:100
+msgid "Re-enter Password Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:103
+msgid "Re-enter Password"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:110
+msgid "Lost Password Form Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:111
+msgid ""
+"Customise the main lost password form text. Allowed tags are: <a> with \"href"
+"\" and \"title\" attributes, <br>, <em>, <strong>, <p> with \"style\" "
+"attribute."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:113
+msgid ""
+"Please enter your email address or username. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:120
+msgid "Reset Password Form Text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:121
+#, php-format
+msgid ""
+"Customise the new password form text. Allowed tags are: <a> with \"href\" "
+"and \"title\" attributes, <br>, <em>, <strong>, <p> with \"style\" "
+"attribute. Use the following code to show a minimum password length: %x"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:123
+#, php-format
+msgid "Please enter a new password. Minimum %x characters."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:165
+msgid "Minimum Password Length"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:166
+msgid "Set a minimum password length. Recommended: 8"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:179
+msgid "Redirect After Password Reset"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:184
+#: includes/widgets/jet-blocks-reset.php:223
+msgid "Static page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:193
+msgid "Success reset redirect"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:209
+msgid "Login link"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:219
+msgid "Login page url"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:222
+msgid "Default login page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:234
+msgid "Select Login page"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:254
+msgid "Email settings"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:262
+msgid ""
+"Customise the new password form text. Use the following codes to show the "
+"relevant info in the email:\n"
+"\t\t\t\t\tUsername: {username}\n"
+"\t\t\t\t\tReset URL: {reset_link}"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:267
+msgid ""
+"Someone requested that the password be reset for the following account:\n"
+"\t\t\t\t\tUsername: {username}\n"
+"\t\t\t\t\tIf this was a mistake, just ignore this email and nothing will "
+"happen.\n"
+"\t\t\t\t\tTo reset your password, visit the following address:\n"
+"\t\t\t\t\t{reset_link}"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:279
+msgid "Reset Link Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:288
+msgid "Email Subject"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:289
+msgid "Customise the email subject line."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:291
+#: includes/widgets/jet-blocks-reset.php:1769
+msgid "Account Password Reset"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:298
+msgid "Custom mail sender"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:308
+msgid "Both must be completed to work."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:319
+msgid "Sender"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:320
+msgid "Customise the name the email is sent from."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:332
+msgid "Customise the email address the email is sent from."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:345
+msgid "Buttons settings"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:352
+msgid "Reset button text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:361
+msgid "Login button text"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:363
+msgid "Sign in"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:377
+#: includes/widgets/jet-blocks-search.php:250
+msgid "Form"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1103
+msgid "Justify"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1195
+msgid "Messages"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1295
+msgid "Success"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1635
+msgid "That key has expired. Please reset your password again."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1643
+msgid "That key is no longer valid. Please reset your password again. Code: "
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1684
+msgid "That email address is not recognised."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1689
+#: templates/jet-reset/global/demo-messages.php:23
+msgid "That username is not recognised."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1695
+msgid "Please enter a username or email address."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1712
+msgid "Please add your email address or username!"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1719
+msgid "No email address found!"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1727
+msgid "No username found!"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1739
+msgid "key not found!"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1777
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1778
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1779
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1780
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/widgets/jet-blocks-reset.php:1804
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:29
+msgid "Search"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:74
+msgid "Search Placeholder"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:75
+msgid "Search &hellip;"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:83
+msgid "Show Submit Button"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:95
+msgid "Submit Button Label"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:108
+msgid "Submit Button Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:124
+#: includes/widgets/jet-blocks-search.php:458
+msgid "Clear Text Button Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:125
+msgid "Firefox and IE Explorer browsers are not supported"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:151
+msgid "Show Search Form in Popup"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:163
+msgid "Full Screen Popup"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:178
+msgid "Popup Trigger Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:197
+msgid "Popup Close Button Icon"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:216
+msgid "Show Effect"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:221
+msgid "Scale"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:222
+msgid "Move Up"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:223
+msgid "Move Down"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:235
+msgid "Is Product Search"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:259
+msgid "Input Field"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:335
+msgid "Focus"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:497
+msgid "Submit Button"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:680
+msgid "Form Style"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:762
+msgid "Popup Box"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:774
+msgid "Popup Content Width"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:869
+msgid "Popup Position"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:882
+msgid "Vertical Postition by"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:899
+msgid "Top Indent"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:930
+msgid "Bottom Indent"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:961
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:846
+msgid "Horizontal Position by"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:978
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:864
+msgid "Left Indent"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:1009
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:895
+msgid "Right Indent"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:1042
+msgid "Popup Trigger"
+msgstr ""
+
+#: includes/widgets/jet-blocks-search.php:1246
+msgid "Popup Close"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:13
+msgid "WooCommerce Shopping Cart"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:41
+msgid "Cart"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:64
+msgid "Show Products Count"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:76
+msgid "Products Count Format"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:88
+msgid "Show Cart Subtotal"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:100
+msgid "Cart Subtotal Format"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:112
+msgid "Show Cart Dropdown"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:126
+msgid "Show Trigger Type"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:130
+msgid "Click"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:142
+msgid "Layout Type"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:146
+msgid "Slide Out"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:157
+msgid "Cart Dropdown Label"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:159
+msgid "My Cart"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:260
+msgid "Cart Link"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:311
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:407
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:831
+msgid "Icon Color"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:323
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:419
+msgid "Count Background Color"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:335
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:431
+msgid "Count Color"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:347
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:443
+msgid "Totals Color"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:526
+msgid "Gap After Icon"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:555
+msgid "Label Font Size"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:574
+msgid "Gap After Label"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:593
+msgid "Count"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:603
+msgid "Count Font Size"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:622
+msgid "Count Box Size"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:667
+msgid "Totals"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:677
+msgid "Totals Font Size"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:698
+msgid "Cart Dropdown"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:718
+msgid "Width (px)"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:926
+msgid "Dropdown Label Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1026
+msgid "Dropdown Empty Message Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1102
+msgid "Cart Items Style"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1116
+msgid "Product List Style"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1184
+msgid "Product Item Style"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1231
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1234
+msgid "Solid"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1235
+msgid "Double"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1236
+msgid "Dotted"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1237
+msgid "Dashed"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1253
+msgid "Weight"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1295
+msgid "Product Image Style"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1340
+msgid "Product Title Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1386
+msgid "Product Remove Button Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1423
+msgid "Product Quantity Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1457
+msgid "Product Amount Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1491
+msgid "Total Container Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1567
+msgid "Total Title Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1601
+msgid "Total Amount Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1637
+msgid "Cart Buttons Style"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1651
+msgid "Buttons Container Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1700
+msgid "View Cart Button Styles"
+msgstr ""
+
+#: includes/widgets/vendor/jet-blocks-woo-cart.php:1890
+msgid "Checkout Button Styles"
+msgstr ""
+
+#: jet-blocks.php:195
+msgid "Go to settings"
+msgstr ""
+
+#: jet-blocks.php:239
+msgid "JetBlocks requires Elementor to be activated."
+msgstr ""
+
+#: jet-blocks.php:240
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: jet-blocks.php:248
+msgid "JetBlocks requires Elementor to be installed."
+msgstr ""
+
+#: jet-blocks.php:249
+msgid "Install Elementor Now"
+msgstr ""
+
+#: templates/admin-templates/avaliable-addons.php:5
+#: templates/admin-templates/settings-page.php:66
+msgid "Available Widgets"
+msgstr ""
+
+#: templates/admin-templates/avaliable-addons.php:23
+#: templates/admin-templates/settings-page.php:106
+msgid "Available Extensions"
+msgstr ""
+
+#: templates/admin-templates/general-settings.php:4
+#: templates/admin-templates/general-settings.php:8
+#: templates/admin-templates/settings-page.php:23
+msgid "Editor Load Level"
+msgstr ""
+
+#: templates/admin-templates/general-settings.php:9
+#: templates/admin-templates/settings-page.php:24
+msgid ""
+"Choose a certain set of options in the widget’s Style tab by moving the "
+"slider, and improve your Elementor editor performance by selecting "
+"appropriate style settings fill level (from None to Full level)"
+msgstr ""
+
+#: templates/admin-templates/general-settings.php:16
+#: templates/admin-templates/settings-page.php:37
+msgid "Taxonomy to show in breadcrumbs for content types"
+msgstr ""
+
+#: templates/admin-templates/integrations-settings.php:6
+msgid "Enable reCAPTCHA v3"
+msgstr ""
+
+#: templates/admin-templates/integrations-settings.php:7
+msgid "Use reCAPTCHA v3 form verification"
+msgstr ""
+
+#: templates/admin-templates/integrations-settings.php:27
+msgid "Site Key:"
+msgstr ""
+
+#: templates/admin-templates/integrations-settings.php:28
+msgid "Register reCAPTCHA v3 keys here."
+msgstr ""
+
+#: templates/admin-templates/integrations-settings.php:30
+#: templates/admin-templates/integrations-settings.php:44
+#, php-format
+msgid "Register reCAPTCHA v3 keys %1$s."
+msgstr ""
+
+#: templates/admin-templates/integrations-settings.php:42
+msgid "Secret Key:"
+msgstr ""
+
+#: templates/admin-templates/settings-page.php:7
+msgid "JetBlocks Settings"
+msgstr ""
+
+#: templates/admin-templates/settings-page.php:35
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: templates/admin-templates/settings-page.php:71
+msgid "Disable All Widgets"
+msgstr ""
+
+#: templates/admin-templates/settings-page.php:72
+msgid "Enable All Widgets"
+msgstr ""
+
+#: templates/jet-blocks-cart/global/cart-link.php:7
+msgid "View your shopping cart"
+msgstr ""
+
+#: templates/jet-register/global/requirements.php:9
+#: templates/jet-reset/global/requirements.php:10
+msgid "Password Requirements:"
+msgstr ""
+
+#: templates/jet-register/global/requirements.php:12
+msgid "At least 8 characters"
+msgstr ""
+
+#: templates/jet-register/global/requirements.php:15
+#: templates/jet-reset/global/requirements.php:16
+msgid "At least 1 lowercase letter"
+msgstr ""
+
+#: templates/jet-register/global/requirements.php:18
+#: templates/jet-reset/global/requirements.php:19
+msgid "At least 1 uppercase letter"
+msgstr ""
+
+#: templates/jet-register/global/requirements.php:21
+#: templates/jet-reset/global/requirements.php:22
+msgid "At least 1 numerical number"
+msgstr ""
+
+#: templates/jet-register/global/requirements.php:24
+#: templates/jet-reset/global/requirements.php:25
+msgid "At least 1 special character"
+msgstr ""
+
+#: templates/jet-reset/global/demo-messages.php:13
+msgid "Demo messages for styling."
+msgstr ""
+
+#: templates/jet-reset/global/demo-messages.php:18
+#: templates/jet-reset/global/lost-password-reset-complete.php:24
+#, php-format
+msgid "Your password has been reset. %s"
+msgstr ""
+
+#: templates/jet-reset/global/lost-password-form.php:36
+msgid "An email has been sent. Please check your inbox."
+msgstr ""
+
+#: templates/jet-reset/global/requirements.php:13
+msgid "At least "
+msgstr ""

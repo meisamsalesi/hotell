@@ -1,0 +1,65 @@
+// ------------------------------------------------------------------------------------------------
+// WPB SHADOW
+// ------------------------------------------------------------------------------------------------
+
+@if $wpb-cont-shadow {
+
+	.xts-box-shadow {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 15px 15px 15px 15px;
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: 5px;
+		background: #FFF;
+		box-shadow: var(--xts-option-box-shadow);
+	}
+
+	.xts-box-shadow-item {
+		display: flex;
+		flex-grow: 1;
+		flex-basis: 0%;
+		flex-direction: column;
+
+		.xts-input-append {
+			min-width: 70px;
+		}
+
+		.wp-picker-container {
+
+			&:not(.wp-picker-active) {
+
+				.wp-color-result {
+					margin-inline-end: 0;
+				}
+			}
+		}
+
+		.wp-picker-input-wrap {
+			margin-top: 10px;
+			width: 100%;
+
+			margin-inline-start: 0 !important;
+
+			.wd-color-input[type=text] {
+				width: 120px !important;
+
+				margin-inline-start: 0 !important;
+			}
+		}
+
+		&:not(.wd-color) {
+			margin-bottom: 7px;
+
+			margin-inline-end: 7px;
+
+			input {
+				padding: 3px 6px;
+				min-height: var(--xts-input-height);
+				height: var(--xts-input-height);
+				line-height: 1;
+			}
+		}
+	}
+
+} // END IF

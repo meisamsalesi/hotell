@@ -1,0 +1,60 @@
+// ------------------------------------------------------------------------------------------------
+// TABLE
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.xts-table {
+		overflow-x: auto;
+
+		p {
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		&.xts-odd {
+
+			[class*="xts-table-row"] {
+
+				&:nth-child(odd) {
+					background-color: #F7F7F7;
+				}
+			}
+		}
+
+		&.xts-even {
+
+			[class*="xts-table-row"] {
+
+				&:nth-child(even) {
+					background-color: #F7F7F7;
+				}
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+
+	[class*="xts-table-row"] {
+		display: flex;
+		align-items: center;
+		padding: 10px 15px;
+		min-width: 500px;
+		border-radius: var(--xts-brd-radius);
+
+		> div {
+			flex: 1 0 0%;
+		}
+	}
+
+	.xts-table-row-heading,
+	.xts-table-row > div:first-child {
+		color: var(--xts-heading-color);
+		font-weight: 700;
+	}
+
+} // END IF

@@ -1,0 +1,31 @@
+// ------------------------------------------------------------------------------------------------
+// STATUS
+// ------------------------------------------------------------------------------------------------
+
+@if $page-status {
+
+	.xts-status {
+
+		h4 {
+			font-size: 18px;
+		}
+	}
+
+	.xts-status-error {
+		color: var(--xts-warning-color);
+		// font-weight: 600;
+
+		span {
+
+			&:first-child {
+				font-weight: 600;
+			}
+		}
+
+		&:before {
+			@include font-icon($xts-icon-alert-warning);
+			margin-inline-end: 1px;
+		}
+	}
+
+} // END IF
